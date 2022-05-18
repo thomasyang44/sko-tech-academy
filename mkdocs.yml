@@ -1,10 +1,10 @@
 site_name: Cool Project Docs
-site_url: https://gerry-baird.github.io/mk_test
+site_url: https://thomasyang44.github.io/sko-tech-academy
 site_author: Gerry
 
 # Repository
 repo_name: mk_test
-repo_url: https://github.com/gerry-baird/mk_test
+repo_url: https://github.com/thomasyang44/sko-tech-academy
 edit_uri: edit/master/docs
 docs_dir: docs
 
