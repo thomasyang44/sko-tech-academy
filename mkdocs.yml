@@ -1,0 +1,26 @@
+site_name: Cool Project Docs
+site_url: https://gerry-baird.github.io/mk_test
+site_author: Gerry
+
+# Repository
+repo_name: mk_test
+repo_url: https://github.com/gerry-baird/mk_test
+edit_uri: edit/master/docs
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: black
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+plugins:
+  - search
+nav:
+  - Introduction: "index.md"
+  - Day 1: "pages/day1.md"
+  - About: "pages/about.md"
+  - FAQ: "pages/faq.md"
