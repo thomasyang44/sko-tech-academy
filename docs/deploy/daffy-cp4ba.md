@@ -43,5 +43,7 @@ of the following:
 | US | EMEA | AP |
 |:--:|:----:|:----:|
 | dal13 | lon02 | tbc |
+| wdc04 | lon06 | tbc |
+| sjc03 | ams03 | tbc |
 
 Once you have updated your environment file, save it and exit the editor. Proceed to the next step [Cluster Build](cluster.md)

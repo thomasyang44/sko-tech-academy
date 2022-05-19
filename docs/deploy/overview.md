@@ -25,4 +25,4 @@ To perform a CP4BA installation on IBM Cloud you need to perform the following s
 4. Create the CP4BA instance using the Daffy service command
 5. Monitor the status of the installation and display URL's and credentials
 
-These steps will be described in detail in the coming sections.
+These steps will be described in detail in the coming sections. Please proceed to [Daffy Environment](daffy-cp4ba.md)
