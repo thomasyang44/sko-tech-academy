@@ -1,0 +1,105 @@
+{% extends "main.html" %}
+
+<!-- Content -->
+{% block content %}
+
+<link rel="stylesheet" href="{{ 'assets/stylesheets/home.css' | url }}" />
+<!-- Hero for landing page -->
+<section class="mdx-container">
+    <div class="md-grid md-typeset">
+        <div class="mdx-hero">
+
+            <section>
+                <div class=home-hero>
+                    <div class=home-hero-text>
+                        <h1>Digital Business Automation - Body Of Knowledge</h1>
+                    </div>
+                    <div class=home-hero-image>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class=home-description>
+                  <div class='row'>
+                    <div class='column'>
+                        What are Digital Business Automation Architectures?
+                    </div>
+                    <div class='column'>
+                        Digital Business Automation architectures provide a collection of patterns to develop digital business automation solution by integrating workflow, document management, decision and AI.
+                        <a
+                          className={calloutLink}
+                          href='/introduction/overview/'
+                        >
+                          Overview →
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class=home-description>
+                  <div class='row'>
+                    <div class='column'>
+                        Methodology
+                        <img src="./assets/stylesheets/images/home-methodology.jpg" width="500" height="600">
+                    </div>
+                    <div class='column'>
+                      Master business automation methodologies from end to finish
+                        <a
+                          className={calloutLink}
+                          href='/methodology/overview/'
+                        >
+                          Read more →
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class=home-description>
+                  <div class='row'>
+                    <div class='column'>
+                        Technologies
+                        <img src="./assets/stylesheets/images/home-technology.jpg" width="500" height="600">
+                    </div>
+                    <div class='column'>
+                        Leverage the technologies behind DBA architectures and practices
+                        <a
+                          className={calloutLink}
+                          href='/methodology/overview/'
+                        >
+                          Read more →
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <div class=home-description>
+                  <div class='row'>
+                    <div class='column'>
+                        Scenarios and Use Cases
+                        <img src="./assets/stylesheets/images/home-usecases.jpg" width="500" height="600">
+                    </div>
+                    <div class='column'>
+                        Walk through real-world use cases
+                        <a
+                          className={calloutLink}
+                          href='/methodology/overview/'
+                        >
+                          Read more →
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+<!-- Application footer -->
+{% block footer %}
+{{ super() }}
+{% endblock %}

@@ -1,26 +1,80 @@
-site_name: Cool Project Docs
+site_name: SKO Tech Academy - Business Automation
+site_description: 2022 SKO Tech Academy - Automation
 site_url: https://thomasyang44.github.io/sko-tech-academy
-site_author: Gerry
-
-# Repository
-repo_name: mk_test
 repo_url: https://github.com/thomasyang44/sko-tech-academy
-edit_uri: edit/master/docs
 docs_dir: docs
-
+site_dir: public
+edit_uri: edit/master/docs
 theme:
   name: material
+  feature:
+    tabs: true
   palette:
     scheme: default
     primary: black
+  language: en
+  custom_dir: overrides
   features:
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
+      - navigation.tabs
+      - navigation.instant
+      - navigation.tracking
+      - navigation.tabs.sticky
+      - navigation.top
+      - navigation.sections
+extra_css: ["extra.css"]
+use_directory_urls: true
 plugins:
-  - search
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+      
+markdown_extensions:
+  - attr_list
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.details
+  - md_in_html
+  - extra
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets:
+      base_path: docs/snippets
+copyright: Copyright © 2022 IBM
 nav:
-  - Introduction: "index.md"
-  - Day 1: "pages/day1.md"
-  - About: "pages/about.md"
-  - FAQ: "pages/faq.md"
+  - Home:
+    - Goals, Learning Objectives, Agenda, Materials: index.md
+    - Prework:
+      - Daffy: daffy/index.md
+      - VI: index-tbd.md
+    - Labs: https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md
+  - Client Onboarding:
+    - Overview: index-tbd.md
+    - Setup: https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md
+    - Labs: https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md
+  - Use Cases:
+    - Accounts Payable: use-cases/accounts-pay/index.md
+    - HR Onboarding App: use-cases/hr-onboard-app/index.md
+    - Refund Request: use-cases/refund-req/index.md
+    - Onboarding Automation: use-cases/onboarding-automation/index.md
+    - Shared Services: use-cases/shared-ser/index.md
+  - FAQ:
+    - Overview: index_faq.md
+  - Reference:
+    - Overview: introduction/overview/index.md
+    - Reference architecture: introduction/reference-architecture/index.md
+  - X: index_original.md
