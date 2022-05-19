@@ -52,6 +52,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - def_list
   - attr_list
   - pymdownx.tabbed:
       alternate_style: true
@@ -62,9 +63,15 @@ nav:
   - Home:
     - Goals, Learning Objectives, Agenda, Materials: index.md
     - Prework:
-      - Daffy: daffy/index.md
-      - VI: index-tbd.md
-    - Labs: https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md
+      - Daffy: prework/daffy-prework.md
+      - VI: prework/vi-prework.md
+  - CP4BA Deployment:
+      - Overview: deploy/overview.md
+      - Daffy Env: deploy/daffy-cp4ba.md
+      - Cluster Build: deploy/cluster.md
+      - CP4BA Operators: deploy/operators.md
+      - CP4BA Services: deploy/services.md
+      - Monitor / Credentials: deploy/monitor-credentials.md
   - Client Onboarding:
     - Overview: index-tbd.md
     - Setup: https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md
