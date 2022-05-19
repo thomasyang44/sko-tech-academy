@@ -29,8 +29,8 @@ use_directory_urls: true
 plugins:
   - search:
       lang: en
-  - minify:
-      minify_html: true
+#  - minify:
+#      minify_html: true
       
 markdown_extensions:
   - attr_list
