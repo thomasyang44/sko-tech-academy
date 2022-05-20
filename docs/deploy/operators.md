@@ -42,4 +42,59 @@ ibmcloud oc worker reload -q  -f -c cp4ba-acme-demo  -w kube-ca3ohi4l08bq4l61f0v
 Waiting for ROKS nodes to be ready -  6 Min(s) so far                                                            
 ```
 
-Next, Daffy will install the CP4BA Operators.
+Next, Daffy will need to login to your new cluster and run some commands to install the Operators. You'll see a request
+from the Daffy terminal to login to your cluster console and copy/paste the oc admin login command:
+
+```commandline
+Cluster Admin setup (LOG -> /data/daffy/log/cp4ba-acme-demo/cp4ba/cp4a-clusteradmin-setup.log)
+################################################################
+wget https://github.com/IBM/cloud-pak/raw/master/repo/case/ibm-cp-automation-3.2.8.tgz
+Please login to your cluster console and copy/paste the oc admin login command below:
+https://c109-e.eu-gb.containers.cloud.ibm.com:32245
+```
+
+To get the oc login command you first need to login to the OpenShift web console. The URL for this was displayed when
+the cluster was created. Look back in your Daffy output and look for a block of output like the example below: 
+```commandline
+Creating cluster...
+OK
+Cluster created with ID ca35fmfl0ujedhu1f0rg
+                                                                                                                 
+COMPLETE  ROKS Cluster ready
+
+Here is the login info you can use for all services and console:   
+##########################################################################################################
+Current User          :      system:admin
+OpenShift Web Console :      https://c109-e.eu-gb.containers.cloud.ibm.com:30563
+OC Commandline        :      export KUBECONFIG=/var/ibm-ocp/acme-demo/kubeconfig
+OC Login command      :      oc login https://api.acme-demo.:6443 -u  -p  --insecure-skip-tls-verify
+OC Client Download    :      https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.8.36
+Install Temp Files    :      /data/daffy/tmp/acme-demo/ocp
+openshift-install Dir :      /data/daffy/tmp/acme-demo/ocp/ocp-install
+```
+Copy the URL into a browser and the OpenShift Web Console will open. In the top right corner there is a drop-down, with 
+your username as a label. Click the label and a Copy Login Command link will be shown, this is highlighted in red below.
+
+![oc console](./images/oc_login1.jpg)
+
+The next screen will display a link "Display Token". Click on this link and the page below will be displayed. Copy the 
+oc login command as highlighted in red.
+![oc console](./images/oc_login2.jpg)
+
+Paste this command into the Daffy terminal :
+
+```commandline
+Logged into "https://c109-e.eu-gb.containers.cloud.ibm.com:32245" as "IAM#gerry.baird@uk.ibm.com" using the token provided.
+
+You have access to 66 projects, the list has been suppressed. You can list all projects with 'oc projects'
+
+Using project "default".
+Running /data/daffy/tmp/cp4ba-acme-demo/cp4ba/cert-kubernetes/scripts/cp4a-clusteradmin-setup.sh
+Login Succeeded!
+Entitlement Registry key is valid.
+secret/admin.registrykey created
+secret/ibm-entitlement-key created
+Applying the persistent volumes for the Cloud Pak operator by using the storage classname: ibmc-file-gold-gid...
+persistentvolumeclaim/operator-shared-pvc created
+persistentvolumeclaim/cp4a-shared-log-pvc created
+```
