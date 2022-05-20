@@ -122,4 +122,10 @@ CP4BA Build Completed in 1 hour(s), 27 minute(s) and 32 second(s)
 ##########################################################################################################
 ```
 
-Confirm that the Operators are installed.... 
+To confirm the operators are installed return to the OpenShift Web Console and select Operators from the left side menu,
+then installed operators. You should see the various IBM Automation Foundation operators and the IBM Cloud Pak for 
+Business Automation.
+
+![operators installed](./images/Operator.jpg)
+
+At this stage the operators are ready to install the CP4BA components. This will be covered in the next step.
