@@ -63,7 +63,7 @@ nav:
   - Home:
     - Goals, Statement of Approach, Learning Objectives, Agenda: index.md
     - Learning Plan including prework: learning_plan/learning_plan.md
-    - Course Materials: course_materials.md
+    - Course Materials: course_materials/course_materials.md
   - Deployment:
       - Overview: deploy/overview.md
       - Daffy Env: deploy/daffy-cp4ba.md
