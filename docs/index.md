@@ -22,33 +22,16 @@ This event will be 4 days long with the following agenda:
 |Day   | Time       | Session / Activity                                |
 | :--- | :--------- | :------------------------------------------------ |
 |Day 1 | 1:00–1:15  | Opening Remarks – Sarah McAndrew & GEO Exec       |
-|      | 1:30-2:30  | Automation Roadmap and Strategy - PM Executive (Bill Lobig - Americas, Harley Davis - EMEA) |
+|      | 1:30-2:30  | Automation Roadmap and Strategy                   |
 |      | 2:30-2:45  | Break                                             |
-|      | 2:45–3:45  | Segment Strategy -(Segment VP’s)                  |
+|      | 2:45–3:45  | Segment Strategy - Segment VP’s                   |
 |      | 3:45–5:00  | Team BuildingEvening: Team Dinner                 |
 |Day 2 | 8:00-8:30  | Introduction                                      |
 |      |            | Deploy and integrate                              |
 |Day 3 | 8:00-8:30  | Developing & Delivering Demos with Artifacts      |
 |      |            | Rebuild                                           |
-|      |            | Extra Credit" Customize/Personalize               |
+|      |            | Customize / Personalize                           |
 |      |            | Deploy                                            |
 |Day 4 | 8:00-8:30  | Delivering Client Onboarding Demo                 |
 |      | 3:00-4:00  | Best Practices                                    |
 |Day 4 | 4:00 PM    | Attendee required to stay until 4:00 P            |
-
-
-
-             
-## 5. Course Material        
-      
-[Course Matrial](https://github.ibm.com/ProjectK8s/K8s-Content)
-      
-      
-      
-**Hands on Activities**
-
-This techical academy contains significant hands on learning through mock POCs.
-
-From the _navigation menu_, select the **Use case** item to view the details pertaiing to the specific use case agenda.
-
-There, you will also find details which are speciic to the SKO technical academy sessions.
