@@ -1,0 +1,1473 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Gerry Baird, Thomas Yang">
+      
+      
+        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/use-cases/refund-req/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
+    
+    
+      
+        <title>Refund Request - SKO Tech Academy - Business Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50e68009.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+  <!-- Determine title -->
+  
+  
+    
+  
+
+  <!-- The image needs to have an absolute URL -->
+  
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SKO Tech Academy - Business Automation - Refund Request" />
+  <meta property="og:description" content="None" />
+  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/use-cases/refund-req/" />
+  <meta property="og:image" content="https://thomasyang44.github.io/sko-tech-academy/assets/images/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="568" />
+
+
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#refund-request" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SKO Tech Academy - Business Automation" class="md-header__button md-logo" aria-label="SKO Tech Academy - Business Automation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SKO Tech Academy - Business Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Refund Request
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/thomasyang44/sko-tech-academy/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../deploy/overview/" class="md-tabs__link">
+        Deployment
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../index-tbd/" class="md-tabs__link">
+        Client Onboarding
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../index_faq/" class="md-tabs__link">
+        FAQ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../accounts-pay/" class="md-tabs__link md-tabs__link--active">
+        Use Cases
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<!-- Determine class according to configuration -->
+
+
+  
+
+
+
+<!-- Main navigation -->
+<nav
+  class="md-nav md-nav--primary md-nav--lifted"
+  aria-label="Navigation"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <!--
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../.."
+      title="SKO Tech Academy - Business Automation"
+      class="md-nav__button md-logo"
+      aria-label="SKO Tech Academy - Business Automation"
+      data-md-component="logo"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    SKO Tech Academy - Business Automation
+  </label>
+-->
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/thomasyang44/sko-tech-academy/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Render item list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Home" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Goals, Learning Objectives, Agenda, Materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prework/prework/" class="md-nav__link">
+        Prework
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Deployment
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Deployment" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/daffy-cp4ba/" class="md-nav__link">
+        Daffy Env
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/cluster/" class="md-nav__link">
+        Cluster Build
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/operators/" class="md-nav__link">
+        Operators
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/services/" class="md-nav__link">
+        Services
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/monitor-credentials.md" class="md-nav__link">
+        Monitor / Credentials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Client Onboarding
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Client Onboarding" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Client Onboarding
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index-tbd/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md" class="md-nav__link">
+        Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md" class="md-nav__link">
+        Labs
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          FAQ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="FAQ" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          FAQ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index_faq/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Use Cases
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Use Cases" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Use Cases
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accounts-pay/" class="md-nav__link">
+        Accounts Payable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hr-onboard-app/" class="md-nav__link">
+        HR Onboarding App
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Refund Request
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Refund Request
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#refund-request" class="md-nav__link">
+    Refund Request
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started-lab" class="md-nav__link">
+    Getting Started Lab
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started Lab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-scenario-introduction-refund-request" class="md-nav__link">
+    1. Scenario Introduction - Refund Request
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-login-and-setup-your-environment" class="md-nav__link">
+    2. Login and Setup Your Environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-submit-some-refunds" class="md-nav__link">
+    3. Submit some refunds
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-optional-complete-the-investigation-task" class="md-nav__link">
+    4. (Optional) Complete the investigation task
+  </a>
+  
+    <nav class="md-nav" aria-label="4. (Optional) Complete the investigation task">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workplace" class="md-nav__link">
+    Workplace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigators-work-dashboard" class="md-nav__link">
+    Navigator's Work Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-portal" class="md-nav__link">
+    Process Portal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workplace-others-are-similar" class="md-nav__link">
+    Workplace (others are similar)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-review-the-operations-dashboard" class="md-nav__link">
+    5. Review the Operations Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-improve-the-business-rules" class="md-nav__link">
+    6. Improve the business rules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-test-the-new-business-rules" class="md-nav__link">
+    7. Test the new business rules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-review-the-updated-operations-dashboard" class="md-nav__link">
+    8. Review the updated Operations Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-summary" class="md-nav__link">
+    9. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#full-use-case-video-narration" class="md-nav__link">
+    Full Use Case Video Narration
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-automation/" class="md-nav__link">
+        Onboarding Automation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shared-ser/" class="md-nav__link">
+        Shared Services
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#refund-request" class="md-nav__link">
+    Refund Request
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started-lab" class="md-nav__link">
+    Getting Started Lab
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started Lab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-scenario-introduction-refund-request" class="md-nav__link">
+    1. Scenario Introduction - Refund Request
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-login-and-setup-your-environment" class="md-nav__link">
+    2. Login and Setup Your Environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-submit-some-refunds" class="md-nav__link">
+    3. Submit some refunds
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-optional-complete-the-investigation-task" class="md-nav__link">
+    4. (Optional) Complete the investigation task
+  </a>
+  
+    <nav class="md-nav" aria-label="4. (Optional) Complete the investigation task">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workplace" class="md-nav__link">
+    Workplace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigators-work-dashboard" class="md-nav__link">
+    Navigator's Work Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-portal" class="md-nav__link">
+    Process Portal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workplace-others-are-similar" class="md-nav__link">
+    Workplace (others are similar)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-review-the-operations-dashboard" class="md-nav__link">
+    5. Review the Operations Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-improve-the-business-rules" class="md-nav__link">
+    6. Improve the business rules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-test-the-new-business-rules" class="md-nav__link">
+    7. Test the new business rules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-review-the-updated-operations-dashboard" class="md-nav__link">
+    8. Review the updated Operations Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-summary" class="md-nav__link">
+    9. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#full-use-case-video-narration" class="md-nav__link">
+    Full Use Case Video Narration
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/thomasyang44/sko-tech-academy/edit/master/docs/use-cases/refund-req/index.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h2 id="refund-request">Refund Request<a class="headerlink" href="#refund-request" title="Permanent link">&para;</a></h2>
+<p><strong>an IBM Cloud Pak for Business Automation use case</strong></p>
+<hr />
+<h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+<p><strong>Use Case Overview:</strong> Imagine that a customer purchases your product, but is unfortunately unsatisfied and requests a refund. Today, your refund process has several manual steps. Managing high volumes of refunds that require manual investigation leads to slow average completion times, inconsistent status updates to customers, and higher costs for any errors made.
+This use case demonstrates the use of automation in the form of straight-through-processing to save time, money, and customer frustration.</p>
+<p><strong>Choose an option:</strong></p>
+<ul>
+<li><strong>Cloud Pak for Business Automation as a Service demo environment (likely an IBMer or Business Partner):</strong> your environment is predeployed, continue to the <a href="#getting-started-lab">Getting Started Lab</a> section below.</li>
+<li><strong>Install Yourself:</strong> To deploy Refund Request on your own environment, and technical architecture information, see the <a href="https://github.com/ibm-cloud-architecture/dba-refund-request.git" target="_blank">dba-refund-request</a> git repository which includes the required deployment artifacts.</li>
+</ul>
+<p><img alt="10" src="images/Slide2.png" /></p>
+<hr />
+<h1 id="getting-started-lab">Getting Started Lab<a class="headerlink" href="#getting-started-lab" title="Permanent link">&para;</a></h1>
+<p><strong> Are you ready to see straight through processing in action? </strong></p>
+<h2 id="1-scenario-introduction-refund-request">1. Scenario Introduction - Refund Request<a class="headerlink" href="#1-scenario-introduction-refund-request" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-1"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Demo Video</strong>
+In this demo, you will learn how to handle spikes in demand with straight-through processing through business automation.  Note, this video uses an older version of the use case than the current Getting Started Lab.</p>
+<p><a href="https://ibm.biz/cp4ba-refund-request-video"><img alt="Refund Request Video" src="images/refundRequestThumbnail.png" /></a></p>
+<p><strong>Demo Outline</strong></p>
+<p><a href="#full-use-case-video-narration">Full Demo Narration</a></p>
+<ol>
+<li>Use Case Overview</li>
+<li>[Customer] Submit some refunds</li>
+<li>[Refund Investigator] Complete the investigation task</li>
+<li>[Business Analyst] Review the week 1 Operations Dashboard</li>
+<li>[Rule Manager] Improve the business rules</li>
+<li>[Customer] Test the new business rules</li>
+<li>[Business Analyst] Review the week 2 Operations Dashboard</li>
+<li>Use case review and value of straight-through processing</li>
+</ol>
+<details class="note summary">
+<summary>Discovery Map</summary>
+<p><img alt="Refund Request - Discovery Map" src="images/refundRequest-discoveryMap.png" /></p>
+</details>
+<details class="note summary">
+<summary>Process Map</summary>
+<p><img alt="Refund Request - Process Map" src="images/refundRequest-diagram.png" /></p>
+</details>
+<p><a href="#lab-section-1">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="2-login-and-setup-your-environment">2. Login and Setup Your Environment<a class="headerlink" href="#2-login-and-setup-your-environment" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-2"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Select an option for your environment</strong></p>
+<details class="note summary">
+<summary>Option 2A - Using a Cloud Pak for Business Automation as a Service environment (likely an IBMer or Business Partner) ?</summary>
+<p><a name="lab-section-2a"></a></p>
+<p>IBM maintains multiple SaaS tenants that can be reserved and accessed by both IBMers and Business Partners.</p>
+<p>Please login to IBM Technology Zone and navigate to <a href="https://techzone.ibm.com/collection/5fdfcf8b99cf35001ee4954d" target="_blank">here</a> to reserve an environment.</p>
+<p>1. Once you have access to an environment, please continue here:<br />
+&nbsp; &nbsp; &nbsp; • &nbsp; Enablement Users, your environment setup should already be completed, please continue.<br />
+&nbsp; &nbsp; &nbsp; • &nbsp; Demo Users, once your account administrator completes the below setup and provides you access, please continue.<br />
+&nbsp; &nbsp; &nbsp; • &nbsp; Administrator Users, please reference the <a href="https://techzone.ibm.com/collection/business-automation-saas#tab-2" target="_blank">Administration Guide</a> (IBM only) for any additional setup information including onboarding users.<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &gt; Note: Navigate to the <strong>Demo tenants</strong> tab after login.</p>
+<p>2. Login to your Cloud Pak for Business Automation as a Service demo environment <a href="http://automationcloud.ibm.com" target="_blank">here</a> to access your portal.</p>
+<p>3. Open the menu in the upper left.</p>
+<p>4. Select <strong>Production</strong> and then <strong>Run</strong>.</p>
+<p>5. Click the <strong>Business Automation Apps</strong> tile to launch the Business Automation Navigator desktop</p>
+<p><img alt="13" src="images/Slide3.png" /></p>
+<p>6. Wait for the desktop to load in a new browser window/tab (it can take some time)</p>
+<p>7. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.</p>
+<p><img alt="13" src="images/Slide4.png" /></p>
+<p>8. When ready, click the <strong>Refund Request</strong> tile to launch the use case.</p>
+<p>You have the following options to navigate the Refund Request use case:</p>
+<ul>
+<li>
+<p><strong>Option 1: Technical deep dive</strong>: the default interface is configured for experienced users who explore using the launchpad that provides easy access to the product interfaces for each part of the use case. If you chose <strong>Technical deep dive</strong>, continue to <a href="#lab-section-3">the next section</a>.</p>
+</li>
+<li>
+<p><strong>Option 2: Guided or Live Walkthrough</strong>: you may wish to have the application provide you with a single page view of the use case across multiple steps so you do not have to go to multiple interfaces.</p>
+<ul>
+<li>There is both a <strong>Guided</strong> approach with instructions, step completion check boxes, and a summary of what you learned in each step, or a <strong>Live Walkthrough</strong> approach that includes the same single page app without instructions which is great for showing someone else the use case.</li>
+<li>To activate these options, scroll to the bottom of the app and locate the Control Panel section (if hidden, click just above the grey footer to show it), expand the Control Panel and select your choice.</li>
+<li>If you choose this option, <em><strong>please STOP reading this page here and continue in the application</strong></em>.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="13" src="images/Slide5.png" /></p>
+<p><a href="#lab-section-2a">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<details class="note summary">
+<summary>Option 2B - Are You Using Your Own Environment (not an on Cloud trial/demo) ?</summary>
+<p><a name="lab-section-2b"></a></p>
+<p>1. Standard Users, once your account administrator completes the below setup and provides you access, please continue.</p>
+<p>2. Administrator Users, expand the following section to access additional information to setup access for yourself and others in your environment:</p>
+<details class="note summary">
+<summary>Additional Administrator Setup For Your Own Environment</summary>
+<p>See the <a href="https://github.com/ibm-cloud-architecture/dba-refund-request.git" target="_blank">dba-refund-request</a> git repository to deploy on your own platform.</p>
+</details>
+<blockquote>
+<p>Standard Users, continue here...</p>
+</blockquote>
+<p>3. Ask your administrator for the URL to the desktop in Business Automation Navigator and your login credentials</p>
+<p>4. Wait for the desktop to load in a new browser window/tab (it can take some time) and log in</p>
+<p><img alt="13" src="images/Slide4.png" /></p>
+<p>5. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.</p>
+<p>6. When ready, click the <strong>Refund Request</strong> tile to launch the demo and continue to <a href="#lab-section-3">the next section</a>.</p>
+<p><a href="#lab-section-2b">Go to top (Option 2b)</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<p><a href="#lab-section-2">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="3-submit-some-refunds">3. Submit some refunds<a class="headerlink" href="#3-submit-some-refunds" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-3"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Be your customer!</strong></p>
+<p>You are now a customer that just purchased a product, but unfortunately you are unsatisfied and request a refund.  What do you experience?
+As a customer, you want quick answers to your refund requests, especially when there are no special circumstances that should cause a delay.  Straight through processing would be ideal for you.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>You should only continue with these steps if you choose the <strong>Technical deep dive</strong> option listed above in section 2 !</p>
+</div>
+<p>1. Check the tabs to learn more about the demo</p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp; a. <strong>Storyboard Outline</strong></p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp; b. <strong>Demo Discovery Map</strong></p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp; c. <strong>Demo Diagram</strong></p>
+<p><img alt="13" src="images/Slide6.png" /></p>
+<p>2. Navigate to the <strong>Run the demo!</strong> tab and then click on the picture of the <strong>Customer</strong></p>
+<p><img alt="13" src="images/Slide7.png" /></p>
+<p>3. Use the drop down to select the order ending in <strong>AP</strong>.</p>
+<div class="admonition info there are three orders setup to provide the following results">
+<p class="admonition-title">Info</p>
+<ul>
+<li>AP = approved</li>
+<li>DE = denied</li>
+<li>MA = manually investigated</li>
+</ul>
+</div>
+<p><img alt="13" src="images/Slide8.png" /></p>
+<p>4. Click <strong>Submit</strong> to see the results</p>
+<p><img alt="13" src="images/Slide9.png" /></p>
+<p>5. Choose to submit another refund request</p>
+<p>6. Select the order ending in <strong>DE</strong></p>
+<p>7. At the bottom, expand the <strong>Demo Control Panel</strong></p>
+<p>8. Turn on the decision labels to see which data is used to make the decision</p>
+<p><img alt="13" src="images/Slide10.png" /></p>
+<p>9. Review the data used to make the decisions</p>
+<p><img alt="13" src="images/Slide11.png" /></p>
+<p>10. Submit the refund if desired</p>
+<p>11. Choose to submit another refund request</p>
+<p>12. Select the order ending in <strong>MA</strong></p>
+<p>13. Submit the refund and see that a manual investigation is required</p>
+<p><img alt="13" src="images/Slide12.png" /></p>
+<p><a href="#lab-section-3">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="4-optional-complete-the-investigation-task">4. (Optional) Complete the investigation task<a class="headerlink" href="#4-optional-complete-the-investigation-task" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-4"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>You are now a Focus Corp employee, first an Refund Investigator and later a Business Analyst and Rule Manager.</p>
+<p>Refund Investigators are busy people as they not only process refunds that cannot be automatically approved or denied, but they also look into trends and perform data analysis across the Focus Corp organization.  When they need to take time out from their high priority work to perform a refund request, they are not too happy.  Luckily, Cloud Pak for Business Automation provides them all the information they need in one place and streamlines the investigation process.</p>
+<p>1. Click <strong>Return to launchpad</strong></p>
+<p>2. Click the picture of the <strong>Refund Investigator</strong></p>
+<p>3. Depending on your platform you may see one or more of the new Workplace interface or Navigator's Work Dashboard or Process Portal</p>
+<blockquote>
+<p>Note the data is passed from the application to the process which then retrieved additional information and routed the work to the appropriate Refund Investigator</p>
+</blockquote>
+<h3 id="workplace">Workplace<a class="headerlink" href="#workplace" title="Permanent link">&para;</a></h3>
+<p><img alt="13" src="images/Slide13.png" /></p>
+<h3 id="navigators-work-dashboard">Navigator's Work Dashboard<a class="headerlink" href="#navigators-work-dashboard" title="Permanent link">&para;</a></h3>
+<p><img alt="13" src="images/Slide14.png" /></p>
+<h3 id="process-portal">Process Portal<a class="headerlink" href="#process-portal" title="Permanent link">&para;</a></h3>
+<p><img alt="13" src="images/Slide15.png" /></p>
+<p>4. Review the list of tasks and click on the most recent Investigation task to claim it</p>
+<p>5. Complete the task by approving or denying the refund</p>
+<h3 id="workplace-others-are-similar">Workplace (others are similar)<a class="headerlink" href="#workplace-others-are-similar" title="Permanent link">&para;</a></h3>
+<p><img alt="13" src="images/Slide16.png" /></p>
+<p><a href="#lab-section-4">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="5-review-the-operations-dashboard">5. Review the Operations Dashboard<a class="headerlink" href="#5-review-the-operations-dashboard" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-5"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>You are now a different Focus Corp employee, a Business Analyst.  How can you help to improve straight through processing?</p>
+<p>Business Analysts are able to easily monitor business automation performance and identify problems before they become large.</p>
+<p>1. Navigate back to the Refund Request application browser window/tab</p>
+<p>2. Click the picture of the <strong>Business Analyst</strong></p>
+<p>3. Click to open the <strong>Refund Request (RR) - Week 1</strong> dashboard</p>
+<p><img alt="13" src="images/Slide17.png" /></p>
+<p>4. Review the week 1 dashboard metrics and note the following:</p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp; a. A large number of manual requests in the pie chart</p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp; b. The high time for average manual investigation processing (~120 minutes)</p>
+<p><img alt="13" src="images/Slide18.png" /></p>
+<p><a href="#lab-section-5">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="6-improve-the-business-rules">6. Improve the business rules<a class="headerlink" href="#6-improve-the-business-rules" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-6"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>Now, take on the role of a Focus Corp Rule Manager who can adjust rules, validate and simulate the decision service and deploy quickly and easily.</p>
+<p>1. Navigate back to the Refund Request application browser window/tab</p>
+<p>2. Click the picture of the <strong>Rule Manager</strong></p>
+<p>3. Click <strong>Refund Processing</strong> followed by <strong>main</strong> to open the decision model</p>
+<p><img alt="13" src="images/Slide19.png" /></p>
+<p>4. Review the decision model, green ovals are input data and blue boxes are decisions, each with their own business logic leading to the <strong>Final Refund Decision</strong></p>
+<p>5. Click the blue <strong>Validate Time Window</strong> decision node</p>
+<p>6. On the left pane, scroll to the bottom and click to open the <strong>Validate Time Window</strong> logic</p>
+<p><img alt="13" src="images/Slide20.png" /></p>
+<p>7. Review the decision table and note multiple rows that lead to manual review.</p>
+<p><img alt="13" src="images/Slide21.png" /></p>
+<blockquote>
+<p>The Rule Manager already created a new branch to try some rule adjustments.</p>
+</blockquote>
+<p>8. At the upper left, click the down arrow next to <strong>main</strong> and select <strong>Reduce Manual Processing</strong></p>
+<p><img alt="13" src="images/Slide22.png" /></p>
+<p>9. Open the same <strong>Validate Time Window</strong> decision node and table</p>
+<p>10. Review the decision table and note there are less manual review rows.</p>
+<blockquote>
+<p>NOTE: In the full lifecycle, a Rule Manager runs test suites and simulations before deploying the rules.  If you wish and feel comfortable, you can explore this on your own.</p>
+</blockquote>
+<p><img alt="13" src="images/Slide23.png" /></p>
+<p><a href="#lab-section-6">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="7-test-the-new-business-rules">7. Test the new business rules<a class="headerlink" href="#7-test-the-new-business-rules" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-7"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>Time to test the new business rules in the customer's interface and see if the results change based on the new business rules.</p>
+<p>1. Navigate back to the Refund Request application browser window/tab</p>
+<p>2. Click the picture of the <strong>Customer</strong></p>
+<p>3. Scroll to the bottom and expand the <strong>Demo Control Panel</strong></p>
+<p>4. Turn on the improved straight through processing scenario</p>
+<p><img alt="13" src="images/Slide24.png" /></p>
+<p>5. Select the recent order ending with <strong>MA</strong> and submit</p>
+<p><strong>The "MA" order was previously categorized as a manually processed refund request, now it is APPROVED!  The will improve straight-through processing and get answers to customers faster!</strong></p>
+<p><img alt="13" src="images/Slide25.png" /></p>
+<p><a href="#lab-section-7">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="8-review-the-updated-operations-dashboard">8. Review the updated Operations Dashboard<a class="headerlink" href="#8-review-the-updated-operations-dashboard" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-8"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>1. Navigate back to the Refund Request application browser window/tab</p>
+<p>2. Click the picture of the <strong>Business Analyst</strong></p>
+<p>3. Click to open the <strong>Refund Request (RR) - Week 2</strong> dashboard</p>
+<p>4. Review the dashboard metrics and note the following</p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp; a. a smaller number of manual requests in the pie chart</p>
+<p>&nbsp; &nbsp;&nbsp; &nbsp; b. a lower time for average manual investigation processing (~60 minutes)</p>
+<p><img alt="13" src="images/Slide26.png" /></p>
+<p><strong>The improved straight-through processing is making an impact on Focus Corp's results!</strong></p>
+<p><a href="#lab-section-8">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="9-summary">9. Summary<a class="headerlink" href="#9-summary" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-9"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>With combined workflow and decision automation, both capabilities within IBM Cloud Pak for Business Automation, and updated business rules, we reduce the manual processing queues significantly.</p>
+<p>Increased straight through processing results in lower average completion time, lower costs, and more consistent communication with the customer throughout the process.  Now our processes can truly increase customer satisfaction.</p>
+<p><a href="#9-summary">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<hr />
+<h1 id="full-use-case-video-narration">Full Use Case Video Narration<a class="headerlink" href="#full-use-case-video-narration" title="Permanent link">&para;</a></h1>
+<p><a name="video-narration"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>The below uses an older version of the use case than the current <a href="#getting-started-lab">Getting Started Lab</a>.</p>
+<p><strong>Focus Corp Demos Dashboard</strong></p>
+<p>Reviewing the Focus Corp Demos Dashboard we see a text summary describing the demo, a discovery map diagram and a flow diagram for our reference.  OK, let's launch the demo...</p>
+<p><strong>Customer refund requests</strong></p>
+<p>We start by becoming the customer.  From the Focus Corp Your Returns and Refunds portal, we select one of our recent orders and submit a return.  The result is approved with an expected date to receive funds.</p>
+<p>We select and submit another order for refund but before we submit, let's take a peak behind the form at some of the business rules.  A few of the fields are used by a set of business rules to make the refund decision and we see those here.  This refund request results in a denial but it is still straight through processing without any manual work.</p>
+<p>Upon selecting a final, third order, the rules this time are not certain and send the refund request off to a human queue for manual investigation.  This bottom investigation branch of the straight through process can utilize significant resources.</p>
+<p><strong>Operations week 1</strong></p>
+<p>A few manual refunds are not a problem for the team, but too many will cause delays and our customer satisfaction will go down.  The Operations Specialist reviews the Refund Dashboard, powered by Business Automation Insights and see not only the percentage of manually processed requests is high at more than 67% but the average manual investigation time across all requests is more than 2 hours.  They pass their findings to the Rule Manager to take action.</p>
+<p><strong>Rules manager</strong></p>
+<p>As a rules manager, we have access to the decision model behind our refund process. The data is passed from the process system to the rules in the form of an order and refund request.  This moves through various decision tables including a time window validation that deals with the return reason, the days since delivery and the condition of the goods.  In combination, these lead to various processing decisions and we see a few that result in manual processing listed.  Another decision table deals with the type of goods and may also result in some manual processing.  Finally, this is then combined with a simple text rule to make the final decision.</p>
+<p>The rules manager drafted up a new branch of the decision model with some updates, let's take a look.  To reduce manual processing, the rules manager adjusted the tables to remove some of the manual processing decisions.  Comparing the two versions shows that row 3 column 3 moved from manual to denied, for example.  Other rows were removed which results in an default approved decision.  We could also test and simulate the rule changes and compare historical results but we won't cover that here in this demo.</p>
+<p><strong>Customer manual to approved</strong></p>
+<p>After the Rules Manager deploys the new rules, let go back to being a customer and try them out.  Submitting the same order as before which resulted in a manual result now is approved!</p>
+<p><strong>Operations week</strong></p>
+<p>After these new rules are in place for a week, the Operations Specialist sees some solid improvement with a reduction in half for manual requests and also lower manual processing time average from above 120, down to only 60 mins.</p>
+<p><strong>Use Case Summary</strong></p>
+<p>With combined workflow and decision automation, both capabilities within IBM Cloud Pak for Automation, and updated business rules, we reduce the manual processing queues significantly</p>
+<p>Increased straight through processing results in lower average completion time, lower costs, and more consistent communication with the customer throughout the process.  Now our processors can truly increase customer satisfaction.</p>
+<p><a href="#video-narration">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a> | <a href="#introduction">Go to Introduction</a></p>
+</details>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+
+
+<!-- Footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+
+        <!-- Link to previous page -->
+        
+        <a href="../hr-onboard-app/" class="md-footer__link md-footer__link--prev" rel="prev">
+            <div class="md-footer__button md-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer__title">
+                <div class="md-ellipsis">
+                    <span class="md-footer__direction">
+                        Previous
+                    </span>
+                    HR Onboarding App
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- Link to next page -->
+        
+        <a href="../onboarding-automation/" class="md-footer__link md-footer__link--next" rel="next">
+            <div class="md-footer__title">
+                <div class="md-ellipsis">
+                    <span class="md-footer__direction">
+                        Next
+                    </span>
+                    Onboarding Automation
+                </div>
+            </div>
+            <div class="md-footer__button md-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+        </a>
+        
+    </nav>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            <div class="md-footer-column">
+                <div class="md-footer-text">Site licensed under <a
+                        href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div>
+            </div>
+            <div class="md-footer-column">
+                <!-- Copyright and theme information -->
+                
+                <div class="md-footer-text">
+                    Copyright © 2022 IBM
+                </div>
+                
+            </div>
+            <div class="md-footer-social">
+                <a href="https://github.com/ibm-cloud-architecture/refarch-dba" target="_blank" rel="noopener"
+                    title="Digital Business Automation" class="md-footer-social__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                        </path>
+                    </svg>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.top", "navigation.sections"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
+    
+    
+  
+      <script src="../../assets/javascripts/bundle.5a9542cf.min.js"></script>
+      
+    
+
+
+  </body>
+</html>

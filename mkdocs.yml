@@ -61,30 +61,29 @@ markdown_extensions:
 copyright: Copyright © 2022 IBM
 nav:
   - Home:
-    - Goals, Learning Objectives, Agenda, Materials: index.md
-    - Prework:
-      - Daffy: prework/daffy-prework.md
-      - VI: prework/vi-prework.md
-  - CP4BA Deployment:
+    - Goals, Statement of Approach, Learning Objectives, Agenda: index.md
+    - Learning Plan including prework: learning_plan/learning_plan.md
+    - Course Materials: course_materials.md
+  - Deployment:
       - Overview: deploy/overview.md
       - Daffy Env: deploy/daffy-cp4ba.md
       - Cluster Build: deploy/cluster.md
-      - CP4BA Operators: deploy/operators.md
-      - CP4BA Services: deploy/services.md
+      - Operators: deploy/operators.md
+      - Services: deploy/services.md
       - Monitor / Credentials: deploy/monitor-credentials.md
   - Client Onboarding:
     - Overview: index-tbd.md
     - Setup: https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md
     - Labs: https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md
+  - FAQ:
+    - Overview: index_faq.md
   - Use Cases:
     - Accounts Payable: use-cases/accounts-pay/index.md
     - HR Onboarding App: use-cases/hr-onboard-app/index.md
     - Refund Request: use-cases/refund-req/index.md
     - Onboarding Automation: use-cases/onboarding-automation/index.md
     - Shared Services: use-cases/shared-ser/index.md
-  - FAQ:
-    - Overview: index_faq.md
-  - Reference:
-    - Overview: introduction/overview/index.md
-    - Reference architecture: introduction/reference-architecture/index.md
-  - X: index_original.md
+  #- Reference:
+  #  - Overview: introduction/overview/index.md
+  #  - Reference architecture: introduction/reference-architecture/index.md
+  # X: index_original.md

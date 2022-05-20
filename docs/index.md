@@ -1,24 +1,23 @@
-# SKO Technical Academy: Business Automation
 
-June 13 - 20
+## 1. Goal
+The general aim of this advanced training is to make the technical sellers PoT/PoC ready for the portfolio. At the end of this training, the technical sellers should be able to take a customer problem, use their knowledge of the portfolio, then plan, define and execute the PoC/PoT using the components in the portfolio. This event will be 4 days long.
 
+## 2. Statement of Approach
+Attendees are expected to grow deep skills across the CP4BA portfolio including RPA and Process Mining.  Each attendee will be placed in teams with a mix of capability specific skills and are expected to select labs that will build their capability skills where they need the most depth. 
 
+## 3. Learning Objectives
+After this event, tech sellers should be able to do a POC targeting a customer use case.   
 
-### Goals:
+* Individually, install CP4BA starter pattern (advanced attendees to use production pattern)
+* As a team:
+    * Deploy seven prebuilt artifacts (ADS, Workflow, etc...) on a cluster
+    * Integrate and test deployed artifacts
+    * Rebuild selected artifacts (ADS, Workflow, etc...), likely one capability per team member
+    * Learn how to effectively demonstrate the client onboarding demo that spans across the Cloud Pak for Business Automation (CP4BA)
 
-Advance the skills of technical professionals to become better equipped to use their knowledge and skills to execute POT/POC for the common and strategic use cases within the Application Platform portfolio
+## 4. Agenda
 
-
-### Learning Objectives:
-
-Upon completion of the technical academy, attendees should be able to demonstrate execution of the following strategic use cases in client situations for application platform:
-
-
-### Agenda
-
-  - The agenda is divided into 4 sessions spanning approximaely 12 hours of training.
-  
-   
+The agenda is divided into 4 sessions spanning approximately 12 hours of training.
 
 Allotted Time | Session / Activity
 -------|-------------------
@@ -29,16 +28,13 @@ Allotted Time | Session / Activity
 `150 min` | **Mock POC:** Operarational Moderniztion use cases
 `150 min` | *Mock POC:** Runtime Modernizatin use cases
 `60 min` | **Stand-deliver**: Selection of team demos and wrap-up
-  
-  
-    
-    
-**SKO Technical Academy: Business Automation - Course material**
-  
-  [Course Matrial](https://github.ibm.com/ProjectK8s/K8s-Content)
-  
-  
-  
+             
+## 5. Course Material        
+      
+[Course Matrial](https://github.ibm.com/ProjectK8s/K8s-Content)
+      
+      
+      
 **Hands on Activities**
 
 This techical academy contains significant hands on learning through mock POCs.

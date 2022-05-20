@@ -1,0 +1,1083 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Agile Business Rules Development Methodology">
+      
+      
+        <meta name="author" content="Gerry Baird, Thomas Yang">
+      
+      
+        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/methodology/abrd/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
+    
+    
+      
+        <title>Agile Business Rules Development Methodology - SKO Tech Academy - Business Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50e68009.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+  <!-- Determine title -->
+  
+  
+    
+  
+
+  <!-- The image needs to have an absolute URL -->
+  
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SKO Tech Academy - Business Automation - Agile Business Rules Development Methodology" />
+  <meta property="og:description" content="None" />
+  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/methodology/abrd/" />
+  <meta property="og:image" content="https://thomasyang44.github.io/sko-tech-academy/assets/images/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="568" />
+
+
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SKO Tech Academy - Business Automation" class="md-header__button md-logo" aria-label="SKO Tech Academy - Business Automation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SKO Tech Academy - Business Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Agile Business Rules Development Methodology
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/thomasyang44/sko-tech-academy/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../deploy/overview/" class="md-tabs__link">
+        Deployment
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../index-tbd/" class="md-tabs__link">
+        Client Onboarding
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../index_faq/" class="md-tabs__link">
+        FAQ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../use-cases/accounts-pay/" class="md-tabs__link">
+        Use Cases
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<!-- Determine class according to configuration -->
+
+
+  
+
+
+
+<!-- Main navigation -->
+<nav
+  class="md-nav md-nav--primary md-nav--lifted"
+  aria-label="Navigation"
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <!--
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../.."
+      title="SKO Tech Academy - Business Automation"
+      class="md-nav__button md-logo"
+      aria-label="SKO Tech Academy - Business Automation"
+      data-md-component="logo"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    SKO Tech Academy - Business Automation
+  </label>
+-->
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/thomasyang44/sko-tech-academy/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Render item list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Home" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Goals, Learning Objectives, Agenda, Materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prework/prework/" class="md-nav__link">
+        Prework
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Deployment
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Deployment" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/daffy-cp4ba/" class="md-nav__link">
+        Daffy Env
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/cluster/" class="md-nav__link">
+        Cluster Build
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/operators/" class="md-nav__link">
+        Operators
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/services/" class="md-nav__link">
+        Services
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/monitor-credentials.md" class="md-nav__link">
+        Monitor / Credentials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Client Onboarding
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Client Onboarding" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Client Onboarding
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index-tbd/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md" class="md-nav__link">
+        Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md" class="md-nav__link">
+        Labs
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          FAQ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="FAQ" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          FAQ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index_faq/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Use Cases
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Use Cases" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Use Cases
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/accounts-pay/" class="md-nav__link">
+        Accounts Payable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/hr-onboard-app/" class="md-nav__link">
+        HR Onboarding App
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/refund-req/" class="md-nav__link">
+        Refund Request
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/onboarding-automation/" class="md-nav__link">
+        Onboarding Automation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/shared-ser/" class="md-nav__link">
+        Shared Services
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goals" class="md-nav__link">
+    Goals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts" class="md-nav__link">
+    Concepts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-adopt-abrd" class="md-nav__link">
+    How to Adopt ABRD
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Adopt ABRD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-pitfalls" class="md-nav__link">
+    Common Pitfalls
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incremental-development" class="md-nav__link">
+    Incremental Development
+  </a>
+  
+    <nav class="md-nav" aria-label="Incremental Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-pitfalls_1" class="md-nav__link">
+    Common Pitfalls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cycle-approach" class="md-nav__link">
+    Cycle Approach
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-typical-abrd-project" class="md-nav__link">
+    A typical ABRD Project
+  </a>
+  
+    <nav class="md-nav" aria-label="A typical ABRD Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cycle-1-harvesting" class="md-nav__link">
+    Cycle 1- Harvesting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cycle-2-building-foundations" class="md-nav__link">
+    Cycle 2- Building Foundations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cycle-3-building" class="md-nav__link">
+    Cycle 3- Building
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cycle-4-enhancing" class="md-nav__link">
+    Cycle 4- Enhancing
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/thomasyang44/sko-tech-academy/edit/master/docs/methodology/abrd/index.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+  <h1>Agile Business Rules Development Methodology</h1>
+
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The Agile Business Rule Methodology was developed in 2004 at ILOG and then used on hundred of projects worldwide when projects need to integrate decision management into the business application. It is based from <a href="http://www.springer.com/business+%26+management/business+information+systems/book/978-3-642-19040-7">Hafedh Mili and Jerome Boyer's book</a>. The content is product agnostic and support incremental and iterative development for decision services. It starts from a business operation improvement idea that is assessed versus of set of criteria to validate the fit to use a Business Rule Management System, and then addresses all the project implementation tasks.</p>
+<h2 id="goals">Goals<a class="headerlink" href="#goals" title="Permanent link">&para;</a></h2>
+<p>ABRD applies the agile manifesto to efficiently implement business policies as executable rules. The goal is not having a team spending month to document thousand of rules, where those rules can be implemented, executed, tested in less time, even as early as the first day of your analysis. The goals can be summarized as:</p>
+<ul>
+<li>Separate rules as a manageable artifact using discovery, analysis and authoring activities and work products</li>
+<li>Trace rules during their full life cycle from requirement to deployment and maintenance</li>
+<li>Link rules to business context and motivation</li>
+<li>Develop the rule description using business terms and high level rule language</li>
+<li>Prepare the fact model for the rule implementation</li>
+<li>Prepare the rule set implementation and deployment as decision services in a Service Oriented Architecture or as Micro Services executed by a rule engine</li>
+<li>Articulate the rule governance processes</li>
+</ul>
+<h2 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">&para;</a></h2>
+<p>To get a good understanding of business rules, rule engines and other terms used in this content, see <a href="/methodology/abrd/concepts#business_rule">this note</a></p>
+<h2 id="how-to-adopt-abrd">How to Adopt ABRD<a class="headerlink" href="#how-to-adopt-abrd" title="Permanent link">&para;</a></h2>
+<p>BRMS enable managing business rule as a standalone artifact, owned by the business user, and maintainable over time into production system. The implementation of a business rule application follows some activities and tasks that are slightly different than traditional software development life cycle. The integration of one or more business analysts as part of the development team is also less traditional. Finally the core value of such technology is to be able to have business user maintaining the business rules in production with a minimum involvement of IT. Technology is one side of the coin, methodology and best practices is the other.</p>
+<p>A Project Management Office can leverage ABRD as-is or integrate it as content for their own methodology.</p>
+<p>If the team is new to business rule application, it is best to start with a small rule set and incrementally add rules and best practices over time. The team has to integrate the rule discovery and analysis activities in their own project plan.</p>
+<p>Prototyping or Minimum Viable Product is a major approach, as it shows to the team concrete execution, and helps to drive issues, and requirements around business rules and even business process.</p>
+<h3 id="common-pitfalls">Common Pitfalls<a class="headerlink" href="#common-pitfalls" title="Permanent link">&para;</a></h3>
+<p>The most common pitfalls in implementing business rules application include:
+* Starting by harvesting all the rules in a document without any implementation
+* Ignoring the importance of the data model
+* Not understanding where the rules are (should be) enforced
+* Mixing the data model from the implementation point of view, with the domain model that is used by the business
+* Involving IT only: never forget the business, involve them as early as possible and make them take ownership of the rules.
+* Outsourcing business rule implementation: business rules are enterprise assets.
+* Forgetting to test the rules outside of the application
+* Not involving the business in the rule validation process
+* Badly designing a rule set, by not applying standard design pattern as separation of concerns.</p>
+<h2 id="incremental-development">Incremental Development<a class="headerlink" href="#incremental-development" title="Permanent link">&para;</a></h2>
+<p>The following diagram illustrates how a decision service implementation is built from a business idea to an executable SOA service integrated with a BPM system or any consumers.</p>
+<p><img alt="" src="images/ABRD-phase-tools.png" /></p>
+<p>Within those phases we can find project activities that are executed multiple times during each phase:</p>
+<ul>
+<li>Rule discovery</li>
+<li>Rule analysis</li>
+<li>Fact model implementation</li>
+<li>Rule implementation and unit test</li>
+<li>Rule validation</li>
+<li>Rule deployment</li>
+</ul>
+<p>Like all agile methodologies, ABRD prescribes an incremental development using time boxed iterations. However, in ABRD, the entire process lifecycle may not be followed for each iteration. Instead, a number of very short cycles between phases may occur, with the entire ruleset gradually evolving.</p>
+<p>Using a business rule management platform enables managing business rule as a standalone artifact, owned by the business user, and maintainable by them directly  time into production system. The implementation of a business rule application follows some activities and tasks that are slightly different than traditional software development life cycle. The strong involvement of one or more <a href="assets/concepts/rule-analyst.md">business rule analysts</a> as part of the development team is recommended to harvest the rule while they are implemented. Technology is one side of the coin, methodology and best practices is the other.
+Executing a project to implement a solution using rule engine and a BRMS follows the following progression as illustrated</p>
+<p><img alt="2" src="images/ABRD-phase-tools.png" /></p>
+<p>A Project Management Office can leverage ABRD as-is and integrate it within their own methodology or tailor it by injecting their own practices. As open source you can also contribute to it.</p>
+<p>If the team is new to business rule application, it is best to start with a small rule set and incrementally add rules and best practices over time. The team has to integrate the rule discovery and analysis activities in their own project plan.</p>
+<p>Prototyping is a major value, as it shows to the team concrete execution, and helps to drive issues, and requirements around business rules and even business process.</p>
+<h3 id="common-pitfalls_1">Common Pitfalls<a class="headerlink" href="#common-pitfalls_1" title="Permanent link">&para;</a></h3>
+<p>The most common pitfalls in implementing business rules application include:</p>
+<ul>
+<li>Starting by harvesting all the rules in a document</li>
+<li>Ignoring the importance of the data model</li>
+<li>Not understanding where the rules are (should be) enforced</li>
+<li>Mixing the data model from the implementation point of view, with the domain model that is used by the business</li>
+<li>Involving IT only: never forget the business, involve them as early as possible and make them take ownership of the rules.</li>
+<li>Outsourcing business rule implementation: business rules are enterprise assets.</li>
+<li>Forgetting to test the rules outside of the application</li>
+<li>Not involving the business in the rule validation process</li>
+<li>Badly designing a rule set, by not applying standard design pattern as separation of concerns.</li>
+</ul>
+<h3 id="cycle-approach">Cycle Approach<a class="headerlink" href="#cycle-approach" title="Permanent link">&para;</a></h3>
+<p>Like all agile methodologies, ABRD prescribes an incremental development using time boxed iterations. However, in ABRD, the entire process lifecycle may not be followed for each iteration. Instead, a number of very short cycles between phases may occur, with the entire ruleset gradually evolving. The entire process may be represented by the diagram below:</p>
+<p><img alt="3" src="images/life_cycle_horizontal.png" /></p>
+<p>In the process flow diagram above, each of the task loops back to previous task in the flow. These 'loops', or cycles, are repeated as required, with the loops gradually moving from left to right through the process until the rule sets are deployed to production environment. This method of rule development reflects the nature of BRMS: a mature and stable domain object model is a prerequisite for rule development, therefore we may multiply cycles through the early part of the process flow in order to develop such models early in the process. As each of these cycles is completed, the ruleset will gradually grow until it reaches a state where it reflects the requirements set forth by the business.</p>
+<p>The phases and activities apply for both operational, inference business rules as event processing rules. The event processing rule will, most likely require different technologies: a BRMS and a CEP platform, but the development methodology is similar.</p>
+<h2 id="a-typical-abrd-project">A typical ABRD Project<a class="headerlink" href="#a-typical-abrd-project" title="Permanent link">&para;</a></h2>
+<p>From a project management perspective, there are four phases, each of which maps onto parts of the technical process flow described above. The project phases are:</p>
+<ol>
+<li>Harvesting, the activity of gathering business rules</li>
+<li>Foundation, the activity of defining the decision service interface, to develop the domain specific data model: the Rule Business Object, to implement the different business rule pattern into the BRMS, develop the unit tests</li>
+<li>Building, the activity of building a working decision service, representing the organizations business rules, it includes integration with the decision service consumers or the event producers and any reference data management sources.</li>
+<li>Enhancement groups completing the business logic by adding more rules, and start the rule governance process, the decision logic monitoring, and maintaining and enhancing business rules. This specific phase should be done with less involvement from IT, and with modern BRMS, business analysts can support the full cycle of authoring rules, validating them, and hot deploy to production.</li>
+</ol>
+<h3 id="cycle-1-harvesting">Cycle 1- Harvesting<a class="headerlink" href="#cycle-1-harvesting" title="Permanent link">&para;</a></h3>
+<p>Rule harvesting, consisting of the Discovery &amp; Analysis tasks, involves gathering together all the sources of knowledge available to the team. These sources may include a business process description, subject matter experts, policy manuals, existing code or other sources of rules. The goal of this activity is to understand the Domain Object Model within the scope of the application and to identify enough rule patterns to begin implementation of rules in the next phase.</p>
+<p>During this activity, the development teams divide the day into two parts, executing discovery workshops in the morning (in 2 or 3-hour session), then performing analysis and documentation for the remainder of the day. The team iterates on these two steps during 2 to 5 days maximum, depending on the number of rule pattern and their complexity.  </p>
+<p><img alt="4" src="images/cycle1.png" /></p>
+<p>The starting point of the Rule Discovery is a Decision Point Table artifact: During the inception phase (See OpenUP for more information) the project team is doing business modeling activities (not covered here) which aim at describing the business process and decisions applied to any business events supported by the application. One important work product built during this modeling phase is the Decision Point Table which describes the point in the process (task, activities, transition) where decisions are made. Decision point represents potential candidate for rule sets.</p>
+<h3 id="cycle-2-building-foundations">Cycle 2- Building Foundations<a class="headerlink" href="#cycle-2-building-foundations" title="Permanent link">&para;</a></h3>
+<p>The building foundation extends the tasks performed during harvesting to include rule business object implementation and rule authoring. When a workable number of rules (this number will vary by project) have been harvested the development team should start to define the structure of the rule project: the decision service interface, the rule set variables (input-output business objects), the basic sequencing of the rules (the Rule Flow), and the major elements of the Business Object Model. The team should then be able to implement and unit test some rules.</p>
+<p>A best practice is to execute the step "Rule Authoring" as soon as possible to uncover possible analysis and design issues. Indeed, most of the rules look good on paper but real issues will surface during implementation and test. The next morning workshop session the rule developer should communicate the issues back to the business team to quickly address the change to the business logic. This leverages the feedback loop approach and provides an efficient mechanism to build a pragmatic, adequate and business-relevant executable rule set.</p>
+<p><img alt="5" src="images/cycle2.png" /></p>
+<h3 id="cycle-3-building">Cycle 3- Building<a class="headerlink" href="#cycle-3-building" title="Permanent link">&para;</a></h3>
+<p>The goal of the build phase is to create rules that can be 'seen', 'used' and, most importantly, tested, by business users. Rules that can be executed by the rule engine are more valuable than ones defined on paper or in abstract forms. This fully endorses the agile statement:"Working software over comprehensive documentation."</p>
+<p>The second goal of this phase is to create a set of realistic test scenarios, using real data when possible, to test the rules created during the Authoring activity. This is a form of Test Driven Development (TDD). This activity extends the Build activity by adding a Rule Validation task.</p>
+<p><img alt="6" src="images/cycle3.png" /></p>
+<p>The day-to-day authoring activities consist of a series of small steps that include:
+* Test case implementation
+* Writing rules and executing rules
+* Validating rules with the business team members
+* Deploy automatically to the target test platform so decision services are consumable</p>
+<p>The build activity consists of all the previous tasks, with short iterations:
+* Enhance rules (Authoring &amp; Validation tasks)
+* Improve rules (Analysis, Authoring &amp; Validation) as needs are identified
+* Complement rules (Discovery, Analysis, Authoring &amp; Validation) with additional rules to provide complete coverage of the business domain (once every two days).</p>
+<p>The Building activity should take between two and three weeks iteration, and the output artifacts should be a ruleset that can be loaded into the rule engine and executed.</p>
+<p>Checkpoint:</p>
+<div class="codehilite"><pre><span></span><code>    <span class="nv">During</span> <span class="nv">the</span> <span class="nv">first</span> <span class="nv">iteration</span> <span class="nv">of</span> <span class="nv">this</span> <span class="nv">activity</span>, <span class="nv">the</span> <span class="nv">total</span> <span class="nv">number</span> <span class="nv">of</span> <span class="nv">rules</span> <span class="nv">will</span> <span class="nv">be</span> <span class="nv">only</span> <span class="nv">around</span> <span class="mi">40</span><span class="o">%</span> <span class="nv">to</span> <span class="mi">60</span><span class="o">%</span> <span class="nv">completed</span>. <span class="nv">The</span> <span class="nv">idea</span> <span class="nv">is</span> <span class="nv">to</span> <span class="nv">get</span> <span class="nv">something</span> <span class="nv">to</span> <span class="nv">business</span> <span class="nv">users</span> <span class="nv">that</span> <span class="nv">is</span> <span class="nv">sufficient</span> <span class="nv">to</span> <span class="nv">get</span> <span class="nv">comments</span> <span class="nv">and</span> <span class="nv">feedbacks</span> <span class="nv">on</span>, <span class="nv">and</span> <span class="nv">that</span> <span class="nv">will</span> <span class="nv">form</span> <span class="nv">the</span> <span class="nv">basis</span> <span class="nv">of</span> <span class="nv">the</span> <span class="k">next</span> <span class="nv">phase</span>. <span class="nv">By</span> <span class="nv">this</span> <span class="nv">point</span>, <span class="nv">the</span> <span class="nv">Rule</span> <span class="nv">Business</span> <span class="nv">Object</span> <span class="nv">Model</span> <span class="ss">(</span><span class="nv">RBO</span><span class="ss">)</span> <span class="nv">should</span> <span class="nv">be</span> <span class="nv">at</span> <span class="nv">least</span> <span class="mi">90</span><span class="o">%</span> <span class="nv">complete</span>.
+</code></pre></div>
+
+<p>Depending on the size of the ruleset, this activity may deliver less than 40% of the rules. In that case, this activity may have to be repeated. In this situation, it is recommended that the activity be time-boxed from two to three weeks maximum so that a concrete build may be delivered to the validation team for functional verification, integration test and non regression testing. Once a build is delivered, another iteration of this cycle may be started.</p>
+<p>As soon as the decision service interface is stable, or the event structure is well defines the development team should be able to deploy the rule set under construction to the execution server in order to test it with an end-to-end scenario. The integration of the decision service and the domain object model is an important task. Integration involves the marshaling of data to/from external data sources, transform it to the rule business object model view so it can be understood by the execution engine. This is 'mapping' of the data to the Rule Business Object Model created in previous activities is very important as it is a very bad practice to take an existing enterprise model, or a canonical model to be the foundation of the rule processing. Too much genericity and complexity will impact rule adoption by the business users, and knowledge transfer between developers too.</p>
+<p>There are a number of tools and techniques that can be used to marshal data, and the best choice will vary depending of the technologies available: ESB, micro services, ETL, batch processing, event based processing.... When this activity is completed, data (preferably 'real' data) will be sent to the rule engine to fire rules, make decision and the results delivered over the same channels as the production system. The test scenarios developed in previous phases, are run with all of the 'plumbing' in place. In the future they will serve as non-regression test suite.</p>
+<h3 id="cycle-4-enhancing">Cycle 4- Enhancing<a class="headerlink" href="#cycle-4-enhancing" title="Permanent link">&para;</a></h3>
+<p>Cycle 4 is used during the development phase as well as during the rule maintenance or governance activity post production deployment. One of the goal here is to empower business users or at least business analysts to author and test the rules.</p>
+<p>The Enhancing cycle is a transition phase in which last minute changes can be made involving some short, face to face discovery meetings with SMEs (Subject Matter Experts) to wrap up any outstanding issues or questions before entering the Governance activity. The Governance activity is an open-ended, long running process to enhance and maintain the rules created in previous activities. A governance process will vary by organization and is a fundamentally different SDLC process, usually performed by a different team than the rule development team. This team is more business oriented and, as owners of the rules and business policies, they can develop at their own pace, using the infrastructure put in place by the development team.</p>
+<p><img alt="7" src="images/cycle4.png" /></p>
+<p>It is important to note that there will almost certainly be some need to enhance the rule business object model to add some new facts, attributes, or entities. These modifications should follow the standard release management process of the core business application using continuous build and delivery.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+
+
+<!-- Footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            <div class="md-footer-column">
+                <div class="md-footer-text">Site licensed under <a
+                        href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div>
+            </div>
+            <div class="md-footer-column">
+                <!-- Copyright and theme information -->
+                
+                <div class="md-footer-text">
+                    Copyright © 2022 IBM
+                </div>
+                
+            </div>
+            <div class="md-footer-social">
+                <a href="https://github.com/ibm-cloud-architecture/refarch-dba" target="_blank" rel="noopener"
+                    title="Digital Business Automation" class="md-footer-social__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                        </path>
+                    </svg>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.top", "navigation.sections"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
+    
+    
+  
+      <script src="../../assets/javascripts/bundle.5a9542cf.min.js"></script>
+      
+    
+
+
+  </body>
+</html>
