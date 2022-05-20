@@ -75,26 +75,51 @@ openshift-install Dir :      /data/daffy/tmp/acme-demo/ocp/ocp-install
 Copy the URL into a browser and the OpenShift Web Console will open. In the top right corner there is a drop-down, with 
 your username as a label. Click the label and a Copy Login Command link will be shown, this is highlighted in red below.
 
+
 ![oc console](./images/oc_login1.jpg)
 
 The next screen will display a link "Display Token". Click on this link and the page below will be displayed. Copy the 
 oc login command as highlighted in red.
+
 ![oc console](./images/oc_login2.jpg)
 
-Paste this command into the Daffy terminal :
+Paste this command into the Daffy terminal and Daffy will proceed with the operator install:
 
 ```commandline
-Logged into "https://c109-e.eu-gb.containers.cloud.ibm.com:32245" as "IAM#gerry.baird@uk.ibm.com" using the token provided.
-
-You have access to 66 projects, the list has been suppressed. You can list all projects with 'oc projects'
-
-Using project "default".
-Running /data/daffy/tmp/cp4ba-acme-demo/cp4ba/cert-kubernetes/scripts/cp4a-clusteradmin-setup.sh
-Login Succeeded!
 Entitlement Registry key is valid.
 secret/admin.registrykey created
 secret/ibm-entitlement-key created
 Applying the persistent volumes for the Cloud Pak operator by using the storage classname: ibmc-file-gold-gid...
 persistentvolumeclaim/operator-shared-pvc created
 persistentvolumeclaim/cp4a-shared-log-pvc created
+catalogsource.operators.coreos.com/ibm-cp4a-operator-catalog created
+catalogsource.operators.coreos.com/ibm-cp-automation-foundation-catalog created
+catalogsource.operators.coreos.com/ibm-automation-foundation-core-catalog created
+catalogsource.operators.coreos.com/opencloud-operators created
+catalogsource.operators.coreos.com/ibm-db2uoperator-catalog created
+catalogsource.operators.coreos.com/bts-operator created
+catalogsource.operators.coreos.com/cloud-native-postgresql-catalog created
+IBM Operator Catalog source created!
+operatorgroup.operators.coreos.com/ibm-cp4a-operator-catalog-group created
+CP4BA Operator Group Created!
+subscription.operators.coreos.com/ibm-cp4a-operator created
+CP4BA Operator Subscription Created!
+Adding the user IAM#gerry.baird@uk.ibm.com to the ibm-cp4a-operator role...Done!
+Applying no_root_squash for demo DB2 deployment on ROKS using CLI
+New project cp4ba-starter has been setup for CP4BA in your cluster
+
+serviceaccount/ibm-cp4ba-anyuid created
+clusterrole.rbac.authorization.k8s.io/system:openshift:scc:anyuid added: "ibm-cp4ba-anyuid"
+
+Copy JDBC Files to ibm-cp4a-operator Pod
+################################################################
+                                                                                                                 
+Successfully copied JDBC files -> /data/daffy/db2/jdbc cp4ba-starter/ibm-cp4a-operator-7d968fd78b-n48fk:/opt/ansible/share
+
+##########################################################################################################
+End Time: Fri May 20 14:39:26 UTC 2022
+CP4BA Build Completed in 1 hour(s), 27 minute(s) and 32 second(s)
+##########################################################################################################
 ```
+
+Confirm that the Operators are installed.... 
