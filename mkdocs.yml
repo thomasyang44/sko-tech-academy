@@ -64,6 +64,8 @@ nav:
     - Goals, Statement of Approach, Learning Objectives, Agenda: index.md
     - Learning Plan including prework: learning_plan/learning_plan.md
     - Course Materials: course_materials/course_materials.md
+    - Full Agenda: agenda/agenda.md
+    - Site Info: site_info/site_info.md
   - Deployment:
       - Overview: deploy/overview.md
       - Daffy Env: deploy/daffy-cp4ba.md
@@ -83,6 +85,7 @@ nav:
     - Refund Request: use-cases/refund-req/index.md
     - Onboarding Automation: use-cases/onboarding-automation/index.md
     - Shared Services: use-cases/shared-ser/index.md
+  #- Site Info: site_info/site_info.md
   #- Reference:
   #  - Overview: introduction/overview/index.md
   #  - Reference architecture: introduction/reference-architecture/index.md
