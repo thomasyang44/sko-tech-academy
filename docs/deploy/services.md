@@ -33,3 +33,9 @@ date to show the newest pods at the top.
  
 Various pods will be created during the deployment after several hours you may recognise pods such as the ADS runtime.
 At this point completion is very close.
+
+Alternatively you can watch the operator logs using the example command in the Daffy console : 
+
+```commandline
+oc logs -n cp4ba-starter --tail=100 -f deployment/ibm-cp4a-operator | grep -v proxy
+```
