@@ -14,6 +14,10 @@ DAFFY_UNIQUE_ID="<your email>"
 #####################################
 CLUSTER_NAME="<cluster name to be created>"
 OCP_INSTALL_TYPE="roks-msp"
+DAFFY_DEPLOYMENT_TYPE=Enablement
+
+###### This only works in the itztsglenablement01, this is te
+IBMCLOUD_RESOURCE_GROUP=TechAcademyBA
 
 # Version must match support version of ROKS only
 OCP_RELEASE="4.8.36"
@@ -35,6 +39,15 @@ CP4BA_ENABLE_SERVICE_OPS=true
 #    Zone that ROKS will be installed
 #     https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones
 ROKS_ZONE=<datacenter zone>
+
+#####################################
+OCP_CREATE_NFS_STORAGE=true
+CP4BA_AUTO_STORAGE_CLASS_FAST_ROKS=managed-nfs-storage
+CP4BA_AUTO_STORAGE_CLASS_OCP=managed-nfs-storage
+CP4BA_AUTO_STORAGE_CLASS_OCP_BLOCK=managed-nfs-storage
+CP4BA_AUTO_STORAGE_CLASS_OCP_SLOW=managed-nfs-storage
+CP4BA_AUTO_STORAGE_CLASS_OCP_MEDIUM=managed-nfs-storage
+CP4BA_AUTO_STORAGE_CLASS_OCP_FAST=managed-nfs-storage
 ```
 Copy the contents of this file into the Daffy environment file on your bastion server and update the three 
 placeholders < > for email, cluster and datacenter. Choose a datacenter in your region and make sure it is one 
