@@ -16,7 +16,7 @@ CLUSTER_NAME="<cluster name to be created>"
 OCP_INSTALL_TYPE="roks-msp"
 DAFFY_DEPLOYMENT_TYPE=Enablement
 
-###### This only works in the itztsglenablement01, this is te
+###### This only works in the itztsglenablement01, this is the account used for Tech Academy
 IBMCLOUD_RESOURCE_GROUP=TechAcademyBA
 
 # Version must match support version of ROKS only
