@@ -59,4 +59,10 @@ of the following:
 | wdc04 | lon06 | tbc |
 | sjc03 | ams03 | tbc |
 
+The bastion server will provide the file storage for the cluster so ideally the bastion server and the cluster
+should be in the same datacenter. This was a last minute change to the Daffy config for Tech Academy, but since 
+we are not using these clusters extensively (just showing how they are built) it's ok if your bastion is not in one 
+of the datacenters listed above.
+
+
 Once you have updated your environment file, save it and exit the editor. Proceed to the next step [Cluster Build](cluster.md)
