@@ -10,14 +10,14 @@
         <meta name="author" content="Gerry Baird, Thomas Yang">
       
       
-        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/course_materials/Step%208%20-%20Business%20Automation%20Insights/">
+        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/course-materials/Step%205%20-%20Workflow%20Solution/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
     
     
       
-        <title>Step 8 - Import the Business Automation Insights data - SKO Tech Academy - Business Automation</title>
+        <title>Step 5 - Import the Workflow Solution - SKO Tech Academy - Business Automation</title>
       
     
     
@@ -62,9 +62,9 @@
 
   <!-- Open graph meta tags -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="SKO Tech Academy - Business Automation - Step 8 - Import the Business Automation Insights data" />
+  <meta property="og:title" content="SKO Tech Academy - Business Automation - Step 5 - Import the Workflow Solution" />
   <meta property="og:description" content="None" />
-  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/course_materials/Step%208%20-%20Business%20Automation%20Insights/" />
+  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/course-materials/Step%205%20-%20Workflow%20Solution/" />
   <meta property="og:image" content="https://thomasyang44.github.io/sko-tech-academy/assets/images/banner.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1080" />
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#step-8-import-the-business-automation-insights-data" class="md-skip">
+        <a href="#step-5-import-the-workflow-solution" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Step 8 - Import the Business Automation Insights data
+              Step 5 - Import the Workflow Solution
             
           </span>
         </div>
@@ -389,7 +389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../learning_plan/learning_plan/" class="md-nav__link">
+      <a href="../../learning-plan/learning-plan/" class="md-nav__link">
         Learning Plan including prework
       </a>
     </li>
@@ -403,7 +403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../course_materials/" class="md-nav__link">
+      <a href="../course-materials/" class="md-nav__link">
         Course Materials
       </a>
     </li>
@@ -431,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../site_info/site_info/" class="md-nav__link">
+      <a href="../../site-info/site-info/" class="md-nav__link">
         Site Info
       </a>
     </li>
@@ -831,13 +831,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#with-that-you-have-successfully-setup-your-environment-with-the-client-onboarding-scenario" class="md-nav__link">
-    With that, you have successfully setup your environment with the Client Onboarding scenario.
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -850,117 +843,169 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/thomasyang44/sko-tech-academy/edit/master/docs/course_materials/Step 8 - Business Automation Insights.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/thomasyang44/sko-tech-academy/edit/master/docs/course-materials/Step 5 - Workflow Solution.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="step-8-import-the-business-automation-insights-data">Step 8 - Import the Business Automation Insights data<a class="headerlink" href="#step-8-import-the-business-automation-insights-data" title="Permanent link">&para;</a></h1>
+<h1 id="step-5-import-the-workflow-solution">Step 5 - Import the Workflow Solution<a class="headerlink" href="#step-5-import-the-workflow-solution" title="Permanent link">&para;</a></h1>
 <h3 id="pepare-the-environment-for-the-end-to-end-scenario">Pepare the environment for the end-to-end scenario<a class="headerlink" href="#pepare-the-environment-for-the-end-to-end-scenario" title="Permanent link">&para;</a></h3>
 <ol>
 <li>
-<p>Download the contents of the following directory - <a href="Solution%20Exports/Business%20Automation%20Insights">Business Automation Insights</a>.</p>
+<p>Download the <a href="../Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx">Workflow twx file</a>.</p>
 </li>
 <li>
-<p>Replace the index names in the downloaded files:</p>
-</li>
-</ol>
-<p>In the <code>process-data.json</code> and <code>case-data.json</code> files, the index name parameter must match the index names of your environment. The index names are dependent on the date of the install. For example, one of the index names in the provided data files is <code>icp4ba-bai-process-summaries-completed-idx-ibm-bai-2021.11.11-000001</code>. The date <code>2021.11.11-000001</code> must be replaced by the date in your environment's index.</p>
-<p>You can get the index names for your environment using the following command (Replace <code>{esadmin}</code> with the elasticsearch admin user ID, replace <code>{espassword}</code> with the elastichsearch admin user password &amp; replace <code>{eshost}</code> with the elasticsearch URL):
-   <code>curl -k -XGET -u {esadmin}:{espassword} '{eshost}/_aliases'</code></p>
-<ol>
-<li>From the folder where you've downloaded the files and replaced the index names, run the following script to import the data (replace <code>{esadmin}</code> with the elasticsearch admin user ID, replace <code>{espassword}</code> with the elastichsearch admin user password &amp; replace <code>{eshost}</code> with the elasticsearch URL):</li>
-</ol>
-<p>```
-   ES_ADMIN={esadmin}
-   ES_PASSWORD={espassword}
-   ES_HOST={eshost}</p>
-<p>curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @case-data.json
-   curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @process-data.json
-   curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @ads-data.json
-   ```</p>
-<ol>
-<li>Open <strong>Business Performance Center</strong> and click <strong>Import.</strong></li>
-</ol>
-<p><img alt="" src="../images/BAI-1.png" /></p>
-<ol>
-<li>
-<p>Click <strong>Browse.</strong></p>
+<p>Login to <strong>IBM Business Automation Studio</strong></p>
 </li>
 <li>
-<p>Select <strong>Client Onboarding Completed.json</strong> (downloaded earlier) and click <strong>Import</strong>.</p>
+<p>In the top-right corner, click on the menu icon and go to <strong>Business automations</strong>.</p>
 </li>
 </ol>
-<p><img alt="" src="../images/BAI-2.png" /></p>
-<h4 id="create-and-configure-goals">Create and configure goals<a class="headerlink" href="#create-and-configure-goals" title="Permanent link">&para;</a></h4>
+<p><img alt="wf-studio-automations" src="../images/wf-studio-automations.png" /></p>
+<ol>
+<li>Click on <strong>Workflow</strong>.</li>
+</ol>
+<p><img alt="wf-workflow-option" src="../images/wf-workflow-option.png" /></p>
 <ol>
 <li>
-<p>Open <strong>Business Perfomance Center</strong></p>
+<p>Click on the <strong>Import</strong> button.</p>
 </li>
 <li>
-<p>Click on the <strong>Goals</strong> tab</p>
+<p>Click on <strong>Browse</strong> and select the twx file downloaded in Step 1. </p>
+</li>
+<li>
+<p>Click on OK.</p>
+</li>
+<li>
+<p>Once the import completes, click on tile for the <strong>Client Onboarding</strong> Workflow project (Don't click on the open button but just the tile).</p>
+</li>
+<li>
+<p>Click on the 3-dot menu next to the Open button on the right and select <strong>Open in Process Designer</strong></p>
 </li>
 </ol>
-<p><img alt="" src="../images/BAI-goals.png" /></p>
-<ol>
-<li>Click <strong>Create</strong></li>
-</ol>
-<p><img alt="" src="../images/BAI-create-goal.png" /></p>
+<p><img alt="wf-open-in-pd" src="../images/wf-open-in-pd.png" /></p>
+<p>Note: The version numbers and dates in the screenshots maybe different from what you see in your system</p>
 <ol>
 <li>
-<p>For Name enter <strong>Focus Corp's top Client Onboarding KPI Completed</strong></p>
+<p>In Process Designer, click on the <strong>Environment Variables</strong> tab.</p>
 </li>
 <li>
-<p>For Description enter <strong>Focus on the three top KPI identified by senior management team</strong></p>
+<p>Fill out credentials for a gmail account in the <strong>emailID</strong> and <strong>emailPassword</strong> fields under the <strong>Default</strong> column. Note that the password here must be an <a href="https://support.google.com/accounts/answer/185833?hl=en">App Password</a> and not your gmail password. </p>
+<p><img alt="wf-env-variables" src="../images/wf-env-variables.png" /></p>
 </li>
 <li>
-<p>For Priority select <strong>High</strong></p>
+<p>If you are showcasing ADP as a part of the scenario, enter the ADP host, username, password, and projectID in their respective fields. If you are not, set <strong>adpEnabled</strong> to false.</p>
 </li>
 <li>
-<p>Click Goal color to <strong>Purple</strong></p>
+<p>For the <strong>documentUploadPage</strong> environment variable, enter the URL for the navigator admin and replace the <code>admin</code> at the end with <code>CODocumentUpload</code>. You will add this desktop to the navigator in a later step.</p>
 </li>
 <li>
-<p>Your Goal definition should look exactly like this:</p>
-</li>
-</ol>
-<p><img alt="" src="../images/BAI-goal-definition.png" /></p>
-<ol>
-<li>
-<p>Click <strong>Save</strong></p>
+<p>The RPA bot is currently only executed if the user running the scenario matches the <strong>rpaBotExecutionUser</strong>. You can change this by updating the value of the <strong>rpaBotExecutionUser</strong> environment variable.</p>
 </li>
 <li>
-<p>Click on the <strong>Dashboards</strong> tab</p>
+<p>If you are executing the RPA bot, update the value for the <strong>rpaServer</strong> environment variable from the environment you reserved using the previous step.</p>
 </li>
 <li>
-<p>Open the <strong>Client Onboarding Completed</strong> dashboard</p>
+<p>The default target object store name is <strong>BAWTOS</strong>. If you have changed this, update the value for the <strong>tosName</strong> environment variable. Demo environments have the default target object store name of <strong>TARGET</strong>.</p>
 </li>
 <li>
-<p>For the <strong>Average Revenue from Services Fees for Approved Clients</strong> visualization, click on the <strong>Edit</strong> icon.</p>
-<p><img alt="" src="../images/BAI-add-goal-to-viz.png" /></p>
+<p>In the top-right corner, click on the <strong>Finish Editing</strong> button.</p>
+<p><img alt="wf-finish-editing" src="../images/wf-finish-editing.png" /></p>
 </li>
 <li>
-<p>For the <strong>Business goal</strong> field, select <strong>Focus Corp's top Client Onboarding KPI</strong> from the drop-down list</p>
-<p><img alt="" src="../images/BAI-select-goal.png" /></p>
+<p>In the top-left corner, click on <strong>Business automations</strong> to go back to the BA Studio.</p>
+<p><img alt="wf-back-to-studio" src="../images/wf-back-to-studio.png" /></p>
 </li>
 <li>
-<p>Click <strong>Done</strong></p>
+<p>Click on <strong>Open</strong> for the <strong>Client Onboarding</strong> Workflow automation project to open it in the Case Builder.</p>
+<p><img alt="wf-co-open" src="../images/wf-co-open.png" /></p>
 </li>
 <li>
-<p>Repeat steps 11-14 to add the same goal to the <strong>Highest Service Fee by Industry Sector</strong> visualization</p>
-<p><img alt="" src="../images/BAI-goal-completed.png" /></p>
+<p>In the top-right corner, click on the <strong>Deploy</strong> button. The deployment will take a few seconds. Wait until there is a green checkmark next to the button.</p>
+<p><img alt="wf-deploy-solution" src="../images/wf-deploy-solution.png" /></p>
+</li>
+<li>
+<p>In the top-left corner, click on <strong>Automations</strong> to go back to the BA Studio.</p>
+<p><img alt="wf-case-builder-automations" src="../images/wf-case-builder-automations.png" /></p>
+</li>
+<li>
+<p>Click on the tile for the <strong>Client Onboarding</strong> Workflow automation project.</p>
+</li>
+<li>
+<p>Click on the 3-dot menu for latest version of the project and click on <strong>Publish</strong>.</p>
+<p><img alt="wf-publish" src="../images/wf-publish.png" /></p>
+</li>
+<li>
+<p>Close the dialog that shows that the automation services were published successfully.</p>
+</li>
+<li>
+<p>In the top-left corner, click on the menu icon and go to <strong>Design</strong> &rarr; <strong>Business automations</strong>.</p>
+</li>
+<li>
+<p>Click on <strong>Create</strong> &rarr; <strong>External</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Business Automation Workflow</strong> under <strong>Select the connection type</strong>.</p>
+</li>
+<li>
+<p>Click on <strong>Next</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Connection name</strong> field, enter <strong>External BAW System</strong>.</p>
+</li>
+<li>
+<p>In the <strong>System URL</strong> field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the <code>/ProcessAdmin</code> or <code>/ProcessPortal</code> suffix from the URL)</p>
+</li>
+<li>
+<p>Enter the admin credentials and click <strong>Next</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Select a process application</strong> dropdown, select <strong>Client Onboarding</strong>.</p>
+</li>
+<li>
+<p>Select the checkbox for <strong>New Client Onboarding Request</strong>.</p>
+<p><img alt="studio-external-aut-service" src="../images/studio-external-aut-service.png" /></p>
+</li>
+<li>
+<p>Click on <strong>Next</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Name</strong> field, enter <strong>Client_Onboarding_Workflows_External</strong>.</p>
+</li>
+<li>
+<p>Click on <strong>Publish</strong>.</p>
 </li>
 </ol>
 <h3 id="prepare-a-shared-environment-for-labs">Prepare a shared environment for labs<a class="headerlink" href="#prepare-a-shared-environment-for-labs" title="Permanent link">&para;</a></h3>
 <ol>
+<li>In BA Studio, within Business Automations &rarr; Workflow, click on <strong>Toolkits</strong>.</li>
+</ol>
+<p><img alt="wf-toolkits" src="../images/wf-toolkits.png" /></p>
+<ol>
 <li>
-<p>Open <strong>Business Performance Center</strong></p>
+<p>Click on the tile for the <strong>Client Onboarding Toolkit</strong> toolkit.</p>
 </li>
 <li>
-<p>On <strong>Client Onboarding Completed</strong> dashboard select the <strong>3-dot menu</strong> and click <strong>Share with everyone</strong>.</p>
+<p>Click on the <strong>Collaborators</strong> tab.</p>
+</li>
+<li>
+<p>Click on the <strong>Add</strong> button.</p>
 </li>
 </ol>
-<p><img alt="" src="../images/BAI-3.png" /></p>
-<h3 id="with-that-you-have-successfully-setup-your-environment-with-the-client-onboarding-scenario">With that, you have successfully setup your environment with the Client Onboarding scenario.<a class="headerlink" href="#with-that-you-have-successfully-setup-your-environment-with-the-client-onboarding-scenario" title="Permanent link">&para;</a></h3>
+<p><img alt="wf-add-group" src="../images/wf-add-group.png" /></p>
+<ol>
+<li>
+<p>Select the <strong>Group</strong> radio button.</p>
+</li>
+<li>
+<p>Search for the group that contains your shared users (eg: cp4bausers) and select the checkbox for the result.</p>
+</li>
+</ol>
+<p><img alt="wf-add-cp4bausers" src="../images/wf-add-cp4bausers.png" /></p>
+<ol>
+<li>Click on the <strong>Add</strong> button to close the dialog.</li>
+</ol>
+<p>Once you have imported the Workflow solution, <a href="../Step%206%20-%20Content%20Manager/">import the required objects in Filenet Content Manager</a>.</p>
 
               
             </article>

@@ -10,14 +10,14 @@
         <meta name="author" content="Gerry Baird, Thomas Yang">
       
       
-        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/course_materials/Step%204%20-%20RPA%20Server/">
+        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/course-materials/Step%202%20-%20ADS%20Project/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
     
     
       
-        <title>Step 4 - Setup the RPA Server - SKO Tech Academy - Business Automation</title>
+        <title>Step 2 - Import the ADS Project - SKO Tech Academy - Business Automation</title>
       
     
     
@@ -62,9 +62,9 @@
 
   <!-- Open graph meta tags -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="SKO Tech Academy - Business Automation - Step 4 - Setup the RPA Server" />
+  <meta property="og:title" content="SKO Tech Academy - Business Automation - Step 2 - Import the ADS Project" />
   <meta property="og:description" content="None" />
-  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/course_materials/Step%204%20-%20RPA%20Server/" />
+  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/course-materials/Step%202%20-%20ADS%20Project/" />
   <meta property="og:image" content="https://thomasyang44.github.io/sko-tech-academy/assets/images/banner.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1080" />
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#step-4-setup-the-rpa-server" class="md-skip">
+        <a href="#step-2-import-the-ads-project" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Step 4 - Setup the RPA Server
+              Step 2 - Import the ADS Project
             
           </span>
         </div>
@@ -389,7 +389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../learning_plan/learning_plan/" class="md-nav__link">
+      <a href="../../learning-plan/learning-plan/" class="md-nav__link">
         Learning Plan including prework
       </a>
     </li>
@@ -403,7 +403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../course_materials/" class="md-nav__link">
+      <a href="../course-materials/" class="md-nav__link">
         Course Materials
       </a>
     </li>
@@ -431,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../site_info/site_info/" class="md-nav__link">
+      <a href="../../site-info/site-info/" class="md-nav__link">
         Site Info
       </a>
     </li>
@@ -821,35 +821,130 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/thomasyang44/sko-tech-academy/edit/master/docs/course_materials/Step 4 - RPA Server.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/thomasyang44/sko-tech-academy/edit/master/docs/course-materials/Step 2 - ADS Project.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="step-4-setup-the-rpa-server">Step 4 - Setup the RPA Server<a class="headerlink" href="#step-4-setup-the-rpa-server" title="Permanent link">&para;</a></h1>
-<p><strong>Note:</strong> You only need to perform these steps if you want to demo the RPA execution. You can choose to skip the execution of the RPA bot when you import the Workflow solution.</p>
+<h1 id="step-2-import-the-ads-project">Step 2 - Import the ADS Project<a class="headerlink" href="#step-2-import-the-ads-project" title="Permanent link">&para;</a></h1>
 <ol>
-<li>Reserve an environment from <a href="https://techzone.ibm.com/collection/cloud-pak-for-business-automation-cp-4-ba-onboarding-rpa">here</a> using your IBMID.
-   <img alt="image-2021gitconnect" src="../images/RPA-LandingPage.png" /></li>
-<li>Click <strong>Environments</strong> on the left panel, and then click <strong>computer icon</strong>.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-Environments.png" /></li>
-<li>Click <strong>Reserve for now</strong>, then click <strong>Submit</strong>.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-ReserveNow.png" /></li>
-<li>On the reservation page, make the appropriate selections as below. Once done, click <strong>Submit</strong>.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-ReservationDetails.png" /></li>
-<li>Once you have reserved an environment, you will receive an email with a link to access the management console for the environment including a password (<strong>Desktop Access Information</strong>). It also contains a <strong>URL to access the IBM RPA Rest Service remotely (Application Service Information)</strong>, please copy the Application Service Information URL and change <strong>HTTP</strong> to <strong>HTTPS</strong>. This will be used in the Workflow solution.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-ReservationEmail.png" /></li>
-<li>Click the <strong>Desktop Access link</strong> above to open your environment. When you are prompted to enter environment password, enter the desktop password above. Wait a few minutes, your environment will be started as below.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-EnvironmentConsole.png" /></li>
-<li>Click <strong>VM 5 – RPA</strong> to open the RPA client environment.  </li>
-<li>Start Firefox, click <strong>IBM RPA license</strong> from the bookmark toolbar to open IBM RPA license manager.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-StartLicenseManager.png" /></li>
-<li>You will see the message <strong>Not Licensed</strong>. Click <strong>Activate</strong> button to open the License Activation window.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-InActiveLicense.png" /></li>
-<li>Enter your RPA <strong>license ID</strong> and <strong>Password</strong>, then click the <strong>Activate</strong> button. Once after the license is activated, you should be able to see the number of licenses available for each component.<br />
-<img alt="image-2021gitconnect" src="../images/RPA-ActivateLicense.png" /></li>
+<li>
+<p>Download <a href="../Solution%20Exports/Automation%20Decision%20Services/ClientOnboardingDecisions.zip">ClientOnboardingDecisions.zip</a></p>
+</li>
+<li>
+<p>Create an empty GIT repo and get its URL and API Key</p>
+</li>
+<li>
+<p>Open IBM Business Automation Studio</p>
+</li>
+<li>
+<p>Click to the menu in the upper-left corner and go to <code>Design</code> &rarr; <code>Business Automations</code></p>
+</li>
+<li>
+<p>Click on <code>Create</code> &rarr; <code>Decision Automations</code></p>
+</li>
+<li>
+<p>Provide <code>Client Onboarding</code> as the project name and click <code>Create</code></p>
+</li>
+<li>
+<p>Once the editor loads, click on <code>Import</code> and import the previously downloaded file ClientOnboardingDecisions.zip into the project<img alt="ads-import" src="../images/ads-import.png" /></p>
+</li>
+<li>
+<p>Click on <code>Connect to Github</code> icon</p>
+<p><img alt="image-2021gitconnect" src="../images/ads-git-connect.png" /></p>
+</li>
+<li>
+<p>Enter the references of the GIT repo previously created</p>
+</li>
+<li>
+<p>Click on <code>Connect</code> in the top-right corner</p>
+</li>
+<li>
+<p>Go to the <code>Machine learning providers</code> tab</p>
+</li>
+<li>
+<p>Click on <code>New</code> in the top-right corner</p>
+</li>
+<li>
+<p>In the dialog, select <code>Open Prediction Service</code> as the <code>Type</code></p>
+</li>
+<li>
+<p>Enter <code>OPS</code> as the name</p>
+</li>
+<li>
+<p>Use the ADS ML Service (Open Prediction Service) URL in the <code>URL</code> field
+    <strong>Note:</strong> This is the same URL you used for importing the predictive model without the <code>/docs</code> suffix at the end.</p>
+</li>
+<li>
+<p>Click on <code>Test Connection</code><img alt="image-2021provider" src="../images/ads-add-provider.png" /></p>
+</li>
+<li>
+<p>Click on <code>Save</code></p>
+</li>
+<li>
+<p>Go back to the <code>Client Onboarding</code> project<img alt="image-2021connect" src="../images/ads-co-project.png" /></p>
+</li>
+<li>
+<p>Open <code>Client Onboarding Decisions</code></p>
+</li>
+<li>
+<p>Click on <code>Machine learning scoreboard</code></p>
+</li>
+<li>
+<p>Click on <code>Connect</code> and select <code>OPS</code> as the machine learning provider</p>
+</li>
+<li>
+<p>Expand the <code>service-payment-default-risk</code> ML model and select the <code>service-payment-default-risk</code> deployment <img alt="image-2021connect" src="../images/ads-connect-ml.png" /></p>
+</li>
+<li>
+<p>Click <code>Next</code> twice to <code>Test invocation</code></p>
+</li>
+<li>
+<p>Test the decision by entering the following values:</p>
+<ul>
+<li>clientAnnualRevenue: 15708854</li>
+<li>clientExistenceDuration: 12</li>
+<li>clientEmployeeNumber: 3</li>
+<li>clientIndustry: 0</li>
+</ul>
+</li>
+<li>
+<p>Click on <code>Run</code></p>
+</li>
+<li>
+<p>Verify that the output matches the following:</p>
+<p><code>{
+    "result": {
+        "predictions": 1,
+        "scores": [
+            0.014675209287711932,
+            0.9853247907122881
+        ]
+    }
+}</code></p>
+</li>
 </ol>
-<p>Once you have setup the RPA server, <a href="../Step%205%20-%20Workflow%20Solution/">import the Workflow solution</a>.</p>
+<p><img alt="image-2021execute" src="../images/ads-ml-execute.png" /></p>
+<ol>
+<li>Click on <code>Next</code></li>
+<li>Click on <code>Generate from test output</code> then click <code>OK</code>. Verify that <code>predictions</code> and <code>scores</code> are added to the output schema.</li>
+<li>Click on <code>Apply</code> in the upper-right corner</li>
+<li>Under <code>Share changes</code> at the top, click on the number of changes<img alt="image-2021deploy" src="../images/ads-share-changes.png" /></li>
+<li>Click on <code>Share</code> and then <code>Share</code> again in the popup</li>
+<li>In the <code>View history</code> tab, click on <code>Version +</code> and create a new version named <code>v21</code></li>
+<li>
+<p>In the <code>Deploy</code> tab, expand <code>v21</code>, click on <code>Deploy</code> and wait for deployment to complete<img alt="image-2021deploy" src="../images/ads-deploy.png" /></p>
+</li>
+<li>
+<p>Back in the studio, go to <code>Design</code> &rarr; <code>Business Automations</code> &rarr;<code>Decisions</code> and click on the <code>Client Onboarding</code> Decision project</p>
+</li>
+<li>
+<p>Select the three-dot menu for <code>v21</code> and click on <code>Publish</code> and then click on <code>Publish</code> again to make the automation service available without restricting access.</p>
+</li>
+</ol>
+<p>Next, if you need the Capture part of the scenario, <a href="../Step%203%20-%20ADP%20Project/">configure the ADP Project</a>.
+If you need don't need Capture but need RPA, you can <a href="../Step%204%20-%20RPA%20Server/">setup the RPA server</a>.
+If you don't need the Capture or RPA part, you can go directly to <a href="../Step%205%20-%20Workflow%20Solution/">importing the Workflow solution</a>.</p>
 
               
             </article>

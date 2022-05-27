@@ -7,11 +7,13 @@ You can see the end-to-end in action in this video:
 <a href="http://ibm.biz/cp4ba-overview-video" target="_blank">![Client Onboarding Walkthrough Video](./images/ClientOnboardingUseCase-WalkthroughVideo.png){ width="400"}</a>
 
 The instruction to demonstrate the end-to-end scenario can be found here:
-==thomas1  
+==ibm1  
 ![ibm](./images/-ibm.png)  
-==thomas2  
-![ibm](images/ads-add-provider.png)  
-==thomas3  
+==ibm2  
+![ibm2](./images/-ibm2.png)  
+==ibm3  
+![ibm3](./images/ads-add-provider.png)  
+ 
 
 
 
