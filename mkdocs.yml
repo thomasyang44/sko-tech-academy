@@ -72,7 +72,7 @@ nav:
       - Cluster Build: deploy/cluster.md
       - Operators: deploy/operators.md
       - Services: deploy/services.md
-      - Monitor / Credentials: deploy/monitor-credentials.md
+      - Monitor / Credentials: deploy/monitor.md
   - Client Onboarding:
     - Overview: index-tbd.md
     - Setup: https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md
