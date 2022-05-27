@@ -79,7 +79,7 @@ nav:
     - Labs: https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md
   - FAQ:
     - Overview: index_faq.md
-  - Use Cases:
+  - Additional Use Cases:
     - Accounts Payable: use-cases/accounts-pay/index.md
     - HR Onboarding App: use-cases/hr-onboard-app/index.md
     - Refund Request: use-cases/refund-req/index.md

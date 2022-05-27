@@ -1,1 +1,0 @@
-# sko-tech-academy
