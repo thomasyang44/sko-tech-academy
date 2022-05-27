@@ -28,27 +28,28 @@ This use case demonstrates the use of automation in the form of straight-through
     **Demo Video**
     In this demo, you will learn how to handle spikes in demand with straight-through processing through business automation.  Note, this video uses an older version of the use case than the current Getting Started Lab.
 
-    [![Refund Request Video](./images/refundRequestThumbnail.png)](https://ibm.biz/cp4ba-refund-request-video)
+    <a href="https://ibm.biz/cp4ba-refund-request-video" target="_blank"><img src="./images/refundRequestThumbnail.png"/></a>
 
-    **Demo Outline**
+    ??? note summary "Demo Outline"
+        **Demo Outline**
 
-    [Full Demo Narration](#full-use-case-video-narration)
+        [Full Demo Narration](#full-use-case-video-narration)
 
-    1. Use Case Overview
-    2. [Customer] Submit some refunds
-    3. [Refund Investigator] Complete the investigation task
-    4. [Business Analyst] Review the week 1 Operations Dashboard
-    5. [Rule Manager] Improve the business rules
-    6. [Customer] Test the new business rules
-    7. [Business Analyst] Review the week 2 Operations Dashboard
-    8. Use case review and value of straight-through processing
+        1. Use Case Overview
+        2. [Customer] Submit some refunds
+        3. [Refund Investigator] Complete the investigation task
+        4. [Business Analyst] Review the week 1 Operations Dashboard
+        5. [Rule Manager] Improve the business rules
+        6. [Customer] Test the new business rules
+        7. [Business Analyst] Review the week 2 Operations Dashboard
+        8. Use case review and value of straight-through processing
 
     ??? note summary "Discovery Map"
         ![Refund Request - Discovery Map](./images/refundRequest-discoveryMap.png)
-    
+
     ??? note summary "Process Map"
         ![Refund Request - Process Map](./images/refundRequest-diagram.png)
-    
+
     [Go to top](#lab-section-1) | [Go to Getting Started Lab](#getting-started-lab)
 
 ## 2. Login and Setup Your Environment
@@ -56,11 +57,11 @@ This use case demonstrates the use of automation in the form of straight-through
 ??? note summary "Expand to view"
 
     **Select an option for your environment**
-    
+
     ??? note summary "Option 2A - Using a Cloud Pak for Business Automation as a Service environment (likely an IBMer or Business Partner) ?"
-    
+
         <a name="lab-section-2a"></a>
-        
+
         IBM maintains multiple SaaS tenants that can be reserved and accessed by both IBMers and Business Partners.
 
         Please login to IBM Technology Zone and navigate to <a href="https://techzone.ibm.com/collection/5fdfcf8b99cf35001ee4954d" target="_blank">here</a> to reserve an environment.
@@ -70,7 +71,7 @@ This use case demonstrates the use of automation in the form of straight-through
         &nbsp; &nbsp; &nbsp; • &nbsp; Demo Users, once your account administrator completes the below setup and provides you access, please continue.  
         &nbsp; &nbsp; &nbsp; • &nbsp; Administrator Users, please reference the <a href="https://techzone.ibm.com/collection/business-automation-saas#tab-2" target="_blank">Administration Guide</a> (IBM only) for any additional setup information including onboarding users.  
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; > Note: Navigate to the **Demo tenants** tab after login.
-            
+
         2\. Login to your Cloud Pak for Business Automation as a Service demo environment <a href="http://automationcloud.ibm.com" target="_blank">here</a> to access your portal.
 
         3\. Open the menu in the upper left.
@@ -90,7 +91,7 @@ This use case demonstrates the use of automation in the form of straight-through
         8\. When ready, click the **Refund Request** tile to launch the use case.
 
         You have the following options to navigate the Refund Request use case:
-        
+
         * **Option 1: Technical deep dive**: the default interface is configured for experienced users who explore using the launchpad that provides easy access to the product interfaces for each part of the use case. If you chose **Technical deep dive**, continue to [the next section](#lab-section-3).
 
         * **Option 2: Guided or Live Walkthrough**: you may wish to have the application provide you with a single page view of the use case across multiple steps so you do not have to go to multiple interfaces.
@@ -135,7 +136,7 @@ This use case demonstrates the use of automation in the form of straight-through
 ??? note summary "Expand to view"
 
     **Be your customer!**
-    
+
     You are now a customer that just purchased a product, but unfortunately you are unsatisfied and request a refund.  What do you experience?
     As a customer, you want quick answers to your refund requests, especially when there are no special circumstances that should cause a delay.  Straight through processing would be ideal for you.
 
@@ -223,7 +224,7 @@ This use case demonstrates the use of automation in the form of straight-through
     ### Process Portal
 
     ![13](./images/Slide15.png)
-     
+
     4\. Review the list of tasks and click on the most recent Investigation task to claim it
 
     5\. Complete the task by approving or denying the refund
@@ -255,9 +256,9 @@ This use case demonstrates the use of automation in the form of straight-through
     &nbsp; &nbsp;&nbsp; &nbsp; a\. A large number of manual requests in the pie chart
 
     &nbsp; &nbsp;&nbsp; &nbsp; b\. The high time for average manual investigation processing (~120 minutes)
-    
+
     ![13](./images/Slide18.png)
-     
+
     [Go to top](#lab-section-5) | [Go to Getting Started Lab](#getting-started-lab)
 
 ## 6. Improve the business rules
@@ -281,7 +282,7 @@ This use case demonstrates the use of automation in the form of straight-through
     6\. On the left pane, scroll to the bottom and click to open the **Validate Time Window** logic
 
     ![13](./images/Slide20.png)
-     
+
     7\. Review the decision table and note multiple rows that lead to manual review.
 
     ![13](./images/Slide21.png)
@@ -363,7 +364,7 @@ This use case demonstrates the use of automation in the form of straight-through
 # Full Use Case Video Narration
 <a name="video-narration"></a>
 ??? note summary "Expand to view"
-    
+
     The below uses an older version of the use case than the current [Getting Started Lab](#getting-started-lab).
 
     **Focus Corp Demos Dashboard**

@@ -8,7 +8,7 @@
 
 **Choose an option:**
 
-  * **Digital Business Automation on Cloud trial:** your environment is predeployed, continue to the [Getting Start Lab](#getting-started-lab) section below.
+  * **Cloud Pak for Business Automation as a Service demo environment (predeployed for IBMers only):** continue to the [Getting Started Lab](#getting-started-lab) section below.
   * **Install Yourself:** To deploy Accounts Payable on your own environment, and technical architecture information, see the <a href="https://github.com/ibm-cloud-architecture/dba-accounts-payable.git" target="_blank">dba-accounts-payable</a> git repository which includes the required deployment artifacts.
 
  ![10](./images/Slide2.png)
@@ -20,13 +20,13 @@
 **Are you ready to see flexible business decisions in action?**
 
 ## 1. Scenario Introduction - Accounts Payable
-
+<a name="lab-section-1"></a>
 ??? note summary "Expand to view"
     **Demo Video**
 
     In this demo, you will learn how to adapt business policies to changing conditions with business rules
-    
-    [![Accounts Payable](./images/accountsPayableThumbnail.png)](http://ibm.biz/cp4ba-accounts-payable-video)
+
+    <a href="http://ibm.biz/cp4ba-accounts-payable-video" target="_blank"><img src="./images/accountsPayableThumbnail.png"/></a>
 
     ??? note summary "Demo Outline"
         **Demo Outline**
@@ -59,97 +59,84 @@
     ??? note summary "Discovery Map"
         ![Accounts Payable - Discovery Map](./images/accountsPayableInvoiceValidation_map.png)
 
-    [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
+    [Go to top](#lab-section-1) | [Go to Getting Start Lab](#getting-started-lab)
 
-## 2. Login to Your Digital Business Automation on Cloud Trial
+## 2. Login and Setup Your Environment
+<a name="lab-section-2"></a>
 ??? note summary "Expand to view"
 
-    Login to your Digital Business Automation on Cloud trial <a href="http://automationcloud.ibm.com" target="_blank">here</a> to access your portal.
-    <br/>
-    Don't have a trial yet? <a href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-45706" target="_blank">Sign up</a> to get started or see the <a href="https://github.com/ibm-cloud-architecture/dba-accounts-payable.git" target="_blank">dba-accounts-payable</a> git repository to deploy on your own platform.
+    **Select an option for your environment**
 
-    ![10](./images/Slide3.png)
+    ??? note summary "Option 2A - Using a Cloud Pak for Business Automation as a Service environment (predeployed for IBMers only) ?"
 
-    [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
+        <a name="lab-section-2a"></a>
 
-## 3. Setup Your Trial SaaS Environment
-??? note summary "Expand to view"
+        IBM maintains multiple internal SaaS tenants for IBMers only.
 
-    First time in your trial environment?  Here are some recommended setup steps to get the best experience!
+        Please login to IBM Technology Zone and navigate to <a href="https://techzone.ibm.com/collection/5fdfcf8b99cf35001ee4954d" target="_blank">here</a> to learn about these **demo environments** via the **User Guide**.
 
-    **IMPORTANT - Assign Your Roles**
+        1\. Once you have access to an environment, please continue here:  
+        &nbsp; &nbsp; &nbsp; • &nbsp; Enablement Users, this demo is not available on enablement tenants at this time.  
+        &nbsp; &nbsp; &nbsp; • &nbsp; Demo Users, once your account administrator completes the below setup and provides you access, please continue.  
+        &nbsp; &nbsp; &nbsp; • &nbsp; Administrator Users, please reference the <a href="https://techzone.ibm.com/collection/business-automation-saas#tab-2" target="_blank">Administration Guide</a> (IBM only) for any additional setup information including onboarding users.  
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; > Note: Navigate to the **Demo tenants** tab after login.
 
-    You will need to make sure you have the correct roles to use the environment.
+        2\. Login to your Cloud Pak for Business Automation as a Service demo environment <a href="http://automationcloud.ibm.com" target="_blank">here</a> to access your portal.
 
-    1. Open the menu in the upper left.
-    1. Under **Administer subscriptions**, click **Access management**.
-    1. Locate or search for your user and ensure all environments (Development and so on) are activated.
-    1. Click the pencil icon on the right side of your user row and ensure at least the required roles are selected.
-    1. Optionally add all adinistrator roles as appropriate.
+        3\. Open the menu in the upper left.
 
-    <Row>
-    <Column colLg={4} colMd={4}>
+        4\. Select **Production** and then **Run**.
 
-    **Required Roles**
+        5\. Click the **Process Portal** tile
 
-    ![2](./images/required-roles.png)
-    </Column>
-    <Column colLg={4} colMd={4}>
+        6\. Wait for the portal to load in a new browser window/tab
 
-    **All Administrator Roles**
+         ![11](./images/Slide4.png)
 
-    ![2](./images/all-admin-roles.png)
+        7\. On the left menu, under the **Dashboards**, click **Show more/less…**
 
-    </Column>
-    </Row>
+        8\. Click **Focus Corp Demos Dashboard**
 
-    **Setup Decision Center Business Console Servers**
+        9\. Wait for the dashboard to load on the right
 
-    You may need to setup new servers in the Decision Center Administation console to deploy and execute decisions.  For more information, please see <a href="https://www.ibm.com/support/pages/node/6410818" target="_blank">this page</a>.
+        ![12](./images/Slide5.png)
 
-    **Setup your Process Portal**
+        10\. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.
 
-    It is recommended to make the Focus Corp Demo Dashboard your default dashboard.
+        ![13](./images/Slide6.png)
 
-    1. Log in to your **Process Portal** environment.
-    1. Under Dashboards click **Show more...** and click the icon next to **Focus Corp Demo Dashboard** and click the star icon.
-    1. Drag the right-side handle of that dashboard row to the top so this will load when you start Process Portal.
+        11\. When ready, click the green **Accounts Payable** button to launch the use case.
 
-    **Personalize your Process Portal**
+        [Go to top (Option 2a)](#lab-section-2a) | [Go to Getting Start Lab](#getting-started-lab)
 
-    * Click the **Edit Profile** link in the upper left
-    * Add a picture
-    * Set notification settings as desired
+    ??? note summary "Option 2B - Are You Using Your Own Environment (not a SaaS demo) ?"
+        <a name="lab-section-2b"></a>
 
-    [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
+        1\. Standard Users, once your account administrator completes the below setup and provides you access, please continue.
 
-## 4. Open the Focus Corp Demo Dashboard
-??? note summary "Expand to view"
+        2\. Administrator Users, expand the following section to access additional information to setup access for yourself and others in your environment:
 
-    1. Open the menu in the upper left
-    1. Select **Production** and then **Run**
-    1. Click the **Process Portal** tile
-    1. Wait for the portal to load in a new browser window/tab
+        ??? note summary "Additional Administrator Setup For Your Own Environment"
 
-     ![11](./images/Slide4.png)
+            See the <a href="https://github.com/ibm-cloud-architecture/dba-accounts-payable.git" target="_blank">dba-accounts-payable</a> git repository to deploy on your own platform.
 
-    5\. On the left menu, under the **Dashboards**, click **Show more/less…**
-    
-    6\. Click **Focus Corp Demos Dashboard**
-    
-    7\. Wait for the dashboard to load on the right
+        > Standard Users, continue here...
 
-    ![12](./images/Slide5.png)
+        3\. Ask your administrator for the Process Portal URL and your login credentials
 
-    8\. Start by reviewing the available demos, they all represent an entry point to business automation so you can easily get started.
+        4\. Wait for the desktop to load in a new browser window/tab (it can take some time) and log in
 
-    ![13](./images/Slide6.png)
+         ![13](./images/Slide4.png)
 
-    9\. When ready, click the green **Accounts Payable** button to launch the demo.
+        5\. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.
 
-    [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
+        6\. When ready, click the **Accounts Payable** tile to launch the demo and continue to [the next section](#lab-section-3).
 
-## 5. Submit invoices and review rules
+        [Go to top (Option 2b)](#lab-section-2b) | [Go to Getting Started Lab](#getting-started-lab)
+
+    [Go to top](#lab-section-2) | [Go to Getting Started Lab](#getting-started-lab)
+
+## 3\. Submit invoices and review rules
 ??? note summary "Expand to view"
 
     #### Be your customer!
@@ -177,15 +164,15 @@
      ![13](./images/Slide11.png)
 
     4\. Click **Validate Invoice** to see the results, the invoice is rejected
-    
+
     5\. If you want, you can read the reason code and resubmit the invoice to fix the error
-  
+
     6\. Choose to **Submit Another Invoice**
 
     7\. Select the invoice ending in **105R**
-    
+
     8\. At the bottom, expand the **Demo Control Panel**
-  
+
     9\. Turn on the decision labels to see which data is used to make the decision
 
     10\. Submit the invoice and see that it is not rejected as expected which leads to rework in downstream business processes
@@ -194,15 +181,17 @@
 
     [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
 
-## 6 - Review the Operations Dashboard
+## 4\. Review the Operations Dashboard
 ??? note summary "Expand to view"
+
+    > NOTE: If your environment does not have Kibana dashboards, you may need to skip executing this section and just read it as Business Performance Center dasbboards are not available at this time.
 
     You are now a Focus Corp employee, first an Operations Specialist and later a Rule Manager.  Time to see how invoice validation works.
 
     1\. Navigate back to the Focus Corp Demos Dashboard browser window/tab
-    
+
     2\. Click on **Week 1** under the picture of the **Operations Specialist**
-  
+
     3\. Login to the **Insights Dashboard**
 
     > NOTE: If this is your FIRST TIME, your password may not work; go back to the SaaS portal, mouse over your name in the upper right and click Set Password.  Once complete, come back and login to the Open Distro for Elasticsearch / Kibana.
@@ -221,13 +210,13 @@
     [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
 
 
-## 7\. Review the business rules
+## 5\. Review the business rules
 ??? note summary "Expand to view"
 
     **Continuing as the Focus Corp Rule Manager, how can you adapt your rules to reduce rework and process invoices faster with less exceptions?**
-    
+
     Rule Managers can adjust rules, validate and simulate the decision service and deploy quickly and easily.
-    
+
     1. Navigate back to the Focus Corp Demos Dashboard browser window/tab
     1. Click the picture of the **Rule Manager**
     1. Click **Validate Invoice** followed by **main** to open the decision model
@@ -236,16 +225,16 @@
     ![13](./images/Slide15.png)
 
     5\. Click the blue **Validate PO against Supplier** decision node
-    
+
     6\. On the left pane, scroll to the bottom and click to open the **Validate PO against Supplier** logic
-    
+
     7\. Review the decision table and note there is no row addressing Inc. suppliers.
 
     ![13](./images/Slide16.png)
 
     [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
 
-## 8. Update and simulate the business rules
+## 6\. Update and simulate the business rules
 ??? note summary "Expand to view"
 
     1. At the upper left, click **Validate Invoice**
@@ -256,13 +245,13 @@
 
 
     4\. On the upper right, click the pencil to edit the decision model
-    
+
     5\. Open the same **Validate PO against Supplier** decision node and table
-    
+
     6\. Right click on the row number for row 3 and select **Insert row** -> **Below**
-    
+
     7\. Enter values in the new row 4 to look for **IN** when suppliers are **Inc** type as pictured
-    
+
     > NOTE: you can copy and paste cells as you would in a spreadsheet editor
 
     ![13](./images/Slide19.png)
@@ -272,21 +261,21 @@
     In the full lifecycle, a Rule Manager runs validations and test suites before deploying the rules, if you wish, explore by clicking Validate on the left side of the editor or selecting the Tests tab at the top to run the test suite provided.
 
     9\. Click the **Simulations** tab and **Simulations** sub tab
-    
+
     10\. Place the mouse over the **Accounts Payable Simulation** and click the run icon on the right
-    
+
     11\. After clicking **OK**, you will see the simulation running with a spinning status icon
-    
+
     12\. Once a checkmark appears, place the mouse over the report name and click the compare icon on the right
-    
+
     ![13](./images/Slide20.png)
 
     13\. Under **main**, select the simulation report that is furthest in the past
-    
+
     14\. Click **Compare**
 
     On the left are the results for the new rules and the right are the results for the original rules
-    
+
     15\. Compare and notice some important differences:
         1. (pie chart) more invoices were rejected (the new rule rejects a new incorrect pattern)
         1. (orange bar chart) higher value invoices are rejected more
@@ -295,7 +284,7 @@
 
     [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
 
-## 9. Deploy the business rules and see the results
+## 7\. Deploy the business rules and see the results
 ??? note summary "Expand to view"
 
     1. On the upper left, to the right of **Validate Invoice**, click the name of the branch you created
@@ -307,13 +296,13 @@
      ![13](./images/Slide22.png)
 
     6\. Navigate to the Customer’s browser window/tab or back to the **Focus Corp Demos Dashboard** browser window/tab and click on the picture of the **Customer**
-  
+
     7\. Select the same invoice that was accepted earlier, ending in **105R**
-    
+
     8\. At the bottom, expand the **Demo Control Panel** and activate the **Upgrade rules scenario**
-    
+
     9\. In the **Your ruleset version** field that appears, enter the version you deployed (such as **1.1**)
-    
+
     10\. Submit the invoice and confirm it is rejected with the reason code from your new rule table row
 
      ![13](./images/Slide23.png)
@@ -322,8 +311,10 @@
     [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
 
 
-## 10. Review latest operational performance
+## 8\. Review latest operational performance
 ??? note summary "Expand to view"
+
+    > NOTE: If your environment does not have Kibana dashboards, you may need to skip executing this section and just read it as Business Performance Center dasbboards are not available at this time.
 
     1. Navigate back to the **Focus Corp Demos Dashboard** browser window/tab
     2. Click on **Week 2** under the picture of the **Operations Specialist**
@@ -337,7 +328,7 @@
 
     [Go to top](#refund-request-automation) | [Go to Getting Start Lab](#getting-started-lab)
 
-## 11. Summary
+## 9\. Summary
 ??? note summary "Expand to view"
 
     We just used decision automation, a capability within IBM Cloud Pak for Automation, to automate an accounts payable process.  With growing volumes of invoices, business rule automation helps reduce the amount of human intervention for account processing, detect issues earlier, and incorporate changes quickly when needed.
@@ -347,7 +338,7 @@
 ***
 
 # Full Demo Narration
-
+<a name="video-narration"></a>
 ??? note summary "Expand to view"
     **Demo Narration and Flow**
 
@@ -390,5 +381,5 @@
     **Use Case Summary**
 
     We just used decision automation, a capability within IBM Cloud Pak for Automation, to automate an accounts payable process.  With growing volumes of invoices, business rule automation helps reduce the amount of human intervention for account processing, detect issues earlier, and incorporate changes quickly when needed.
-    
-    [Go to top](#introduction) | [Go to Getting Start Lab](#getting-started-lab)
+
+    [Go to top](#video-narration) | [Go to Getting Started Lab](#getting-started-lab) | [Go to Introduction](#introduction)
