@@ -1,6 +1,8 @@
 ## Instructions
 
-Below are the materials that you will need to import and build the client onboarding solution:  
+Below are the steps that you will need to import and build the client onboarding solution.  
+
+==TY/GB: Describe how teams should approach performing these steps in parallel.  Possibly steps: 1&2, 3, 4&5, 6==
 
 **Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
 
@@ -71,10 +73,12 @@ Below are the materials that you will need to import and build the client onboar
     6. Provide `Client Onboarding` as the project name and click `Create`
 
     7. Once the editor loads, click on `Import` and import the previously downloaded file ClientOnboardingDecisions.zip into the project  
-    ![ads-import](images/sko-ads-import.png)
+    <br>
+    ![ads-import](images/sko-ads-import.png){width="400"}
 
     8. Click on `Connect to Github` icon  
-    ![image-2021gitconnect](images/sko-ads-git-connect.png)
+    <br>
+    ![image-2021gitconnect](images/sko-ads-git-connect.png){width="400"}
 
     9. Enter the references of the GIT repo previously created
 
@@ -92,12 +96,14 @@ Below are the materials that you will need to import and build the client onboar
         **Note:** This is the same URL you used for importing the predictive model without the `/docs` suffix at the end.
 
     16. Click on `Test Connection`  
-    ![image-2021provider](images/sko-ads-add-provider.png)
+    <br>
+    ![image-2021provider](images/sko-ads-add-provider.png){width="400"}
 
     17. Click on `Save`
 
     18. Go back to the `Client Onboarding` project  
-    ![image-2021connect](images/sko-ads-co-project.png)
+    <br>
+    ![image-2021connect](images/sko-ads-co-project.png){width="400"}
 
     19. Open `Client Onboarding Decisions`
 
@@ -105,7 +111,9 @@ Below are the materials that you will need to import and build the client onboar
 
     21. Click on `Connect` and select `OPS` as the machine learning provider
 
-    22. Expand the `service-payment-default-risk` ML model and select the `service-payment-default-risk` deployment   ![image-2021connect](images/sko-ads-connect-ml.png)
+    22. Expand the `service-payment-default-risk` ML model and select the `service-payment-default-risk` deployment  
+    <br>
+    ![image-2021connect](images/sko-ads-connect-ml.png){width="800"}
 
     23. Click `Next` twice to `Test invocation`
 
@@ -119,21 +127,22 @@ Below are the materials that you will need to import and build the client onboar
     25. Click on `Run`
   
     26. Verify that the output matches the following:  
-    
-        ```
-        {
-            "result": {
-                "predictions": 1,
-                "scores": [
-                    0.014675209287711932,
-                    0.9853247907122881
-                ]
-            }
+    <br>
+    ```
+    {
+        "result": {
+            "predictions": 1,
+            "scores": [
+                0.014675209287711932,
+                0.9853247907122881
+            ]
         }
-        ```
-
-    ![image-2021execute](images/sko-ads-ml-execute.png)
-
+    }
+    ```
+    <br>
+    <br>
+    ![image-2021execute](images/sko-ads-ml-execute.png){width="800"}  
+    
     27. Click on `Next`
     
     28. Click on `Generate from test output` then click `OK`. Verify that `predictions` and `scores` are added to the output schema.
@@ -141,6 +150,7 @@ Below are the materials that you will need to import and build the client onboar
     29. Click on `Apply` in the upper-right corner
     
     30. Under `Share changes` at the top, click on the number of changes  
+    <br>
     ![image-2021deploy](images/sko-ads-share-changes.png)
     
     31. Click on `Share` and then `Share` again in the popup
@@ -148,7 +158,7 @@ Below are the materials that you will need to import and build the client onboar
     32. In the `View history` tab, click on `Version +` and create a new version named `v21`
     
     33. In the `Deploy` tab, expand `v21`, click on `Deploy` and wait for deployment to complete  
-    ![image-2021deploy](images/sko-ads-deploy.png)
+    ![image-2021deploy](images/sko-ads-deploy.png){width="800"}
 
     34. Back in the studio, go to `Design` --> `Business Automations` -->`Decisions` and click on the `Client Onboarding` Decision project   
 
@@ -456,11 +466,11 @@ Below are the materials that you will need to import and build the client onboar
 
         [Go to top of subsection](#deploy-integrate-61) | [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
 
+    ==**TY: Gerry - let's confirm whether this is needed**==  
+
     ### 6.2 Prepare shared environment
     <a name="deploy-integrate-62"></a>
     ??? note summary "Expand to view"
-        ==**TY: Gerry - let's confirm whether this is needed**==  
-
         You only need to do these steps if your environment will be used to perform the labs associated with Client Onboarding.
 
         1. Download the [application template twx file](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Template.twx).
