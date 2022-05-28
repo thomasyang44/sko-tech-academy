@@ -2,16 +2,15 @@
 
 Below are the materials that you will need to import and build the client onboarding solution:  
 
-**Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Predicition Service (OPS).
+**Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
 
 ## 1. Import the ADS ML Model
 <a name="deploy-integrate-1"></a>
 ??? note summary "Expand to view"
     1\. Open the ADS ML Service (Open Prediction Service) in your browser
 
-    2\. Under `manage`, expand the `POST /models Add Model` section
-
-       ![image-20210601220850676](./images/sko-ads-ml-service-add-model.png)
+    2\. Under `manage`, expand the `POST /models Add Model` section  
+    ![image-20210601220850676](./images/sko-ads-ml-service-add-model.png)
 
     3\. Click on `Try it out`
 
@@ -19,13 +18,11 @@ Below are the materials that you will need to import and build the client onboar
 
     5\. Click on `Execute`
 
-    6\. Copy the ID of the created model from the response body. It is usually `1`.
+    6\. Copy the ID of the created model from the response body. It is usually `1`.  
+    ![image-2021ID](images/sko-ads-ml-model-id.png){width="600"}  
 
-      ![image-2021ID](images/sko-ads-ml-model-id.png)
-
-    7\. Under `manage`, expand the `POST /models/{model_id} Add Binary` section
-
-       ![image-20210601221731687](images/sko-ads-ml-service-add-model-binary.png)
+    7\. Under `manage`, expand the `POST /models/{model_id} Add Binary` section  
+    ![image-20210601221731687](images/sko-ads-ml-service-add-model-binary.png)
 
     8\. Click on `Try it out`
 
@@ -33,9 +30,8 @@ Below are the materials that you will need to import and build the client onboar
 
     10\. In the request body, keep `pickle` selected as the `format`
 
-    11\. Download this [pickle file](Solution%20Exports/Automation%20Decision%20Services/ML/service-payment-default-risk-v0-archive.pkl) onto your computer and use it as as the selected file
-
-     ![image-2021Binary](images/sko-ads-ml-add-binary.png)
+    11\. Download this [pickle file](Solution%20Exports/Automation%20Decision%20Services/ML/service-payment-default-risk-v0-archive.pkl) onto your computer and use it as as the selected file  
+    ![image-2021Binary](images/sko-ads-ml-add-binary.png){width="600"}  
 
     12\. Click on `Execute`. The response code is 201. The model named `service-payment-default-risk` is succesfully deployed.
     The following instructions validate that this deployment can be safely executed.
@@ -54,8 +50,9 @@ Below are the materials that you will need to import and build the client onboar
 
      ![image-2021Check](images/sko-ads-ml-check.png)
 
-    Once you have imported the ADS ML Service, you will need to [Import the ADS Project in IBM Business Automation Studio](#deploy-integrate-2).
-
+    !!! success
+       ℹ️ &nbsp; You have successfully imported the ADS ML Service, please proceed to the next section
+         
     [Go to top of section](#deploy-integrate-1) | [Go to top of page](#instructions)
 
 ## 2. Import the ADS Project
@@ -73,11 +70,11 @@ Below are the materials that you will need to import and build the client onboar
 
     6. Provide `Client Onboarding` as the project name and click `Create`
 
-    7. Once the editor loads, click on `Import` and import the previously downloaded file ClientOnboardingDecisions.zip into the project![ads-import](images/sko-ads-import.png)
+    7. Once the editor loads, click on `Import` and import the previously downloaded file ClientOnboardingDecisions.zip into the project  
+    ![ads-import](images/sko-ads-import.png)
 
-    8. Click on `Connect to Github` icon
-
-        ![image-2021gitconnect](images/sko-ads-git-connect.png)
+    8. Click on `Connect to Github` icon  
+    ![image-2021gitconnect](images/sko-ads-git-connect.png)
 
     9. Enter the references of the GIT repo previously created
 
@@ -94,11 +91,13 @@ Below are the materials that you will need to import and build the client onboar
     15. Use the ADS ML Service (Open Prediction Service) URL in the `URL` field
         **Note:** This is the same URL you used for importing the predictive model without the `/docs` suffix at the end.
 
-    16. Click on `Test Connection`![image-2021provider](images/sko-ads-add-provider.png)
+    16. Click on `Test Connection`  
+    ![image-2021provider](images/sko-ads-add-provider.png)
 
     17. Click on `Save`
 
-    18. Go back to the `Client Onboarding` project![image-2021connect](images/sko-ads-co-project.png)
+    18. Go back to the `Client Onboarding` project  
+    ![image-2021connect](images/sko-ads-co-project.png)
 
     19. Open `Client Onboarding Decisions`
 
@@ -106,22 +105,21 @@ Below are the materials that you will need to import and build the client onboar
 
     21. Click on `Connect` and select `OPS` as the machine learning provider
 
-    22. Expand the `service-payment-default-risk` ML model and select the `service-payment-default-risk` deployment ![image-2021connect](images/sko-ads-connect-ml.png)
+    22. Expand the `service-payment-default-risk` ML model and select the `service-payment-default-risk` deployment   ![image-2021connect](images/sko-ads-connect-ml.png)
 
+    23. Click `Next` twice to `Test invocation`
 
-    20. Click `Next` twice to `Test invocation`
-
-    21. Test the decision by entering the following values:
+    24. Test the decision by entering the following values:
 
         - clientAnnualRevenue: 15708854
         - clientExistenceDuration: 12
         - clientEmployeeNumber: 3
         - clientIndustry: 0
-
-    22. Click on `Run`
-
-    23. Verify that the output matches the following:
-
+  
+    25. Click on `Run`
+  
+    26. Verify that the output matches the following:  
+    
         ```
         {
             "result": {
@@ -136,22 +134,29 @@ Below are the materials that you will need to import and build the client onboar
 
     ![image-2021execute](images/sko-ads-ml-execute.png)
 
-    24. Click on `Next`
-    25. Click on `Generate from test output` then click `OK`. Verify that `predictions` and `scores` are added to the output schema.
-    26. Click on `Apply` in the upper-right corner
-    27. Under `Share changes` at the top, click on the number of changes![image-2021deploy](images/sko-ads-share-changes.png)
-    28. Click on `Share` and then `Share` again in the popup
-    29. In the `View history` tab, click on `Version +` and create a new version named `v21`
-    30. In the `Deploy` tab, expand `v21`, click on `Deploy` and wait for deployment to complete![image-2021deploy](images/sko-ads-deploy.png)
+    27. Click on `Next`
+    
+    28. Click on `Generate from test output` then click `OK`. Verify that `predictions` and `scores` are added to the output schema.
+    
+    29. Click on `Apply` in the upper-right corner
+    
+    30. Under `Share changes` at the top, click on the number of changes  
+    ![image-2021deploy](images/sko-ads-share-changes.png)
+    
+    31. Click on `Share` and then `Share` again in the popup
+    
+    32. In the `View history` tab, click on `Version +` and create a new version named `v21`
+    
+    33. In the `Deploy` tab, expand `v21`, click on `Deploy` and wait for deployment to complete  
+    ![image-2021deploy](images/sko-ads-deploy.png)
 
-    30. Back in the studio, go to `Design` --> `Business Automations` -->`Decisions` and click on the `Client Onboarding` Decision project
+    34. Back in the studio, go to `Design` --> `Business Automations` -->`Decisions` and click on the `Client Onboarding` Decision project   
 
-    31. Select the three-dot menu for `v21` and click on `Publish` and then click on `Publish` again to make the automation service available without restricting access.
-
-    Next, if you need the Capture part of the scenario, [configure the ADP Project](Step%203%20-%20ADP%20Project.md).
-    If you need don't need Capture but need RPA, you can [setup the RPA server](Step%204%20-%20RPA%20Server.md).
-    If you don't need the Capture or RPA part, you can go directly to [importing the Workflow solution](Step%205%20-%20Workflow%20Solution.md).
-
+    35. Select the three-dot menu for `v21` and click on `Publish` and then click on `Publish` again to make the automation service available without restricting access.  
+  
+    !!! success
+        ℹ️ &nbsp; You have successfully imported the ADS project.
+        
     [Go to top of section](#deploy-integrate-2) | [Go to top of page](#instructions)
 
 ## 3. Setup the RPA Server (optional)
@@ -180,6 +185,9 @@ Below are the materials that you will need to import and build the client onboar
     10. Enter your RPA **license ID** and **Password**, then click the **Activate** button. Once after the license is activated, you should be able to see the number of licenses available for each component.  
           ![image-2021gitconnect](images/sko-RPA-ActivateLicense.png)
 
+    !!! success
+        ℹ️ &nbsp; You have successfully set up the RPA server, please proceed to the next section
+
     Once you have setup the RPA server, [import the Workflow solution](#deploy-integrate-4).
 
     [Go to top of section](#deploy-integrate-3) | [Go to top of page](#instructions)
@@ -188,126 +196,127 @@ Below are the materials that you will need to import and build the client onboar
 <a name="deploy-integrate-4"></a>
 ??? note summary "Expand to view"
 
-    1. Download the [Workflow twx file](Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx).
+    ### 4.1 Import the workflow
+    <a name="deploy-integrate-41"></a>
+    ??? note summary "Expand to view"
 
-    2. Login to **IBM Business Automation Studio**
+        1. Download the [Workflow twx file](Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx).
 
-    3. In the top-right corner, click on the menu icon and go to **Business automations**.
+        2. Login to **IBM Business Automation Studio**
 
-       ![wf-studio-automations](images/sko-wf-studio-automations.png)
+        3. In the top-right corner, click on the menu icon and go to **Business automations**.  
+        ![wf-studio-automations](images/sko-wf-studio-automations.png)
 
-    4. Click on **Workflow**.
+        4. Click on **Workflow**.  
+        ![wf-workflow-option](images/sko-wf-workflow-option.png)
 
-       ![wf-workflow-option](images/sko-wf-workflow-option.png)
+        5. Click on the **Import** button.
 
-    5. Click on the **Import** button.
+        6. Click on **Browse** and select the twx file downloaded in Step 1.
 
-    6. Click on **Browse** and select the twx file downloaded in Step 1.
+        7. Click on OK.
 
-    7. Click on OK.
+        8. Once the import completes, click on tile for the **Client Onboarding** Workflow project (Don't click on the open button but just the tile).
 
-    8. Once the import completes, click on tile for the **Client Onboarding** Workflow project (Don't click on the open button but just the tile).
+        9. Click on the 3-dot menu next to the Open button on the right and select **Open in Process Designer**
+        ![wf-open-in-pd](images/sko-wf-open-in-pd.png)
 
-    9. Click on the 3-dot menu next to the Open button on the right and select **Open in Process Designer**
+            !!! note
+                The version numbers and dates in the screenshots maybe different from what you see in your system
 
-       ![wf-open-in-pd](images/sko-wf-open-in-pd.png)
+        10. In Process Designer, click on the **Environment Variables** tab.
 
-       Note: The version numbers and dates in the screenshots maybe different from what you see in your system
-
-    10. In Process Designer, click on the **Environment Variables** tab.
-
-    11. Fill out credentials for a gmail account in the **emailID** and **emailPassword** fields under the **Default** column. Note that the password here must be an [App Password](https://support.google.com/accounts/answer/185833?hl=en) and not your gmail password.
-
+        11. Fill out credentials for a gmail account in the **emailID** and **emailPassword** fields under the **Default** column. Note that the password here must be an [App Password](https://support.google.com/accounts/answer/185833?hl=en) and not your gmail password.  
         ![wf-env-variables](images/sko-wf-env-variables.png)
 
-    12. If you are showcasing ADP as a part of the scenario, enter the ADP host, username, password, and projectID in their respective fields. If you are not, set **adpEnabled** to false.
+        12. If you are showcasing ADP as a part of the scenario, enter the ADP host, username, password, and projectID in their respective fields. If you are not, set **adpEnabled** to false.
 
-    13. For the **documentUploadPage** environment variable, enter the URL for the navigator admin and replace the `admin` at the end with `CODocumentUpload`. You will add this desktop to the navigator in a later step.
+            !!! note
+                ℹ️ &nbsp; For 2022 SKO Tech Academy, we will not be showcasing ADP in this scenario  
 
-    14. The RPA bot is currently only executed if the user running the scenario matches the **rpaBotExecutionUser**. You can change this by updating the value of the **rpaBotExecutionUser** environment variable.
+        13. For the **documentUploadPage** environment variable, enter the URL for the navigator admin and replace the `admin` at the end with `CODocumentUpload`. You will add this desktop to the navigator in a later step.
 
-    15. If you are executing the RPA bot, update the value for the **rpaServer** environment variable from the environment you reserved using the previous step.
+        14. The RPA bot is currently only executed if the user running the scenario matches the **rpaBotExecutionUser**. You can change this by updating the value of the **rpaBotExecutionUser** environment variable.
 
-    16. The default target object store name is **BAWTOS**. If you have changed this, update the value for the **tosName** environment variable. Demo environments have the default target object store name of **TARGET**.
+        15. If you are executing the RPA bot, update the value for the **rpaServer** environment variable from the environment you reserved using the previous step.
 
-    17. In the top-right corner, click on the **Finish Editing** button.
+        16. The default target object store name is **TARGET**. If you have changed this, update the value for the **tosName** environment variable. Demo environments have the default target object store name of **TARGET**.
 
+        17. In the top-right corner, click on the **Finish Editing** button.  
         ![wf-finish-editing](images/sko-wf-finish-editing.png)
 
-    18. In the top-left corner, click on **Business automations** to go back to the BA Studio.
-
+        18. In the top-left corner, click on **Business automations** to go back to the BA Studio.  
         ![wf-back-to-studio](images/sko-wf-back-to-studio.png)
 
-    19. Click on **Open** for the **Client Onboarding** Workflow automation project to open it in the Case Builder.
-
+        19. Click on **Open** for the **Client Onboarding** Workflow automation project to open it in the Case Builder.  
         ![wf-co-open](images/sko-wf-co-open.png)
 
-    20. In the top-right corner, click on the **Deploy** button. The deployment will take a few seconds. Wait until there is a green checkmark next to the button.
-
+        20. In the top-right corner, click on the **Deploy** button. The deployment will take a few seconds. Wait until there is a green checkmark next to the button.  
         ![wf-deploy-solution](images/sko-wf-deploy-solution.png)
 
-    21. In the top-left corner, click on **Automations** to go back to the BA Studio.
-
+        21. In the top-left corner, click on **Automations** to go back to the BA Studio.  
         ![wf-case-builder-automations](images/sko-wf-case-builder-automations.png)
 
-    22. Click on the tile for the **Client Onboarding** Workflow automation project.
+        22. Click on the tile for the **Client Onboarding** Workflow automation project.
 
-    23. Click on the 3-dot menu for latest version of the project and click on **Publish**.
-
+        23. Click on the 3-dot menu for latest version of the project and click on **Publish**.  
         ![wf-publish](images/sko-wf-publish.png)
 
-    24. Close the dialog that shows that the automation services were published successfully.
+        24. Close the dialog that shows that the automation services were published successfully.
 
-    25. In the top-left corner, click on the menu icon and go to **Design** --> **Business automations**.
+        25. In the top-left corner, click on the menu icon and go to **Design** --> **Business automations**.
 
-    26. Click on **Create** --> **External**.
+        26. Click on **Create** --> **External**.
 
-    27. Select **Business Automation Workflow** under **Select the connection type**.
+        27. Select **Business Automation Workflow** under **Select the connection type**.
 
-    28. Click on **Next**.
+        28. Click on **Next**.
 
-    29. In the **Connection name** field, enter **External BAW System**.
+        29. In the **Connection name** field, enter **External BAW System**.
 
-    30. In the **System URL** field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the `/ProcessAdmin` or `/ProcessPortal` suffix from the URL)
+        30. In the **System URL** field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the `/ProcessAdmin` or `/ProcessPortal` suffix from the URL)
 
-    31. Enter the admin credentials and click **Next**.
+        31. Enter the admin credentials and click **Next**.
 
-    32. In the **Select a process application** dropdown, select **Client Onboarding**.
+        32. In the **Select a process application** dropdown, select **Client Onboarding**.
 
-    33. Select the checkbox for **New Client Onboarding Request**.
-
+        33. Select the checkbox for **New Client Onboarding Request**.  
         ![studio-external-aut-service](images/sko-studio-external-aut-service.png)
 
-    34. Click on **Next**.
+        34. Click on **Next**.
 
-    35. In the **Name** field, enter **Client_Onboarding_Workflows_External**.
+        35. In the **Name** field, enter **Client_Onboarding_Workflows_External**.
 
-    36. Click on **Publish**.
+        36. Click on **Publish**.
 
-    ### Prepare a shared environment for labs
+        [Go to top of subsection](#deploy-integrate-41) | [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
 
-    1. In BA Studio, within Business Automations --> Workflow, click on **Toolkits**.
+    ### 4.2 Prepare shared environment
+    <a name="deploy-integrate-42"></a>
+    ??? note summary "Expand to view"
 
-       ![wf-toolkits](images/sko-wf-toolkits.png)
+        1. In BA Studio, within Business Automations --> Workflow, click on **Toolkits**.  
+        ![wf-toolkits](images/sko-wf-toolkits.png)
 
-    2. Click on the tile for the **Client Onboarding Toolkit** toolkit.
+        2. Click on the tile for the **Client Onboarding Toolkit** toolkit.
 
-    3. Click on the **Collaborators** tab.
+        3. Click on the **Collaborators** tab.
 
-    4. Click on the **Add** button.
+        4. Click on the **Add** button.  
+        ![wf-add-group](images/sko-wf-add-group.png)
 
-       ![wf-add-group](images/sko-wf-add-group.png)
+        5. Select the **Group** radio button.
 
-    5. Select the **Group** radio button.
-
-    6. Search for the group that contains your shared users (eg: cp4bausers) and select the checkbox for the result.
-
-       ![wf-add-cp4bausers](images/sko-wf-add-cp4bausers.png)
-
-    7. Click on the **Add** button to close the dialog.
-
-    Once you have imported the Workflow solution, [import the required objects in FileNet Content Manager](#deploy-integrate-5).
-
+        6. Search for the group that contains your shared users (eg: cp4bausers) and select the checkbox for the result.  
+        ![wf-add-cp4bausers](images/sko-wf-add-cp4bausers.png)
+           
+        7. Click on the **Add** button to close the dialog.
+  
+        [Go to top of subsection](#deploy-integrate-42) | [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
+  
+    !!! success
+        ℹ️ &nbsp; You have successfully imported the workflow solution. Next, [import the required objects in FileNet Content Manager](#deploy-integrate-5).
+        
     [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
 
 ## 5. Import objects into FileNet Content Manager
@@ -392,7 +401,7 @@ Below are the materials that you will need to import and build the client onboar
 <a name="deploy-integrate-6"></a>
 ??? note summary "Expand to view"
 
-    ### 6.1 Import application
+    ### 6.1 Import the application
     <a name="deploy-integrate-61"></a>
     ??? note summary "Expand to view"
         1. Download the contents of the [following folder](Solution%20Exports/Business%20Automation%20Navigator).
