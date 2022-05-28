@@ -24,6 +24,7 @@ theme:
       - navigation.tabs.sticky
       - navigation.top
       - navigation.sections
+      - content.code.annotate
 extra_css: ["extra.css"]
 use_directory_urls: true
 plugins:
@@ -39,6 +40,10 @@ markdown_extensions:
   - footnotes
   - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - toc:
       permalink: true
       toc_depth: 3
@@ -63,7 +68,6 @@ nav:
   - Home:
     - Goals, Statement of Approach, Learning Objectives, Agenda: index.md
     - Learning Plan including prework: learning-plan/learning-plan.md
-    - Course Materials: course-materials/course-materials.md
     - Full Agenda: agenda/agenda.md
     - Site Info: site-info/site-info.md
   - Deployment:
@@ -74,9 +78,9 @@ nav:
       - Services: deploy/services.md
       - Monitor / Credentials: deploy/monitor.md
   - Client Onboarding:
-    - Overview: index-tbd.md
-    - Setup: https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md
-    - Labs: https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md
+    - Overview: client-onboarding/client-onboarding.md
+    - Deploy and Integrate: client-onboarding/deploy-integrate.md
+    - Rebuid: client-onboarding/rebuild.md
   - FAQ:
     - Overview: index_faq.md
   - Additional Use Cases:

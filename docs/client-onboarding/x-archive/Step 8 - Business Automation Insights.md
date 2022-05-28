@@ -27,13 +27,13 @@
 
 4. Open **Business Performance Center** and click **Import.**
 
-   ![](images/BAI-1.png)
+   ![](images/sko-BAI-1.png)
 
 5. Click **Browse.**
 
 6. Select **Client Onboarding Completed.json** (downloaded earlier) and click **Import**.
 
-   ![](images/BAI-2.png)
+   ![](images/sko-BAI-2.png)
 
 #### Create and configure goals
 
@@ -41,11 +41,11 @@
 
 2. Click on the **Goals** tab
 
-   ![](images/BAI-goals.png)
+   ![](images/sko-BAI-goals.png)
 
 3. Click **Create**
 
-   ![](images/BAI-create-goal.png)
+   ![](images/sko-BAI-create-goal.png)
 
 4. For Name enter **Focus Corp's top Client Onboarding KPI Completed**
 
@@ -57,7 +57,7 @@
 
 8. Your Goal definition should look exactly like this:
 
-   ![](images/BAI-goal-definition.png)
+   ![](images/sko-BAI-goal-definition.png)
 
 9. Click **Save**
 
@@ -67,17 +67,17 @@
 
 12. For the **Average Revenue from Services Fees for Approved Clients** visualization, click on the **Edit** icon.
 
-    ![](images/BAI-add-goal-to-viz.png)
+    ![](images/sko-BAI-add-goal-to-viz.png)
 
 13. For the **Business goal** field, select **Focus Corp's top Client Onboarding KPI** from the drop-down list
 
-    ![](images/BAI-select-goal.png)
+    ![](images/sko-BAI-select-goal.png)
 
 14. Click **Done**
 
 15. Repeat steps 11-14 to add the same goal to the **Highest Service Fee by Industry Sector** visualization
 
-    ![](images/BAI-goal-completed.png)
+    ![](images/sko-BAI-goal-completed.png)
 
 ### Prepare a shared environment for labs
 
@@ -85,11 +85,8 @@
 
 2. On **Client Onboarding Completed** dashboard select the **3-dot menu** and click **Share with everyone**.
 
-   ![](images/BAI-3.png)
+   ![](images/sko-BAI-3.png)
 
 
 
 ### With that, you have successfully setup your environment with the Client Onboarding scenario.
-
-
-

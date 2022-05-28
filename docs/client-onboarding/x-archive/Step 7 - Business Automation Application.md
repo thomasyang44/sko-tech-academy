@@ -8,11 +8,11 @@
 
 3. Click on **Connections** in the menu on the left.
 
-   ![nav-connections](images/nav-connections.png)
+   ![nav-connections](images/sko-nav-connections.png)
 
 4. Select the the **APPENGO** connection and click on the **Edit** button.
 
-   ![nav-edit-appengo](images/nav-edit-appengo.png)
+   ![nav-edit-appengo](images/sko-nav-edit-appengo.png)
 
 5. Click on the the **Connect...** button.
 
@@ -20,7 +20,7 @@
 
 16. Click on the **Import** button.
 
-    ![nav-import-app](images/nav-import-app.png)
+    ![nav-import-app](images/sko-nav-import-app.png)
 
 16. Choose the the previously downloaded file **ClientOnboardingRequest.zip** and click on the **Import** button. If an information dialog pops up after import, you can close it.
 
@@ -34,7 +34,7 @@
 
 20. In the popup, enter **#** in the **Filter by Teams** field and hit **Enter**.
 
-    ![nav-app-permissions](images/nav-app-permissions.png)
+    ![nav-app-permissions](images/sko-nav-app-permissions.png)
 
 21. Select the **#AUTHENTICATED-USERS** team and click on the right-facing arrow to move the team to the **Selected** column.
 
@@ -80,10 +80,7 @@ You only need to do these steps if your environment will be used to perform the 
 
 12. Check the user group and click on **Add**.
 
-    ![app-toolkit-collaborators](images/app-toolkit-collaborators.png)
+    ![app-toolkit-collaborators](images/sko-app-toolkit-collaborators.png)
 
 
 Once you have imported the app successfully, [import the Business Automation Insights data](Step%208%20-%20Business%20Automation%20Insights.md).
-
-
-

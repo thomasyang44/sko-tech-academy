@@ -1,6 +1,3 @@
-## Step 1 - Import the ADS ML Model
-
-![ibm](./images/sko-ads-ml-service-add-model.png)
 
 1. Open the ADS ML Service (Open Prediction Service) in your browser
 
