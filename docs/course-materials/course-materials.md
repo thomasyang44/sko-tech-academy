@@ -2,18 +2,24 @@
     
 The client onboarding scenario is an end-to-end solution that showcases the art of the possible with IBM Cloud Pak for Business Automation (CP4BA).  
 
+# ABC
+
 You can see the end-to-end in action in this video:
 
 <a href="http://ibm.biz/cp4ba-overview-video" target="_blank">![Client Onboarding Walkthrough Video](./images/ClientOnboardingUseCase-WalkthroughVideo.png){ width="400"}</a>
 
 The instruction to demonstrate the end-to-end scenario can be found here:
 ==ibm1  
+  
 ![ibm](./images/-ibm.png)  
+  
 ==ibm2  
-![ibm2](./images/-ibm2.png)  
-==ibm3  
-![ibm3](./images/ads-add-provider.png)  
- 
+  
+![ibm2](./images/sko-ads-deploy.png)  
+
+
+  
+
 
 
 

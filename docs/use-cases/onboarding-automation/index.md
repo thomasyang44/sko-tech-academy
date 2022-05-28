@@ -14,7 +14,6 @@
   * **Install Yourself:** To deploy Onboarding Automation on your own environment, and technical architecture information, see the <a href="https://github.com/ibm-cloud-architecture/dba-onboarding-automation" target="_blank">dba-onboarding-automation</a> git repository which includes the required deployment artifacts.
 
  ![10](./images/010-Intro-OnboardingAutomation.png)
-
 ***
 
 # Getting Started Lab

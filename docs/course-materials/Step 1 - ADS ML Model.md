@@ -1,15 +1,12 @@
 ## Step 1 - Import the ADS ML Model
 
-==thomas1
-![ibm](./images/-ibm.png)
-==thomas2
-![ibm](./images/ads-ml-service-add-model.png)
+![ibm](./images/sko-ads-ml-service-add-model.png)
 
 1. Open the ADS ML Service (Open Prediction Service) in your browser
 
 2. Under `manage`, expand the `POST /models Add Model` section
 
-   ![image-20210601220850676](./images/ads-ml-service-add-model.png)
+   ![image-20210601220850676](./images/sko-ads-ml-service-add-model.png)
 
 3. Click on `Try it out`
 
@@ -19,11 +16,11 @@
 
 6. Copy the ID of the created model from the response body. It is usually `1`.
 
-  ![image-2021ID](images/ads-ml-model-id.png)
+  ![image-2021ID](images/sko-ads-ml-model-id.png)
 
 7. Under `manage`, expand the `POST /models/{model_id} Add Binary` section
 
-   ![image-20210601221731687](images/ads-ml-service-add-model-binary.png)
+   ![image-20210601221731687](images/sko-ads-ml-service-add-model-binary.png)
 
 8. Click on `Try it out`
 
@@ -33,7 +30,7 @@
 
 11. Download this [pickle file](Solution%20Exports/Automation%20Decision%20Services/ML/service-payment-default-risk-v0-archive.pkl) onto your computer and use it as as the selected file
 
- ![image-2021Binary](images/ads-ml-add-binary.png)
+ ![image-2021Binary](images/sko-ads-ml-add-binary.png)
 
 12. Click on `Execute`. The response code is 201. The model named `service-payment-default-risk` is succesfully deployed.
 The following instructions validate that this deployment can be safely executed.
@@ -50,7 +47,7 @@ The following instructions validate that this deployment can be safely executed.
 
     `{ "result": {  "predictions": 0,  "scores": [   0.9068544064724676,   0.0931455935275324  ]}}`
 
- ![image-2021Check](images/ads-ml-check.png)
+ ![image-2021Check](images/sko-ads-ml-check.png)
 
 
 Once you have imported the ADS ML Service, you will need to [import the ADS Project in IBM Business Automation Studio](Step%202%20-%20ADS%20Project.md).
