@@ -466,9 +466,8 @@ Below are the steps that you will need to import and build the client onboarding
 
         [Go to top of subsection](#deploy-integrate-61) | [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
 
-    ==**TY: Gerry - let's confirm whether this is needed**==  
-
     ### 6.2 Prepare shared environment
+    ==**TY: Gerry - let's confirm whether this is needed**==  
     <a name="deploy-integrate-62"></a>
     ??? note summary "Expand to view"
         You only need to do these steps if your environment will be used to perform the labs associated with Client Onboarding.
