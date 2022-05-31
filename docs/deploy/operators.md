@@ -74,7 +74,8 @@ openshift-install Dir :      /data/daffy/tmp/acme-demo/ocp/ocp-install
 ```
 Copy the URL into a browser and the OpenShift Web Console will open. In the top right corner there is a drop-down, with 
 your username as a label. Click the label and a Copy Login Command link will be shown, this is highlighted in red below.
-
+(If the OpenShift Web Console is not loading on a newly created cluster, you'll just need to wait a few minutes the 
+application to be deployed and ready).
 
 ![oc console](./images/oc_login1.jpg)
 
