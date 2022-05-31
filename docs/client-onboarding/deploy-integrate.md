@@ -284,8 +284,8 @@ Below are the steps that you will need to import and build the client onboarding
 
         29. In the **Connection name** field, enter **External BAW System**.
 
-        30. In the **System URL** field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the `/ProcessAdmin` or `/ProcessPortal` suffix from the URL)
-
+        30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the `/ProcessAdmin` or `/ProcessPortal` suffix from the URL)
+    
         31. Enter the admin credentials and click **Next**.
 
         32. In the **Select a process application** dropdown, select **Client Onboarding**.
