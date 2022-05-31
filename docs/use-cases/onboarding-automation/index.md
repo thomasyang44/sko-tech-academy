@@ -14,7 +14,6 @@
   * **Install Yourself:** To deploy Onboarding Automation on your own environment, and technical architecture information, see the <a href="https://github.com/ibm-cloud-architecture/dba-onboarding-automation" target="_blank">dba-onboarding-automation</a> git repository which includes the required deployment artifacts.
 
  ![10](./images/010-Intro-OnboardingAutomation.png)
-
 ***
 
 # Getting Started Lab
@@ -43,93 +42,7 @@
     [Go to top](#lab-section-1) | [Go to Getting Started Lab](#getting-started-lab)
 
 ## 2. Login and Setup Your Environment
-==JEFF: ENVIRONMENT SELECT - TABBED COLUMN (this section) -OR- TWO SEPARATE BLOCKS (further below) ?==
 <a name="lab-section-2"></a>
-??? note summary "Expand to view"
-
-    **Expand the section below and select an option for your environment below**
-    
-    - **Option 2A** - Using a Cloud Pak for Business Automation as a Service environment (likely an IBMer or Business Partner) ?
-    
-    - **Option 2B** - Are You Using Your Own Environment (not an on Cloud trial/demo) ?
-    
-    ??? question summary "Select your environment"
-        !!! note ""
-            === "Option 2A"
-                **Option 2A - Using a Cloud Pak for Business Automation as a Service environment (likely an IBMer or Business Partner)**
-
-                IBM maintains multiple SaaS tenants that can be reserved and accessed by both IBMers and Business Partners.
-                            Please login to IBM Technology Zone and navigate to <a href="https://techzone.ibm.com/collection/5fdfcf8b99cf35001ee4954d" target="_blank">here</a> to reserve an environment.
-                            1\. Once you have access to an environment, please continue here:  
-                &nbsp; &nbsp; &nbsp; • &nbsp; Enablement Users, your environment setup should already be completed, please continue.  
-                &nbsp; &nbsp; &nbsp; • &nbsp; Demo Users, once your account administrator completes the below setup and provides you access, please continue.  
-                &nbsp; &nbsp; &nbsp; • &nbsp; Administrator Users, please reference the <a href="https://techzone.ibm.com/collection/business-automation-saas#tab-2" target="_blank">Administration Guide</a> (IBM only) for any additional setup information including onboarding users.  
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; > Note: Navigate to the **Demo tenants** tab after login.
-                            2\. Login to your Cloud Pak for Business Automation as a Service demo environment <a href="http://automationcloud.ibm.com" target="_blank">here</a> to access your portal.
-                            3\. Open the menu in the upper left.
-                            4\. Select **Production** and then **Run**.
-                            5\. Click the **Business Automation Apps** tile to launch the Business Automation Navigator desktop
-                            ![11](./images/001c-Portal.png)
-                            6\. Wait for the desktop to load in a new browser window/tab (it can take some time)
-                            7\. Click the **Business Automation Apps** tile to launch the Business Automation Navigator desktop  
-                            ![11](./images/001d-Portal.png)
-                            8\. Wait for the desktop to load in a new browser window/tab (it can take some time)  
-                            9\. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.  
-                            ![Business Application Tiles](./images/001d-BAN.png)
-                            10\. When ready, click the **Onboarding Automation** tile to launch the demo.  
-                            ![Onboarding Automation Tile](./images/Application01b.png)
-                            11\. Check the tabs to learn more about the demo  
-                &nbsp; &nbsp;&nbsp; &nbsp; a\. **Storyboard**  
-                &nbsp; &nbsp;&nbsp; &nbsp; b\. **Discovery Map**  
-                            ![Storyboard and Discovery Map](./images/Application03-Tabs.png)
-                            12\. Navigate to the **Run the demo!** tab and then click on the picture of the **Lucy - HR Employee Onboarding Specialist**  
-                            ![Run the demo](./images/Application03-Lucy.png)
-                            > Please continue to the [next](#lab-section-3) section
-                            [Go to top](#lab-section-2) | [Go to Getting Started Lab](#getting-started-lab)
-
-            === "Option 2B"
-                **Option 2B - Using Your Own Environment (not an on Cloud trial/demo)**
-                            1\. Standard Users, once your account administrator completes the below setup and provides you access, please continue.
-
-                2\. Administrator Users, expand the following section to access additional information to setup access for yourself and others in your environment:
-
-                ??? note summary "Additional Administrator Setup For Your Own Environment"
-
-                    See the <a href="https://github.com/ibm-cloud-architecture/dba-refund-request.git" target="_blank">dba-refund-request</a> git repository to deploy on your own platform.
-
-                > Standard Users, continue here...
-
-                3\. Ask your administrator for the URL to the desktop in Business Automation Navigator and your login credentials
-
-                4\. Wait for the desktop to load in a new browser window/tab (it can take some time) and log in
-
-                5\. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.
-
-                ![11](./images/001d-BAN.png)
-
-                6\. When ready, click the **Onboarding Automation** tile to launch the demo.  
-
-                ![13](./images/Application01b.png)
-
-                7\. Check the tabs to learn more about the demo  
-                &nbsp; &nbsp;&nbsp; &nbsp; a\. **Storyboard**  
-                &nbsp; &nbsp;&nbsp; &nbsp; b\. **Discovery Map**  
-
-                ![13](./images/Application03-Tabs.png)
-
-                8\. Navigate to the **Run the demo!** tab and then click on the picture of the **Lucy - HR Employee Onboarding Specialist**  
-
-                ![13](./images/Application03-Lucy.png)
-
-                > Please continue to the [next](#lab-section-3) section
-
-                [Go to top](#lab-section-2) | [Go to Getting Started Lab](#getting-started-lab)
-
-    [Go to top](#lab-section-2) | [Go to Getting Started Lab](#getting-started-lab)
-
-## 2. Login and Setup Your Environment
-<a name="lab-section-2"></a>
-==JEFF: Section 2 - TABBED COLUMN (above) -OR- TWO SEPARATE BLOCKS (this section) ?==
 ??? note summary "Expand to view"
 
     **Select an option for your environment**
@@ -834,10 +747,13 @@
     1\. Focus Corp folder/documents or Teamspaces are not available  
     If using a Cloud Pak for Business Automation as a Service tenant, please ensure you have selected the Production environment.  Otherwise, contact the environment administrator to confirm the set up instructions have been completed.  
 
-    2\. Navigator Browse - Unable to modify folder and document  
-    When using an Enablement environment, security permissions are restricted to allow only viewing of folders and documents. One exception is the folder: Corporate Operations / Focus Corp / Human Resources / Onboarded Employees / Unsecured  
+    2\. Navigator Browse - I see folders but no documents in the Focus Corp folder structure
+    Confirm with your tenant admin that your user id is added to the TE_DEMO management access group. Refer to <a href="https://github.com/ibm-cloud-architecture/dba-onboarding-automation" target="_blank">dba-onboarding-automation</a> for more information (Section 1ibc - Groups).  In the meantime, please proceed to the next section of the lab as your access to folders and documents when creating a teamspace is not affected.  
+    
+    3\. Navigator Browse - Unable to modify folder and document  
+    When using an Enablement environment, security permissions are restricted to allow only viewing of folders and documents. One exception is the folder: Corporate Operations / Focus Corp / Human Resources / Onboarded Employees / Unsecured.  Please use this folder and/or proceed to the next section of the lab as your access to folders and documents when creating a teamspace is not affected.  
 
-    3\. Launch Onboard Employee Processing  
+    4\. Launch Onboard Employee Processing  
     Chrome is the recommended browser to display the document in the viewer. If using Firefox, you may need to temporarily disable the CSP header to view the document at this time.  For both viewers, ensure the default action to display PDF documents is set to use the browser.  
 
     [Go to top](#lab-section-10) | [Go to Getting Started Lab](#getting-started-lab)

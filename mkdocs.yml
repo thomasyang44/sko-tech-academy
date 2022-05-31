@@ -1,5 +1,5 @@
 site_name: SKO Tech Academy - Business Automation
-site_url: https://thomasyang44.github.io/sko-tech-academy
+#site_url: https://thomasyang44.github.io/sko-tech-academy
 site_author: Gerry Baird, Thomas Yang
 
 # Repository
@@ -24,6 +24,7 @@ theme:
       - navigation.tabs.sticky
       - navigation.top
       - navigation.sections
+      - content.code.annotate
 extra_css: ["extra.css"]
 use_directory_urls: true
 plugins:
@@ -39,6 +40,10 @@ markdown_extensions:
   - footnotes
   - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - toc:
       permalink: true
       toc_depth: 3
@@ -62,10 +67,9 @@ copyright: Copyright © 2022 IBM
 nav:
   - Home:
     - Goals, Statement of Approach, Learning Objectives, Agenda: index.md
-    - Learning Plan including prework: learning_plan/learning_plan.md
-    - Course Materials: course_materials/course_materials.md
+    - Learning Plan including prework: learning-plan/learning-plan.md
     - Full Agenda: agenda/agenda.md
-    - Site Info: site_info/site_info.md
+    - Site Info: site-info/site-info.md
   - Deployment:
       - Overview: deploy/overview.md
       - Daffy Env: deploy/daffy-cp4ba.md
@@ -74,12 +78,14 @@ nav:
       - Services: deploy/services.md
       - Monitor / Credentials: deploy/monitor.md
   - Client Onboarding:
-    - Overview: index-tbd.md
-    - Setup: https://github.com/IBM/cp4ba-client-onboarding-scenario/blob/main/21.0.3/README.md
-    - Labs: https://github.com/IBM/cp4ba-labs/blob/main/21.0.3/README.md
+    - Overview: client-onboarding/client-onboarding.md
+    - Deploy and Integrate: client-onboarding/deploy-integrate.md
+    - Rebuild: client-onboarding/rebuild.md
+    - Customization: index-tbd.md
+    - Team Presentation: index-tbd.md
   - FAQ:
     - Overview: index_faq.md
-  - Use Cases:
+  - Additional Use Cases:
     - Accounts Payable: use-cases/accounts-pay/index.md
     - HR Onboarding App: use-cases/hr-onboard-app/index.md
     - Refund Request: use-cases/refund-req/index.md

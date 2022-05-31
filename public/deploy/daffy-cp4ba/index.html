@@ -10,8 +10,6 @@
         <meta name="author" content="Gerry Baird, Thomas Yang">
       
       
-        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/deploy/daffy-cp4ba/">
-      
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
     
@@ -64,8 +62,8 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="SKO Tech Academy - Business Automation - Daffy Env" />
   <meta property="og:description" content="None" />
-  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/deploy/daffy-cp4ba/" />
-  <meta property="og:image" content="https://thomasyang44.github.io/sko-tech-academy/assets/images/banner.png" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="assets/images/banner.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1080" />
   <meta property="og:image:height" content="568" />
@@ -264,7 +262,7 @@
   
     <li class="md-tabs__item">
       <a href="../../use-cases/accounts-pay/" class="md-tabs__link">
-        Use Cases
+        Additional Use Cases
       </a>
     </li>
   
@@ -378,7 +376,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Goals, Learning Objectives, Agenda, Materials
+        Goals, Statement of Approach, Learning Objectives, Agenda
       </a>
     </li>
   
@@ -391,8 +389,50 @@
   
   
     <li class="md-nav__item">
-      <a href="../../prework/prework/" class="md-nav__link">
-        Prework
+      <a href="../../learning-plan/learning-plan/" class="md-nav__link">
+        Learning Plan including prework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-materials/course-materials/" class="md-nav__link">
+        Course Materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/agenda/" class="md-nav__link">
+        Full Agenda
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../site-info/site-info/" class="md-nav__link">
+        Site Info
       </a>
     </li>
   
@@ -521,7 +561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-credentials.md" class="md-nav__link">
+      <a href="../monitor/" class="md-nav__link">
         Monitor / Credentials
       </a>
     </li>
@@ -676,14 +716,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          Use Cases
+          Additional Use Cases
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Use Cases" data-md-level="1">
+      <nav class="md-nav" aria-label="Additional Use Cases" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          Use Cases
+          Additional Use Cases
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -810,6 +850,10 @@ This environment file needs to be updated before Daffy can deploy the CP4BA clus
 <span class="p">#####################################</span><span class="w"></span>
 <span class="n">CLUSTER_NAME</span><span class="o">=</span><span class="s">&quot;&lt;cluster name to be created&gt;&quot;</span><span class="w"></span>
 <span class="n">OCP_INSTALL_TYPE</span><span class="o">=</span><span class="s">&quot;roks-msp&quot;</span><span class="w"></span>
+<span class="n">DAFFY_DEPLOYMENT_TYPE</span><span class="o">=</span><span class="n">Enablement</span><span class="w"></span>
+
+<span class="p">######</span><span class="w"> </span><span class="n">This</span><span class="w"> </span><span class="n">only</span><span class="w"> </span><span class="n">works</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">itztsglenablement01</span><span class="p">,</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">account</span><span class="w"> </span><span class="n">used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">Tech</span><span class="w"> </span><span class="n">Academy</span><span class="w"></span>
+<span class="n">IBMCLOUD_RESOURCE_GROUP</span><span class="o">=</span><span class="n">TechAcademyBA</span><span class="w"></span>
 
 <span class="p">#</span><span class="w"> </span><span class="n">Version</span><span class="w"> </span><span class="n">must</span><span class="w"> </span><span class="n">match</span><span class="w"> </span><span class="n">support</span><span class="w"> </span><span class="n">version</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">ROKS</span><span class="w"> </span><span class="n">only</span><span class="w"></span>
 <span class="n">OCP_RELEASE</span><span class="o">=</span><span class="s">&quot;4.8.36&quot;</span><span class="w"></span>
@@ -823,7 +867,7 @@ This environment file needs to be updated before Daffy can deploy the CP4BA clus
 <span class="n">CP4BA_VERSION</span><span class="o">=</span><span class="s">&quot;21.0.3&quot;</span><span class="w"></span>
 <span class="n">CP4BA_IFIX</span><span class="o">=</span><span class="n">IF008</span><span class="w"></span>
 <span class="n">CP4BA_DEPLOYMENT_STARTER_SERVICE</span><span class="o">=</span><span class="n">samples</span><span class="w"></span>
-<span class="n">CP4BA_DEPLOYMENT_STARTER_SERVICE_SAMPLE</span><span class="o">=</span><span class="n">roks</span><span class="o">-</span><span class="n">starter</span><span class="o">-</span><span class="n">all</span><span class="o">-</span><span class="n">IF008</span><span class="w"></span>
+<span class="n">CP4BA_DEPLOYMENT_STARTER_SERVICE_SAMPLE</span><span class="o">=</span><span class="n">roks</span><span class="o">-</span><span class="n">starter</span><span class="o">-</span><span class="n">nfs</span><span class="o">-</span><span class="n">all</span><span class="o">-</span><span class="n">IF008</span><span class="w"></span>
 <span class="n">CP4BA_ENABLE_SERVICE_OPS</span><span class="o">=</span><span class="n">true</span><span class="w"></span>
 
 <span class="p">#</span><span class="n">Overrides</span><span class="w"></span>
@@ -831,6 +875,15 @@ This environment file needs to be updated before Daffy can deploy the CP4BA clus
 <span class="p">#</span><span class="w">    </span><span class="n">Zone</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">ROKS</span><span class="w"> </span><span class="n">will</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">installed</span><span class="w"></span>
 <span class="p">#</span><span class="w">     </span><span class="nl">https:</span><span class="c1">//cloud.ibm.com/docs/containers?topic=containers-regions-and-zones</span>
 <span class="n">ROKS_ZONE</span><span class="o">=&lt;</span><span class="n">datacenter</span><span class="w"> </span><span class="n">zone</span><span class="o">&gt;</span><span class="w"></span>
+
+<span class="p">#####################################</span><span class="w"></span>
+<span class="n">OCP_CREATE_NFS_STORAGE</span><span class="o">=</span><span class="n">true</span><span class="w"></span>
+<span class="n">CP4BA_AUTO_STORAGE_CLASS_FAST_ROKS</span><span class="o">=</span><span class="n">managed</span><span class="o">-</span><span class="n">nfs</span><span class="o">-</span><span class="n">storage</span><span class="w"></span>
+<span class="n">CP4BA_AUTO_STORAGE_CLASS_OCP</span><span class="o">=</span><span class="n">managed</span><span class="o">-</span><span class="n">nfs</span><span class="o">-</span><span class="n">storage</span><span class="w"></span>
+<span class="n">CP4BA_AUTO_STORAGE_CLASS_OCP_BLOCK</span><span class="o">=</span><span class="n">managed</span><span class="o">-</span><span class="n">nfs</span><span class="o">-</span><span class="n">storage</span><span class="w"></span>
+<span class="n">CP4BA_AUTO_STORAGE_CLASS_OCP_SLOW</span><span class="o">=</span><span class="n">managed</span><span class="o">-</span><span class="n">nfs</span><span class="o">-</span><span class="n">storage</span><span class="w"></span>
+<span class="n">CP4BA_AUTO_STORAGE_CLASS_OCP_MEDIUM</span><span class="o">=</span><span class="n">managed</span><span class="o">-</span><span class="n">nfs</span><span class="o">-</span><span class="n">storage</span><span class="w"></span>
+<span class="n">CP4BA_AUTO_STORAGE_CLASS_OCP_FAST</span><span class="o">=</span><span class="n">managed</span><span class="o">-</span><span class="n">nfs</span><span class="o">-</span><span class="n">storage</span><span class="w"></span>
 </code></pre></div>
 
 <p>Copy the contents of this file into the Daffy environment file on your bastion server and update the three 
@@ -862,6 +915,10 @@ of the following:</p>
 </tr>
 </tbody>
 </table>
+<p>The bastion server will provide the file storage for the cluster so ideally the bastion server and the cluster
+should be in the same datacenter. This was a last minute change to the Daffy config for Tech Academy, but since 
+we are not using these clusters extensively (just showing how they are built) it's ok if your bastion is not in one 
+of the datacenters listed above.</p>
 <p>Once you have updated your environment file, save it and exit the editor. Proceed to the next step <a href="../cluster/">Cluster Build</a></p>
 
               

@@ -10,8 +10,6 @@
         <meta name="author" content="Gerry Baird, Thomas Yang">
       
       
-        <link rel="canonical" href="https://thomasyang44.github.io/sko-tech-academy/deploy/cluster/">
-      
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
     
@@ -64,8 +62,8 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="SKO Tech Academy - Business Automation - Cluster Build" />
   <meta property="og:description" content="None" />
-  <meta property="og:url" content="https://thomasyang44.github.io/sko-tech-academy/deploy/cluster/" />
-  <meta property="og:image" content="https://thomasyang44.github.io/sko-tech-academy/assets/images/banner.png" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="assets/images/banner.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1080" />
   <meta property="og:image:height" content="568" />
@@ -264,7 +262,7 @@
   
     <li class="md-tabs__item">
       <a href="../../use-cases/accounts-pay/" class="md-tabs__link">
-        Use Cases
+        Additional Use Cases
       </a>
     </li>
   
@@ -378,7 +376,7 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Goals, Learning Objectives, Agenda, Materials
+        Goals, Statement of Approach, Learning Objectives, Agenda
       </a>
     </li>
   
@@ -391,8 +389,50 @@
   
   
     <li class="md-nav__item">
-      <a href="../../prework/prework/" class="md-nav__link">
-        Prework
+      <a href="../../learning-plan/learning-plan/" class="md-nav__link">
+        Learning Plan including prework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-materials/course-materials/" class="md-nav__link">
+        Course Materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/agenda/" class="md-nav__link">
+        Full Agenda
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../site-info/site-info/" class="md-nav__link">
+        Site Info
       </a>
     </li>
   
@@ -521,7 +561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-credentials.md" class="md-nav__link">
+      <a href="../monitor/" class="md-nav__link">
         Monitor / Credentials
       </a>
     </li>
@@ -676,14 +716,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          Use Cases
+          Additional Use Cases
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Use Cases" data-md-level="1">
+      <nav class="md-nav" aria-label="Additional Use Cases" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          Use Cases
+          Additional Use Cases
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -807,8 +847,60 @@
 <div class="codehilite"><pre><span></span><code>/data/daffy/ocp/build.sh acme-demo
 </code></pre></div>
 
-<p>When you run the command you may be asked to identify which IBM Cloud account you wish to use.</p>
-<p>provide a one-time key. Once </p>
+<p>Once the build has completed some pre-checks you'll be asked to provide your RedHat pull secret. You should have 
+registered and obtained this pull secret as part of the pre-work. Daffy will provide a link for you to get your pull 
+secret if you haven't copied it already :</p>
+<div class="codehilite"><pre><span></span><code><span class="n">To</span><span class="w"> </span><span class="n">get</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">OpenShift</span><span class="w"> </span><span class="n">Pull</span><span class="w"> </span><span class="n">secret</span><span class="p">,</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">go</span><span class="w"> </span><span class="n">here</span><span class="p">:</span><span class="w">   </span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">console</span><span class="o">.</span><span class="n">redhat</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">openshift</span><span class="o">/</span><span class="n">downloads</span><span class="c1">#tool-pull-secret</span><span class="w"></span>
+
+<span class="n">Missing</span><span class="w"> </span><span class="n">PULL_SECRET</span><span class="p">,</span><span class="w"> </span><span class="n">Please</span><span class="w"> </span><span class="n">enter</span><span class="w"> </span><span class="n">here</span><span class="w"> </span><span class="n">so</span><span class="w"> </span><span class="n">we</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">save</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="o">~/.</span><span class="n">profile</span><span class="w"></span>
+<span class="n">PULL_SECRET</span><span class="o">=</span><span class="w"></span>
+</code></pre></div>
+
+<p>Login to the Red Hat website using the URL above and scroll down until you see the pull secret. Click on the highlighted 
+copy icon then paste the secret into the Daffy terminal.
+ <img alt="pull secret" src="../images/RHPullSecret.jpg" /></p>
+<p>Daffy will store this pull secret in the user profile.</p>
+<p>Next, you'll be asked to login into IBM Cloud. You'll see output like this:</p>
+<div class="codehilite"><pre><span></span><code>Validate ROKS Settings (LOG /data/daffy/log/acme-demo/ocp/ibm-*.log )
+################################################################
+You are not logged into ibmcloud. PLease login:
+API endpoint: https://cloud.ibm.com
+Region: eu-gb
+
+Get a one-time code from https://identity-2.eu-central.iam.cloud.ibm.com/identity/passcode to proceed.
+Open the URL in the default browser? [Y/n] &gt; 
+</code></pre></div>
+
+<p>Enter 'n' as we don't have a browser on the bastion server. Daffy is now waiting for a one time passcode that you'll
+obtain by logging into IBM Cloud using the URL shown.</p>
+<p>Copy the URL from your terminal and paste the URL into a web browser. Once you've logged into IBM Cloud you'll see the 
+one time passcode that's been generated for you. Copy the one time passcode by clicking on the highlighted copy icon
+and paste the one time code into the Daffy terminal.</p>
+<p><img alt="security token" src="../images/SecurityToken.jpg" /></p>
+<p>After pasting in the one time passcode Daffy should confirm your successful authentication:</p>
+<div class="codehilite"><pre><span></span><code>Get a one-time code from https://identity-2.eu-central.iam.cloud.ibm.com/identity/passcode to proceed.
+Open the URL in the default browser? [Y/n] &gt; n
+One-time code &gt; 
+Authenticating...
+OK
+</code></pre></div>
+
+<p>Very soon you'll be asked to confirm which IBM Cloud account you wish to use. Here's an example :</p>
+<div class="codehilite"><pre><span></span><code><span class="n">Select</span> <span class="n">an</span> <span class="n">account</span><span class="o">:</span>
+<span class="m">1</span><span class="n">.</span> <span class="n">GERALD</span> <span class="n">BAIRD</span><span class="s">&#39;s Account (b158d441aaee226a9e57ece0e2764ffa) &lt;-&gt; 1896853</span>
+<span class="s">2. IBM Cloud UKI (4a88eb681ef4e9f4494c356954d2d25b)</span>
+<span class="s">3. IBM (71d0fea63129b7a147a3c207c67efbb2) &lt;-&gt; 1503769</span>
+<span class="s">4. Daniel Crow&#39;</span><span class="n">s</span> <span class="nf">Account </span><span class="p">(</span><span class="n">f5455df33587c3c80903085975de4a98</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="m">1528385</span>
+<span class="m">5</span><span class="n">.</span> <span class="n">ITZ</span> <span class="o">-</span> <span class="nf">SQUAD </span><span class="p">(</span><span class="m">5</span><span class="n">ac779bd279b4301adc82d45bea4fd85</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="m">2071092</span>
+<span class="m">6</span><span class="n">.</span> <span class="n">ITZ</span> <span class="o">-</span> <span class="nf">V2 </span><span class="p">(</span><span class="n">ead8711ba2cc4d08a16fd37427f4f01a</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="m">2112072</span>
+<span class="m">7</span><span class="n">.</span> <span class="nf">itztsglenablement01 </span><span class="p">(</span><span class="n">e1c69b1f9c6a412b8c73b3b8e78aaf10</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="m">2326304</span>
+<span class="m">8</span><span class="n">.</span> <span class="n">Kyle</span> <span class="n">Dawson</span> <span class="o">-</span> <span class="n">IBM</span> <span class="nf">Account </span><span class="p">(</span><span class="m">1</span><span class="n">df0f17a7f0213c2c6ee94b97e3712b7</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="m">1582481</span>
+<span class="n">Enter</span> <span class="n">a</span> <span class="n">number</span><span class="o">&gt;</span> <span class="m">7</span>
+<span class="n">Targeted</span> <span class="n">account</span> <span class="nf">itztsglenablement01 </span><span class="p">(</span><span class="n">e1c69b1f9c6a412b8c73b3b8e78aaf10</span><span class="p">)</span> <span class="o">&lt;-&gt;</span> <span class="m">2326304</span>
+</code></pre></div>
+
+<p>Make sure you select <strong>itztsglenablement01</strong>, in the example above this was listed as account (7).</p>
+<p>Daffy will now create the Openshift cluster, you see output like this :</p>
 <div class="codehilite"><pre><span></span><code><span class="nv">Create</span> <span class="nv">ROKS</span> <span class="nv">Cluster</span>
 ################################################################
 <span class="nv">Creation</span> <span class="nv">of</span> <span class="nv">ROKS</span> <span class="nv">cluster</span> <span class="nv">is</span> <span class="nv">dependent</span> <span class="nv">on</span> <span class="nv">the</span> <span class="nv">IBM</span> <span class="nv">Provider</span>, <span class="nv">this</span> <span class="nv">typical</span> <span class="nv">takes</span> <span class="mi">30</span><span class="o">-</span><span class="mi">45</span> <span class="nv">minutes</span>.
@@ -818,6 +910,29 @@
 <span class="nv">Cluster</span> <span class="nv">created</span> <span class="nv">with</span> <span class="nv">ID</span> <span class="nv">ca35fmfl0ujedhu1f0rg</span>
 <span class="nv">Waiting</span> <span class="k">for</span> <span class="nv">cluster</span> <span class="nv">to</span> <span class="nv">be</span> <span class="nv">ready</span>                                                                                  
 </code></pre></div>
+
+<p>After about 30-40 mins cluster creation will complete and you'll see output like this:</p>
+<div class="codehilite"><pre><span></span><code><span class="n">Creating</span><span class="w"> </span><span class="n">cluster</span><span class="o">...</span><span class="w"></span>
+<span class="n">OK</span><span class="w"></span>
+<span class="n">Cluster</span><span class="w"> </span><span class="n">created</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">ID</span><span class="w"> </span><span class="n">ca35fmfl0ujedhu1f0rg</span><span class="w"></span>
+
+<span class="n">COMPLETE</span><span class="w">  </span><span class="n">ROKS</span><span class="w"> </span><span class="n">Cluster</span><span class="w"> </span><span class="n">ready</span><span class="w"></span>
+
+<span class="n">Here</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">login</span><span class="w"> </span><span class="n">info</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">use</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">all</span><span class="w"> </span><span class="n">services</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">console</span><span class="p">:</span><span class="w">   </span>
+<span class="c1">##########################################################################################################</span><span class="w"></span>
+<span class="n">Current</span><span class="w"> </span><span class="n">User</span><span class="w">          </span><span class="p">:</span><span class="w">      </span><span class="n">system</span><span class="p">:</span><span class="n">admin</span><span class="w"></span>
+<span class="n">OpenShift</span><span class="w"> </span><span class="n">Web</span><span class="w"> </span><span class="n">Console</span><span class="w"> </span><span class="p">:</span><span class="w">      </span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">c109</span><span class="o">-</span><span class="n">e</span><span class="o">.</span><span class="n">eu</span><span class="o">-</span><span class="n">gb</span><span class="o">.</span><span class="n">containers</span><span class="o">.</span><span class="n">cloud</span><span class="o">.</span><span class="n">ibm</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="mi">30563</span><span class="w"></span>
+<span class="n">OC</span><span class="w"> </span><span class="n">Commandline</span><span class="w">        </span><span class="p">:</span><span class="w">      </span><span class="k">export</span><span class="w"> </span><span class="n">KUBECONFIG</span><span class="o">=/</span><span class="k">var</span><span class="o">/</span><span class="n">ibm</span><span class="o">-</span><span class="n">ocp</span><span class="o">/</span><span class="n">acme</span><span class="o">-</span><span class="n">demo</span><span class="o">/</span><span class="n">kubeconfig</span><span class="w"></span>
+<span class="n">OC</span><span class="w"> </span><span class="n">Login</span><span class="w"> </span><span class="n">command</span><span class="w">      </span><span class="p">:</span><span class="w">      </span><span class="n">oc</span><span class="w"> </span><span class="n">login</span><span class="w"> </span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">api</span><span class="o">.</span><span class="n">acme</span><span class="o">-</span><span class="n">demo</span><span class="o">.</span><span class="p">:</span><span class="mi">6443</span><span class="w"> </span><span class="o">-</span><span class="n">u</span><span class="w">  </span><span class="o">-</span><span class="n">p</span><span class="w">  </span><span class="o">--</span><span class="n">insecure</span><span class="o">-</span><span class="n">skip</span><span class="o">-</span><span class="n">tls</span><span class="o">-</span><span class="n">verify</span><span class="w"></span>
+<span class="n">OC</span><span class="w"> </span><span class="n">Client</span><span class="w"> </span><span class="n">Download</span><span class="w">    </span><span class="p">:</span><span class="w">      </span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">mirror</span><span class="o">.</span><span class="n">openshift</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pub</span><span class="o">/</span><span class="n">openshift</span><span class="o">-</span><span class="n">v4</span><span class="o">/</span><span class="n">clients</span><span class="o">/</span><span class="n">ocp</span><span class="o">/</span><span class="mf">4.8</span><span class="o">.</span><span class="mi">36</span><span class="w"></span>
+<span class="n">Install</span><span class="w"> </span><span class="n">Temp</span><span class="w"> </span><span class="n">Files</span><span class="w">    </span><span class="p">:</span><span class="w">      </span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">daffy</span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">acme</span><span class="o">-</span><span class="n">demo</span><span class="o">/</span><span class="n">ocp</span><span class="w"></span>
+<span class="n">openshift</span><span class="o">-</span><span class="n">install</span><span class="w"> </span><span class="n">Dir</span><span class="w"> </span><span class="p">:</span><span class="w">      </span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">daffy</span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">acme</span><span class="o">-</span><span class="n">demo</span><span class="o">/</span><span class="n">ocp</span><span class="o">/</span><span class="n">ocp</span><span class="o">-</span><span class="n">install</span><span class="w"></span>
+</code></pre></div>
+
+<p><strong><em>Take note of the OpenShift Web Console URL as you will need this in the next step.</em></strong></p>
+<p>The Openshift cluster has now been created but nothing has been installed. In the next step we'll install the CP4BA 
+Operators. Operators automate the creation, configuration, and management of instances of Kubernetes-native applications.
+Please proceed to <a href="../operators/">Operators</a></p>
 
               
             </article>
