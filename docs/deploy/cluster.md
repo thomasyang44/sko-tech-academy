@@ -23,6 +23,7 @@ PULL_SECRET=
 
 Login to the Red Hat website using the URL above and scroll down until you see the pull secret. Click on the highlighted 
 copy icon then paste the secret into the Daffy terminal.
+
  ![pull secret](./images/RHPullSecret.jpg)
 
 Daffy will store this pull secret in the user profile.
