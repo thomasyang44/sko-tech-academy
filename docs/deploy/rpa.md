@@ -8,7 +8,7 @@ background is provided below the instructions.
 Run the following command on the bastion server from your env directory :
 
 ```commandline
-wget https://github.com/IBM/myproject/cp4a-rpa.pem
+wget https://github.com/thomasyang44/sko-tech-academy/blob/main/cp4a-rpa.pem
 ```
 This command downloads the certificate used by the TechZone RPA server.
 
