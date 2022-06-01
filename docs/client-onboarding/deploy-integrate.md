@@ -6,6 +6,9 @@ Below are the steps that you will need to import and build the client onboarding
 
 **Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
 
+**Downloads:** Please clone this git [repository](https://github.com/thomasyang44/sko-tech-academy.git) so you have access to the downloads. 
+The downloads are located in /docs/client-onboarding/Solution Exports
+
 ## 1. Import the ADS ML Model
 <a name="deploy-integrate-1"></a>
 ??? note summary "Expand to view"
@@ -411,10 +414,17 @@ Below are the steps that you will need to import and build the client onboarding
 <a name="deploy-integrate-6"></a>
 ??? note summary "Expand to view"
 
-    ### 6.1 Import the application
+    ### 6.1 Import the applications
     <a name="deploy-integrate-61"></a>
     ??? note summary "Expand to view"
-        1. Download the contents of the [following folder](Solution%20Exports/Business%20Automation%20Navigator).
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Regenerate the applications from their twx source files before importing them as apps into Navigator.  
+
+        1. Import the the two twx files from the git repo you cloned earlier [remote folder](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports/Business%20Automation%20Application).
+            
+            - Import Client_Onboarding_Request - 6.twx  
+            - Import Client_Onboarding_Document_Upload - v1.3.twx
+
+        2. Once both applications have been imported go into each application and export a zip file. 
 
         2. Login to the **Navigator admin desktop** (URL should end with `desktop=admin`).
 
