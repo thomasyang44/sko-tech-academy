@@ -21,7 +21,7 @@ This event will be 4 days long with the following agenda:
 
 |Day   | Time          | Session / Activity                                |
 | :--- | :------------ | :------------------------------------------------ |
-|Day 1 | 1:00 – 1:15   | Opening Remarks – Sarah McAndrew & GEO Exec       |
+|Day 1 | 1:00 – 1:15   | Opening Remarks – Sarah McAndrew & GEO Executives |
 |      | 1:30 - 2:30   | Automation Roadmap and Strategy                   |
 |      | 2:30 - 2:45   | Break                                             |
 |      | 2:45 – 3:45   | Segment Strategy - Segment VP’s                   |
@@ -31,7 +31,7 @@ This event will be 4 days long with the following agenda:
 |      | 10:30 - 11:00 | Break                                             |
 |      | 11:30 - 12:30 | Client Onboarding Demonstration                   |
 |      | 12:30 - 1:30  | Lunch                                             |
-|      | 1:30 - 5:00   | Deploy and Integrate Artifacts                    |
+|      | 1:30 - 5:00   | Deploy and Integrate                              |
 |Day 3 | 9:00 - 12:00  | Rebuild - Developing & Delivering Demos           |
 |      | 12:00 - 1:00  | Lunch                                             |
 |      | 1:00 - 5:00   | Continue Rebuild & Begin Customizations           |
