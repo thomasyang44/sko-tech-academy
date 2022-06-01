@@ -21,11 +21,13 @@ This event will be 4 days long with the following agenda:
 
 |Day   | Time          | Session / Activity                                |
 | :--- | :------------ | :------------------------------------------------ |
-|Day 1 | 1:00 – 1:15   | Opening Remarks – Sarah McAndrew & GEO Executives |
-|      | 1:30 - 2:30   | Automation Roadmap and Strategy                   |
-|      | 2:30 - 2:45   | Break                                             |
-|      | 2:45 – 3:45   | Segment Strategy - Segment VP’s                   |
-|      | 3:45 – 5:00   | Team Building and Team Dinner                     |
+|Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Carlos Camilion |
+|      | 1:30 – 2:15   | Automation Roadmap and Strategy - Bill Lobig      |
+|      | 2:15 – 2:30   | Support and Feedback process                      |
+|      | 2:30 – 2:45   | Break                                             |
+|      | 2:45 – 3:45   | Segment Strategy - (Segment VP’s/Execs : Rakesh Ranjan, Eileen Lowry, John Greene, Matt Warta) |
+|      | 4:00 –5:15    | Team Building                                     |
+|      | Evening       | Team Dinner                                       |
 |Day 2 | 8:00 - 8:30   | Introduction                                      |
 |      | 8:30 -10:30   | Deployment - Daffy & cp4bausers                   |
 |      | 10:30 - 11:00 | Break                                             |
@@ -41,5 +43,7 @@ This event will be 4 days long with the following agenda:
 |      | 1:00 - 4:00   | Advanced Topics & Best Practices                  |
 |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM          |
 
-For more info on the overall automation track agenda, select the link below:  
-    - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">Automation Track Agenda</a>
+For more info on SKO Tech Academy, please refer to the links below:  
+    - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy   (Seismic)</a>  
+    - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
+    - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  

@@ -92,7 +92,8 @@ nav:
     - Onboarding Automation: use-cases/onboarding-automation/index.md
     - Shared Services: use-cases/shared-ser/index.md
   - Reference:
-    - Links: reference/reference.md
+    - Architecture: reference/architecture.md
+    - Links: reference/links.md
   #- Site Info: site_info/site_info.md
   #- Reference:
   #  - Overview: introduction/overview/index.md
