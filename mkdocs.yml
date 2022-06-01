@@ -84,13 +84,15 @@ nav:
     - Customization: client-onboarding/co-customization.md
     - Team Presentation: client-onboarding/co-team-presentation.md
   - FAQ:
-    - Overview: index_faq.md
+    - Overview: faq/faq.md
   - Additional Use Cases:
     - Accounts Payable: use-cases/accounts-pay/index.md
     - HR Onboarding App: use-cases/hr-onboard-app/index.md
     - Refund Request: use-cases/refund-req/index.md
     - Onboarding Automation: use-cases/onboarding-automation/index.md
     - Shared Services: use-cases/shared-ser/index.md
+  - Reference:
+    - Links: reference/reference.md
   #- Site Info: site_info/site_info.md
   #- Reference:
   #  - Overview: introduction/overview/index.md

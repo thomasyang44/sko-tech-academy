@@ -40,3 +40,6 @@ This event will be 4 days long with the following agenda:
 |      | 12:00 - 1:00  | Lunch                                             |
 |      | 1:00 - 4:00   | Advanced Topics & Best Practices                  |
 |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM          |
+
+For more info on the overall automation track agenda, select the link below:  
+    - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">Automation Track Agenda</a>
