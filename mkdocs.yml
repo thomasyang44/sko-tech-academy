@@ -75,7 +75,6 @@ nav:
       - Daffy Env: deploy/daffy-cp4ba.md
       - Cluster Build: deploy/cluster.md
       - Operators: deploy/operators.md
-      - RPA Connectivity: deploy/rpa.md
       - Services: deploy/services.md
       - Monitor / Credentials: deploy/monitor.md
   - Client Onboarding:
