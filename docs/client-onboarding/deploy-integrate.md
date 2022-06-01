@@ -211,7 +211,9 @@ Below are the steps that you will need to import and build the client onboarding
     <a name="deploy-integrate-41"></a>
     ??? note summary "Expand to view"
 
-        1. Download the [Workflow twx file](Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding.twx).
+        1. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Download the workflow app. (This version contains minor
+        changes to account for environmental differences).
+        [Workflow twx file](Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding - v4.3.twx).
 
         2. Login to **IBM Business Automation Studio**
 
@@ -285,9 +287,14 @@ Below are the steps that you will need to import and build the client onboarding
 
         29. In the **Connection name** field, enter **External BAW System**.
 
-        30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the `/ProcessAdmin` or `/ProcessPortal` suffix from the URL)
+        30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, use the Cloudpak Dashboard URL provided by the Daffy service command (see below) and add /bas to the end of this URL. 
+        Daffy service command to show URL's to be executed on your bastion
+
+        ```
+        /data/daffy/cp4ba/service.sh <your environment> --StarterConsole
+        ```
     
-        31. Enter the admin credentials and click **Next**.
+        31. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Enter the cp4admin credentials from Daffy and click **Next**.
 
         32. In the **Select a process application** dropdown, select **Client Onboarding**.
 
@@ -309,22 +316,7 @@ Below are the steps that you will need to import and build the client onboarding
     <a name="deploy-integrate-42"></a>
     ??? note summary "Expand to view"
 
-        1. In BA Studio, within Business Automations --> Workflow, click on **Toolkits**.  
-        ![wf-toolkits](images/sko-wf-toolkits.png)
-
-        2. Click on the tile for the **Client Onboarding Toolkit** toolkit.
-
-        3. Click on the **Collaborators** tab.
-
-        4. Click on the **Add** button.  
-        ![wf-add-group](images/sko-wf-add-group.png)
-
-        5. Select the **Group** radio button.
-
-        6. Search for the group that contains your shared users (eg: cp4bausers) and select the checkbox for the result.  
-        ![wf-add-cp4bausers](images/sko-wf-add-cp4bausers.png)
-           
-        7. Click on the **Add** button to close the dialog.
+        1. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> These steps are not needed when using the starte pattern for cp4ba as there is only one user.
 
         !!! success
             ℹ️ &nbsp; You have successfully shared workflow solution. Next, [import the required objects in FileNet Content Manager](#deploy-integrate-5).
