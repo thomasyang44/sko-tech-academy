@@ -7,7 +7,7 @@ the CP4BA Operator execute the following command in Daffy:
 /data/daffy/cp4ba/build.sh <your environment>
 ```
 
-**Take care, this build command is in a different directory to the previous command.**
+==Take care, this build command is in a different directory to the previous ocp build command.==
 
 As a concrete example, if my environment file is called : acme-demo-env.sh then I would execute the following command:
 ```
