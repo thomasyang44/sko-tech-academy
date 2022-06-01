@@ -41,6 +41,8 @@ ibmcloud oc worker reload -q  -f -c cp4ba-acme-demo  -w kube-ca3ohi4l08bq4l61f0v
 -w kube-ca3ohi4l08bq4l61f0v0-cp4baacmede-default-00000610  -w kube-ca3ohi4l08bq4l61f0v0-cp4baacmede-default-000007e4 
 Waiting for ROKS nodes to be ready -  6 Min(s) so far                                                            
 ```
+Note how Daffy is waiting for the ROKS nodes to be ready. This is normal when running these commands immediately, one 
+after the other. It can take 15-20 mins for this step to complete.
 
 Next, Daffy will need to login to your new cluster and run some commands to install the Operators. You'll see a request
 from the Daffy terminal to login to your cluster console and copy/paste the oc admin login command:
@@ -72,10 +74,11 @@ OC Client Download    :      https://mirror.openshift.com/pub/openshift-v4/clien
 Install Temp Files    :      /data/daffy/tmp/acme-demo/ocp
 openshift-install Dir :      /data/daffy/tmp/acme-demo/ocp/ocp-install
 ```
-Copy the URL into a browser and the OpenShift Web Console will open. In the top right corner there is a drop-down, with 
+Copy the URL for the OpenShift Web Console into a browser and open it (you will need to login to IBM Cloud with your
+IBM ID). In the top right corner there is a drop-down, with 
 your username as a label. Click the label and a Copy Login Command link will be shown, this is highlighted in red below.
 (If the OpenShift Web Console is not loading on a newly created cluster, you'll just need to wait a few minutes the 
-application to be deployed and ready).
+application to be deployed and the necessary networking to finish provisioning).
 
 ![oc console](./images/oc_login1.jpg)
 
