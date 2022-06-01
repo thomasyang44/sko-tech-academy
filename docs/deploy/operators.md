@@ -133,3 +133,4 @@ Business Automation.
 ![operators installed](./images/Operator.jpg)
 
 At this stage the operators are ready to install the CP4BA components. This will be covered in the next step.
+GB 11:06
