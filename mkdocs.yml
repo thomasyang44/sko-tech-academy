@@ -81,8 +81,8 @@ nav:
     - Overview: client-onboarding/client-onboarding.md
     - Deploy and Integrate: client-onboarding/deploy-integrate.md
     - Rebuild: client-onboarding/rebuild.md
-    - Customization: index-tbd.md
-    - Team Presentation: index-tbd.md
+    - Customization: client-onboarding/co-customization.md
+    - Team Presentation: client-onboarding/co-team-presentation.md
   - FAQ:
     - Overview: index_faq.md
   - Additional Use Cases:
