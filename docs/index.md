@@ -19,26 +19,24 @@ After this event, tech sellers should be able to do a POC targeting a customer u
 
 This event will be 4 days long with the following agenda:
 
-|Day   | Time        | Session / Activity                                |
-| :--- | :---------- | :------------------------------------------------ |
-|Day 1 |  1:00– 1:15 | Opening Remarks – Sarah McAndrew & GEO Exec       |
-|      |  1:30- 2:30 | Automation Roadmap and Strategy                   |
-|      |  2:30- 2:45 | Break                                             |
-|      |  2:45– 3:45 | Segment Strategy - Segment VP’s                   |
-|      |  3:45– 5:00 | Team BuildingEvening: Team Dinner                 |
-|Day 2 |  8:00- 8:30 | Introduction                                      |
-|      |  8:30-10:30 | Deployment - Daffy & cp4bausers                   |
-|      | 10:30-11:00 | Break                                             |
-|      | 11:30-12:30 | Client Onboarding Demonstration                   |
-|      | 12:30- 1:30 | Lunch                                             |
-|      |  1:30- 5:00 | Deploy and integrate                              |
-|Day 3 |  9:00-12:00 | Developing & Delivering Demos with Artifacts      |
-|      |             | Rebuild                                           |
-|      | 12:00- 1:00 | Lunch                                             |
-|      |  1:00- 5:00 | Continue Rebuild / Begin Customize                |
-|      |             | Deploy                                            |
-|Day 4 |  9:00-10:00 | Prep for demo                                     |
-|      | 10:00-12:00 | Deliver Customized Client Onboarding Demo         |
-|      | 12:00- 1:00 | Lunch                                             |
-|      |  1:00- 4:00 | Advanced Topics & Best Practices                  |
-|Day 4 |  4:00 PM    | Attendee required to stay until 4:00 P            |
+|Day   | Time          | Session / Activity                                |
+| :--- | :------------ | :------------------------------------------------ |
+|Day 1 | 1:00 – 1:15   | Opening Remarks – Sarah McAndrew & GEO Exec       |
+|      | 1:30 - 2:30   | Automation Roadmap and Strategy                   |
+|      | 2:30 - 2:45   | Break                                             |
+|      | 2:45 – 3:45   | Segment Strategy - Segment VP’s                   |
+|      | 3:45 – 5:00   | Team Building and Team Dinner                     |
+|Day 2 | 8:00 - 8:30   | Introduction                                      |
+|      | 8:30 -10:30   | Deployment - Daffy & cp4bausers                   |
+|      | 10:30 - 11:00 | Break                                             |
+|      | 11:30 - 12:30 | Client Onboarding Demonstration                   |
+|      | 12:30 - 1:30  | Lunch                                             |
+|      | 1:30 - 5:00   | Deploy and Integrate Artifacts                    |
+|Day 3 | 9:00 - 12:00  | Rebuild - Developing & Delivering Demos           |
+|      | 12:00 - 1:00  | Lunch                                             |
+|      | 1:00 - 5:00   | Continue Rebuild & Begin Customizations           |
+|Day 4 | 9:00 - 10:00  | Prep for demo                                     |
+|      | 10:00 - 12:00 | Deliver Customized Client Onboarding Demo         |
+|      | 12:00 - 1:00  | Lunch                                             |
+|      | 1:00 - 4:00   | Advanced Topics & Best Practices                  |
+|Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM          |
