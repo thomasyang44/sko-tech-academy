@@ -44,6 +44,6 @@ This event will be 4 days long with the following agenda:
 |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM          |
 
 For more info on SKO Tech Academy, please refer to the links below:  
-    - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy   (Seismic)</a>  
+    - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
     - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
     - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  

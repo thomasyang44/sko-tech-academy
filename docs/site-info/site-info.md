@@ -2,9 +2,13 @@
 ## Americas - Dallas (June 13-17)
 ??? note summary "Expand to view"
 
-    North America - Dallas
-    COPPELL SALES CALL CTR
-    1177 S Belt Line Rd, Coppell, TX 75019
+    Location:
+        Coppell Sales Call Center  
+        1177 S Belt Line Rd, Coppell, TX 75019  
+
+    Slack channels:  
+        private-cp4ba-2022-sko-tech-academy-americas
+        private-cp4ba-2022-sko-tech-academy-na-lobby
 
     [Top of page](#site_info) | [Top of section](#North America - Dallas (June 13-17))
 
@@ -13,6 +17,10 @@
 ??? note summary "Expand to view"
 
     EMEA - Hursely
+
+    Slack channels:  
+        private-cp4ba-2022-sko-tech-academy-emea  
+        private-cp4ba-2022-sko-tech-academy-emea-lobby  
 
     [Top of page](#site_info) | [Top of section](#EMEA - Hursely (June 20-24))
     

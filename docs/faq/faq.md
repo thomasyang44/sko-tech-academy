@@ -85,6 +85,12 @@
 
 ## 13. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
 ??? note summary "Expand to view"
-    <a href="https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB" target="_blank">Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks   
+    <a href="https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB" target="_blank">Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks</a>   
      
     [Go to top of section](#faq-210) | [Go to top of page](#overview)
+
+## 100. Solution Exports
+??? note summary "Expand to view"
+    <a href="https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB" target="_blank">Solution Exports</a>   
+     
+    [Go to top of section](#faq-220) | [Go to top of page](#overview)

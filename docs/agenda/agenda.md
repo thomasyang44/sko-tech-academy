@@ -1,23 +1,21 @@
 ## Day 1
 ??? note summary "Expand to view"
-
-    Day 1 Agenda
     
     |Day   | Time          | Session / Activity                                |
     | :--- | :------------ | :------------------------------------------------ |
-    |Day 1 | 1:00 – 1:15   | Opening Remarks – Sarah McAndrew & GEO Executives |
-    |      | 1:30 - 2:30   | Automation Roadmap and Strategy                   |
-    |      | 2:30 - 2:45   | Break                                             |
-    |      | 2:45 – 3:45   | Segment Strategy - Segment VP’s                   |
-    |      | 3:45 – 5:00   | Team Building and Team Dinner                     |
-    
+    |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Carlos Camilion |
+    |      | 1:30 – 2:15   | Automation Roadmap and Strategy - Bill Lobig      |
+    |      | 2:15 – 2:30   | Support and Feedback process                      |
+    |      | 2:30 – 2:45   | Break                                             |
+    |      | 2:45 – 3:45   | Segment Strategy - (Segment VP’s/Execs : Rakesh Ranjan, Eileen Lowry, John Greene, Matt Warta) |
+    |      | 4:00 –5:15    | Team Building                                     |
+    |      | Evening       | Team Dinner                                       |
+
     [Top of page](#day 1) | [Top of section](#day 1)
 
 
 ## Day 2
 ??? note summary "Expand to view"
-
-    Day 2 Agenda
 
     |Day   | Time          | Session / Activity                                |
     | :--- | :------------ | :------------------------------------------------ |
@@ -34,8 +32,6 @@
 ## Day 3
 ??? note summary "Expand to view"
 
-    Day 3 Agenda
-
     |Day   | Time          | Session / Activity                                |
     | :--- | :------------ | :------------------------------------------------ |
     |Day 3 | 9:00 - 12:00  | Rebuild - Developing & Delivering Demos           |
@@ -47,8 +43,6 @@
 
 ## Day 4
 ??? note summary "Expand to view"
-
-    Day 4 Agenda
 
     |Day   | Time          | Session / Activity                                |
     | :--- | :------------ | :------------------------------------------------ |
