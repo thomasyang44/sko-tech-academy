@@ -2,7 +2,7 @@
 
 Below are the steps that you will need to import and build the client onboarding solution.  
 
-==TY/GB: Describe how teams should approach performing these steps in parallel.  Possibly steps: 1&2, 3, 4&5, 6==
+==TY/GB: Describe how teams should approach performing these steps in parallel.  Possibly steps: 1&2, 3, 4&5, 6&7==
 
 **Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
 
@@ -202,6 +202,7 @@ Below are the steps that you will need to import and build the client onboarding
 
     [Go to top of section](#deploy-integrate-3) | [Go to top of page](#instructions)
 
+==**TY: Gerry - confirm steps for sharing - cp4bausers?**==  
 ## 4. Import the Workflow Solution
 <a name="deploy-integrate-4"></a>
 ??? note summary "Expand to view"
@@ -284,8 +285,8 @@ Below are the steps that you will need to import and build the client onboarding
 
         29. In the **Connection name** field, enter **External BAW System**.
 
-        30. In the **System URL** field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the `/ProcessAdmin` or `/ProcessPortal` suffix from the URL)
-
+        30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, enter the host name of the BAW server (you can take the URL to Process Admin or Process Portal and remove the `/ProcessAdmin` or `/ProcessPortal` suffix from the URL)
+    
         31. Enter the admin credentials and click **Next**.
 
         32. In the **Select a process application** dropdown, select **Client Onboarding**.
@@ -298,6 +299,9 @@ Below are the steps that you will need to import and build the client onboarding
         35. In the **Name** field, enter **Client_Onboarding_Workflows_External**.
 
         36. Click on **Publish**.
+
+        !!! success
+            ℹ️ &nbsp; You have successfully published the workflow solution.
 
         [Go to top of subsection](#deploy-integrate-41) | [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
 
@@ -321,12 +325,12 @@ Below are the steps that you will need to import and build the client onboarding
         ![wf-add-cp4bausers](images/sko-wf-add-cp4bausers.png)
            
         7. Click on the **Add** button to close the dialog.
-  
+
+        !!! success
+            ℹ️ &nbsp; You have successfully shared workflow solution. Next, [import the required objects in FileNet Content Manager](#deploy-integrate-5).
+
         [Go to top of subsection](#deploy-integrate-42) | [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
-  
-    !!! success
-        ℹ️ &nbsp; You have successfully imported the workflow solution. Next, [import the required objects in FileNet Content Manager](#deploy-integrate-5).
-        
+          
     [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
 
 ## 5. Import objects into FileNet Content Manager
@@ -380,6 +384,10 @@ Below are the steps that you will need to import and build the client onboarding
 
         d\. On the next page, provide the property values, according to the table above. No further changes are required, so press "Next" until the final page, then "Finish" and then "Close".  
         
+        !!! success
+            ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, [import the Business Automation Application into IBM Business Automation Navigator](#deploy-integrate-6).
+
+        
     ### Prepare a shared environment for labs (*OPTIONAL*)
     <a name="deploy-integrate-51"></a>
     ??? note summary "Expand to view (*NOT REQUIRED FOR SKO TECH ACADEMY*)"
@@ -399,12 +407,12 @@ Below are the steps that you will need to import and build the client onboarding
             ![ContentSecurityID3](images/sko-content-security-id3.png)
 
         2. Expand the `Client Document` class on the left and repeat the previous step for the `Banking Information` and `Utility Bill` document classes.
+
+        !!! success
+            ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, [import the Business Automation Application into IBM Business Automation Navigator](#deploy-integrate-6).
   
     <br>
   
-    !!! success
-        ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, [import the Business Automation Application into IBM Business Automation Navigator](#deploy-integrate-6).
-
     [Go to top of section](#deploy-integrate-5) | [Go to top of page](#instructions)
 
 ## 6. Import the Business Automation Application app
@@ -462,12 +470,15 @@ Below are the steps that you will need to import and build the client onboarding
 
         19. Choose the the previously downloaded file **ClientOnboardingRequestDesktop.properties** and click on the **Import** button. You can close the summary dialog that pops up after the import is complete. Note that you may see a warning that says `The following items already exist on this system`. You can ignore this warning and continue with the import.
 
-        20. Repeat the previous step for the **CODocumentUploadDesktop.properties** file.
+        20. Repeat the previous step for the **CODocumentUploadDesktop.properties** file.  
+
+        !!! success
+            ℹ️ &nbsp; You have successfully imported the Business Automation Application app
 
         [Go to top of subsection](#deploy-integrate-61) | [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
 
     ### 6.2 Prepare shared environment
-    ==**TY: Gerry - let's confirm whether this is needed**==  
+    ==**TY: Gerry - let's confirm whether this is needed. Confirm where success message should be**==  
     <a name="deploy-integrate-62"></a>
     ??? note summary "Expand to view"
         You only need to do these steps if your environment will be used to perform the labs associated with Client Onboarding.
@@ -498,11 +509,11 @@ Below are the steps that you will need to import and build the client onboarding
 
             ![app-toolkit-collaborators](images/sko-app-toolkit-collaborators.png)
 
+        !!! success
+            ℹ️ &nbsp; You have successfully imported the Business Automation Application app
+
         [Go to top of subsection](#deploy-integrate-62) | [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
-  
-    !!! success
-        ℹ️ &nbsp; You have successfully imported the Business Automation Application app
-        
+          
     [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
 
 ## 7. Import the Business Automation Insights data
@@ -589,6 +600,9 @@ Below are the steps that you will need to import and build the client onboarding
         15. Repeat steps 11-14 to add the same goal to the **Highest Service Fee by Industry Sector** visualization  
   
         ![BAIGoalCompleted](images/sko-BAI-goal-completed.png)
+  
+        !!! success
+            ℹ️ &nbsp; You have successfully imported the Business Automation Insights Data  
 
         [Go to top of subsection](#deploy-integrate-72) | [Go to top of section](#deploy-integrate-7) | [Go to top of page](#instructions)
 
@@ -602,10 +616,9 @@ Below are the steps that you will need to import and build the client onboarding
           
             ![BAI-3](images/sko-BAI-3.png)
 
+        !!! success
+            ℹ️ &nbsp; You have successfully shared the environment
+            
         [Go to top of subsection](#deploy-integrate-73) | [Go to top of section](#deploy-integrate-7) | [Go to top of page](#instructions)
-  
-  
-    !!! success
-        ℹ️ &nbsp; You have successfully imported the Business Automation Insights Data  
-  
+    
     [Go to top of section](#deploy-integrate-7) | [Go to top of page](#instructions)
