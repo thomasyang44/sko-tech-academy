@@ -7,7 +7,7 @@
     |      | 1:30 – 2:15   | Automation Roadmap and Strategy - Bill Lobig      |
     |      | 2:15 – 2:30   | Support and Feedback process                      |
     |      | 2:30 – 2:45   | Break                                             |
-    |      | 2:45 – 3:45   | Segment Strategy - (Segment VP’s/Execs : Matt Warta, Rakesh Ranjan, Eileen Lowry, John Greene) |
+    |      | 2:45 – 3:45   | Segment Strategy - (Segment VP’s/Execs: Matt Warta, Rakesh Ranjan, Eileen Lowry, John Greene) |
     |      | 4:00 –5:15    | Team Building                                     |
     |      | Evening       | Team Dinner                                       |
 
