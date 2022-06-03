@@ -20,7 +20,7 @@
     |Day   | Time          | Session / Activity                                |
     | :--- | :------------ | :------------------------------------------------ |
     |Day 2 | 8:00 - 8:30   | Introduction                                      |
-    |      | 8:30 -10:30   | Deployment - Daffy & cp4bausers                   |
+    |      | 8:30 -10:30   | Deployment - Daffy & Cluster Build                |
     |      | 10:30 - 11:00 | Break                                             |
     |      | 11:30 - 12:30 | Client Onboarding Demonstration                   |
     |      | 12:30 - 1:30  | Lunch                                             |
