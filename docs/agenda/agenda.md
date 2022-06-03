@@ -1,4 +1,4 @@
-## Day 1
+## Day 1 - TY
 ??? note summary "Expand to view"
     
     |Day   | Time          | Session / Activity                                |

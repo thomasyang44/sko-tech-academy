@@ -78,7 +78,7 @@ nav:
       - Services: deploy/services.md
       - Monitor / Credentials: deploy/monitor.md
   - Client Onboarding:
-    - Overview: client-onboarding/client-onboarding.md
+    - Overview: client-onboarding/co-overview.md
     - Deploy and Integrate: client-onboarding/deploy-integrate.md
     - Rebuild: client-onboarding/rebuild.md
     - Customization: client-onboarding/co-customization.md
