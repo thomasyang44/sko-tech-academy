@@ -1,6 +1,6 @@
 ## Instructions
 
-These labs assume that you have installed IBM Cloud Pak for Business Automation v21.0.3 on a ROKS cluster as described [here](../deploy/overview.md) and imported the Client Onboarding scenario as described [here](client-onboarding.md).
+These labs assume that you have installed IBM Cloud Pak for Business Automation v21.0.3 on a ROKS cluster as described [here](../deploy/overview.md) and imported the Client Onboarding scenario as described [here](deploy-integrate.md).
 
 The table below lists all capabilities that we currently have labs for. A capability may contain one or more labs depending on the complexity.
 
