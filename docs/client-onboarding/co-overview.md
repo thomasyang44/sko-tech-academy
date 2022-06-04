@@ -26,8 +26,8 @@ The Client Onboarding[^1] scenario is an end-to-end solution that showcases the 
 
 [^1]:
     The Client Onboarding assets have been adapted from the
-    IBM TechJam materials as developed by the IBM SWAT Team
-    
+    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+    materials as developed by the IBM SWAT Team
     
 ## End-to-End Demonstration Assets
 <a name="C1"></a>
