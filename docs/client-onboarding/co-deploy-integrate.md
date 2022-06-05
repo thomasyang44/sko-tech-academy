@@ -1,7 +1,12 @@
 ## Instructions
 
-Below are the steps that you will need to import and build the client onboarding solution.  
+Below are the steps that you will need to import and build the Client Onboarding[^1] solution.  
 
+[^1]:
+    The Client Onboarding assets have been adapted from the
+    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+    materials as developed by the IBM SWAT Team
+    
 ==TY/GB: Describe how teams should approach performing these steps in parallel.  Possibly steps: 1&2, 3, 4&5, 6&7==
 
 **Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
@@ -287,7 +292,7 @@ Below are the steps that you will need to import and build the client onboarding
 
         29. In the **Connection name** field, enter **External BAW System**.
 
-        30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, use the Cloudpak Dashboard URL provided by the Daffy service command (see below) and add /bas to the end of this URL. 
+        30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, use the Cloudpak Dashboard URL provided by the Daffy service command (see below) and add /bas to the end of this URL.
         Daffy service command to show URL's to be executed on your bastion
 
         ```
@@ -419,11 +424,11 @@ Below are the steps that you will need to import and build the client onboarding
         1. Download the the two twx files shown below :
             
             - [Client_Onboarding_Request - 6.twx](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Request - 6.twx)  
-            - [Client_Onboarding_Document_Upload - v1.3.twx](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload - v1.3.twx) 
+            - [Client_Onboarding_Document_Upload - v1.3.twx](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload - v1.3.twx)
 
             Import each of these...
 
-        2. Once both applications have been imported go into each application and export a zip file. 
+        2. Once both applications have been imported go into each application and export a zip file.
 
         2. Login to the **Navigator admin desktop** (URL should end with `desktop=admin`).
 

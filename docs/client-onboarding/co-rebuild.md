@@ -1,8 +1,22 @@
 ## Instructions
 
-These labs assume that you have installed IBM Cloud Pak for Business Automation v21.0.3 on a ROKS cluster as described [here](../deploy/overview.md) and imported the Client Onboarding scenario as described [here](deploy-integrate.md).
+These labs assume that you have installed IBM Cloud Pak for Business Automation v21.0.3 on a ROKS cluster as described [here](../deploy/overview.md) and imported the Client Onboarding[^1] scenario as described [here](deploy-integrate.md).
+
+[^1]:
+    The Client Onboarding assets have been adapted from the
+    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+    materials as developed by the IBM SWAT Team  
 
 The table below lists all capabilities that we currently have labs for. A capability may contain one or more labs depending on the complexity.
+
+| Capability                                         | Approximate Duration |
+| :------------------------------------------------- | :------------------: |
+| [IBM Business Automation Application](#rebuild-1)  |      2-3 hours       |
+| [IBM Business Automation Insights](#rebuild-2)     |        1 hour        |
+| [IBM FileNet Content Manager](#rebuild-3)          |      2-4 hours       |
+| [IBM Automation Decision Services](#rebuild-4)     |       3 hours        |
+| [IBM Robotic Process Automation](#rebuild-5)       |      3-4 hours       |
+| [IBM Business Automation Workflow](#rebuild-6)     |      5-6 hours       |
 
 | Capability                                                                         | Approximate Duration |
 | :--------------------------------------------------------------------------------- | :------------------: |
@@ -13,14 +27,11 @@ The table below lists all capabilities that we currently have labs for. A capabi
 | [IBM Robotic Process Automation](../labs/Robotic%20Process%20Automation)           |      3-4 hours       |
 | [IBM Business Automation Workflow](../labs/Workflow)                               |      5-6 hours       |
 
+
 Select the links below to view:  
     - **<a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports" target="_blank">Solution Exports</a>**  
     - **<a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs" target="_blank">Labs</a>**  
 
-
-
-
-==TY: 6. Workflow is complete.  Repeat for labs 1-5==
 
 ## 1. IBM Business Automation Application
 <a name="rebuild-1"></a>
@@ -32,35 +43,34 @@ Select the links below to view:
 
     **Track 2 - Developer Role / Solution Implementation**
 
-    - **[Introduction to IBM Business Automation Application](Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Application.pdf)**: This lab introduces you to the key concepts of IBM Business Automation Application including Application Designer. In this you will learn how to create toolkits, templates and applications that integrate with the Worklow, Decisions & Content capabilitities of the CP4BA platform.
-
-        **Approximate Duration:** 2 Hours
-
-    - **[title](labs/Workflow/doc.pdf)**
-    <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Workflow/doc.pdf" target="_blank"> (View)</a>  
+    - **[Introduction to IBM Business Automation Application](labs/Business Automation Application/Lab Guide - Introduction to IBM Business Automation Application.pdf)**
+    <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Business%20Automation%20Application/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Application.pdf" target="_blank"> (View)</a>  
+    This lab introduces you to the key concepts of IBM Business Automation Application including Application Designer. In this you will learn how to create toolkits, templates and applications that integrate with the Workflow, Decisions & Content capabilities of the CP4BA platform.
+    <br>
+    **Approximate Duration:** 2 Hours
 
     [Go to top of section](#rebuild-1) | [Go to top of page](#instructions)
 
 ## 2. IBM Business Automation Insights
-<a name="rebuild-1"></a>
+<a name="rebuild-2"></a>
 ??? note summary "Expand to view"
 
     [Go to top of section](#rebuild-1) | [Go to top of page](#instructions)
 
 ## 3. IBM FileNet Content Manager
-<a name="rebuild-1"></a>
+<a name="rebuild-3"></a>
 ??? note summary "Expand to view"
 
     [Go to top of section](#rebuild-1) | [Go to top of page](#instructions)
 
 ## 4. IBM Automation Decision Services
-<a name="rebuild-1"></a>
+<a name="rebuild-4"></a>
 ??? note summary "Expand to view"
 
     [Go to top of section](#rebuild-1) | [Go to top of page](#instructions)
 
 ## 5. IBM Robotic Process Automation
-<a name="rebuild-1"></a>
+<a name="rebuild-5"></a>
 ??? note summary "Expand to view"
 
     [Go to top of section](#rebuild-1) | [Go to top of page](#instructions)
@@ -68,11 +78,11 @@ Select the links below to view:
 ## 6. Business Automation Workflow
 <a name="rebuild-6"></a>
 ??? note summary "Expand to view"
-    ## Overview
+    ### Overview
 
     IBM Business Automation Workflow is software that combines business process management and case management  capabilities in a single integrated workflow solution. It unites information process, and users to provide a 360-degree view of work to help drive more successful business outcomes.
 
-    ## Labs
+    ### Labs
 
     **Track 2 - Developer Role / Solution Implementation**
   
