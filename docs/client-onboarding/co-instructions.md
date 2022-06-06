@@ -1,6 +1,6 @@
 # Overview
 
-==Jeff/Greg/Gerry/Thomas: update with instructions==  
+==Jeff/Greg/Reinhold: update with instructions==  
     1. Group of 3 per team - create team name  
     2. Identify that team should first execute the deploy and integrate labs to create the Client Onboarding applications
     3. Describe how the client onboarding should be updated based on your client PoC requirements
