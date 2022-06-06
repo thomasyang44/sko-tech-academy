@@ -34,9 +34,11 @@
 
     |Day   | Time          | Session / Activity                                |
     | :--- | :------------ | :------------------------------------------------ |
-    |Day 3 | 9:00 - 12:00  | Rebuild - Developing & Delivering Demos           |
-    |      | 12:00 - 1:00  | Lunch                                             |
-    |      | 1:00 - 5:00   | Continue Rebuild & Begin Customizations           |
+    |Day 3 | 9:00 - 9:30   | Client Onboarding - Review Demo Checklist                   |
+    |      | 9:30 - 12:00  | Client Onboarding - Rebuild - Developing & Delivering       |
+    |      | 12:00 - 1:00  | Lunch                                                       |
+    |      | 1:00 - 1:30   | Review Demo Outline                                         |
+    |      | 1:30 - 5:00   | Continue Rebuild & Begin Customizations                     |
     
     [Top of page](#day 1) | [Top of section](#day 3)
 
@@ -46,10 +48,10 @@
 
     |Day   | Time          | Session / Activity                                |
     | :--- | :------------ | :------------------------------------------------ |
-    |Day 4 | 9:00 - 10:00  | Prep for demo                                     |
-    |      | 10:00 - 12:00 | Deliver Customized Client Onboarding Demo         |
-    |      | 12:00 - 1:00  | Lunch                                             |
-    |      | 1:00 - 4:00   | Advanced Topics & Best Practices                  |
-    |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM          |
+    |Day 4 | 9:00 - 10:00  | Prep for demo                                               |
+    |      | 10:00 - 12:00 | Deliver Customized Client Onboarding Demo                   |
+    |      | 12:00 - 1:00  | Lunch                                                       |
+    |      | 1:00 - 4:00   | Advanced Topics & Best Practices                            |
+    |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                    |
 
     [Top of page](#day 1) | [Top of section](#day 4)

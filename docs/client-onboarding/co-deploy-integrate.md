@@ -1,3 +1,5 @@
+# Deploy and Integrate (team)
+
 ## Instructions
 
 Below are the steps that you will need to import and build the Client Onboarding[^1] solution.  
