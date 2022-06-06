@@ -31,12 +31,14 @@ This event will be 4 days long with the following agenda:
 |Day 2 | 8:00 - 8:30   | Introduction                                                |
 |      | 8:30 -  10:30 | Deployment - Daffy & Cluster Build                          |
 |      | 10:30 - 11:00 | Break                                                       |
-|      | 11:30 - 12:30 | Client Onboarding Demonstration - Art of the Possible       |
+|      | 11:00 - 12:30 | [Client Onboarding Demonstration - Art of the Possible](/client-onboarding/co-overview) |
 |      | 12:30 - 1:30  | Lunch                                                       |
 |      | 1:30 - 5:00   | Client Onboarding - Deploy and Integrate                    |
-|Day 3 | 9:00 - 12:00  | Client Onboarding - Rebuild - Developing & Delivering Demos |
+|Day 3 | 9:00 - 9:30   | Client Onboarding - Review Demo Checklist                   |
+|      | 9:30 - 12:00  | Client Onboarding - Rebuild - Developing & Delivering       |
 |      | 12:00 - 1:00  | Lunch                                                       |
-|      | 1:00 - 5:00   | Continue Rebuild & Begin Customizations                     |
+|      | 1:00 - 1:30   | Review Demo Outline                                         |
+|      | 1:30 - 5:00   | Continue Rebuild & Begin Customizations                     |
 |Day 4 | 9:00 - 10:00  | Prep for demo                                               |
 |      | 10:00 - 12:00 | Deliver Customized Client Onboarding Demo                   |
 |      | 12:00 - 1:00  | Lunch                                                       |
