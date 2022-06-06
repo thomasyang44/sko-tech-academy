@@ -19,7 +19,7 @@
                 Main channel: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03HMC19JQ6" target="_blank">**private-cp4ba-2022-sko-tech-academy-americas**</a>  
 
         === "Site Info"
-            <iframe src="http://w3-03.ibm.com/workplaces/location.html?campusid=SWA9716" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            <iframe src="http://w3.ibm.com/workplaces/location.html?campusid=SWA9716" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
 
             <iframe src="../site-info/sites/coppell/NearbyRestaurants.pdf" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
 
