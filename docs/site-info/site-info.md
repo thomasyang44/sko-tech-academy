@@ -19,18 +19,17 @@
                 Main channel: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03HMC19JQ6" target="_blank">**private-cp4ba-2022-sko-tech-academy-americas**</a>  
 
         === "Site Info"
-            <iframe src="http://w3.ibm.com/workplaces/location.html?campusid=SWA9716" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+        
+            HELLO1  
+            <iframe src="http://w3-03.ibm.com/workplaces/location.html?campusid=SWA9716" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
 
-            <iframe src="../site-info/sites/coppell/NearbyRestaurants.pdf" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            HELLO2  
+            [Nearby Restaurants](../sites/coppell/NearbyRestaurants.pdf)
+            [Welcome to Dallas](../sites/coppell/WelcomeToDallasPamphlet.pdf)
 
-            <iframe src="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/site-info/sites/coppell/NearbyRestaurants.pdf" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
-
-            [TEST ME2](../site-info/sites/coppell/NearbyRestaurants.pdf)
-
-
-
-            NearbyLobby: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03H2NQVC0Y" target="_blank">**Nearby Restaurants**</a>
+            <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/site-info/sites/coppell/WelcomeToDallasPamphlet.pdf" target="_blank"> Welcome to Dallas XX</a>
             
+            HELLO4  
             <iframe src="https://w3-03.ibm.com/workplaces/location.html?campusid=HURMAIN" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
 
             
@@ -70,49 +69,49 @@
 <a name="2022Korea"></a>
 ??? note summary "Expand to view"
 
-!!! note ""
+    !!! note ""
 
-    === "Location"
-        | Address                    | Map                                  | Directions from Airport (TBD) |
-        | -------------------------  | ------------------------------------ | ----------------------------|
-        | IBM Korea <br> 10 Gukjegeumyung-ro, Yeoui-dong, Yeongdeungpo-gu, Seoul, South Korea <br> +82237817114 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.2747771156055!2d126.92353205066246!3d37.52501953416382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca6a665488f8d%3A0xcb480bff938d8e0e!2sIBM%20Korea!5e0!3m2!1sen!2sus!4v1654550898612!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> | <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d319652.4722772479!2d-1.206609109194424!3d51.25066282816136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x48767234cdc56de9%3A0x8fe7535543f64167!2sHeathrow%20Airport%2C%20Longford%20TW6%2C%20United%20Kingdom!3m2!1d51.4700223!2d-0.45429549999999996!4m5!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM%2C%20Hursley%20Park%20Rd%2C%20Hursley%2C%20Winchester%20SO21%202JN%2C%20United%20Kingdom!3m2!1d51.0260617!2d-1.3971854!5e0!3m2!1sen!2sus!4v1654549352579!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
+        === "Location"
+            | Address                    | Map                                  | Directions from Airport (TBD) |
+            | -------------------------  | ------------------------------------ | ----------------------------|
+            | IBM Korea <br> 10 Gukjegeumyung-ro, Yeoui-dong, Yeongdeungpo-gu, Seoul, South Korea <br> +82237817114 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.2747771156055!2d126.92353205066246!3d37.52501953416382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca6a665488f8d%3A0xcb480bff938d8e0e!2sIBM%20Korea!5e0!3m2!1sen!2sus!4v1654550898612!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> | <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d319652.4722772479!2d-1.206609109194424!3d51.25066282816136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x48767234cdc56de9%3A0x8fe7535543f64167!2sHeathrow%20Airport%2C%20Longford%20TW6%2C%20United%20Kingdom!3m2!1d51.4700223!2d-0.45429549999999996!4m5!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM%2C%20Hursley%20Park%20Rd%2C%20Hursley%2C%20Winchester%20SO21%202JN%2C%20United%20Kingdom!3m2!1d51.0260617!2d-1.3971854!5e0!3m2!1sen!2sus!4v1654549352579!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
 
-    === "Slack Channels"
+        === "Slack Channels"
 
-        Workspace: <a href="http://ibm-cloudpak-partners.slack.com" target="_blank">**IBM CloudPak Ecosystem**</a>  
-        <br>
-            Lobby: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03HNKMQG2J" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea-lobby**</a>  
-            Main channel: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03JJTLN04Q" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea**</a>  
+            Workspace: <a href="http://ibm-cloudpak-partners.slack.com" target="_blank">**IBM CloudPak Ecosystem**</a>  
+            <br>
+                Lobby: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03HNKMQG2J" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea-lobby**</a>  
+                Main channel: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03JJTLN04Q" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea**</a>  
 
-    === "Site Contact"
-    
-        TBD
+        === "Site Contact"
         
+            TBD
+            
 
-    [Top of page](#SiteInfoTop) | [Top of section](#2022Korea)
+        [Top of page](#SiteInfoTop) | [Top of section](#2022Korea)
 
 
 ## APAC - Tokyo (7/25 - 7/28)
 <a name="2022Tokyo"></a>
 ??? note summary "Expand to view"
 
-!!! note ""
+    !!! note ""
 
-    === "Location"
-        | Address                    | Map                                  | Directions from Airport (LHR) |
-        | -------------------------  | ------------------------------------ | ----------------------------|
-        | IBM Hursley <br> Hursley Park Rd, Hursley, Winchester SO21 2JN, United Kingdom <br> +441962815000 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.4632053573805!2d-1.399379448908604!3d51.02606505350224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM!5e0!3m2!1sen!2sus!4v1654549604095!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> | <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d319652.4722772479!2d-1.206609109194424!3d51.25066282816136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x48767234cdc56de9%3A0x8fe7535543f64167!2sHeathrow%20Airport%2C%20Longford%20TW6%2C%20United%20Kingdom!3m2!1d51.4700223!2d-0.45429549999999996!4m5!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM%2C%20Hursley%20Park%20Rd%2C%20Hursley%2C%20Winchester%20SO21%202JN%2C%20United%20Kingdom!3m2!1d51.0260617!2d-1.3971854!5e0!3m2!1sen!2sus!4v1654549352579!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
+        === "Location"
+            | Address                    | Map                                  | Directions from Airport (LHR) |
+            | -------------------------  | ------------------------------------ | ----------------------------|
+            | IBM Hursley <br> Hursley Park Rd, Hursley, Winchester SO21 2JN, United Kingdom <br> +441962815000 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.4632053573805!2d-1.399379448908604!3d51.02606505350224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM!5e0!3m2!1sen!2sus!4v1654549604095!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> | <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d319652.4722772479!2d-1.206609109194424!3d51.25066282816136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x48767234cdc56de9%3A0x8fe7535543f64167!2sHeathrow%20Airport%2C%20Longford%20TW6%2C%20United%20Kingdom!3m2!1d51.4700223!2d-0.45429549999999996!4m5!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM%2C%20Hursley%20Park%20Rd%2C%20Hursley%2C%20Winchester%20SO21%202JN%2C%20United%20Kingdom!3m2!1d51.0260617!2d-1.3971854!5e0!3m2!1sen!2sus!4v1654549352579!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
 
-    === "Slack Channels"
+        === "Slack Channels"
 
-        Workspace: <a href="http://ibm-cloudpak-partners.slack.com" target="_blank">**IBM CloudPak Ecosystem**</a>  
-        <br>
-            Lobby: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03HNKMQG2J" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea-lobby**</a>  
-            Main channel: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03JJTLN04Q" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea**</a>  
+            Workspace: <a href="http://ibm-cloudpak-partners.slack.com" target="_blank">**IBM CloudPak Ecosystem**</a>  
+            <br>
+                Lobby: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03HNKMQG2J" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea-lobby**</a>  
+                Main channel: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03JJTLN04Q" target="_blank">**private-cp4ba-2022-sko-tech-academy-emea**</a>  
 
-    === "Site Contact"
-    
-        TBD
+        === "Site Contact"
         
+            TBD
+            
 
-    [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
+        [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
