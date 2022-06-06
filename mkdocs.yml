@@ -84,8 +84,8 @@ nav:
     - Rebuild: client-onboarding/co-rebuild.md
     - Customization: client-onboarding/co-customization.md
     - Team Presentation: client-onboarding/co-team-presentation.md
-  - FAQ:
-    - Overview: faq/faq.md
+  - Troubleshooting:
+    - Overview: troubleshooting/troubleshooting.md
   - Additional Use Cases:
     - Accounts Payable: use-cases/accounts-pay/index.md
     - HR Onboarding App: use-cases/hr-onboard-app/index.md
