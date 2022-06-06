@@ -25,7 +25,9 @@
 
             HELLO2  
             [Nearby Restaurants](../sites/coppell/NearbyRestaurants.pdf)
-            [Welcome to Dallas](../sites/coppell/WelcomeToDallasPamphlet.pdf)
+            [Welcome to Dallas](../sites/coppell/WelcomeToDallasPamphlet.pdf){target="_blank"}
+
+            <a href="../sites/coppell/WelcomeToDallasPamphlet.pdf" target="_blank"> Welcome to Dallas XX3</a>
 
             <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/site-info/sites/coppell/WelcomeToDallasPamphlet.pdf" target="_blank"> Welcome to Dallas XX</a>
             
