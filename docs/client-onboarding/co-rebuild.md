@@ -25,8 +25,8 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
     | [IBM Business Automation Workflow](#rebuild-6)     |      5-6 hours       |
 
     Select the links below to view:  
-        - **<a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs" target="_blank">Labs</a>**  
-        - **<a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports" target="_blank">Solution Exports</a>**  
+        - <a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs" target="_blank">**Labs**</a>  
+        - <a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports" target="_blank">**Solution Exports**</a>  
 
     [Go to top of section](#rebuild-0) | [Go to top of page](#rebuild)
 
