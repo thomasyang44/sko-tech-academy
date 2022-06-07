@@ -608,3 +608,33 @@ It is suggested that you copy these details somewhere you can access them quickl
 ## 8. Validate The COB Solution
 <a name="deploy-integrate-7"></a>
 ??? note summary "Expand to view"
+    <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> This is a quick test to validate the main parts of the solution.
+    This test does not include RPA integration
+
+    1. Open the Client Onboarding desktop. The URL will begin with the URL from the config map called 
+    `Business Automation Navigator for CP4BA`. Add `?desktop=ClientOnboarding` to the end of this URL, for example:
+    `https://cpd-cp4ba-starter.cp4ba-tech-academy-400310-64b8809ea4bdf3ac103ec2bdb80f1d21-0000.us-south.containers.appdomain.cloud/icn/navigator/?desktop=ClientOnboarding`
+
+    2. Enter `el` in the client name, a type-ahead search should find Automation Elite Inc. Select Automation Elite Inc then click search. The values for the client should be populated.
+     ![client-search](./images/validation_1.png)
+
+    3. Scroll down to Service Onboarding and select Finance the Corporate Credit Card. Click Calculate Services Fee to trigger a calculation in ADS.
+    ![Service Fees](./images/validation_2.png)
+
+    4. Click Review Documents and the screen below will appear. It may take a few moments for the screen to appear and the documents to load.
+    ![Review Documents](./images/validation_3.png)
+
+    5. Click on Submit Onboarding Request and a confirmation screen will be displayed with a unique reference.  
+    ![Confirmation](./images/validation_4.png)
+
+    6. Load the BAW Process Inspector, Load Process Admin and select Process Inspector from the top menu bar. As this is
+    a new cluster the only activity will be from from the Onboarding Request just sibmitted.  Click the refresh button
+    and you should see a similar list of tasks as those below.  TODO - help to build URL
+    ![Process Admin](./images/validation_5.png)
+
+    7. TODO  
+    ![Process Inspector](./images/validation_6.png)
+
+    8. TODO  
+    ![Email](./images/validation_7.png)
+
