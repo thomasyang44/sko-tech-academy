@@ -1,6 +1,8 @@
             
 <a name="daffy-requirements"></a>
 
+==TY: Update with links==
+
 **What is required to use Daffy?**  
 Before you can use the Daffy scripts, you must have the following.
 

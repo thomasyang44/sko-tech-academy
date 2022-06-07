@@ -13,7 +13,9 @@ Detailed below are the instructions to build your own bastion to do an IPI or MS
 !!! note "If you do not have a bastion, select one of the options below."
 
     === "IBM Cloud Bastion"
+        ==TY UPDATE==
    
     === "IBM Technology Zone Bastion"
+        ==TY UPDATE==
 
 [Go to top of section](#Step1) | [Go to top of page](#DaffyCoreSteps)
