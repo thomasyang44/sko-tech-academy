@@ -26,6 +26,6 @@ Before you can use the Daffy scripts, you must have the following.
     - If you need to get your own IBM entitlement key you can get here.
         - Copy to clipboard and save to a local file
     - If you need create one for a customer you can submit request here.
-    - Customer can use these links to request their own trail keys here.
+    - Customer can there own 60-day trial key [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-44505) 
     
 [Top of page](#daffy-requirements)
