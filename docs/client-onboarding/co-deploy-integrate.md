@@ -13,10 +13,33 @@ Below are the steps that you will need to import and build the Client Onboarding
 
 **Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
 
+## URL's For Your Installation
+Each team will be allocated a pre-configured CP4BA cluster, hosted in an enterprise account on IBM Cloud to which you have been invited.
+Log into IBM CLoud and switch to the enterprise account as shown below:  
+ ![enterprise account](./images/account.png)
+
+Select the burger icon in the top-left corner and select OpenShift, then Clusters
+ ![clusters](./images/clusters.png)
+
+To find your cluster enter your allocated lab name in the search box, (here I'm using lab01). Click on the three dots
+on the right hand side of the screen adjacent to your cluster and select OpenShift Web Console.
+ ![clusters](./images/open_cluster.png)
+
+Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info
+ ![access config map](./images/access-config-map.png)
+
+Open the config map and scroll down to the data section. You will find URL's and credentials for your deployment.
+It is suggested that you copy these details somewhere you can access them quickly or leave this page open.
+
 ## 1. Import the ADS ML Model
 <a name="deploy-integrate-1"></a>
 ??? note summary "Expand to view"
-    1\. Open the ADS ML Service (Open Prediction Service) in your browser
+    1\. Open the ADS ML Service (Open Prediction Service) in your browser. This component has been added to the standard
+    CP4BA build to support the COB scenario. To find the URL for this component open the OpenShift web console and
+    select Networking then Routes. These are all the public URL's exposed by the OpenShift cluster. To easily find
+    the ADS ML Service public URL select "ads-ml-service" from the project dropdown near the top of the screen as shown.
+    Click on the link in the location column and the Swagger UI for the ADS ML Service will open.   
+     ![ADS ML Route](./images/ads-route.png)
 
     2\. Under `manage`, expand the `POST /models Add Model` section  
     ![image-20210601220850676](./images/sko-ads-ml-service-add-model.png)
@@ -25,12 +48,12 @@ Below are the steps that you will need to import and build the Client Onboarding
 
     4\. Use the contents of the [addModel.json](Solution%20Exports/Automation%20Decision%20Services/ML/addModel.json) file as the request body
 
-    5\. Click on `Execute`
+    5\. Click on `Execute` and scroll down to the actual server repsonse (scroll past the example)
 
     6\. Copy the ID of the created model from the response body. It is usually `1`.  
     ![image-2021ID](images/sko-ads-ml-model-id.png){width="600"}  
 
-    7\. Under `manage`, expand the `POST /models/{model_id} Add Binary` section  
+    7\. We've added the meta-data of the model, now we must add the model binary. Under `manage`, expand the `POST /models/{model_id} Add Binary` section  
     ![image-20210601221731687](images/sko-ads-ml-service-add-model-binary.png)
 
     8\. Click on `Try it out`
@@ -87,7 +110,7 @@ Below are the steps that you will need to import and build the Client Onboarding
     <br>
     ![image-2021gitconnect](images/sko-ads-git-connect.png){width="400"}
 
-    9. Enter the references of the GIT repo previously created
+    9. Enter the URL and API key of the GIT repo created previously
 
     10. Click on `Connect` in the top-right corner
 
@@ -214,123 +237,108 @@ Below are the steps that you will need to import and build the Client Onboarding
 <a name="deploy-integrate-4"></a>
 ??? note summary "Expand to view"
 
-    ### 4.1 Import the workflow
-    <a name="deploy-integrate-41"></a>
-    ??? note summary "Expand to view"
+    1. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Download the workflow app. (This version contains minor
+    changes to account for environmental differences).
+    [Workflow twx file](Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding - v4.3.twx).
 
-        1. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Download the workflow app. (This version contains minor
-        changes to account for environmental differences).
-        [Workflow twx file](Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding - v4.3.twx).
+    2. Login to **IBM Business Automation Studio**
 
-        2. Login to **IBM Business Automation Studio**
+    3. In the top-right corner, click on the menu icon and go to **Business automations**.  
+    ![wf-studio-automations](images/sko-wf-studio-automations.png)
 
-        3. In the top-right corner, click on the menu icon and go to **Business automations**.  
-        ![wf-studio-automations](images/sko-wf-studio-automations.png)
+    4. Click on **Workflow**.  
+    ![wf-workflow-option](images/sko-wf-workflow-option.png)
 
-        4. Click on **Workflow**.  
-        ![wf-workflow-option](images/sko-wf-workflow-option.png)
+    5. Click on the **Import** button.
 
-        5. Click on the **Import** button.
+    6. Click on **Browse** and select the twx file downloaded in Step 1.
 
-        6. Click on **Browse** and select the twx file downloaded in Step 1.
+    7. Click on OK.
 
-        7. Click on OK.
+    8. Once the import completes, click on tile for the **Client Onboarding** Workflow project (Don't click on the open button but just the tile).
 
-        8. Once the import completes, click on tile for the **Client Onboarding** Workflow project (Don't click on the open button but just the tile).
+    9. Click on the 3-dot menu next to the Open button on the right and select **Open in Process Designer**
+    ![wf-open-in-pd](images/sko-wf-open-in-pd.png)
 
-        9. Click on the 3-dot menu next to the Open button on the right and select **Open in Process Designer**
-        ![wf-open-in-pd](images/sko-wf-open-in-pd.png)
+        !!! note
+            The version numbers and dates in the screenshots maybe different from what you see in your system
 
-            !!! note
-                The version numbers and dates in the screenshots maybe different from what you see in your system
+    10. In Process Designer, click on the **Environment Variables** tab.
 
-        10. In Process Designer, click on the **Environment Variables** tab.
+    11. Fill out credentials for a gmail account in the **emailID** and **emailPassword** fields under the **Default** column. Note that the password here must be an [App Password](https://support.google.com/accounts/answer/185833?hl=en) and not your gmail password.
+    This gmail account is used by the solution to send outbound emails. If you don't have a gmail account configured
+    with an app password you should create one now or use the default one provided.  
+    ![wf-env-variables](images/sko-wf-env-variables.png)
 
-        11. Fill out credentials for a gmail account in the **emailID** and **emailPassword** fields under the **Default** column. Note that the password here must be an [App Password](https://support.google.com/accounts/answer/185833?hl=en) and not your gmail password.  
-        ![wf-env-variables](images/sko-wf-env-variables.png)
+    12. If you are showcasing ADP as a part of the scenario, enter the ADP host, username, password, and projectID in their respective fields. If you are not, set **adpEnabled** to false.
 
-        12. If you are showcasing ADP as a part of the scenario, enter the ADP host, username, password, and projectID in their respective fields. If you are not, set **adpEnabled** to false.
+        !!! note
+            ℹ️ &nbsp; For 2022 SKO Tech Academy, we will not be showcasing ADP in this scenario  
 
-            !!! note
-                ℹ️ &nbsp; For 2022 SKO Tech Academy, we will not be showcasing ADP in this scenario  
+    13. For the **documentUploadPage** environment variable, use the URL for Business Automation Navigator for CP4BA and add "?desktop=CODocumentUpload". You will add this desktop to the navigator in a later step.
+    The default value is from another environment and illustrates a typical value but you must build yours using your navigator URL.
 
-        13. For the **documentUploadPage** environment variable, enter the URL for the navigator admin and replace the `admin` at the end with `CODocumentUpload`. You will add this desktop to the navigator in a later step.
+    14. The RPA bot is currently only executed if the user running the scenario matches the **rpaBotExecutionUser**. You can change this by updating the value of the **rpaBotExecutionUser** environment variable.
+    In this environment the rpaBotExecution user will be called cp4admin, so only set this value to cp4admin once your option RPA server and configuration is complete otherwise the workflow will encounter errors.
+    It is recommeded that you DO NOT set this value to be cp4admin until you have validated that the end to end COB scenario works without RPA first. 
 
-        14. The RPA bot is currently only executed if the user running the scenario matches the **rpaBotExecutionUser**. You can change this by updating the value of the **rpaBotExecutionUser** environment variable.
+    15. If you are executing the RPA bot, update the value for the **rpaServer** environment variable from the environment you reserved using the previous step.
 
-        15. If you are executing the RPA bot, update the value for the **rpaServer** environment variable from the environment you reserved using the previous step.
+    16. The default target object store name is **TARGET**. If you have changed this, update the value for the **tosName** environment variable. Demo environments have the default target object store name of **TARGET**.
 
-        16. The default target object store name is **TARGET**. If you have changed this, update the value for the **tosName** environment variable. Demo environments have the default target object store name of **TARGET**.
+    17. In the top-right corner, click on the **Finish Editing** button.  
+    ![wf-finish-editing](images/sko-wf-finish-editing.png)
 
-        17. In the top-right corner, click on the **Finish Editing** button.  
-        ![wf-finish-editing](images/sko-wf-finish-editing.png)
+    18. In the top-left corner, click on **Business automations** to go back to the BA Studio.  
+    ![wf-back-to-studio](images/sko-wf-back-to-studio.png)
 
-        18. In the top-left corner, click on **Business automations** to go back to the BA Studio.  
-        ![wf-back-to-studio](images/sko-wf-back-to-studio.png)
+    19. Click on **Open** for the **Client Onboarding** Workflow automation project to open it in the Case Builder.  
+    ![wf-co-open](images/sko-wf-co-open.png)
 
-        19. Click on **Open** for the **Client Onboarding** Workflow automation project to open it in the Case Builder.  
-        ![wf-co-open](images/sko-wf-co-open.png)
+    20. In the top-right corner, click on the **Deploy** button. The deployment will take a few seconds. Wait until there is a green checkmark next to the button.  
+    ![wf-deploy-solution](images/sko-wf-deploy-solution.png)
 
-        20. In the top-right corner, click on the **Deploy** button. The deployment will take a few seconds. Wait until there is a green checkmark next to the button.  
-        ![wf-deploy-solution](images/sko-wf-deploy-solution.png)
+    21. In the top-left corner, click on **Automations** to go back to the BA Studio.  
+    ![wf-case-builder-automations](images/sko-wf-case-builder-automations.png)
 
-        21. In the top-left corner, click on **Automations** to go back to the BA Studio.  
-        ![wf-case-builder-automations](images/sko-wf-case-builder-automations.png)
+    22. Click on the tile for the **Client Onboarding** Workflow automation project.
 
-        22. Click on the tile for the **Client Onboarding** Workflow automation project.
+    23. Click on the 3-dot menu for latest version of the project and click on **Publish**.  
+    ![wf-publish](images/sko-wf-publish.png)
 
-        23. Click on the 3-dot menu for latest version of the project and click on **Publish**.  
-        ![wf-publish](images/sko-wf-publish.png)
+    24. Close the dialog that shows that the automation services were published successfully.
 
-        24. Close the dialog that shows that the automation services were published successfully.
+    25. In the top-left corner, click on the menu icon and go to **Design** --> **Business automations**.
 
-        25. In the top-left corner, click on the menu icon and go to **Design** --> **Business automations**.
+    26. Click on **Create** --> **External**.
 
-        26. Click on **Create** --> **External**.
+    27. Select **Business Automation Workflow** under **Select the connection type**. Note: this is now done automatically.
 
-        27. Select **Business Automation Workflow** under **Select the connection type**.
+    28. Click on **Next**. Note: this is now done automatically.
 
-        28. Click on **Next**.
+    29. In the **Connection name** field, enter **External BAW System**.
 
-        29. In the **Connection name** field, enter **External BAW System**.
+    30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, use the Cloudpak Dashboard URL you retrieved from the confing map add /bas to the end of this URL.
 
-        30. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> In the **System URL** field, use the Cloudpak Dashboard URL provided by the Daffy service command (see below) and add /bas to the end of this URL.
-        Daffy service command to show URL's to be executed on your bastion
+    31. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Enter the cp4admin credentials you retrieved from the confing map and click **Next**.
 
-        ```
-        /data/daffy/cp4ba/service.sh <your environment> --StarterConsole
-        ```
-    
-        31. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Enter the cp4admin credentials from Daffy and click **Next**.
+    32. In the **Select a process application** dropdown, select **Client Onboarding**.
 
-        32. In the **Select a process application** dropdown, select **Client Onboarding**.
+    33. Select the checkbox for **New Client Onboarding Request**.  
+    ![studio-external-aut-service](images/sko-studio-external-aut-service.png)
 
-        33. Select the checkbox for **New Client Onboarding Request**.  
-        ![studio-external-aut-service](images/sko-studio-external-aut-service.png)
+    34. Click on **Next**.
 
-        34. Click on **Next**.
+    35. In the **Name** field, enter **Client_Onboarding_Workflows_External**.
 
-        35. In the **Name** field, enter **Client_Onboarding_Workflows_External**.
+    36. Click on **Publish**.
 
-        36. Click on **Publish**.
+    !!! success
+        ℹ️ &nbsp; You have successfully published the workflow solution.
 
-        !!! success
-            ℹ️ &nbsp; You have successfully published the workflow solution.
+    [Go to top of subsection](#deploy-integrate-41) | [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
 
-        [Go to top of subsection](#deploy-integrate-41) | [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
 
-    ### 4.2 Prepare shared environment
-    <a name="deploy-integrate-42"></a>
-    ??? note summary "Expand to view"
-
-        1. <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> These steps are not needed when using the starte pattern for cp4ba as there is only one user.
-
-        !!! success
-            ℹ️ &nbsp; You have successfully shared workflow solution. Next, [import the required objects in FileNet Content Manager](#deploy-integrate-5).
-
-        [Go to top of subsection](#deploy-integrate-42) | [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
-          
-    [Go to top of section](#deploy-integrate-4) | [Go to top of page](#instructions)
 
 ## 5. Import objects into FileNet Content Manager
 <a name="deploy-integrate-5"></a>
