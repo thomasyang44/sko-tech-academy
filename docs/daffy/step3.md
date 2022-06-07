@@ -14,7 +14,7 @@ As a starting point, copy a sample environment file from the samples folder loca
 
 For SKO Tech Academy, we will use CP4BA on the ROKS platform:
 ```
-/data/daffy/env/cp4ba-env.sh
+/data/daffy/env/samples/cp4ba-env.sh
 ```
 
 You will copy the environment file and rename it using this format:
