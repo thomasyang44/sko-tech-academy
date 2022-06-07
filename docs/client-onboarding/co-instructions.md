@@ -18,12 +18,20 @@
 ??? note summary "Expand to view"
 
 
+
     [Go to top of section](#instructions-1) | [Go to top of page](#overview)
 
 ## Demo Evaluation Checklist
 <a name="instructions-2"></a>
-==Greg: Send document to update the section below==
+
 ??? note summary "Expand to view"
 
+    <br>
+    <a href="https://ibm.box.com/s/oxj6jkdv9umiazswvvv0a5pj58xyi58f" target="_blank">**Demo Evaluation Checklist**</a>  
+
+    <br>
+    ==TY: Review with team and upload final to Seismic==  
+    ==Update Your Learning==  
+    <br>
 
     [Go to top of section](#instructions-1) | [Go to top of page](#overview)
