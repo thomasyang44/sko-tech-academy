@@ -25,7 +25,7 @@ To find your cluster enter your allocated lab name in the search box, (here I'm 
 on the right hand side of the screen adjacent to your cluster and select OpenShift Web Console.
  ![clusters](./images/open_cluster.png)
 
-Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info
+Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info.
  ![access config map](./images/access-config-map.png)
 
 Open the config map and scroll down to the data section. You will find URL's and credentials for your deployment.
@@ -232,7 +232,6 @@ It is suggested that you copy these details somewhere you can access them quickl
 
     [Go to top of section](#deploy-integrate-3) | [Go to top of page](#instructions)
 
-==**TY: Gerry - confirm steps for sharing - cp4bausers?**==  
 ## 4. Import the Workflow Solution
 <a name="deploy-integrate-4"></a>
 ??? note summary "Expand to view"
@@ -243,7 +242,7 @@ It is suggested that you copy these details somewhere you can access them quickl
 
     2. Login to **IBM Business Automation Studio**
 
-    3. In the top-right corner, click on the menu icon and go to **Business automations**.  
+    3. In the top-left corner, click on the menu icon and go to **Business automations**.  
     ![wf-studio-automations](images/sko-wf-studio-automations.png)
 
     4. Click on **Workflow**.  
@@ -346,9 +345,9 @@ It is suggested that you copy these details somewhere you can access them quickl
     !!! warning
         You must complete the **[Import the Workflow Solution](#deploy-integrate-4)** prior to this step as the document subclasses are created during the workflow import
 
-    1. Login to ACCE. You can switch to english locale if needed by clicking on the persona icon in upper right corner, and select `Change Language and Locale Settings`.  
+    1. Login to ACCE using the URL for "Content Platform Engine administration" You can switch to english locale if needed by clicking on the persona icon in upper right corner, and select `Change Language and Locale Settings`.  
 
-    2. Open the target object store (`TARGET` OR `BAWTOS`), by clicking on it.  
+    2. Open the target object store (`TARGET` OR `BAWTOS`), by clicking on it. In the Tech Academy systems this is `TARGET` so don't be alarmed by the image below that shows `BAWTOS`.   
     ![ContentOpenTOS](images/sko-content-open-bawtos.png)  
        
     3. Create a new folder named `Client Documents` under the root folder.  
@@ -362,7 +361,8 @@ It is suggested that you copy these details somewhere you can access them quickl
         3. The `Define New Folders Dialog` opens on the right side. Set the Folder name to `Client Documents`. Then click on `Next >` two times, then on `Finish`.  
         ![ContentCreateDocuments](images/sko-content-create-client-documents.png)  
        
-    4. In the `Client Documents` folder, create the documents from the table below (see instructions below the table on how to add a document):
+    4. In the `Client Documents` folder, create the documents from the table below (see instructions below the table on how to add a document). 
+    It is recommended that you open each PDF and image in a new browser tab and save the PDF or image from that tab :  
        
        | Document                                                     | Document Title | Document Class  | Document Properties                                          |
        | ------------------------------------------------------------ | -------------- | --------------- | ------------------------------------------------------------ |
@@ -426,110 +426,76 @@ It is suggested that you copy these details somewhere you can access them quickl
 <a name="deploy-integrate-6"></a>
 ??? note summary "Expand to view"
 
-    ### 6.1 Import the applications
-    <a name="deploy-integrate-61"></a>
-    ??? note summary "Expand to view"
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Regenerate the applications from their twx source files before importing them as apps into Navigator.  
+    <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Regenerate the applications from their twx source files before importing them as apps into Navigator.  
 
-        1. Download the the two twx files shown below :
-            
-            - [Client_Onboarding_Request - 6.twx](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Request - 6.twx)  
-            - [Client_Onboarding_Document_Upload - v1.3.twx](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload - v1.3.twx)
+    1. Download the the two twx files shown below :
+        
+        - [Client_Onboarding_Request - 6.twx](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Request - 6.twx)  
+        - [Client_Onboarding_Document_Upload - v1.3.twx](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload - v1.3.twx)
 
-            Import each of these...
+        In the top-left corner, click on the menu icon and go to **Business applications**.  
+        ![business applications](./images/business-applications.png){ width="300" }  
 
-        2. Once both applications have been imported go into each application and export a zip file.
+        Click on import and import both applications, one at at a time.
+    
+        Once both applications have been imported go into each application and export a zip file.  
+        ![business app export](./images/business-app-export.png)  
+        Save these exported zip files somewhere you can find them, you'll need them for the next step.
 
-        2. Login to the **Navigator admin desktop** (URL should end with `desktop=admin`).
+    2. Login to the **Navigator admin desktop** (URL should end with `desktop=admin`). Use the URL for Business 
+    Automation Navigator for CP4BA and add `?desktop=admin`
 
-        3. Click on **Connections** in the menu on the left.
+    3. Click on **Connections** in the menu on the left.
 
-            ![nav-connections](images/sko-nav-connections.png)
+        ![nav-connections](images/sko-nav-connections.png)
 
-        4. Select the the **APPENGO** connection and click on the **Edit** button.
+    4. Select the the **APPENGO** connection and click on the **Edit** button.
 
-            ![nav-edit-appengo](images/sko-nav-edit-appengo.png)
+        ![nav-edit-appengo](images/sko-nav-edit-appengo.png)
 
-        5. Click on the the **Connect...** button.
+    5. Click on the the **Connect...** button.
 
-        6. Click on the **Applications** tab.
+    6. Click on the **Applications** tab.
 
-        7. Click on the **Import** button.
+    7. Click on the **Import** button.
 
-            ![nav-import-app](images/sko-nav-import-app.png)
+        ![nav-import-app](images/sko-nav-import-app.png)
 
-        8. Choose the the previously downloaded file **ClientOnboardingRequest.zip** and click on the **Import** button. If an information dialog pops up after import, you can close it.
+    8. Choose the the previously downloaded file **ClientOnboardingRequest.zip** and click on the **Import** button. If an information dialog pops up after import, you can close it.
 
-            **NOTE: **The target object store name specified in the Application is **TARGET**. If you are using a demo environment, the target store name could be different (eg: **BAWTOS**). In that case, the 2nd page of the application won't show any documents as it looks for the documents in the TARGET object store. To fix this, you can import the application template in Studio as instructed at the end of this page, and update the object store name there.
+        **NOTE: **The target object store name specified in the Application is **TARGET**. If you are using a production environment, the target store name could be different (eg: **BAWTOS**). In that case, the 2nd page of the application won't show any documents as it looks for the documents in the TARGET object store. To fix this, you can import the application template in Studio from the main SWAT COB Repo and rebuild the app.
 
-        9. Click on the 3-dot menu for the **Client Onboarding** application and select **Details**,
+    9. Click on the 3-dot menu for the **Client Onboarding** application and select **Details**,
 
-        10. Click on the **Permissions** tab.
+    10. Click on the **Permissions** tab.
 
-        11. Click on the **Add Teams** button.
+    11. Click on the **Add Teams** button.
 
-        12. In the popup, enter **#** in the **Filter by Teams** field and hit **Enter**.
+    12. In the popup, enter **#** in the **Filter by Teams** field and hit **Enter**.
 
-            ![nav-app-permissions](images/sko-nav-app-permissions.png)
+        ![nav-app-permissions](images/sko-nav-app-permissions.png)
 
-        13. Select the **#AUTHENTICATED-USERS** team and click on the right-facing arrow to move the team to the **Selected** column.
+    13. Select the **#AUTHENTICATED-USERS** team and click on the right-facing arrow to move the team to the **Selected** column.
 
-        14. Click on the **Add** button.
+    14. Click on the **Add** button.
 
-        15. Click on the **Close** button.
+    15. Click on the **Close** button.
 
-        16. Similarly, import the application **ClientOnboardingDocumentUpload.zip** and add the **#AUTHENTICATED-USERS** team to it.
+    16. Similarly, import the application **ClientOnboardingDocumentUpload.zip** and add the **#AUTHENTICATED-USERS** team to it.
 
-        17. Close the **APPENGO** and **Connections** tabs at the top.
+    17. Close the **APPENGO** and **Connections** tabs at the top.
 
-        18. In the **Desktops** tab, click on the **Import** button.
+    18. In the **Desktops** tab, click on the **Import** button.
 
-        19. Choose the the previously downloaded file **ClientOnboardingRequestDesktop.properties** and click on the **Import** button. You can close the summary dialog that pops up after the import is complete. Note that you may see a warning that says `The following items already exist on this system`. You can ignore this warning and continue with the import.
+    19. Download the two desktop properties files   
+        - [Client Onboarding Request Desktop](Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingRequestDesktop.properties)  
+        - [CO Document Upload Desktop](Solution%20Exports/Business%20Automation%20Navigator/CODocumentUploadDesktop.properties)  
 
-        20. Repeat the previous step for the **CODocumentUploadDesktop.properties** file.  
+    20. Click the import button to import each desktop. Select each file in turn and click import, you can ignore any warnings.
 
-        !!! success
-            ℹ️ &nbsp; You have successfully imported the Business Automation Application app
-
-        [Go to top of subsection](#deploy-integrate-61) | [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
-
-    ### 6.2 Prepare shared environment
-    ==**TY: Gerry - let's confirm whether this is needed. Confirm where success message should be**==  
-    <a name="deploy-integrate-62"></a>
-    ??? note summary "Expand to view"
-        You only need to do these steps if your environment will be used to perform the labs associated with Client Onboarding.
-
-        1. Download the [application template twx file](Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Template.twx).
-
-        2. Login to **IBM Business Automation Studio**.
-
-        3. In the top-left corner, click on the menu icon and go to **Design** --> **Business applications**.
-
-        4. Click on the **Import** button.
-
-        5. Select the **Client_Onboarding_Template.twx** file that you previously downloaded and click on the **OK** button.
-
-        6. Once the import is complete, click on **Toolkits**.
-
-        7. Click on the tile for **Client Onboarding Toolkit** to open its details.
-
-        8. Click on the **Collaborators** tab.
-
-        9. Click on the **Add** button.
-
-        10. Select the **Group** radio button.
-
-        11. In the search box, enter the name of the shared user group (eg: cp4bausers).
-
-        12. Check the user group and click on **Add**.
-
-            ![app-toolkit-collaborators](images/sko-app-toolkit-collaborators.png)
-
-        !!! success
-            ℹ️ &nbsp; You have successfully imported the Business Automation Application app
-
-        [Go to top of subsection](#deploy-integrate-62) | [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
-          
+    !!! success
+        ℹ️ &nbsp; You have successfully imported the Business Automation Application app
+ 
     [Go to top of section](#deploy-integrate-6) | [Go to top of page](#instructions)
 
 ## 7. Import the Business Automation Insights data
@@ -638,3 +604,7 @@ It is suggested that you copy these details somewhere you can access them quickl
         [Go to top of subsection](#deploy-integrate-73) | [Go to top of section](#deploy-integrate-7) | [Go to top of page](#instructions)
     
     [Go to top of section](#deploy-integrate-7) | [Go to top of page](#instructions)
+
+## 8. Validate The COB Solution
+<a name="deploy-integrate-7"></a>
+??? note summary "Expand to view"
