@@ -39,7 +39,7 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
 
     ### **Labs**
 
-    - [**Introduction to IBM Business Automation Application**](labs/Business Automation Application/Lab Guide - Introduction to IBM Business Automation Application.pdf)
+    - [**Introduction to IBM Business Automation Application**](labs/Business Automation Application/Lab Guide - Introduction to IBM Business Automation Application.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Business%20Automation%20Application/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Application.pdf" target="_blank"> (View)</a>  
     This lab introduces you to the key concepts of IBM Business Automation Application including Application Designer. In this you will learn how to create toolkits, templates and applications that integrate with the Workflow, Decisions & Content capabilities of the CP4BA platform.  
     <br>
@@ -63,7 +63,7 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
 
     **Track 2 - Developer Role / Solution Implementation**
 
-    - [**Build Business Performance Center Dashboards**](labs/Business Automation Insights/Lab%20Guide%20-%20Operational%20Intelligence%20-%20BAI%20-%20Build%20Business%20Performance%20Center%20Dashboard.pdf)
+    - [**Build Business Performance Center Dashboards**](labs/Business Automation Insights/Lab%20Guide%20-%20Operational%20Intelligence%20-%20BAI%20-%20Build%20Business%20Performance%20Center%20Dashboard.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Business%20Automation%20Insights/Lab%20Guide%20-%20Operational%20Intelligence%20-%20BAI%20-%20Build%20Business%20Performance%20Center%20Dashboard.pdf" target="_blank"> (View)</a>  
     In the lab, you will learn how to build and use Business Performance Center dashboards to provide insights into a Client Onboarding workflow solution for line of business users.  
     <br>
@@ -83,7 +83,7 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
 
     ### **Labs**
 
-    - [**Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation**](labs/Content/CONTENT%20Lab%201%20-%20CPE.pdf)
+    - [**Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation**](labs/Content/CONTENT%20Lab%201%20-%20CPE.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Content/CONTENT%20Lab%201%20-%20CPE.pdf" target="_blank"> (View)</a>  
     In this lab, you will create a small hierarchy of Document classes to
     capture different kinds of documents together with custom metadata,
@@ -107,7 +107,7 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
     **Approximate Duration**: 4 - 5 hours  
     <br>
 
-    - [**Interfacing FileNet Content Platform Engine with GraphQL on Cloud Pak for Business Automation**](labs/Content/CONTENT%20Lab%202%20-%20GraphQL.pdf)
+    - [**Interfacing FileNet Content Platform Engine with GraphQL on Cloud Pak for Business Automation**](labs/Content/CONTENT%20Lab%202%20-%20GraphQL.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Content/CONTENT%20Lab%202%20-%20GraphQL.pdf" target="_blank"> (View)</a>  
     The second lab on GraphQL builds on top of the first one, as the searches performed using GraphQL use the documents and document classes defined in the first lab. Here you learn by a series of example, how to build the most important queries using GraphQL. The examples also show how to download documents using GraphQL, how to create folders, and modify security settings.  
     <br>
@@ -126,7 +126,7 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
 
     ## **Labs**
 
-    - [**Manage Decisions and infuse Machine Learning**](labs/Decisions/Lab%20Guide%20-%20Automation%20Decision%20Services.pdf)
+    - [**Manage Decisions and infuse Machine Learning**](labs/Decisions/Lab%20Guide%20-%20Automation%20Decision%20Services.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Decisions/Lab%20Guide%20-%20Automation%20Decision%20Services.pdf" target="_blank"> (View)</a>  
     This Lab  introduces you to the key concepts of IBM Business Automation Decision Services. It includes three exercises that can be done separately. In this Lab you learn how to model business decisions, infuse intelligence by adding a predictive model, share and publish decision services.  
     <br>
@@ -145,16 +145,16 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
 
     ## **Labs**
 
-    - [**Application Automation using IBM RPA**](labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20Application%20Automation%20using%20IBM%20RPA.pdf)
+    - [**Application Automation using IBM RPA**](labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20Application%20Automation%20using%20IBM%20RPA.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20Application%20Automation%20using%20IBM%20RPA.pdf" target="_blank"> (View)</a>  
     In this lab you will learn how to use IBM RPA Studio to develop a bot to automate a Java swing application and a web application.
     <br>
     
-    - [**IBM RPA and Workflow Integration**](labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20IBM%20RPA%20and%20Workflow%20Integration.pdf)
+    - [**IBM RPA and Workflow Integration**](labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20IBM%20RPA%20and%20Workflow%20Integration.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20IBM%20RPA%20and%20Workflow%20Integration.pdf" target="_blank"> (View)</a>  
     In this lab you will learn how the bot designed in RPA Studio can easily be integrated into a business process developed with the Workflow capability in IBM Cloud Pak for Business Automation.
 
-    - [**Chatbot Development and Configuration**](labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20Chatbot%20Development%20and%20Configuration.pdf)
+    - [**Chatbot Development and Configuration**](labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20Chatbot%20Development%20and%20Configuration.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20Chatbot%20Development%20and%20Configuration.pdf" target="_blank"> (View)</a>  
     In this lab you will learn how to develop a chatbot script using IBM RPA Studio, and then shows how to configure the chat mapping through web client.  
     <br>
@@ -175,13 +175,13 @@ As described in the [**Client Onboarding - Instructions**](../co-instructions) s
 
     ### **Labs**
   
-    - [**Introduction to IBM Business Automation Workflow**](labs/Workflow/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Workflow.pdf)
+    - [**Introduction to IBM Business Automation Workflow**](labs/Workflow/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Workflow.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Workflow/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Workflow.pdf" target="_blank"> (View)</a>  
     This lab showcases how you can create a sample Workflow project using Case features. It covers Case & Process integration and building UIs using Coaches.
     <br><br>
     **Approximate Duration**: 3-4 hours  
     <br>
-    - [**Consume & Publish Automation Services in Workflow**](labs/Workflow/Lab%20Guide%20-%20Consume%20%26%20Publish%20Automation%20Services%20in%20Workflow.pdf)
+    - [**Consume & Publish Automation Services in Workflow**](labs/Workflow/Lab%20Guide%20-%20Consume%20%26%20Publish%20Automation%20Services%20in%20Workflow.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Workflow/Lab%20Guide%20-%20Consume%20%26%20Publish%20Automation%20Services%20in%20Workflow.pdf" target="_blank"> (View)</a>  
     This lab showcases how you can consume capabilities from the IBM Automation platform using Automation Services. You will also create an external service to invoke a Java app that sends out emails. Finally, you will learn how an automation service can be published for others to consume.  
     <br>
