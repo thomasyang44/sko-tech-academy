@@ -8,10 +8,18 @@ Below are the steps that you will need to import and build the Client Onboarding
     The Client Onboarding assets have been adapted from the
     <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
     materials as developed by the IBM SWAT Team
-    
-==TY/GB: Describe how teams should approach performing these steps in parallel.  Possibly steps: 1&2, 3, 4&5, 6&7==
 
-**Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
+You must use the artefacts downloaded from this page, DO NOT use the original SWAT artefacts you may have downloaded 
+previously.
+
+When working in a team some of these steps can be performed in parallel. TODO  
+    - 1&2  
+    - 3  
+    - 4&5  
+    - 6&7
+
+**Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open 
+Prediction Service (OPS). The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
 
 ## URL's For Your Installation
 Each team will be allocated a pre-configured CP4BA cluster, hosted in an enterprise account on IBM Cloud to which you have been invited.
@@ -629,7 +637,7 @@ It is suggested that you copy these details somewhere you can access them quickl
 
     6. Load the BAW Process Inspector, Load Process Admin and select Process Inspector from the top menu bar. As this is
     a new cluster the only activity will be from from the Onboarding Request just sibmitted.  Click the refresh button
-    and you should see a similar list of tasks as those below.  TODO - help to build URL
+    and you should see a similar list of tasks as those below.  TODO - help t
     ![Process Admin](./images/validation_5.png)
 
     7. TODO  
@@ -637,4 +645,6 @@ It is suggested that you copy these details somewhere you can access them quickl
 
     8. TODO  
     ![Email](./images/validation_7.png)
+
+TODO Add section For RPA
 
