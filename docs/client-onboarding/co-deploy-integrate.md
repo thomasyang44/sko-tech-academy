@@ -230,7 +230,7 @@ It is suggested that you copy these details somewhere you can access them quickl
        ![image-2021gitconnect](images/sko-RPA-StartLicenseManager.png)
     9. You will see the message **Not Licensed**. Click **Activate** button to open the License Activation window.  
        ![image-2021gitconnect](images/sko-RPA-InActiveLicense.png)
-    10. Enter your RPA **license ID** and **Password**, then click the **Activate** button. Once after the license is activated, you should be able to see the number of licenses available for each component.  
+    10. Enter your RPA **license ID** and **Password**, (ask the instructors for this) then click the **Activate** button. Once after the license is activated, you should be able to see the number of licenses available for each component.  
           ![image-2021gitconnect](images/sko-RPA-ActivateLicense.png)
 
     !!! success
@@ -646,5 +646,35 @@ It is suggested that you copy these details somewhere you can access them quickl
     8. TODO  
     ![Email](./images/validation_7.png)
 
-TODO Add section For RPA
+## 9. Validate RPA Integration (Optional)
+<a name="deploy-integrate-7"></a>
+??? note summary "Expand to view"
 
+    If you have provisioned an RPA server and you'd like to test the integration....
+
+    1. TODO  
+    ![Email](./images/rpa_val_1.png)
+
+    2. TODO  
+    ![Email](./images/rpa_val_2.png)
+
+    3. TODO  
+    ![Email](./images/rpa_val_3.png)
+
+    4. TODO  
+    ![Email](./images/rpa_val_4.png)
+
+    5. TODO  
+    ![Email](./images/rpa_val_5.png)
+
+    6. TODO  
+    ![Email](./images/rpa_val_6.png)
+
+    7. TODO  
+    ![Email](./images/rpa_val_7.png)
+
+    8. TODO  
+    ![Email](./images/rpa_val_8.png)
+
+    9. TODO  
+    ![Email](./images/rpa_val_9.png)
