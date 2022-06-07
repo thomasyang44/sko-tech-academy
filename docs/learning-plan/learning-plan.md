@@ -1,14 +1,13 @@
 ## Your Learning - Learning Plan
-
-Please review the Your Learning site for the prerequisites and prework required for this event at:  
-<a href="https://yourlearning.ibm.com/activity/PLAN-B3814805BBB4" target="_blank">2022 SKO Tech Academy - Business Automation: Prerequisite Learning, Session Prework, and Exercise</a>
-
 ??? note summary "Expand to view the learning plan"
+
+    Please review the Your Learning site for the prerequisites and prework required for this event at:  
+    <a href="https://yourlearning.ibm.com/activity/PLAN-B3814805BBB4" target="_blank">2022 SKO Tech Academy - Business Automation: Prerequisite Learning, Session Prework, and Exercise</a>
+
     ![Image title](images/learning_plan.png){ width="800"}
 
 
 ## Prework - Daffy
-
 ??? note summary "Expand to view"
     !!! note ""
 
@@ -23,7 +22,7 @@ Please review the Your Learning site for the prerequisites and prework required 
 
         === "Business Partner"
 
-            - [Daffy Prework - External](../daffy/daffy.md)
+            - [Daffy Setup](../daffy/daffy.md)
 
             - <a href="https://ibm.seismic.com/Link/Content/DCfR9mQC6PJ6g8hBTqb9JQ9DMWpB" target="_blank">Daffy Core Steps - Walkthrough Video</a> 
 

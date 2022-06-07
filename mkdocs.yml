@@ -70,13 +70,13 @@ nav:
     - Learning Plan including prework: learning-plan/learning-plan.md
     - Full Agenda: agenda/agenda.md
     - Site Info: site-info/site-info.md
-  - Daffy:
+  - Daffy Setup:
     - Overview: daffy/daffy.md
     - Pre-Requirements: daffy/requirements.md
     - Core Steps:
-        - Step 1 - Access your Bastion Server: daffy/step1.md
-        - Step 2 - Install Daffy: daffy/step2.md
-        - Step 3 - Create -env.sh: daffy/step3.md
+        - Access your Bastion Server: daffy/step1.md
+        - Install Daffy: daffy/step2.md
+        - Create -env.sh: daffy/step3.md
   - Deployment:
     - Overview: deploy/overview.md
     - Daffy Env: deploy/daffy-cp4ba.md
