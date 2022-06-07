@@ -9,13 +9,23 @@ Please review the Your Learning site for the prerequisites and prework required 
 
 ## Prework - Daffy
 
-- <a href="https://w3.ibm.com/w3publisher/daffy/overview" target="_blank">Daffy Overview</a> 
-    
-- <a href="https://w3.ibm.com/w3publisher/daffy/deploying-ocp/pre-req" target="_blank">Daffy Prerequisites</a> 
-    
-- <a href="https://w3.ibm.com/w3publisher/daffy/deploying-ocp/core-steps" target="_blank">Daffy Core Steps (Steps 1-3)</a> 
+??? note summary "Expand to view"
+    !!! note ""
 
-- <a href="https://ibm.seismic.com/Link/Content/DCfR9mQC6PJ6g8hBTqb9JQ9DMWpB" target="_blank">Daffy Core Steps - Walkthrough Video</a> 
+        === "IBMer"
+            - <a href="https://w3.ibm.com/w3publisher/daffy/overview" target="_blank">Daffy Overview</a> 
+                
+            - <a href="https://w3.ibm.com/w3publisher/daffy/deploying-ocp/pre-req" target="_blank">Daffy Prerequisites</a> 
+                
+            - <a href="https://w3.ibm.com/w3publisher/daffy/deploying-ocp/core-steps" target="_blank">Daffy Core Steps (Steps 1-3)</a> 
+
+            - <a href="https://ibm.seismic.com/Link/Content/DCfR9mQC6PJ6g8hBTqb9JQ9DMWpB" target="_blank">Daffy Core Steps - Walkthrough Video</a> 
+
+        === "Business Partner"
+
+            - [Daffy Prework - External](../daffy/daffy.md)
+
+            - <a href="https://ibm.seismic.com/Link/Content/DCfR9mQC6PJ6g8hBTqb9JQ9DMWpB" target="_blank">Daffy Core Steps - Walkthrough Video</a> 
 
 ## Prework - vi
 
