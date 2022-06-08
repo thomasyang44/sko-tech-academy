@@ -1,4 +1,13 @@
-# Deploy and Integrate (team)
+# Deploy and Integrate (Team)
+
+!!! note
+    These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
+    <br>
+    The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
+
+!!! warning
+    You must use the artifacts downloaded from this page, do NOT use the original SWAT artifacts you may have downloaded
+    previously.
 
 ## Instructions
 
@@ -9,35 +18,45 @@ Below are the steps that you will need to import and build the Client Onboarding
     <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
     materials as developed by the IBM SWAT Team
 
-You must use the artefacts downloaded from this page, DO NOT use the original SWAT artefacts you may have downloaded 
-previously.
 
-When working in a team some of these steps can be performed in parallel. TODO  
-    - 1&2  
-    - 3  
-    - 4&5  
-    - 6&7
+When working in a team some of these steps can be performed in parallel.
 
-**Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open 
-Prediction Service (OPS). The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
+| Step(s) | Description                                         |
+| --------| --------------------------------------------------- |
+| 1<br>2  | Import the ADS ML Model <br> Import the ADS Project |
+| 3<br>9  | Setup the RPA Server (optional) <br> Validate the RPA Integration (optional)  |
+| 4<br>5  | Import the Workflow Solution <br> Import objects into FileNet Content Manager |
+| 6<br>7  | Import the Business Automation Application app <br> Import the Business Automation Insights data |
 
-## URL's For Your Installation
-Each team will be allocated a pre-configured CP4BA cluster, hosted in an enterprise account on IBM Cloud to which you have been invited.
-Log into IBM CLoud and switch to the enterprise account as shown below:  
- ![enterprise account](./images/account.png)
 
-Select the burger icon in the top-left corner and select OpenShift, then Clusters
- ![clusters](./images/clusters.png)
+## Installation Links
+<a name="installation links"></a>
+??? note summary "Expand to view"
 
-To find your cluster enter your allocated lab name in the search box, (here I'm using lab01). Click on the three dots
-on the right hand side of the screen adjacent to your cluster and select OpenShift Web Console.
- ![clusters](./images/open_cluster.png)
+    Each team will be allocated a pre-configured CP4BA cluster, hosted in an enterprise account on IBM Cloud to which you have been invited.  
+    <br>
+    Log into IBM CLoud and switch to the enterprise account as shown below:  
+    <br>
+    ![enterprise account](./images/account.png)
 
-Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info.
- ![access config map](./images/access-config-map.png)
+    Select the burger icon in the top-left corner and select OpenShift, then Clusters  
+    <br>
+    ![clusters](./images/clusters.png)
 
-Open the config map and scroll down to the data section. You will find URL's and credentials for your deployment.
-It is suggested that you copy these details somewhere you can access them quickly or leave this page open.
+    To find your cluster enter your allocated lab name in the search box, (here I'm using lab01).  
+    <br>
+    Click on the three dots on the right hand side of the screen adjacent to your cluster and select OpenShift Web Console.  
+    <br>
+    ![clusters](./images/open_cluster.png)
+
+    Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info.  
+    <br>
+    ![access config map](./images/access-config-map.png)
+
+    Open the config map and scroll down to the data section. You will find URL's and credentials for your deployment.  
+    <br>
+    It is suggested that you copy these details somewhere you can access them quickly or leave this page open.  
+    <br>
 
 ## 1. Import the ADS ML Model
 <a name="deploy-integrate-1"></a>
@@ -287,7 +306,7 @@ It is suggested that you copy these details somewhere you can access them quickl
 
     14. The RPA bot is currently only executed if the user running the scenario matches the **rpaBotExecutionUser**. You can change this by updating the value of the **rpaBotExecutionUser** environment variable.
     In this environment the rpaBotExecution user will be called cp4admin, so only set this value to cp4admin once your option RPA server and configuration is complete otherwise the workflow will encounter errors.
-    It is recommeded that you DO NOT set this value to be cp4admin until you have validated that the end to end COB scenario works without RPA first. 
+    It is recommeded that you DO NOT set this value to be cp4admin until you have validated that the end to end COB scenario works without RPA first.
 
     15. If you are executing the RPA bot, update the value for the **rpaServer** environment variable from the environment you reserved using the previous step.
 
@@ -369,7 +388,7 @@ It is suggested that you copy these details somewhere you can access them quickl
         3. The `Define New Folders Dialog` opens on the right side. Set the Folder name to `Client Documents`. Then click on `Next >` two times, then on `Finish`.  
         ![ContentCreateDocuments](images/sko-content-create-client-documents.png)  
        
-    4. In the `Client Documents` folder, create the documents from the table below (see instructions below the table on how to add a document). 
+    4. In the `Client Documents` folder, create the documents from the table below (see instructions below the table on how to add a document).
     It is recommended that you open each PDF and image in a new browser tab and save the PDF or image from that tab :  
        
        | Document                                                     | Document Title | Document Class  | Document Properties                                          |
@@ -450,7 +469,7 @@ It is suggested that you copy these details somewhere you can access them quickl
         ![business app export](./images/business-app-export.png)  
         Save these exported zip files somewhere you can find them, you'll need them for the next step.
 
-    2. Login to the **Navigator admin desktop** (URL should end with `desktop=admin`). Use the URL for Business 
+    2. Login to the **Navigator admin desktop** (URL should end with `desktop=admin`). Use the URL for Business
     Automation Navigator for CP4BA and add `?desktop=admin`
 
     3. Click on **Connections** in the menu on the left.
@@ -613,13 +632,13 @@ It is suggested that you copy these details somewhere you can access them quickl
     
     [Go to top of section](#deploy-integrate-7) | [Go to top of page](#instructions)
 
-## 8. Validate The COB Solution
+## 8. Validate Client Onboarding solution
 <a name="deploy-integrate-7"></a>
 ??? note summary "Expand to view"
     <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> This is a quick test to validate the main parts of the solution.
     This test does not include RPA integration
 
-    1. Open the Client Onboarding desktop. The URL will begin with the URL from the config map called 
+    1. Open the Client Onboarding desktop. The URL will begin with the URL from the config map called
     `Business Automation Navigator for CP4BA`. Add `?desktop=ClientOnboarding` to the end of this URL, for example:
     `https://cpd-cp4ba-starter.cp4ba-tech-academy-400310-64b8809ea4bdf3ac103ec2bdb80f1d21-0000.us-south.containers.appdomain.cloud/icn/navigator/?desktop=ClientOnboarding`
 
@@ -646,7 +665,7 @@ It is suggested that you copy these details somewhere you can access them quickl
     8. TODO  
     ![Email](./images/validation_7.png)
 
-## 9. Validate RPA Integration (Optional)
+## 9. Validate RPA Integration (optional)
 <a name="deploy-integrate-7"></a>
 ??? note summary "Expand to view"
 

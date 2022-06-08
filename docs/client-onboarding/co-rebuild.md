@@ -1,14 +1,22 @@
-# Rebuild (Team)
-
-As described in the [**Client Onboarding - Instructions**](../co-instructions) section, the labs below can be used as a starting point to customize your client onboarding application based on the requirements of your PoC.  Please note that you may need to redeploy your application depending on your updates.  
+# Rebuild (Individual)
 
 !!! note
     These labs assume that you have installed IBM Cloud Pak for Business Automation v21.0.3 on a ROKS cluster as described [here](../deploy/overview.md) and imported the Client Onboarding[^1] scenario as described [here](co-deploy-integrate.md).  
 
-    [^1]:
-        The Client Onboarding assets have been adapted from the
-        <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
-        materials as developed by the IBM SWAT Team  
+[^1]:
+    The Client Onboarding assets have been adapted from the
+    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+    materials as developed by the IBM SWAT Team  
+
+<br>
+The labs below can be used to learn how various capabilities were configured in the Client Onboarding solution. As you may already have expertise in one or more of these capabilities, you are encouraged to perform lab using a capability that you have **LEAST** experience with.  
+<br>
+As you start and perform the lab, think of ways that you can customize the lab to meet the requirements of a client PoC.
+<br>
+
+!!! warning
+    Please note that you may need to redeploy your application depending on the rebuild lab update.
+
 
 ## Overview
 <a name="rebuild-0"></a>
