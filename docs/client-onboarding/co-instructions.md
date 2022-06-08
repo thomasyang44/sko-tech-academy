@@ -27,7 +27,7 @@
 ??? note summary "Expand to view"
 
     <br>
-    <a href="https://ibm.box.com/s/oxj6jkdv9umiazswvvv0a5pj58xyi58f" target="_blank">**Demo Evaluation Checklist**</a>  
+    <a href="https://ibm.box.com/s/a64u5gj9b3kuq0nw1d4zbtq9czdc4fzi" target="_blank">**Demo Evaluation Checklist**</a>  
 
     <br>
     ==TY: Review with team and upload final to Seismic==  
