@@ -25,7 +25,11 @@ This lab is considered an individual activity as each team member should work on
     - BAWTOS => TARGET  
     - cp4bausers => cp4admin  
 
-
+    [^1]:
+        The Client Onboarding assets have been adapted from the
+        <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+        materials as developed by the IBM SWAT Team  
+        
 ## Overview
 <a name="rebuild-0"></a>
 ??? note summary "Expand to view"

@@ -1,4 +1,4 @@
-==GB UPDATE WITH CONTENT==
+==GB UPDATE WITH CONTENT==  
 ==TY REORG==
 
 ## 1. I can't find BAWTOS or cp4bausers
@@ -10,7 +10,7 @@
     - BAWTOS => TARGET  
     - cp4bausers => cp4admin  
     
-[Go to top of section](#faq-200) | [Go to top of page](#overview)
+    [Go to top of section](#faq-200) | [Go to top of page](#overview)
 
 [^1]:
     The Client Onboarding assets have been adapted from the
