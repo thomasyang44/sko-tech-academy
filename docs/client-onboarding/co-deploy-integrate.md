@@ -11,7 +11,7 @@
 
 ## Instructions
 
-Below are the steps that you will need to import and build the Client Onboarding[^1] solution into the CP4BA starter 
+Below are the steps that you will need to import and build the Client Onboarding[^1] solution into the CP4BA starter
 environment we are using.  
 
 [^1]:
@@ -21,8 +21,8 @@ environment we are using.
 
 
 When working as a team, some of these steps can be performed in parallel as identified below.
-You must use the artefacts downloaded from this page, DO NOT any original SWAT artefacts you may have downloaded 
-previously, as these are from a production deployment of CP4BA and there are subtle differences. 
+You must use the artefacts downloaded from this page, DO NOT any original SWAT artefacts you may have downloaded
+previously, as these are from a production deployment of CP4BA and there are subtle differences.
 
 | Step(s) | Description                                         |
 | --------| --------------------------------------------------- |
@@ -31,12 +31,10 @@ previously, as these are from a production deployment of CP4BA and there are sub
 | 4<br>5  | Import the Workflow Solution <br> Import objects into FileNet Content Manager |
 | 6<br>7  | Import the Business Automation Application app <br> Import the Business Automation Insights data |
 
-***Note : *** The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge
-please contact an instructor.
-
-*** Also : *** There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building
-dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. 
-Process events are unaffected. 
+!!! warning
+    1 - The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.  
+    <br>
+    2 - There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.
 
 ## Installation Links
 <a name="installation links"></a>
@@ -689,7 +687,7 @@ Process events are unaffected.
     1. Refer to your TechZone reservation email and identify the URL for your RPA node  
     ![Email](./images/rpa_val_1.png)
 
-    2. Login to your RPA node and open Firefox and click on the IBM RPA License bookmark. Click Activate. 
+    2. Login to your RPA node and open Firefox and click on the IBM RPA License bookmark. Click Activate.
     ![Email](./images/rpa_val_2.png)
 
     3. Enter the details of the RPA license (ask an instructor).   

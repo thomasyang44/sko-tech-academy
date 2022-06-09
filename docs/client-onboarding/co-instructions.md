@@ -9,9 +9,21 @@ Below is a high-level overview of how your team will build the Client Onboarding
 | 2    | Rebuild portions of the lab based on your client PoC requirements [Individual]     |
 | 3    | Once each team member completes a pillar Client Onboarding labs from the Rebuild section, each team will choose one or more customization scenarios they believe they can finish in the allotted time. <br> This exercise serves to mimic a client surprising the tech seller during a PoC or providing a new requirement that you cannot negotiate out of the scenario, and you need to find a way to show it within the PoC you already built. |
 
-**Additional notes**
-  - Please also review the [Additional Use Cases](./Additional-Use-Cases) for additional ideas on customizations.
+**Additional note**  
+  - Please also review the [Additional Use Cases](./Additional-Use-Cases) for additional ideas on customizations.  
   - Active participation will be critical to the success of this course. Specifically, there will be tremendous value learning  from your peers not only on the capabilities but by discussing experiences executing a client PoC.
+
+!!! warning
+    Content in this area including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Enterprise pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
+    <br>
+    Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
+    - BAWTOS => TARGET  
+    - cp4bausers => cp4admin  
+
+[^1]:
+    The Client Onboarding assets have been adapted from the
+    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+    materials as developed by the IBM SWAT Team  
 
 
 ## Revisit Course Breakdown

@@ -13,9 +13,17 @@ The labs below can be used to learn how various capabilities were configured in 
 <br>
 As you start and perform the lab, think and coordinate with your team members about how you might be able to customize the capability to fit your client PoC requirements.
 <br>
+This lab is considered an individual activity as each team member should work on a separate rebuild lab.  However, all work should be done on the shared team cluster and collaboration is highly recommended as you build components into your customized Client Onboarding PoC demonstration.  
 
 !!! warning
     Please note that you may need to redeploy your application depending on the rebuild lab update.
+
+!!! warning
+    Content in this area including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Enterprise pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
+    <br>
+    Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
+    - BAWTOS => TARGET  
+    - cp4bausers => cp4admin  
 
 
 ## Overview
@@ -37,6 +45,7 @@ As you start and perform the lab, think and coordinate with your team members ab
         - <a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports" target="_blank">**Solution Exports**</a>  
 
     [Go to top of section](#rebuild-0) | [Go to top of page](#rebuild)
+
 
 ## 1. IBM Business Automation Application
 <a name="rebuild-1"></a>
