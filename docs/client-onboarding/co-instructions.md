@@ -1,4 +1,3 @@
-# Overview
 
 At this time, you should now have a good understanding of the Client Onboarding use case scenario. At the end of this course, you will present a customized version of the Client Onboarding solution designed to meet requirements for the client PoC.  
 
