@@ -1,6 +1,6 @@
 The process diagram below represents the activities for this event.
 
-<a href="https://ibm.biz/SKOTechAcademyProcess" target="_blank">![See it in Blueworks Live!](/src/images/demo-overview-bwl.png){width="1944"}</a>
+<a href="https://ibm.biz/SKOTechAcademyProcess" target="_blank">![See it in Blueworks Live!](../src/images/demo-overview-bwl.png){width="1944"}</a>
 
 !!! note "Course Breakdown"
 
