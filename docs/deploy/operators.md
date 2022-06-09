@@ -9,9 +9,9 @@ the CP4BA Operator execute the following command in Daffy:
 
 ==Take care, this build command is in a different directory to the previous ocp build command.==
 
-As a concrete example, if my environment file is called : acme-demo-env.sh then I would execute the following command:
+As a concrete example, if my environment file is called : cp4ba-tech-academy-lab25-env.sh then I would execute the following command:
 ```
-/data/daffy/cp4ba/build.sh acme-demo
+/data/daffy/cp4ba/build.sh cp4ba-tech-academy-lab25
 ```
 Daffy will need your IBM entitlement key to access the CP4BA software in the IBM Container Registry. You should have 
 obtained this entitlement key as part of the pre-work but you can get it here [IBM Key](https://myibm.ibm.com/products-services/containerlibrary)
@@ -133,4 +133,3 @@ Business Automation.
 ![operators installed](./images/Operator.jpg)
 
 At this stage the operators are ready to install the CP4BA components. This will be covered in the next step.
-GB 11:06

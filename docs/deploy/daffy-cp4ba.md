@@ -1,6 +1,10 @@
 # Daffy - CP4BA Deployment 
 
-As part of the pre-work you created a bastion server, installed Daffy and created a daffy environment file. 
+As part of the pre-work you created a bastion server, installed Daffy and created a daffy environment file. Before 
+we create the cluster please update your daffy environment by running the install command again :
+```commandline
+wget http://get.daffy-installer.com/download-scripts/daffy-init.sh; chmod 777 daffy-init.sh;./daffy-init.sh
+```
 This environment file needs to be updated before Daffy can deploy the CP4BA cluster.
 
 Login to your bastion server and update the environment file you created using the sample below as a template.
@@ -12,7 +16,7 @@ DAFFY_UNIQUE_ID="<your email>"
 
 #OpenShift Cluster info
 #####################################
-CLUSTER_NAME="<cluster name to be created>"
+CLUSTER_NAME="<cluster name : daffy-firstname-lastname>"
 OCP_INSTALL_TYPE="roks-msp"
 DAFFY_DEPLOYMENT_TYPE=Enablement
 
@@ -31,7 +35,7 @@ VM_NUMBER_OF_WORKERS_LARGE=7
 CP4BA_VERSION="21.0.3"
 CP4BA_IFIX=IF008
 CP4BA_DEPLOYMENT_STARTER_SERVICE=samples
-CP4BA_DEPLOYMENT_STARTER_SERVICE_SAMPLE=roks-starter-nfs-all-IF008
+CP4BA_DEPLOYMENT_STARTER_SERVICE_SAMPLE=roks-starter-all-IF008.yaml
 CP4BA_ENABLE_SERVICE_OPS=true
 
 #Overrides
@@ -49,6 +53,7 @@ CP4BA_AUTO_STORAGE_CLASS_OCP_SLOW=managed-nfs-storage
 CP4BA_AUTO_STORAGE_CLASS_OCP_MEDIUM=managed-nfs-storage
 CP4BA_AUTO_STORAGE_CLASS_OCP_FAST=managed-nfs-storage
 ```
+
 Copy the contents of this file into the Daffy environment file on your bastion server and update the three 
 placeholders < > for email, cluster and datacenter. Choose a datacenter in your region and make sure it is one 
 of the following:
@@ -59,10 +64,19 @@ of the following:
 | wdc04 | lon06 | tbc |
 | sjc03 | ams03 | tbc |
 
-The bastion server will provide the file storage for the cluster so ideally the bastion server and the cluster
-should be in the same datacenter. This was a last minute change to the Daffy config for Tech Academy, but since 
-we are not using these clusters extensively (just showing how they are built) it's ok if your bastion is not in one 
-of the datacenters listed above.
+Please name your clusters `daffy-yourfirstname-yourlastname` eg. `daffy-tom-cruise`. This is so we can find them easily.
 
+Daffy will deploy CP4BA and other CloudPaks using a CR yaml file (also known as a Custom Resource file) that 
+specifies exactly what to install. These yaml CR are not part of Daffy itself, they can be customised and will evolve.
+The CR that installs the CP4BA in this exercise is located here :
+
+```commandline
+/data/daffy/cp4ba/templates/services/samples/roks-starter-all-IF008.yaml
+```
+
+The CP4BA environment created from this CR will contain the major components of CP4BA, look in the yaml file to see
+exactly what is installed. The CR we'll be using later in the Tech Academy is very similar to this sample, the only
+difference is to enable communication to the Tech Zone RPA environment (these details will be described in the FAQ for 
+those interested)
 
 Once you have updated your environment file, save it and exit the editor. Proceed to the next step [Cluster Build](cluster.md)

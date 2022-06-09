@@ -2,28 +2,33 @@
 
 ## Instructions
 
-Below are the steps that you will need to import and build the Client Onboarding[^1] solution.  
+Below are the steps that you will need to import and build the Client Onboarding[^1] solution into the CP4BA starter 
+environment we are using.  
 
 [^1]:
     The Client Onboarding assets have been adapted from the
     <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
     materials as developed by the IBM SWAT Team
 
-You must use the artefacts downloaded from this page, DO NOT use the original SWAT artefacts you may have downloaded 
-previously.
+You must use the artefacts downloaded from this page, DO NOT any original SWAT artefacts you may have downloaded 
+previously, as these are from a production deployment of CP4BA and there are subtle differences. 
 
-When working in a team some of these steps can be performed in parallel. TODO  
-    - 1&2  
-    - 3  
-    - 4&5  
-    - 6&7
+When working in a team some of these steps can be performed in parallel.  
+    - 1 & 2 : Import the ADS ML Model and Import the ADS Decision Project  
+    - 3 : Setup the RPA Server  
+    - 4 & 5 : Import the Workflow Project and import the Filenet objects  
+    - 6 & 7 : Import Business Applications and Load BAI data
 
-**Note:** These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open 
-Prediction Service (OPS). The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
+***Note : *** The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge
+please contact an instructor.
+
+*** Also : *** There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building
+dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. 
+Process events are unaffected. 
 
 ## URL's For Your Installation
 Each team will be allocated a pre-configured CP4BA cluster, hosted in an enterprise account on IBM Cloud to which you have been invited.
-Log into IBM CLoud and switch to the enterprise account as shown below:  
+Log into IBM CLoud and switch to the enterprise account 2326304 as shown below:  
  ![enterprise account](./images/account.png)
 
 Select the burger icon in the top-left corner and select OpenShift, then Clusters
@@ -33,7 +38,8 @@ To find your cluster enter your allocated lab name in the search box, (here I'm 
 on the right hand side of the screen adjacent to your cluster and select OpenShift Web Console.
  ![clusters](./images/open_cluster.png)
 
-Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info.
+Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info. This config map 
+contains the access information for your cluster that you'll need for the labs.
  ![access config map](./images/access-config-map.png)
 
 Open the config map and scroll down to the data section. You will find URL's and credentials for your deployment.
@@ -48,17 +54,17 @@ It is suggested that you copy these details somewhere you can access them quickl
     the ADS ML Service public URL select "ads-ml-service" from the project dropdown near the top of the screen as shown.
     Click on the link in the location column and the Swagger UI for the ADS ML Service will open.   
      ![ADS ML Route](./images/ads-route.png)
-
+    
     2\. Under `manage`, expand the `POST /models Add Model` section  
     ![image-20210601220850676](./images/sko-ads-ml-service-add-model.png)
 
     3\. Click on `Try it out`
 
-    4\. Use the contents of the [addModel.json](Solution%20Exports/Automation%20Decision%20Services/ML/addModel.json) file as the request body
+    4\. Use the contents of the [addModel.json](Solution%20Exports/Automation%20Decision%20Services/ML/addModel.json) file as the request body. It's easier if you right click on the link and open it in a new tab.
 
     5\. Click on `Execute` and scroll down to the actual server repsonse (scroll past the example)
 
-    6\. Copy the ID of the created model from the response body. It is usually `1`.  
+    6\. Copy the ID of the created model from the response body. It is typically `1` as this ADS ML Service is currently empty.  
     ![image-2021ID](images/sko-ads-ml-model-id.png){width="600"}  
 
     7\. We've added the meta-data of the model, now we must add the model binary. Under `manage`, expand the `POST /models/{model_id} Add Binary` section  
@@ -66,7 +72,7 @@ It is suggested that you copy these details somewhere you can access them quickl
 
     8\. Click on `Try it out`
 
-    9\. Use the ID copied from the last API call
+    9\. Use the ID copied from the last API call, typically `1`.
 
     10\. In the request body, keep `pickle` selected as the `format`
 
@@ -82,13 +88,15 @@ It is suggested that you copy these details somewhere you can access them quickl
 
     15\. Use the contents of the [runModel.json](Solution%20Exports/Automation%20Decision%20Services/ML/runModel.json) file as the request body
 
-    16\. Update the `$PREDICTION-ID$` in the json to the `ID` copied before
+    16\. Update the `$PREDICTION-ID$` in the json to the `ID` copied before, typically this is `1`.
 
     17\. Click on `Execute`. The result should be as follows:
 
         `{ "result": {  "predictions": 0,  "scores": [   0.9068544064724676,   0.0931455935275324  ]}}`
 
      ![image-2021Check](images/sko-ads-ml-check.png)
+
+    ***Tip*** Keep this browser window open, you'll need the URL in the next step.  
 
     !!! success
        ℹ️ &nbsp; You have successfully imported the ADS ML Service, please proceed to the next section

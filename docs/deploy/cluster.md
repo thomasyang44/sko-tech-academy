@@ -5,9 +5,9 @@ To create your cluster execute the following command:
 /data/daffy/ocp/build.sh <your environment>
 ```
 
-As a concrete example, if my environment file is called : acme-demo-env.sh then I would execute the following command:
+As a concrete example, if my environment file is called : cp4ba-tech-academy-lab25-env.sh then I would execute the following command:
 ```
-/data/daffy/ocp/build.sh acme-demo
+/data/daffy/ocp/build.sh cp4ba-tech-academy-lab25
 ```
 
 Once the build has completed some pre-checks you'll be asked to provide your RedHat pull secret. You should have 

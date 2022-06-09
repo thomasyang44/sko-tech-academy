@@ -5,9 +5,9 @@ To create your CP4BA services execute the following command.
 /data/daffy/cp4ba/service.sh <your environment>
 ```
 
-As a concrete example, if my environment file is called : acme-demo-env.sh then I would execute the following command:
+As a concrete example, if my environment file is called : cp4ba-tech-academy-lab25-env.sh then I would execute the following command:
 ```
-/data/daffy/cp4ba/service.sh acme-demo
+/data/daffy/cp4ba/service.sh cp4ba-tech-academy-lab25
 ```
 
 Very soon you'll see output like this :
