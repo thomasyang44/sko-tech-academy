@@ -680,18 +680,22 @@ Process events are unaffected.
 <a name="deploy-integrate-7"></a>
 ??? note summary "Expand to view"
 
-    If you have provisioned an RPA server and you'd like to test the integration....
+    If you have provisioned an RPA server and you'd like to test the integration follow these steps. Please make
+    sure you have requested a userID on the SWAT teneant using this link
+    ```
+    TODO
+    ```
 
-    1. TODO  
+    1. Refer to your TechZone reservation email and identify the URL for your RPA node  
     ![Email](./images/rpa_val_1.png)
 
-    2. TODO  
+    2. Login to your RPA node and open Firefox and click on the IBM RPA License bookmark. Click Activate. 
     ![Email](./images/rpa_val_2.png)
 
-    3. TODO  
+    3. Enter the details of the RPA license (ask an instructor).   
     ![Email](./images/rpa_val_3.png)
 
-    4. TODO  
+    4. Open RPA Studio and enter your email address.  
     ![Email](./images/rpa_val_4.png)
 
     5. TODO  
