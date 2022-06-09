@@ -1,15 +1,17 @@
 
-At this time, you should now have a good understanding of the Client Onboarding use case scenario. At the end of this course, you will present a customized version of the Client Onboarding solution designed to meet requirements for the client PoC.  
+You should now have a good understanding of the Client Onboarding use case scenario. At the end of this course, you will present a customized version of the Client Onboarding solution designed to meet requirements for the client PoC.  
 
-You and your team will build the Client Onboarding solution by:  
+Below is a high-level overview of how your team will build the Client Onboarding solution:
 
 | Item | Description                                                                        |
 | :--- | :--------------------------------------------------------------------------------- |
-| 1    | Deploying and integrating the Client Onboarding artifacts [Team]                   |
-| 2    | Rebuilding portions of the lab based on your client PoC requirements [Individual]  |
-| 3    | Once each team member completes a pillar Client Onboarding labs from the Rebuild section, each team will choose 1..* customization scenarios they believe they can finish in the allotted time. <br> This exercise serves to mimic a client surprising the tech seller during a PoC or providing a new requirement that you cannot negotiate out of the scenario, and you need to find a way to show it within the PoC you already built. |
-| 4    | Please also review the [Additional Use Cases](./Additional-Use-Cases) for additional ideas on customizations. |
-| 5    | Active participation will be critical to the success of this course. Specifically, there will be tremendous value learning  from your peers not only on the capabilities but by discussing experiences executing a client PoC. |
+| 1    | Deploy and integrate the Client Onboarding artifacts [Team]                        |
+| 2    | Rebuild portions of the lab based on your client PoC requirements [Individual]     |
+| 3    | Once each team member completes a pillar Client Onboarding labs from the Rebuild section, each team will choose one or more customization scenarios they believe they can finish in the allotted time. <br> This exercise serves to mimic a client surprising the tech seller during a PoC or providing a new requirement that you cannot negotiate out of the scenario, and you need to find a way to show it within the PoC you already built. |
+
+**Additional notes**
+  - Please also review the [Additional Use Cases](./Additional-Use-Cases) for additional ideas on customizations.
+  - Active participation will be critical to the success of this course. Specifically, there will be tremendous value learning  from your peers not only on the capabilities but by discussing experiences executing a client PoC.
 
 
 ## Revisit Course Breakdown

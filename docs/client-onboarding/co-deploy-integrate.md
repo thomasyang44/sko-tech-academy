@@ -6,7 +6,7 @@
     The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
 
 !!! warning
-    You must use the artifacts downloaded from this page, do NOT use the original SWAT artifacts you may have downloaded
+    You must use the artifacts downloaded from this page, do **NOT** use the original SWAT artifacts you may have downloaded
     previously.
 
 ## Instructions
@@ -19,7 +19,7 @@ Below are the steps that you will need to import and build the Client Onboarding
     materials as developed by the IBM SWAT Team
 
 
-When working in a team some of these steps can be performed in parallel.
+When working as a team, some of these steps can be performed in parallel as identified below.
 
 | Step(s) | Description                                         |
 | --------| --------------------------------------------------- |
