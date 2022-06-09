@@ -66,9 +66,10 @@ markdown_extensions:
 copyright: Copyright © 2022 IBM
 nav:
   - Home:
-    - Goals, Statement of Approach, Learning Objectives, Agenda: index.md
+    - Goals, Statement of Approach, Learning Objectives: index.md
     - Learning Plan including prework: learning-plan/learning-plan.md
-    - Full Agenda: agenda/agenda.md
+    - Event Schedule: agenda/agenda.md
+    - Course Breakdown: agenda/process.md 
     - Site Info: site-info/site-info.md
   - Daffy Setup:
     - Overview: daffy/daffy.md
