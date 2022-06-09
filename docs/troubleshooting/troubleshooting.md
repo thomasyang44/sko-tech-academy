@@ -1,5 +1,21 @@
 ==GB UPDATE WITH CONTENT==
+==TY REORG==
 
+## 1. I can't find BAWTOS or cp4bausers
+<a name="faq-200"></a>
+??? note summary "Expand to view"
+    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Enterprise pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
+    <br>
+    Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
+    - BAWTOS => TARGET  
+    - cp4bausers => cp4admin  
+    
+[Go to top of section](#faq-200) | [Go to top of page](#overview)
+
+[^1]:
+    The Client Onboarding assets have been adapted from the
+    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+    materials as developed by the IBM SWAT Team  
 
 ## 1. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-100"></a>
