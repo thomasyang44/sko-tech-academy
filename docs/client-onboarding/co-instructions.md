@@ -1,39 +1,51 @@
 # Overview
 
-Teams will follow the lab process identified below.  Once each team member completes a pillar Client Onboarding labs from the Rebuild section, each team will choose 1..* customization scenarios they believe they can finish in the allotted time. This exercise serves to mimic a client surprising the tech seller during a PoC or providing a new requirement that you cannot negotiate out of the scenario, and you need to find a way to show it within the PoC you already built.
+At this time, you should now have a good understanding of the Client Onboarding use case scenario. At the end of this course, you will present a customized version of the Client Onboarding solution designed to meet requirements for the client PoC.  
 
-![co-slide1](/src/images/demo-overview-bwl.png){width="1024"}
+You and your team will build the Client Onboarding solution by:  
+
+| Item | Description                                                                        |
+| :--- | :--------------------------------------------------------------------------------- |
+| 1    | Deploying and integrating the Client Onboarding artifacts [Team]                   |
+| 2    | Rebuilding portions of the lab based on your client PoC requirements [Individual]  |
+| 3    | Once each team member completes a pillar Client Onboarding labs from the Rebuild section, each team will choose 1..* customization scenarios they believe they can finish in the allotted time. <br> This exercise serves to mimic a client surprising the tech seller during a PoC or providing a new requirement that you cannot negotiate out of the scenario, and you need to find a way to show it within the PoC you already built. |
+| 4    | Please also review the [Additional Use Cases](./Additional-Use-Cases) for additional ideas on customizations. |
+| 5    | Active participation will be critical to the success of this course. Specifically, there will be tremendous value learning  from your peers not only on the capabilities but by discussing experiences executing a client PoC. |
 
 
-==Jeff/Greg/Reinhold: update with instructions==  
-    2. Identify that team should first execute the deploy and integrate labs to create the Client Onboarding applications
-    3. Describe how the client onboarding should be updated based on your client PoC requirements
-    4. Determine when in the agenda to discuss this section - Day 8:00 AM Introduction?  
-
-    6. Determine when the surprise customization will be discussed in the agenda  
-    7. Describe that each team member can use a lab from the Rebuild section as a basis for updating the Client Onboarding application  
-    8. Describe how each member should pick a lab based on a capability that they have **LEAST** experience with  
-    9. Mention that you can also use the Additional Use Cases for additional ideas on customizations.  
+## Revisit Course Breakdown
+<a name="course-breadown"></a>
+??? note summary "Expand to view"
   
-## Team Assignment
+    ![co-slide1](/src/images/demo-overview-bwl.png){width="1944"}
+
+
+## Stand & Deliver Guidelines
 <a name="instructions-1"></a>
+
 ??? note summary "Expand to view"
 
-    Team assignments will be posted to the event slack channel.  
+    You and your team are required to demonstrate the Client Onboarding use case you’ve been working on during the technical academy. You are expected to present a business scenario (not only a technical feature demo) and customize your demo narration and/or content to make it specific to a client’s story and customization request(s) you’ve incorporated. Ensure you cover the content described in the evaluation criteria below.  
+    
+    Initially you and your team will be presenting to two other teams. The other team members should use the guidance below to confirm the team meets the requirements and grade each of the elements with a score between 1-5 with being 5 being highest possible.       
+    
+    One team will be nominated from each grouping of teams to present to the entire BA track. There will be 6 finalists with BluePoints going to the members of the top 3 teams as determined by a panel of SMEs.  
 
-    The setup of the Client Onboarding solution should be done as a team using a cluster that has been pre-provisioned for you.  
-    
-    Access information to the cluster will also be identified in the slack channel.
-    
+    Click the link below to review the evaluation criteria of your presentation:  
+    <a href="https://ibm.seismic.com/Link/Content/DC8DGXXpd3pXdGfW93MTXWhRPGqj" target="_blank">**Stand & Deliver Guidelines**</a>  
+
     [Go to top of section](#instructions-1) | [Go to top of page](#overview)
 
-## Demo Evaluation Checklist
-<a name="instructions-2"></a>
 
+## Team Assignment
+<a name="instructions-2"></a>
 ??? note summary "Expand to view"
 
-    <br>
-    <a href="https://ibm.seismic.com/Link/Content/DC8DGXXpd3pXdGfW93MTXWhRPGqj" target="_blank">**Demo Evaluation Checklist**</a>  
-    <br>
+    Team assignments will be posted to the event slack channel.
 
+    The setup of the Client Onboarding solution should be done as a team using a cluster that has been pre-provisioned for you.  Access information to the cluster will also be identified in the slack channel.  
+    
+    Please ensure every team member is aware of the
+    <a href="https://ibm.seismic.com/Link/Content/DC8DGXXpd3pXdGfW93MTXWhRPGqj" target="_blank">**Stand & Deliver Guidelines**</a> and work together to craft your client's story including the client PoC requirements.  
+    
     [Go to top of section](#instructions-1) | [Go to top of page](#overview)
