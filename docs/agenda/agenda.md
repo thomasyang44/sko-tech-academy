@@ -37,6 +37,10 @@
 <a name="2022EMEA"></a>
 ??? note summary "Expand to view"
                 
+    !!! warning
+        The schedule below in still under contruction and will be updated shortly.  
+        Day 2,3,4 will start at 9:00 AM local time  
+
     This event will be 4 days long with the following agenda:
 
     |Day   | Time          | Session / Activity                                           |
