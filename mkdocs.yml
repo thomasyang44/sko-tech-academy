@@ -69,8 +69,7 @@ nav:
     - Goals, Statement of Approach, Learning Objectives: index.md
     - Learning Plan including prework: learning-plan/learning-plan.md
     - Event Schedule: agenda/agenda.md
-    - Course Breakdown: agenda/process.md 
-    - Site Info: site-info/site-info.md
+    - Course Breakdown: agenda/process.md
   - Daffy Setup:
     - Overview: daffy/daffy.md
     - Pre-Requirements: daffy/requirements.md
@@ -103,6 +102,8 @@ nav:
   - Reference:
     - Architecture: reference/architecture.md
     - Links: reference/links.md
+  - Site Info: site-info/site-info.md
+  - Slack: site-info/slack.md
   #- Site Info: site_info/site_info.md
   #- Reference:
   #  - Overview: introduction/overview/index.md
