@@ -30,7 +30,7 @@ Below is a high-level overview of how your team will build the Client Onboarding
 <a name="course-breadown"></a>
 ??? note summary "Expand to view"
   
-    ![co-slide1](/src/images/demo-overview-bwl.png){width="1944"}
+    ![co-slide1](../src/images/demo-overview-bwl.png){width="1944"}
 
 
 ## Stand & Deliver Guidelines
