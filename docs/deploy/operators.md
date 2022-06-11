@@ -41,8 +41,7 @@ ibmcloud oc worker reload -q  -f -c cp4ba-acme-demo  -w kube-ca3ohi4l08bq4l61f0v
 -w kube-ca3ohi4l08bq4l61f0v0-cp4baacmede-default-00000610  -w kube-ca3ohi4l08bq4l61f0v0-cp4baacmede-default-000007e4 
 Waiting for ROKS nodes to be ready -  6 Min(s) so far                                                            
 ```
-Note how Daffy is waiting for the ROKS nodes to be ready. This is normal when running these commands immediately, one 
-after the other. It can take 15-20 mins for this step to complete.
+Note how Daffy is waiting for the ROKS nodes to be ready. This is normal when running these commands immediately. It can take 15-20 mins for this step to complete.
 
 Next, Daffy will need to login to your new cluster and run some commands to install the Operators. You'll see a request
 from the Daffy terminal to login to your cluster console and copy/paste the oc admin login command:

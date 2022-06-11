@@ -680,10 +680,7 @@ previously, as these are from a production deployment of CP4BA and there are sub
 ??? note summary "Expand to view"
 
     If you have provisioned an RPA server and you'd like to test the integration follow these steps. Please make
-    sure you have requested a userID on the SWAT teneant using this link
-    ```
-    TODO
-    ```
+    sure you have requested a userID on the SWAT tenant using this [link](http://159.122.122.170:8080/RPA4SKO/ )
 
     1. Refer to your TechZone reservation email and identify the URL for your RPA node  
     ![Email](./images/rpa_val_1.png)
@@ -691,23 +688,17 @@ previously, as these are from a production deployment of CP4BA and there are sub
     2. Login to your RPA node and open Firefox and click on the IBM RPA License bookmark. Click Activate.
     ![Email](./images/rpa_val_2.png)
 
-    3. Enter the details of the RPA license (ask an instructor).   
+    3. Enter the details of the RPA license (ask an instructor, this should be in Slack).   
     ![Email](./images/rpa_val_3.png)
 
-    4. Open RPA Studio and enter your email address.  
+    4. Open RPA Studio and enter your email address and password to the SWAT RPA tenant, refer to the note above.  
     ![Email](./images/rpa_val_4.png)
 
-    5. TODO  
+    5. Open the Client Onboarding Workflow in Process Designer and update the environment variables with your RPA reservation.
+    Make sure the user is cp4admin, also make sure you use https. Save these settings.
     ![Email](./images/rpa_val_5.png)
 
-    6. TODO  
-    ![Email](./images/rpa_val_6.png)
-
-    7. TODO  
-    ![Email](./images/rpa_val_7.png)
-
-    8. TODO  
+    6. Run the onboarding scenario described in section 8 with these updated settings with your RPA VM running. If the RPA VM restarts you'll need 
+    to repeat the activation in step 2. If correctly configured you should see bot activity in the RPA VM.
     ![Email](./images/rpa_val_8.png)
 
-    9. TODO  
-    ![Email](./images/rpa_val_9.png)

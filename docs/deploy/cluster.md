@@ -73,7 +73,8 @@ Select an account:
 Enter a number> 7
 Targeted account itztsglenablement01 (e1c69b1f9c6a412b8c73b3b8e78aaf10) <-> 2326304
 ```
-Make sure you select **itztsglenablement01**, in the example above this was listed as account (7).
+Please use your own account if you have infrastructure priviledges, if not make sure you select **itztsglenablement01**, 
+in the example above this was listed as account (7).
 
 Daffy will now create the Openshift cluster, you see output like this :
 
@@ -108,7 +109,8 @@ Install Temp Files    :      /data/daffy/tmp/acme-demo/ocp
 openshift-install Dir :      /data/daffy/tmp/acme-demo/ocp/ocp-install
 ```
 
-***Take note of the OpenShift Web Console URL as you will need this in the next step.***
+***Take note of the OpenShift Web Console URL as you will need this in the next step. The URL for your OpenShift Web Console
+is displayed, if this isn't working it will be due to a delay creating the ingress networking, try again in a few minutes. ***
 
 The Openshift cluster has now been created but nothing has been installed. In the next step we'll install the CP4BA 
 Operators. Operators automate the creation, configuration, and management of instances of Kubernetes-native applications.
