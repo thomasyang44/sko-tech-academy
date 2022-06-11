@@ -1,6 +1,3 @@
-
-==GB: Update this section based on usage of NFS vs Cloud storage==
-
 !!! note
     The Daffy setup should have been completed as part of your prework and for IBMers, this information was identified in your learning plan and also identified in the [**Prework - Daffy**](../../learning-plan/learning-plan/#prework-daffy) section.  
     <br>

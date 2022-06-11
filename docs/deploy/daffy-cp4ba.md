@@ -5,9 +5,7 @@ we create the cluster please update your daffy environment by running the instal
 ```commandline
 wget http://get.daffy-installer.com/download-scripts/daffy-init.sh; chmod 777 daffy-init.sh;./daffy-init.sh
 ```
-This environment file needs to be updated before Daffy can deploy the CP4BA cluster.
-
-Login to your bastion server and update the environment file you created using the sample below as a template.
+This environment file needs to be updated before Daffy can deploy the CP4BA cluster. Login to your bastion server and update the environment file you created using the sample below as a template.
 
 Here is a sample environment file:
 ```
@@ -24,7 +22,7 @@ DAFFY_DEPLOYMENT_TYPE=Enablement
 IBMCLOUD_RESOURCE_GROUP=TechAcademyBA
 
 # Version must match support version of ROKS only
-OCP_RELEASE="4.8.36"
+OCP_RELEASE=4.8.39
 
 # Supported VM_TSHIRT_SIZE values: Large, Min
 #    Large - 6 Worker Nodes
@@ -44,25 +42,36 @@ CP4BA_ENABLE_SERVICE_OPS=true
 #     https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones
 ROKS_ZONE=<datacenter zone>
 
+#Storage 
 #####################################
-OCP_CREATE_NFS_STORAGE=true
-CP4BA_AUTO_STORAGE_CLASS_FAST_ROKS=managed-nfs-storage
-CP4BA_AUTO_STORAGE_CLASS_OCP=managed-nfs-storage
-CP4BA_AUTO_STORAGE_CLASS_OCP_BLOCK=managed-nfs-storage
-CP4BA_AUTO_STORAGE_CLASS_OCP_SLOW=managed-nfs-storage
-CP4BA_AUTO_STORAGE_CLASS_OCP_MEDIUM=managed-nfs-storage
-CP4BA_AUTO_STORAGE_CLASS_OCP_FAST=managed-nfs-storage
+#OCP_CREATE_NFS_STORAGE=true
+#CP4BA_AUTO_STORAGE_CLASS_FAST_ROKS=managed-nfs-storage
+#CP4BA_AUTO_STORAGE_CLASS_OCP=managed-nfs-storage
+#CP4BA_AUTO_STORAGE_CLASS_OCP_BLOCK=managed-nfs-storage
+#CP4BA_AUTO_STORAGE_CLASS_OCP_SLOW=managed-nfs-storage
+#CP4BA_AUTO_STORAGE_CLASS_OCP_MEDIUM=managed-nfs-storage
+#CP4BA_AUTO_STORAGE_CLASS_OCP_FAST=managed-nfs-storage
 ```
 
 Copy the contents of this file into the Daffy environment file on your bastion server and update the three 
-placeholders < > for email, cluster and datacenter. Choose a datacenter in your region and make sure it is one 
-of the following:
+placeholders < > for email, cluster and datacenter. Please choose a random datacenter from the list below:
 
 | US | EMEA | AP |
 |:--:|:----:|:----:|
 | dal13 | lon02 | tbc |
 | wdc04 | lon06 | tbc |
 | sjc03 | ams03 | tbc |
+| sjc04 | fra02 | tbc |
+| lon02 | fra04 | tbc |
+| lon06 | ams03 | tbc |
+| fra02 | sjc03 | tbc |
+| fra04 | sjc04 | tbc |
+| ams03 | wdc04 | tbc |
+
+!!! Note
+If you have your own IBM Cloud account with infrastructure please use this account when Daffy asks you to log in. 
+Each account has an upper limit to the number of storage volumes it can create in each DC so we must spread the load. 
+
 
 Please name your clusters `daffy-yourfirstname-yourlastname` eg. `daffy-tom-cruise`. This is so we can find them easily.
 
@@ -76,7 +85,7 @@ The CR that installs the CP4BA in this exercise is located here :
 
 The CP4BA environment created from this CR will contain the major components of CP4BA, look in the yaml file to see
 exactly what is installed. The CR we'll be using later in the Tech Academy is very similar to this sample, the only
-difference is to enable communication to the Tech Zone RPA environment (these details will be described in the FAQ for 
-those interested)
+difference is made to enable communication to the Tech Zone RPA environment (these changes will be described in the FAQ for 
+those interested).
 
 Once you have updated your environment file, save it and exit the editor. Proceed to the next step [Cluster Build](cluster.md)

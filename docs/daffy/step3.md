@@ -1,6 +1,6 @@
 <a name="Step3"></a>
 
-This file is where you store values that will define your environment and Daffy will use to build your environment.
+This file is where you store values that will define your environment and that Daffy will use to build your environment.
 
 Go to the samples directory:
 ```    

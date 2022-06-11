@@ -18,11 +18,11 @@ what to deploy. During this Tech Academy we'll be using Daffy to install a cp4b-
 in IBM Cloud, but you could also use Daffy to install CP4D on AWS or CP4I on Azure.
 
 For more details on Daffy please go to the main Daffy site on W3
-[Daffy on W3](https://w3.ibm.com/w3publisher/daffy) (IBM Only).
+[Daffy on W3](https://w3.ibm.com/w3publisher/daffy) (IBM Only - Daffy will be available to IBM Partners Q3 2022).
 
 To perform a CP4BA installation as part of Tech Academy you'll need to perform the following steps:
 
-1. Update the Daffy environment file and configuration
+1. Update the Daffy installation and cluster environment file
 2. Build the Openshift cluster on IBM Cloud using the Daffy OCP build command
 3. Install the CP4BA Operators using the Daffy Cp4BA build command
 4. Create the CP4BA instance using the Daffy service command
