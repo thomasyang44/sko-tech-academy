@@ -21,16 +21,15 @@
     |      | 11:00 - 12:30 | [Client Onboarding Demonstration - Art of the Possible](/client-onboarding/co-overview) |
     |      | 12:30 - 1:30  | Lunch                                                        |
     |      | 1:30 - 5:00   | Client Onboarding - Deploy and Integrate [Team]              |
-    |Day 3 | 8:00 - 8:15   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines |
-    |      | 8:15 - 12:30  | Client Onboarding - Rebuild portion of solution [Individual] |
+    |Day 3 | 8:00 - 8:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines |
+    |      | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Individual] |
     |      | 12:00 - 12:30 | Prior to lunch, customization use case scenarios will be posted to the slack channel |
     |      | 12:30 - 1:00  | Lunch                                                        |
-    |      | 1:30 - 5:00   | Continue Rebuild & Begin Customizations [Team/Individual]    |
-    |Day 4 | 8:00 - 8:15   | Briefing on activities for the day                           |
-    |      | 8:15 - 10:00  | Prep for demo                                                |
-    |      | 10:00 - 12:30 | Deliver Customized Client Onboarding Demo [Team]             |
-    |      | 12:00 - 1:00  | Lunch                                                        |
-    |      | 1:00 - 4:00   | Advanced Topics & Best Practices                             |
+    |      | 1:30 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]    |
+    |Day 4 | 8:00 - 8:30   | Briefing on activities for the day                           |
+    |      | 8:30 - 12:30  | Deliver Customized Client Onboarding Demo [Team] <br> 15 min demo with 5 min review and 10 minutes between each demo             |
+    |      | 12:30 - 1:30  | Lunch                                                        |
+    |      | 1:30 - 4:00   | Advanced Topics & Best Practices                             |
     |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
 
 ## EMEA - Hursely (June 20-24)
@@ -38,7 +37,7 @@
 ??? note summary "Expand to view"
                 
     !!! warning
-        The schedule below in still under contruction and will be updated shortly.  
+        The schedule below in still under construction and will be updated shortly.  
         Day 2,3,4 will start at 9:00 AM local time  
 
     This event will be 4 days long with the following agenda:

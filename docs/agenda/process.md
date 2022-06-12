@@ -20,7 +20,7 @@ The process diagram below represents the activities for this event.
     === "Day 2"
         1. Each attendee will set up Daffy and provision a cluster in ROKS.
         1. Teams member assignments will be published and also given a pre-provisioned team cluster.
-        1. Team members will work on the team cluster and individually perform the Deploy and Integrate section to deploy artifacts for the Client Onboarding solution.
+        1. Team members will work together on the team cluster and perform the Deploy and Integrate section to deploy artifacts for the Client Onboarding solution.
         
 
         |Day   | Time          | Session / Activity                                           |
@@ -34,7 +34,7 @@ The process diagram below represents the activities for this event.
     
     === "Day 3"
         1. Review Stand and Deliver Guidelines
-        1. Team members will individually rebuild portions of the Client Onboarding solution, selecting a capability that is not their deepest expertise and/or is the most needed skill in their market.  Every member of the team should select a different rebuild lab.  
+        1. Team members will work together on the team cluster and rebuild portions of the Client Onboarding solution, selecting a capability that is not their deepest expertise and/or is the most needed skill in their market.  Every member of the team should select a different rebuild lab.
         1. Customization use case scenarios will be provided prior to lunch.
         
         |Day   | Time          | Session / Activity                                           |
@@ -46,7 +46,7 @@ The process diagram below represents the activities for this event.
         |      | 1:30 - 5:00   | Continue Rebuild & Begin Customizations [Team/Individual]    |
 
     === "Day 4"
-        1. Prepare and deliver the customized Client Onboarding demo
+        1. Team members will prepare and deliver the customized Client Onboarding demo. 
         1. Advanced Topics & Best Practices
         
         |Day   | Time          | Session / Activity                                           |
