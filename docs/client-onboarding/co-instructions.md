@@ -11,6 +11,8 @@ Below is a high-level overview of how your team will build the Client Onboarding
 
 **Additional note**  
   - Please also review the [Additional Use Cases](../../use-cases/use-cases) for additional ideas on customizations.  
+  - Please also review the [Additional Use Cases](../../use-cases/accounts-pay) for additional ideas on customizations.  
+  
   - Active participation will be critical to the success of this course. Specifically, there will be tremendous value learning  from your peers not only on the capabilities but by discussing experiences executing a client PoC.
 
 !!! warning
