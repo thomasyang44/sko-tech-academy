@@ -20,9 +20,9 @@
     |      | 10:30 - 11:00 | Break                                                        |
     |      | 11:00 - 12:30 | [Client Onboarding Demonstration - Art of the Possible](/client-onboarding/co-overview) |
     |      | 12:30 - 1:30  | Lunch                                                        |
-    |      | 1:30 - 5:00   | Client Onboarding - Deploy and Integrate [Team]              |
+    |      | 1:30 - 5:00   | Client Onboarding - Deploy and Integrate [Team/Individual]   |
     |Day 3 | 8:00 - 8:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines |
-    |      | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Individual] |
+    |      | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Team/Individual] |
     |      | 12:00 - 12:30 | Prior to lunch, customization use case scenarios will be posted to the slack channel |
     |      | 12:30 - 1:00  | Lunch                                                        |
     |      | 1:30 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]    |
