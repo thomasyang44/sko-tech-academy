@@ -20,6 +20,7 @@
 
         === "Site Info"
         
+            [**Site Map**](https://ibm.box.com/s/ozwxupm3jvi8c7wq2c3ymajs9ehp2l5z){target="_blank"}  
             [**Nearby Restaurants**](../sites/coppell/NearbyRestaurants.pdf){target="_blank"}  
             [**Welcome to Dallas**](../sites/coppell/WelcomeToDallasPamphlet.pdf){target="_blank"}  
 
