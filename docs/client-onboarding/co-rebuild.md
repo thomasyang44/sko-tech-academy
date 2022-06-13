@@ -94,7 +94,6 @@ This lab is considered an individual activity as each team member should work on
     [Go to top of section](#rebuild-1) | [Go to top of page](#rebuild)
 
 ## 3. IBM FileNet Content Manager
-==TY: Update references to Object Classes==
 <a name="rebuild-3"></a>
 ??? note summary "Expand to view"
 
@@ -102,8 +101,44 @@ This lab is considered an individual activity as each team member should work on
 
     IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine and Content Services GraphQL which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation.
 
-    ### **Labs**
+    !!! warning
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **CLOS** object store needs to be first configured prior to performing the labs below. Expand the section below to create the object store.  
+        
+        ??? note summary "Expand to view"
+            1. Login to ACCE as cp4admin, and create an Object Store named **CLOS**.
 
+            2. After creating the object store, right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.
+
+            3. Provide provide the names of the unpacked file on the two entry boxes as shown below, then click "Next"
+
+            4. On the next page, select "Object Store Administrators", then click "Add User/Group permission".
+
+            5. In the "Add User/Group permission" popup window, find the "cp4bausers" group and add it to the right side for adding it. Then click OK.
+
+            6. Press Next to let the Wizard run, and dismiss the warning message. Close the "Execute Script" window after it completed.
+
+            7. Update Object Store security for the CLOS Object store and remove the "set owner of every object" right for the cp4bausers group from the Object store.
+
+            8. Navigate to Administrative -> Storage -> Storage Policies. Create a new Storage Policy with the name "Default Advanced Storage Area". On 2nd page keep selection to "Select the storage area from a list". On 3rd page select the "CLOS_asa" storage area.
+
+            9. Navigate to Data Design -> Property Templates. Create two property templates with following:
+
+            10. Navigate to Data Design -> Classes. Create a new subclass of the "Folder" class with the name "SWAT Jam Case Folder" (Symbolic ID SWAT_JAM_Case_Folder).
+
+            11. Open the Folder class and add the two new property templates from above. Save the modified folder class.
+
+            12. Create the indicated folder structure under the Root folder. The "Case Folders" folder is a regular folder, the "Sample Test Folder TESTx" (1 <= x <=2) is of class "SWAT JAM Case Folder". On the latter folders, the values for the Case Reference ID and the Client Name properties are both "TESTx" (i.e. "TEST1" on the "Sample Test Folder TEST1" and "TEST2" on "Sample Test Folder TESTx").
+
+            13. Open Content Navigator. In the Hamburger menu on the top left, chose "Administration", on the "Desktops" tab. Search which of the desktops had been created by the Operator for the CLOS Object Store / Repository. Usually it will be "desktop1". Make a copy of it
+
+            14. Give the new desktop the name and the id CLOS
+
+            15. Go to the Layout tab and additionally enable the "Simple Search" feature, if it is not already enabled. Save the new desktop
+        
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Confirm the symbolic names for Reference ID and Client Name.  Replace these with **usrxxxReferenceID** and **usrxxxClientName**
+
+
+    ### **Labs**
     - [**Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation**](labs/Content/CONTENT%20Lab%201%20-%20CPE.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Content/CONTENT%20Lab%201%20-%20CPE.pdf" target="_blank"> (View)</a>  
     In this lab, you will create a small hierarchy of Document classes to
@@ -116,14 +151,9 @@ This lab is considered an individual activity as each team member should work on
     i.e. searches for documents based on information contained in the
     documents themselves, not (only) on their metadata.
     <br><br>
-    On this lab, for triggering the custom actions, a custom javascript is
-    used to file a newly uploaded document into a folder, those identity
-    is derived from a search. The script is available in the
+    On this lab, for triggering the custom actions, a custom javascript is used to file a newly uploaded document into a folder, those identity is derived from a search. The script is available in the
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Content/Lab%20Data" target="_blank">**Lab Data**</a>
-    folder. Be aware that in the script, some
-    replacements need to be made, to make it refer to the right
-    properties. The username prefix is denoted by usrxxx in the script,
-    and the xxx part needs to be updated.  
+    folder.  
     <br>
     **Approximate Duration**: 4 - 5 hours  
     <br>
