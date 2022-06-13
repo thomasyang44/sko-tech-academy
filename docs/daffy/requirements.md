@@ -1,7 +1,7 @@
             
 <a name="daffy-requirements"></a>
 
-## **What is required to use Daffy?**  
+**What is required to use Daffy?**  
 Before you can use the Daffy scripts, you must have the following.
 
 1. You must have a SSH client on your local workstation.  
@@ -27,6 +27,6 @@ Before you can use the Daffy scripts, you must have the following.
     - If you need to get your own IBM entitlement key you can get [**here**](https://myibm.ibm.com/products-services/containerlibrary){target="_blank"}.
         - Copy to clipboard and save to a local file
     - If you need create one for a customer you can submit request [**here**](https://ibm.seismic.com/app#/doccenter/5477419a-9474-4c51-94af-b442e9169fab/doc/%252Fdd98c5a3df-6b7c-1d77-6f07-d12e63954c78%252FdfOTRiYmU4NTQtNWY4NC03Y2QyLWZjYWUtOGIxYmFmZjkyZThk%252CPT0%253D%252CU2VsbGVyIGVuYWJsZW1lbnQ%253D%252Flf37de4c61-502e-4996-aa5e-d81c1e6191b0//?mode=view&searchId=76d7b1d4-65bc-4d7d-98f9-fedbcd7fade9&anchorId=86762df5-468d-4f4c-909a-3c6def9866d1){target="_blank"}.
-    - Customer can there own 60-day trial key [here](https://www.ibm.com/account/reg/us-en/signup?formid=urx-44505){target="_blank"}
+    - Customer can there own 60-day trial key [**here**](https://www.ibm.com/account/reg/us-en/signup?formid=urx-44505){target="_blank"}
     
 [Top of page](#daffy-requirements)
