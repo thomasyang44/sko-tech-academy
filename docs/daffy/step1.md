@@ -18,7 +18,13 @@ Detailed below are the instructions to build your own bastion to do an IPI or MS
     === "IBM Technology Zone Bastion"
         An alternative to creating a bastion using a paid IBM Cloud account is to use IBM Technology Zone.  
         
-        1. Navigate to [**IBM Technology Zone**](https://techzone.ibm.com/collection/base-images){target="_blanks "}
-        2. Scroll down to environments, and choose **IBM Virtual Server Instance (Classic)**
+        1. Navigate to [**IBM Technology Zone**](https://techzone.ibm.com/collection/base-images){target="_blanks "}  
+        2. Scroll down to environments, and choose **IBM Virtual Server Instance (Classic)**  
+
+            ![techzone-vsi](./images/300-tz-vsi.png){width="300"}
+
+        3. From there, complete your reservation. Make sure to **fill out items 1 – 4**, leaving the other fields **blank**.
+
+            ![techzone-vsi](./images/310-tz-vis-reservation.png){width="1024"}
 
 [Go to top of section](#Step1) | [Go to top of page](#DaffyCoreSteps)
