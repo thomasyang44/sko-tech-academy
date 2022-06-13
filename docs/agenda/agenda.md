@@ -32,7 +32,7 @@ This event will be 4 days long with the following agenda:
 |      | 12:30 - 1:30  | Lunch                                                        |
 |      | 1:30 - 4:00   | Automation Document Processing (ADP) Update - Dan Ouimet (remote) |
 |      | 1:30 - 4:00   | Break                                                        |
-|      | 1:30 - 4:00   | Process Discovery  with Automation Compass - Jared Michalec (Salient Process) |
+|      | 1:30 - 4:00   | Process Discovery with Automation Compass - Jared Michalec (Salient Process) |
 |      | 1:30 - 4:00   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein |
 |      | 1:30 - 4:00   | Competitive (Pega) - Greg Violette                           |
 |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |

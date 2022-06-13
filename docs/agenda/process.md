@@ -37,25 +37,28 @@ The process diagram below represents the activities for this event.
         1. Team members will work together on the team cluster and rebuild portions of the Client Onboarding solution, selecting a capability that is not their deepest expertise and/or is the most needed skill in their market.  Every member of the team should select a different rebuild lab.
         1. Customization use case scenarios will be provided prior to lunch.
         
-        |Day   | Time          | Session / Activity                                           |
-        | :--- | :------------ | :----------------------------------------------------------- |
-        |Day 3 | 8:00 - 8:15   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines |
-        |      | 8:15 - 12:30  | Client Onboarding - Rebuild portion of solution [Individual] |
+        |Day 3 | 8:00 - 8:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines |
+        |      | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Team/Individual] |
         |      | 12:00 - 12:30 | Prior to lunch, customization use case scenarios will be posted to the slack channel |
-        |      | 12:30 - 1:00  | Lunch                                                        |
-        |      | 1:30 - 5:00   | Continue Rebuild & Begin Customizations [Team/Individual]    |
+        |      | 12:30 - 1:30  | Lunch                                                        |
+        |      | 1:30 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual] |
 
     === "Day 4"
-        1. Team members will prepare and deliver the customized Client Onboarding demo. 
-        1. Advanced Topics & Best Practices
+        1. Team members will prepare and deliver the customized Client Onboarding demo (Round 1 and 2)
+        1. Advanced Topics: ADP, Automation Compass, RPA & WfPS, Pega
         
         |Day   | Time          | Session / Activity                                           |
         | :--- | :------------ | :----------------------------------------------------------- |
-        |Day 4 | 8:00 - 8:15   | Briefing on activities for the day                           |
-        |      | 8:15 - 10:00  | Prep for demo                                                |
-        |      | 10:00 - 12:30 | Deliver Customized Client Onboarding Demo [Team]             |
-        |      | 12:00 - 1:00  | Lunch                                                        |
-        |      | 1:00 - 4:00   | Advanced Topics & Best Practices                             |
+        |Day 4 | 8:00 - 8:30   | Briefing on activities for the day                           |
+        |      | 8:30 - 9:45   | Deliver Customized Client Onboarding Demo - Round 1 <br> Groups of 3 teams, demo 15 mins, feedback 5 mins, break between teams 5 mins [Team]                              |     
+        |      | 9:45 - 10:00  | BREAK                                                        |
+        |      | 10:00 - 12:30 | Deliver Customized Client Onboarding Demo - Round 2 <br> Top 5 teams, demo 15 mins to room, feedback 5 min, break between teams 6 min [Team]                                      |
+        |      | 12:30 - 1:30  | Lunch                                                        |
+        |      | 1:30 - 4:00   | Automation Document Processing (ADP) Update - Dan Ouimet (remote) |
+        |      | 1:30 - 4:00   | Break                                                        |
+        |      | 1:30 - 4:00   | Process Discovery with Automation Compass - Jared Michalec (Salient Process) |
+        |      | 1:30 - 4:00   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein |
+        |      | 1:30 - 4:00   | Competitive (Pega) - Greg Violette                           |
         |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
 
 
