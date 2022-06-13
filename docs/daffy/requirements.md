@@ -1,9 +1,7 @@
             
 <a name="daffy-requirements"></a>
 
-==TY: Update with links==
-
-**What is required to use Daffy?**  
+## **What is required to use Daffy?**  
 Before you can use the Daffy scripts, you must have the following.
 
 1. You must have a SSH client on your local workstation.  
