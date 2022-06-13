@@ -19,7 +19,9 @@
 ## 1. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-100"></a>
 ??? note summary "Expand to view"
-    ![WIP](../src/images/wip2.jpg){width="800"}     
+    Before you can order virtual machines and create clusters you need to convert your IBM Cloud account to a 
+    Pay-As-You-Go account. This is option can be found under account settings. If you hve an IBM provided account
+    your manage will need to approve this upgrade.
 
     [Go to top of section](#faq-100) | [Go to top of page](#overview)
 
