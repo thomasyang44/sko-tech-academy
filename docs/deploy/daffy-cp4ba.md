@@ -1,6 +1,6 @@
-# Daffy - CP4BA Deployment 
+# Daffy - CP4BA Deployment
 
-As part of the pre-work you created a bastion server, installed Daffy and created a daffy environment file. Before 
+As part of the pre-work you created a bastion server, installed Daffy and created a daffy environment file. Before
 we create the cluster please update your daffy environment by running the install command again :
 ```commandline
 wget http://get.daffy-installer.com/download-scripts/daffy-init.sh; chmod 777 daffy-init.sh;./daffy-init.sh
@@ -10,7 +10,7 @@ This environment file needs to be updated before Daffy can deploy the CP4BA clus
 Here is a sample environment file:
 ```
 #No spaces and only AlphaNumeric and  @ or . or -
-DAFFY_UNIQUE_ID="<your email>" 
+DAFFY_UNIQUE_ID="<your email>"
 
 #OpenShift Cluster info
 #####################################
@@ -42,7 +42,7 @@ CP4BA_ENABLE_SERVICE_OPS=true
 #     https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones
 ROKS_ZONE=<datacenter zone>
 
-#Storage 
+#Storage
 #####################################
 #OCP_CREATE_NFS_STORAGE=true
 #CP4BA_AUTO_STORAGE_CLASS_FAST_ROKS=managed-nfs-storage
@@ -53,10 +53,15 @@ ROKS_ZONE=<datacenter zone>
 #CP4BA_AUTO_STORAGE_CLASS_OCP_FAST=managed-nfs-storage
 ```
 
-Copy the contents of this file into the Daffy environment file on your bastion server and update the three 
-placeholders < > for email, cluster and datacenter. Please choose a random datacenter from the list below:
+Copy the contents of this file into the Daffy environment file on your bastion server and update the three
+placeholders < > for email, cluster and datacenter.
 
-| US | EMEA | AP |
+!!! warning
+    Please select a data center (DC) from either the **Americas** or **EMEA** column.  
+    There is an upper limit for the number of storage volumes we can create in each DC.  
+    For this event, please contact your instructor for the selection of the DC as we will try to evenly distribute usage.  
+
+| Americas | EMEA | APAC |
 |:--:|:----:|:----:|
 | dal13 | lon02 | tbc |
 | wdc04 | lon06 | tbc |
@@ -68,14 +73,14 @@ placeholders < > for email, cluster and datacenter. Please choose a random datac
 | fra04 | sjc04 | tbc |
 | ams03 | wdc04 | tbc |
 
-!!! Note
-If you have your own IBM Cloud account with infrastructure please use this account when Daffy asks you to log in. 
-Each account has an upper limit to the number of storage volumes it can create in each DC so we must spread the load. 
+!!! note
+    If you have your own **IBM Cloud** account with infrastructure please use this account when Daffy asks you to log in.  
+    Each account has an upper limit to the number of storage volumes it can create in each DC so we must spread the load.
 
 
 Please name your clusters `daffy-yourfirstname-yourlastname` eg. `daffy-tom-cruise`. This is so we can find them easily.
 
-Daffy will deploy CP4BA and other CloudPaks using a CR yaml file (also known as a Custom Resource file) that 
+Daffy will deploy CP4BA and other CloudPaks using a CR yaml file (also known as a Custom Resource file) that
 specifies exactly what to install. These yaml CR are not part of Daffy itself, they can be customised and will evolve.
 The CR that installs the CP4BA in this exercise is located here :
 
@@ -85,7 +90,7 @@ The CR that installs the CP4BA in this exercise is located here :
 
 The CP4BA environment created from this CR will contain the major components of CP4BA, look in the yaml file to see
 exactly what is installed. The CR we'll be using later in the Tech Academy is very similar to this sample, the only
-difference is made to enable communication to the Tech Zone RPA environment (these changes will be described in the FAQ for 
+difference is made to enable communication to the Tech Zone RPA environment (these changes will be described in the FAQ for
 those interested).
 
 Once you have updated your environment file, save it and exit the editor. Proceed to the next step [Cluster Build](cluster.md)
