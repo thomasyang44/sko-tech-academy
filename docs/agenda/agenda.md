@@ -24,7 +24,7 @@
     |Day 3 | 8:00 - 8:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines |
     |      | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Team/Individual] |
     |      | 12:00 - 12:30 | Prior to lunch, customization use case scenarios will be posted to the slack channel |
-    |      | 12:30 - 1:00  | Lunch                                                        |
+    |      | 12:30 - 1:30  | Lunch                                                        |
     |      | 1:30 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]    |
     |Day 4 | 8:00 - 8:30   | Briefing on activities for the day                           |
     |      | 8:30 - 12:30  | Deliver Customized Client Onboarding Demo [Team] <br> 15 min demo with 5 min review and 10 minutes between each demo             |
