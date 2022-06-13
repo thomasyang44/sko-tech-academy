@@ -16,7 +16,7 @@
     <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
     materials as developed by the IBM SWAT Team  
 
-## 2. What you need on IBM Cloud : infrastructure permissions
+## 3. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-100"></a>
 ??? note summary "Expand to view"
     Before you can order virtual machines and create clusters you need to convert your IBM Cloud account to a 
@@ -46,10 +46,11 @@
 <a name="faq-120"></a>
 ??? note summary "Expand to view"
     
-    You can find the common URL's for CP4BA in the cp4ba-access-info config map as shown below.  
+    You can find the common URL's for CP4BA in the cp4ba-access-info config map as shown below. Open the config map
+    and scroll down to find the URL details.
     ![oc config map](./images/access-config-map.png)
 
-    You can also use a Daffy command run from your bastion.  
+    You can also use a Daffy command run from your bastion, Daffy will output the same information from the config map.
     ```
     /data/daffy/cp4ba/service.sh <your environment> --StarterConsole
     ```
@@ -60,7 +61,7 @@
 <a name="faq-130"></a>
 ??? note summary "Expand to view"
     The URL for Process Admin is not recorded in the access configmap. To get to Process Admin create the URL using the
-    template below. Find the URL labeled Cloud Pak Dashboard and use it as the basis for the Process Admin URL
+    template below. Find the URL labeled Cloud Pak Dashboard and use it as the basis for the Process Admin URL:  
     ```
     <Cloud Pak Dashboard>/bas/ProcessAdmin
     ```
@@ -72,7 +73,7 @@
 ??? note summary "Expand to view"
     In the CP4BA starter pattern many of the functional components run within the BA Studio pod. If your software is 
     not behaving as expected (infinite blue spinning wheels, cases not starting) try restarting the BA Studio pod.
-    Expand workloads and select pods, filter using studio and find the running BA Stuid pod, click on the three dots
+    Expand workloads and select pods, filter using studio and find the running BA Studio pod, click on the three dots
     and delete the pod. This will cause a new pod to be created, in several minutes login to CP4BA again and see if your
     fault has cleared.
 
@@ -83,8 +84,8 @@
 ## 7. Resource Registry : automation service not found - republish
 <a name="faq-150"></a>
 ??? note summary "Expand to view"
-    If you have published an automation service but the client apps that try to use it report an error then unpublish
-    and republish the automation service and try again.
+    If you have published an automation service but the client apps that try to use it reports an error then try
+    unpublishing the automtion service and republish it.
          
     [Go to top of section](#faq-150) | [Go to top of page](#overview)
 
@@ -100,9 +101,11 @@
 ## 9. Logs : where do the different components log
 <a name="faq-190"></a>
 ??? note summary "Expand to view"
-    To access logs from your pods :   
+    To access logs from your pods click on the pod name then select the log tab :   
 
     ![oc console](./images/pod-logs.png)
+
+    It 
 
     [Go to top of section](#faq-190) | [Go to top of page](#overview)
 
