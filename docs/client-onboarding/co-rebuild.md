@@ -19,7 +19,7 @@ This lab is considered an individual activity as each team member should work on
     Please note that you may need to redeploy your application depending on the rebuild lab update.
 
 !!! warning
-    Content in this area including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Enterprise pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
+    Content in this area including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Production pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
     <br>
     Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
     - BAWTOS => TARGET  

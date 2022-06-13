@@ -30,11 +30,11 @@ This event will be 4 days long with the following agenda:
 |      | 9:45 - 10:00  | BREAK                                                        |
 |      | 10:00 - 12:30 | Deliver Customized Client Onboarding Demo - Round 2 <br> Top 5 teams, demo 15 mins to room, feedback 5 min, break between teams 6 min [Team]                                      |
 |      | 12:30 - 1:30  | Lunch                                                        |
-|      | 1:30 - 4:00   | Automation Document Processing (ADP) Update - Dan Ouimet (remote) |
-|      | 1:30 - 4:00   | Break                                                        |
-|      | 1:30 - 4:00   | Process Discovery with Automation Compass - Jared Michalec (Salient Process) |
-|      | 1:30 - 4:00   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein |
-|      | 1:30 - 4:00   | Competitive (Pega) - Greg Violette                           |
+|      | 1:30 - 2:15   | Automation Document Processing (ADP) Update - Dan Ouimet (remote) |
+|      | 2:15 - 2:30   | Break                                                        |
+|      | 2:30 - 3:00   | Process Discovery with Automation Compass - Jared Michalec (Salient Process) |
+|      | 3:00 - 3:30   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein |
+|      | 3:30 - 4:00   | Competitive (Pega) - Greg Violette                           |
 |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
 
 ## EMEA - Hursely (June 20-24)

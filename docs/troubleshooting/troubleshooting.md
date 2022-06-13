@@ -1,10 +1,9 @@
-==GB UPDATE WITH CONTENT==  
-==TY REORG==
+
 
 ## 1. I can't find BAWTOS or cp4bausers
 <a name="faq-200"></a>
 ??? note summary "Expand to view"
-    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Enterprise pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
+    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Production pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
     <br>
     Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
     - BAWTOS => TARGET  
@@ -107,8 +106,11 @@
      
     [Go to top of section](#faq-210) | [Go to top of page](#overview)
 
-## 100. Solution Exports
+## 100. Solution Exports and Labs
 ??? note summary "Expand to view"
-    <a href="https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB" target="_blank">Solution Exports</a>   
+
+    [**Solution Exports**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports){target="_blank"}  
+    [**Labs**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs){target="_blank"}  
+
      
     [Go to top of section](#faq-220) | [Go to top of page](#overview)

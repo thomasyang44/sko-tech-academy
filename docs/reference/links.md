@@ -1,11 +1,11 @@
 !!! note
     Use the **Table of Contents** navigation on the right to view all the links at one time.  
     <br>
-    Please note that some links require an IBMDID to access.
+    Please note that some links require an <a href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-30292" target="_blank">**IBMID**</a> to access.  
 
 ## General
 ??? note summary "Expand to view"
-    ### <a href="https://community.ibm.com/community/user/automation/home" target="_blank">IBM Business Automation Community </a>
+    ### <a href="https://community.ibm.com/community/user/automation/home" target="_blank">IBM Business Automation Community</a>
     ### <a href="https://pages.github.ibm.com/Ondrej-Svec2/ibm-software-map/#/" target="_blank">IBM Software Map</a>
     ### <a href="https://w3.ibm.com/w3publisher/tech-seller-links" target="_blank">Tech Seller Links (IBM Only)</a>
     ### <a href="https://ibm.biz/CP4BA-Badge" target="_blank">Cloud Pak for Business Automation - Badge Info (seismic)</a>
