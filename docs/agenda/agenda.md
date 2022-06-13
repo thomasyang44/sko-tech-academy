@@ -37,6 +37,12 @@ This event will be 4 days long with the following agenda:
 |      | 3:30 - 4:00   | Competitive (Pega) - Greg Violette                           |
 |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
 
+
+For more info on SKO Tech Academy, please refer to the links below:  
+    - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
+    - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
+    - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
+
 ## EMEA - Hursely (June 20-24)
 <a name="2022EMEA"></a>
 ??? note summary "Expand to view"
@@ -74,6 +80,10 @@ This event will be 4 days long with the following agenda:
     |      | 1:00 - 4:00   | Advanced Topics & Best Practices                             |
     |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
                     
+    For more info on SKO Tech Academy, please refer to the links below:  
+        - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
+        - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
+        - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
                 
     [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
 
@@ -110,6 +120,11 @@ This event will be 4 days long with the following agenda:
     |      | 1:00 - 4:00   | Advanced Topics & Best Practices                             |
     |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
             
+    For more info on SKO Tech Academy, please refer to the links below:  
+        - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
+        - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
+        - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
+
     [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
 
 ## APAC - Korea (8/1 - 8/4)
@@ -144,5 +159,10 @@ This event will be 4 days long with the following agenda:
     |      | 12:00 - 1:00  | Lunch                                                        |
     |      | 1:00 - 4:00   | Advanced Topics & Best Practices                             |
     |Day 4 | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
+
+    For more info on SKO Tech Academy, please refer to the links below:  
+        - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
+        - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
+        - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
 
     [Top of page](#SiteInfoTop) | [Top of section](#2022Korea)
