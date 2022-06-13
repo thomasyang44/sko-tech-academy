@@ -6,8 +6,26 @@
     Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Production pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
     <br>
     Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
-    - BAWTOS => TARGET  
-    - cp4bausers => cp4admin  
+    
+    **General**  
+    For the Starter pattern, use cp4admin instead of cp4bausers which is used in the Production pattern.   
+        
+    **Content**  
+    Target object store: TARGET in Starter vs BAWTOS in Production
+
+    **Decisions**  
+    Published automation service: The decisions project name contains the admin username which is different in Starter vs Production. The project name is included in the resource registry which would be different.
+
+    **Navigator**  
+    The desktop uses the target object store and because of the difference in target object store names, we have to create different desktops for Starter vs Production. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+
+    **App Designer**  
+    The Client Onboarding app points to the target object store and this cannot be done with environment variables so we have to create different applications for Starter vs Production.  This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+    Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
+
+    **Workflow**  
+    Environment variable needs an update to point to the right target object store. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+    Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
     
     [Go to top of section](#faq-200) | [Go to top of page](#overview)
 
@@ -19,7 +37,7 @@
 ## 3. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-100"></a>
 ??? note summary "Expand to view"
-    Before you can order virtual machines and create clusters you need to convert your IBM Cloud account to a 
+    Before you can order virtual machines and create clusters you need to convert your IBM Cloud account to a
     Pay-As-You-Go account. This is option can be found under account settings. If you hve an IBM provided account
     your manage will need to approve this upgrade.
 
@@ -28,14 +46,14 @@
 ## 3. Getting Help : sharing an oc login command
 <a name="faq-110"></a>
 ??? note summary "Expand to view"
-    If the software on your cluster is not working as expected you may be asked by an expert to provide a login command or 
+    If the software on your cluster is not working as expected you may be asked by an expert to provide a login command or
     login token. This token allows them to log into your cluster using the CLI. To get the login token log into
-    the OpenShift Web console, in the top right corner there is a drop-down, with your username as a label. 
+    the OpenShift Web console, in the top right corner there is a drop-down, with your username as a label.
     Click the label and a Copy Login Command link will be shown, this is highlighted in red below.
 
     ![oc console](./images/oc_login1.jpg)
 
-    The next screen will display a link "Display Token". Click on this link and the page below will be displayed. Copy the 
+    The next screen will display a link "Display Token". Click on this link and the page below will be displayed. Copy the
     oc login command as highlighted in red.
 
     ![oc console](./images/oc_login2.jpg)
@@ -71,7 +89,7 @@
 ## 6. Pods : what to look for and how to restart
 <a name="faq-140"></a>
 ??? note summary "Expand to view"
-    In the CP4BA starter pattern many of the functional components run within the BA Studio pod. If your software is 
+    In the CP4BA starter pattern many of the functional components run within the BA Studio pod. If your software is
     not behaving as expected (infinite blue spinning wheels, cases not starting) try restarting the BA Studio pod.
     Expand workloads and select pods, filter using studio and find the running BA Studio pod, click on the three dots
     and delete the pod. This will cause a new pod to be created, in several minutes login to CP4BA again and see if your
@@ -112,7 +130,7 @@
 ## 11. Better logging : Using an external log service
 <a name="faq-100"></a>
 ??? note summary "Expand to view"
-    If you are using ROKS on IBM Cloud you can attach a log aggregation service running on IBM Cloud to your CP4BA 
+    If you are using ROKS on IBM Cloud you can attach a log aggregation service running on IBM Cloud to your CP4BA
     cluster.
 
     Find the Log Analysis service in the IBM Cloud catalogue and create an instance. The lite service doesn't have
@@ -125,18 +143,18 @@
     service will appear.
     ![oc console](./images/create-logging3.png)
 
-    Find your cluster and click on its name to open the cluster details page. 
+    Find your cluster and click on its name to open the cluster details page.
     ![oc console](./images/create-logging4.png)
     
     Scroll down to the integrations area and connect to the logging service. Once conected the connect button will be
     replaced with a launch button.
-    ![oc console](./images/create-logging5.png) 
+    ![oc console](./images/create-logging5.png)
     
     In your apps your log output will now flow through to the log analysis service. In this example a BAW Toolkit
     is logging info messages, see "Darth Vader" below.
     ![oc console](./images/create-logging6.png)
 
-    The log analysis service is now receiving all logs from the cluster. Y can now filter by source, here we are 
+    The log analysis service is now receiving all logs from the cluster. Y can now filter by source, here we are
     filtering for the bastudio pod but this isn't necessary, a global text search is still very effective.
     ![oc console](./images/create-logging7.png)
 
