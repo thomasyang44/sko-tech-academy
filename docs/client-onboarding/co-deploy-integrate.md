@@ -21,7 +21,7 @@ environment we are using.
 
 
 When working as a team, some of these steps can be performed in parallel as identified below.
-You must use the artefacts downloaded from this page, DO NOT any original SWAT artefacts you may have downloaded
+You must use the artifacts downloaded from this page, do **NOT** use any original SWAT artifacts you may have downloaded
 previously, as these are from a production deployment of CP4BA and there are subtle differences.
 
 | Step(s) | Description                                         |
@@ -241,7 +241,7 @@ previously, as these are from a production deployment of CP4BA and there are sub
 
     **Note:** You only need to perform these steps if you want to demo the RPA execution. You can choose to skip the execution of the RPA bot when you import the Workflow solution.
 
-    1. Request auto-onboarding onto the SWAT RPA Tenant using this [form](http://159.122.122.170:8080/RPA4SKO/) 
+    1. Request auto-onboarding onto the SWAT RPA Tenant using this [form](http://159.122.122.170:8080/RPA4SKO/)
     2. Reserve an environment from [here](https://techzone.ibm.com/collection/cloud-pak-for-business-automation-cp-4-ba-onboarding-rpa) using your IBMID.
        ![image-2021gitconnect](images/sko-RPA-LandingPage.png)
     3. Click **Environments** on the left panel, and then click **computer icon**.  
@@ -698,7 +698,6 @@ previously, as these are from a production deployment of CP4BA and there are sub
     Make sure the user is cp4admin, also make sure you use https. Save these settings.
     ![Email](./images/rpa_val_5.png)
 
-    6. Run the onboarding scenario described in section 8 with these updated settings with your RPA VM running. If the RPA VM restarts you'll need 
+    6. Run the onboarding scenario described in section 8 with these updated settings with your RPA VM running. If the RPA VM restarts you'll need
     to repeat the activation in step 2. If correctly configured you should see bot activity in the RPA VM.
     ![Email](./images/rpa_val_8.png)
-
