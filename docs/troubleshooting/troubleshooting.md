@@ -26,14 +26,31 @@
 ## 2. Getting Help : sharing an oc login command
 <a name="faq-110"></a>
 ??? note summary "Expand to view"
-    ![WIP](../src/images/wip2.jpg){width="800"}     
+    If the software on your cluster is not working as expected you may be asked by an expert to provide a login command or 
+    login token. This token allows them to log into your cluster using the CLI. To get the login token log into
+    the OpenShift Web console, in the top right corner there is a drop-down, with your username as a label. 
+    Click the label and a Copy Login Command link will be shown, this is highlighted in red below.
+
+    ![oc console](./images/oc_login1.jpg)
+
+    The next screen will display a link "Display Token". Click on this link and the page below will be displayed. Copy the 
+    oc login command as highlighted in red.
+
+    ![oc console](./images/oc_login2.jpg)
     
     [Go to top of section](#faq-110) | [Go to top of page](#overview)
 
-## 3. Finding URLS : most from Daffy
+## 3. Finding URLS : Most from Daffy
 <a name="faq-120"></a>
 ??? note summary "Expand to view"
-    ![WIP](../src/images/wip2.jpg){width="800"}     
+    
+    You can find the common URL's for CP4BA in the cp4ba-access-info config map as shown below.  
+    ![oc config map](./images/access-config-map.png)
+
+    You can also use a Daffy command run from your bastion.  
+    ```
+    /data/daffy/cp4ba/service.sh <your environment> --StarterConsole
+    ```
      
     [Go to top of section](#faq-120) | [Go to top of page](#overview)
 
