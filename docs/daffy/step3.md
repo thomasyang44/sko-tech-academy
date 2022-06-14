@@ -27,7 +27,7 @@ You will copy the environment file and rename it using this format:
 <br>
 This command will copy the the sample file and place it in the /data/daffy/env directory (back one folder)
 ```
-cp cp4ba-env.sh ../data/daffy/env/<ENVIRONMENT_NAME>-env.sh
+cp cp4ba-env.sh /data/daffy/env/<ENVIRONMENT_NAME>-env.sh
 ```
 
 Here are the values of the file:
