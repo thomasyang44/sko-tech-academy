@@ -30,6 +30,14 @@
 
     [Go to top of section](#faq-02) | [Go to top of page](#faq-overview)
 
+## 3. What are the logins for each CP4BA capability?
+<a name="faq-03"></a>
+??? note summary "Expand to view"
+
+    Please refer to the [**Client Onboarding - Deploy and Integrate - Installation Links**](../../client-onboarding/co-deploy-integrate/#installation-links){target="_blank"} section that identifies how to locate and download the **icp4adeploy-cp4ba-access-info** config map from the **OpenShift Web Console**.
+
+    [Go to top of section](#faq-03) | [Go to top of page](#faq-overview)
+
 ## 10. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-10"></a>
 ??? note summary "Expand to view"
