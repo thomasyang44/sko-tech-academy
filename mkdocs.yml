@@ -91,6 +91,7 @@ nav:
     - Deploy and Integrate: client-onboarding/co-deploy-integrate.md
     - Rebuild: client-onboarding/co-rebuild.md
     - Customization: client-onboarding/co-customization.md
+    - Presentation: client-onboarding/co-team-presentation.md
   - Troubleshooting:
     - Overview: troubleshooting/troubleshooting.md
   - Additional Use Cases:
