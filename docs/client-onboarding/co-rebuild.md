@@ -107,7 +107,8 @@ This lab is considered an individual activity as each team member should work on
         ??? note summary "Expand to view"
             1. Login to ACCE as cp4admin, and create an Object Store named **CLOS**.
 
-            2. After creating the object store, right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.
+            2. After creating the object store, right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.  
+            [SecuritySetupWizard](../images/co-clos-020.png){width="700"}
 
             3. Provide provide the names of the unpacked file on the two entry boxes as shown below, then click "Next"
 
