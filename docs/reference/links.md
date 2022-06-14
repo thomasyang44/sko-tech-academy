@@ -1,32 +1,47 @@
 !!! note
     Use the **Table of Contents** navigation on the right to view all the links at one time.  
     <br>
-    Please note that some links require an <a href="https://www.ibm.com/account/reg/us-en/signup?formid=urx-30292" target="_blank">**IBMID**</a> to access.  
+    Please note that some links require an [**IBMID**](https://www.ibm.com/account/reg/us-en/signup?formid=urx-30292){target="_blank"} to access.  
 
 ## General
 ??? note summary "Expand to view"
-    ### <a href="https://community.ibm.com/community/user/automation/home" target="_blank">IBM Business Automation Community</a>
-    ### <a href="https://pages.github.ibm.com/Ondrej-Svec2/ibm-software-map/#/" target="_blank">IBM Software Map</a>
-    ### <a href="https://w3.ibm.com/w3publisher/tech-seller-links" target="_blank">Tech Seller Links (IBM Only)</a>
-    ### <a href="https://ibm.biz/CP4BA-Badge" target="_blank">Cloud Pak for Business Automation - Badge Info (seismic)</a>
+    ### [IBM Business Automation Community](https://community.ibm.com/community/user/automation/home){target="_blank"}
+    ### [IBM Software Map](https://pages.github.ibm.com/Ondrej-Svec2/ibm-software-map/#/){target="_blank"}
+    ### [Tech Seller Links (IBM Only)](https://w3.ibm.com/w3publisher/tech-seller-links){target="_blank"}
+    ### [Cloud Pak for Business Automation - Badge Info (seismic)](https://ibm.biz/CP4BA-Badge){target="_blank"}
     
 ## Cloud Pak for Business Automation - 21.0.3
 ??? note summary "Expand to view"
-    ### <a href="https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=automation-overview" target="_blank">CP4BA 21.0.3 - Overview</a>
-    ### <a href="https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=deployment-capabilities-starter-deployments" target="_blank">CP4BA 21.0.3 - Capabilities for starter deployments</a>
-    ### <a href="https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=planning-production-deployment" target="_blank">CP4BA 21.0.3  Capabilities for production deployments</a>
-    ### <a href="https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=automation-troubleshooting" target="_blank">CP4BA 21.0.3 - Troubleshooting</a>
+    ### [CP4BA 21.0.3 - Overview](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=automation-overview){target="_blank"}
+    ### [CP4BA 21.0.3 - Capabilities for starter deployments](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=deployment-capabilities-starter-deployments){target="_blank"}
+    ### [CP4BA 21.0.3  Capabilities for production deployments](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=planning-production-deployment){target="_blank"}
+    ### [CP4BA 21.0.3 - Troubleshooting](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=automation-troubleshooting){target="_blank"}
 
 ## Sales Kits
 ??? note summary "Expand to view"
     ### [IBM Cloud Pak for Business Automation Sales Kit (Seismic)](https://ibm.seismic.com/Link/Content/DCC7FMWGhTpR8G2Fh77BQhmBq3H3){target="_blank"}
+    ### [Business Automation Workflow](https://ibm.seismic.com/Link/Content/DCRFm2Cjhb3gHGcWJcjcFD7QD84P){target="_blank"}
+    ### [Operational Decision Manager (ODM)](https://ibm.seismic.com/Link/Content/DCGB6TDDdpT6qGqCFGmXqCTQ3MF3){target="_blank"}
+    ### [Automation Decision Services (ADS)](https://ibm.seismic.com/Link/Content/DC3bPQ4hMDfVQGWHJGCXmJCf3XCV){target="_blank"}
+    ### [FileNet Content Manager (FCM)](https://ibm.seismic.com/Link/Content/DC3JJb28G6b4m8TGqRJ3hP87ccDd){target="_blank"}
+    ### [Datacap](https://ibm.seismic.com/Link/Content/DCX8XJG3fmDC68HDQVgThXVDGHCd){target="_blank"}
+    ### [Robotic Process Automation (RPA)](https://ibm.seismic.com/Link/Content/DCMGJ9X8hdfXQ8MF3pF2PVGmM63j){target="_blank"}
+    ### [Enterprise Records (IER)](https://ibm.seismic.com/Link/Content/DC9mDXT29p79Q87VXBd6FF68b7md){target="_blank"}
+    ### [Content Collector (ICC)](https://ibm.seismic.com/Link/Content/DC8XT7pQb2Qcb82GX4Mfpjm6qBDG){target="_blank"}
+    ### [Automation Workstream Services (IAWS)](https://ibm.seismic.com/Link/Content/DCJ2JMG2mPhHd8cXT6Fd42MgDPR3){target="_blank"}
+    ### [Process Mining (PM)](https://ibm.seismic.com/Link/Content/DCc8XMPc7ch3W8WX6f8MT4JXXCJV){target="_blank"}
     ### [Grow My Deal Request Form (IBM Only)](https://ibm.biz/grow-my-deal){target="_blank"}
+
     
 ## Additional Labs
 ??? note summary "Expand to view"
-    ### <a href="https://techzone.ibm.com/collection/cloud-pak-for-automation-activation-kit" target="_blank">Technology Zone - Business Automation Activation Kit</a>
-    ### <a href="https://github.com/IBM/cp4ba-labs" target="_blank">IBM SWAT Labs</a>
-
+    ### [Technology Zone - Business Automation Activation Kit](https://techzone.ibm.com/collection/cloud-pak-for-automation-activation-kit){target="_blank"}
+    ### [IBM SWAT Labs](https://github.com/IBM/cp4ba-labs){target="_blank"}
+    ### [CP4BA Technical Accelerators (IBM Only)](https://ibm.box.com/v/DBATechnicalSalesAccelerators){target="_blank"}
+    ### [Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks (IBM Only)](https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB){target="_blank"}
+    ### [DBA Labs (IBM Only)](https://ibm.box.com/v/DBATutorials){target="_blank"}
+    ### [PxT Presentations (IBM Only)](https://ibm.box.com/v/ECMPXTPresentations){target="_blank"}
+    ### [OCP Gymnasium](https://techzone.ibm.com/collection/ocp-gymnasium){target="_blank"}
 
 ## Trial Software
 ??? note summary "Expand to view"
@@ -38,10 +53,3 @@
     ### [Blueworks Live (30 Day Trial)](https://www.ibm.com/products/blueworkslive){target="_blank"}  
     ### [Red Hat - CP4BA (30 Day Trial)](https://marketplace.redhat.com/en-us/products/ibm-cloudpak-for-automation){target="_blank"}      
     ### [Distributed Software Evaluation Program (IBM Only)](https://ibm.seismic.com/Link/Content/DC82Wc9PpPqf68MHHTjBpVC84RBB){target="_blank"}  
-
-## Additional Labs (IBM Only)
-??? note summary "Expand to view"
-    ### <a href="https://ibm.box.com/v/DBATechnicalSalesAccelerators" target="_blank">CP4BA Technical Accelerators</a>
-    ### <a href="https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB" target="_blank">Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks</a>
-    ### <a href="https://ibm.box.com/v/DBATutorials" target="_blank">DBA Labs</a>
-    ### <a href="https://ibm.box.com/v/ECMPXTPresentations" target="_blank">PxT Presentations</a>
