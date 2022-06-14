@@ -15,6 +15,17 @@
         ![OpenShiftWebConsole](../images/lab-cluster-07.png){width=700}
 
     [Go to top of section](#faq-01) | [Go to top of page](#faq-overview)
+    
+## 2. I get an error when trying to access a lab or artifact
+<a name="faq-02"></a>
+??? note summary "Expand to view"
+    Please report the issue to an instructor or in the slack channel.  
+    <br>
+    In the meantime, all the labs and artifacts can be accessed here:  
+        - [**Solution Exports**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports){target="_blank"}  
+        - [**Labs**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs){target="_blank"}  
+
+    [Go to top of section](#faq-02) | [Go to top of page](#faq-overview)
 
 ## 10. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-10"></a>
