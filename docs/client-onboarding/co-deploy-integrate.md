@@ -36,9 +36,9 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 <a name="installation links"></a>
 ??? note summary "Expand to view"
 
-    Each team will be allocated a pre-configured CP4BA cluster, hosted in an enterprise account on IBM Cloud to which you have been invited.  
+    Each team will be allocated a pre-configured CP4BA cluster, hosted using an enterprise account on [**IBM Cloud**](https://cloud.ibm.com/){target="_blank"} to which you have been invited.  
     <br>
-    Log into IBM CLoud and switch to the enterprise account as shown below:  
+    Log into [**IBM Cloud**](https://cloud.ibm.com/){target="_blank"} and switch to the enterprise account **2326304 - itztsglenablement01** as shown below:  
     <br>
     ![enterprise account](./images/account.png)
 
