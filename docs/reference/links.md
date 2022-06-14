@@ -19,8 +19,9 @@
 
 ## Sales Kits
 ??? note summary "Expand to view"
-    ### <a href="https://ibm.seismic.com/Link/Content/DCC7FMWGhTpR8G2Fh77BQhmBq3H3" target="_blank">IBM Cloud Pak for Business #Automation Sales Kit (Seismic)</a>
-
+    ### [IBM Cloud Pak for Business Automation Sales Kit (Seismic)](https://ibm.seismic.com/Link/Content/DCC7FMWGhTpR8G2Fh77BQhmBq3H3){target="_blank"}
+    ### [Grow My Deal Request Form (IBM Only)](https://ibm.biz/grow-my-deal){target="_blank"}
+    
 ## Additional Labs
 ??? note summary "Expand to view"
     ### <a href="https://techzone.ibm.com/collection/cloud-pak-for-automation-activation-kit" target="_blank">Technology Zone - Business Automation Activation Kit</a>
