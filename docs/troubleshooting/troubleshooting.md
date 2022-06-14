@@ -81,7 +81,7 @@
     [Go to top of section](#faq-20) | [Go to top of page](#faq-overview)
 
 ## 30. Finding Links : Most from Daffy
-<a name="faq-120"></a>
+<a name="faq-30"></a>
 ??? note summary "Expand to view"
     
     You can find the common link for CP4BA in the cp4ba-access-info config map as shown below. Open the config map
@@ -94,6 +94,28 @@
     ```
      
     [Go to top of section](#faq-30) | [Go to top of page](#faq-overview)
+    
+## 31. Daffy - What is build, cleanup and rebuild?
+<a name="faq-31"></a>
+??? note summary "Expand to view"
+    
+    **/data/daffy**
+    
+    | Script        | Description                                                          |
+    | :------------ | :------------------------------------------------------------------- |
+    | build.sh      | This will build the cluster based on your environment file           |
+    | cleanup.sh    | This will cleanup/destroy the cluster based on your environment file |
+    | rebuild.sh    | This will call the cleanup.sh then it will call the build.sh         |
+ 
+    **/data/daffy/ocp**
+    
+    | Script        | Description                                                          |
+    | :------------ | :------------------------------------------------------------------- |
+    | build.sh      | This will build the cluster based on your environment file           |
+    | cleanup.sh    | This will cleanup/destroy the cluster based on your environment file |
+    | rebuild.sh    | This will call the cleanup.sh then it will call the build.sh         |
+
+    [Go to top of section](#faq-31) | [Go to top of page](#faq-overview)
 
 ## 32. Obscure Links : BAW Process Admin
 <a name="faq-130"></a>
