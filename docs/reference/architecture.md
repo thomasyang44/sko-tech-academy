@@ -3,9 +3,9 @@ The current Digital Business Automation architecture is documented [here](https:
   
 It includes detailed architecture capabilities on the following components:  
 
-* [Workflow automation](https://www.ibm.com/cloud/architecture/architectures/workflowDomain)
-* [Content services](https://www.ibm.com/cloud/architecture/architectures/contentManagementdomain)
-* [Document processing](https://www.ibm.com/cloud/architecture/architectures/captureDomain)
-* [Decision management](https://www.ibm.com/cloud/architecture/architectures/businessDecisionAutomationDomain)
-* [Robotic process automation](https://www.ibm.com/cloud/architecture/architectures/businessDecisionAutomationDomain)
-* [Operational intelligence](https://www.ibm.com/cloud/architecture/architectures/operationalIntelligenceArchitecture)
+* [Workflow automation](https://www.ibm.com/cloud/architecture/architectures/workflowDomain){target="_blank"}
+* [Content services](https://www.ibm.com/cloud/architecture/architectures/contentManagementdomain){target="_blank"}
+* [Document processing](https://www.ibm.com/cloud/architecture/architectures/captureDomain){target="_blank"}
+* [Decision management](https://www.ibm.com/cloud/architecture/architectures/businessDecisionAutomationDomain){target="_blank"}
+* [Robotic process automation](https://www.ibm.com/cloud/architecture/architectures/roboticProcessAutomationDomain/){target="_blank"}
+* [Operational intelligence](https://www.ibm.com/cloud/architecture/architectures/operationalIntelligenceArchitecture){target="_blank"}
