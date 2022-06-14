@@ -7,7 +7,7 @@
     <br>
     1. Log into your [IBM Cloud](https://cloud.ibm.com/){target="_blank"} account  
     2. Select the enterprise account: **2326304 - itztsglenablement01**  
-    3. From the left navigation area, select: **Resource list** and then **Clusters**  
+    3. From the left navigation area, select: **Resource list**  
     4. From the Excel file provided in slack for team assignments, obtain your team's **Bastion Cluster Name** (ie. tech-academy-labXX)  
     5. Using the value from above, filter the Resource list using the **Name** column  
     6. Locate your cluster and double-check you have the correct team cluster. Upon confirmation, click on the cluster to display the cluster  

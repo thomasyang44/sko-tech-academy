@@ -1,7 +1,7 @@
 # Deploy and Integrate (Team)
 
 !!! note
-    These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with Open Prediction Service (OPS).
+    These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with **Open Prediction Service (OPS)**.
     <br>
     The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
 
@@ -42,24 +42,25 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
     <br>
     ![enterprise account](./images/account.png)
 
-    Select the burger icon in the top-left corner and select OpenShift, then Clusters  
+    Select the burger icon in the top-left corner and select **OpenShift**, then **Clusters**  
     <br>
     ![clusters](./images/clusters.png)
 
-    To find your cluster enter your allocated lab name in the search box, (here I'm using lab01).  
+    To find your cluster enter your allocated lab name in the search box, (here I'm using **lab01**).  
     <br>
-    Click on the three dots on the right hand side of the screen adjacent to your cluster and select OpenShift Web Console.  
+    Click on the three dots on the right hand side of the screen adjacent to your cluster and select **OpenShift Web Console**.  
     <br>
     ![clusters](./images/open_cluster.png)
 
-    Login to the OpenShift Web Console and locate the config map called icp4adeploy-cp4ba-access-info.  
+    Login to the **OpenShift Web Console** and locate the config map called **icp4adeploy-cp4ba-access-info**.  
     <br>
     ![access config map](./images/access-config-map.png)
 
-    Open the config map and scroll down to the data section. You will find URL's and credentials for your deployment.  
+    Select the **icp4adeploy-cp4ba-access-info** config map then select **YAML** and then **Download**  
     <br>
-    It is suggested that you copy these details somewhere you can access them quickly or leave this page open.  
-    <br>
+    ![access config map yaml](./images/access-config-map-yaml.png)
+
+    You will find all the links and credentials for your deployment. Specify **Enterprise LDAP** when you log into an application.  
 
 !!! NOTE
     A deeper understanding of each of the sections below will be covered in the labs in the [**Rebuild**](co-rebuild.md){target="_blank"} section.
