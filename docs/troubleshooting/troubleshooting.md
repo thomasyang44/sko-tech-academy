@@ -11,7 +11,8 @@
     4. From the Excel file provided in slack for team assignments, obtain your team's **Bastion Cluster Name** (ie. tech-academy-labXX)  
     5. Using the value from above, filter the Resource list using the **Name** column  
     6. Locate your cluster and double-check you have the correct team cluster. Upon confirmation, click on the cluster to display the cluster  
-    7. From the cluster, select the **OpenShift web console** blue button in top-right area of the screen.  
+    7. From the cluster, select the **OpenShift web console** blue button in top-right area of the screen.
+        ![OpenShiftWebConsole](../images/lab-cluster-07.png){width=700}
 
     [Go to top of section](#faq-01) | [Go to top of page](#faq-overview)
 
