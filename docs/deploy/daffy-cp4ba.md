@@ -14,7 +14,7 @@ DAFFY_UNIQUE_ID="<your email>"
 
 #OpenShift Cluster info
 #####################################
-CLUSTER_NAME="daffy-yourfirstname-yourlastname>"
+CLUSTER_NAME="PLEASE-SET-CLUSTER-NAME"
 OCP_INSTALL_TYPE="roks-msp"
 DAFFY_DEPLOYMENT_TYPE=Enablement
 
