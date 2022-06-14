@@ -33,7 +33,7 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 
 
 ## Installation Links
-<a name="installation links"></a>
+<a name="installation-links"></a>
 ??? note summary "Expand to view"
 
     Each team will be allocated a pre-configured CP4BA cluster, hosted using an enterprise account on [**IBM Cloud**](https://cloud.ibm.com/){target="_blank"} to which you have been invited.  
@@ -71,15 +71,15 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 ??? note summary "Expand to view"
 
     1\. Open the ADS ML Service (Open Prediction Service) in your browser.  
-    This component has been added to the standard
-    CP4BA build to support the COB scenario. To find the URL for this component open the OpenShift web console and
-    select Networking then Routes. These are all the public URL's exposed by the OpenShift cluster. To easily find
-    the ADS ML Service public URL select "ads-ml-service" from the project dropdown near the top of the screen as shown.
-    Click on the link in the location column and the Swagger UI for the ADS ML Service will open.   
-     ![ADS ML Route](./images/ads-route.png)
+    <br>
+    To find the link for this component, open the OpenShift web console and select **Networking** then **Routes**. These are all the public links exposed by the OpenShift cluster. To easily find the **ADS ML Service** public link, select **ads-ml-service** from the project dropdown near the top of the screen as shown in the diagram below.  
+    <br>
+    From the **Location** column, click on the link to open the **Swagger UI** for the **ADS ML Service**.  
+    <br>
+    ![ADS ML Route](./images/ads-route.png)
     
     2\. Under `manage`, expand the `POST /models Add Model` section  
-    ![image-20210601220850676](./images/sko-ads-ml-service-add-model.png)
+    ![adl-ml-services-all-model](./images/sko-ads-ml-service-add-model.png)
 
     3\. Click on `Try it out`
 
@@ -109,7 +109,10 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 
     14\. Click on `Try it out`
 
-    15\. Use the contents of the [runModel.json](Solution%20Exports/Automation%20Decision%20Services/ML/runModel.json) file as the request body
+    15\. Use the contents of the [runModel.json](Solution%20Exports/Automation%20Decision%20Services/ML/runModel.json) file as the request body  
+    <br>
+    Note: from your browser, please ensure to select **Raw Data** to view the body:
+    ![image-2021Binary](images/sko-ads-ml-run-model-raw.png){width="300"}  
 
     16\. Update the `$PREDICTION-ID$` in the json to the `ID` copied before, typically this is `1`.
 
@@ -132,6 +135,8 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 
     !!! warning
         The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.  
+        <br>
+        Use **Personal Access Token** under **Developer Settings**
 
     1. Download [ClientOnboardingDecisions.zip](Solution%20Exports/Automation%20Decision%20Services/ClientOnboardingDecisions.zip)
 
