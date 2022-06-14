@@ -1,50 +1,25 @@
+<a name="faq-overview"></a>
 
-
-## 1. I can't find BAWTOS or cp4bausers
-<a name="faq-200"></a>
-??? note summary "Expand to view"
-    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
-    <br>
-    Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
-    
-    **General**  
-    For the Starter pattern, use **cp4admin** instead of **cp4bausers** which is used in the Production pattern.   
-        
-    **Content**  
-    Target object store: **TARGET** in Starter vs **BAWTOS** in Production
-
-    **Decisions**  
-    Published automation service: The decisions project name contains the admin username which is different in Starter vs Production. The project name is included in the resource registry which would be different.
-
-    **Navigator**  
-    The desktop uses the target object store and because of the difference in target object store names, we have to create different desktops for Starter vs Production. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
-
-    **App Designer**  
-    The Client Onboarding app points to the target object store and this cannot be done with environment variables so we have to create different applications for Starter vs Production.  This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
-    Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
-
-    **Workflow**  
-    Environment variable needs an update to point to the right target object store. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
-    Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
-    
-    [Go to top of section](#faq-200) | [Go to top of page](#overview)
-
-[^1]:
-    The Client Onboarding assets have been adapted from the
-    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
-    materials as developed by the IBM SWAT Team  
-
-## 2. What you need on IBM Cloud : infrastructure permissions
-<a name="faq-100"></a>
+## 10. What you need on IBM Cloud : infrastructure permissions
+<a name="faq-10"></a>
 ??? note summary "Expand to view"
     Before you can order virtual machines and create clusters you need to convert your IBM Cloud account to a
-    Pay-As-You-Go account. This is option can be found under account settings. If you hve an IBM provided account
+    Pay-As-You-Go account. This is option can be found under account settings. If you have an IBM provided account
     your manage will need to approve this upgrade.
 
-    [Go to top of section](#faq-100) | [Go to top of page](#overview)
+    Go to top of section](#faq-10) | [Go to top of page](#faq-overview)
 
-## 3. Getting Help : sharing an oc login command
-<a name="faq-110"></a>
+
+## 11. Daffy cluster permission error
+<a name="faq-11"></a>
+??? note summary "Expand to view"
+        
+    If you have errors with permissions, you may have selected the wrong account. In this situation, please access your [**IBM Cloud**](https://cloud.ibm.com/){target="_blank"} account and then log out of your account. Next, run your Daffy command again to have it prompt you again for your account selection.
+    
+    [Go to top of section](#faq-11) | [Go to top of page](#faq-overview)
+
+## 20. Getting Help : sharing an oc login command
+<a name="faq-20"></a>
 ??? note summary "Expand to view"
     If the software on your cluster is not working as expected you may be asked by an expert to provide a login command or
     login token. This token allows them to log into your cluster using the CLI. To get the login token log into
@@ -58,13 +33,13 @@
 
     ![oc console](./images/oc_login2.jpg)
     
-    [Go to top of section](#faq-110) | [Go to top of page](#overview)
+    [Go to top of section](#faq-20) | [Go to top of page](#faq-overview)
 
-## 4. Finding URLS : Most from Daffy
+## 30. Finding Links : Most from Daffy
 <a name="faq-120"></a>
 ??? note summary "Expand to view"
     
-    You can find the common URL's for CP4BA in the cp4ba-access-info config map as shown below. Open the config map
+    You can find the common link for CP4BA in the cp4ba-access-info config map as shown below. Open the config map
     and scroll down to find the URL details.
     ![oc config map](./images/access-config-map.png)
 
@@ -73,20 +48,20 @@
     /data/daffy/cp4ba/service.sh <your environment> --StarterConsole
     ```
      
-    [Go to top of section](#faq-120) | [Go to top of page](#overview)
+    [Go to top of section](#faq-30) | [Go to top of page](#faq-overview)
 
-## 5. Obscure URLS : BAW Process Admin
+## 32. Obscure Links : BAW Process Admin
 <a name="faq-130"></a>
 ??? note summary "Expand to view"
-    The URL for Process Admin is not recorded in the access configmap. To get to Process Admin create the URL using the
+    The link for Process Admin is not recorded in the access configmap. To get to Process Admin create the URL using the
     template below. Find the URL labeled Cloud Pak Dashboard and use it as the basis for the Process Admin URL:  
     ```
     <Cloud Pak Dashboard>/bas/ProcessAdmin
     ```
          
-    [Go to top of section](#faq-130) | [Go to top of page](#overview)
+    [Go to top of section](#faq-32) | [Go to top of page](#faq-overview)
 
-## 6. Pods : what to look for and how to restart
+## 40. Pods : what to look for and how to restart
 <a name="faq-140"></a>
 ??? note summary "Expand to view"
     In the CP4BA Starter pattern many of the functional components run within the BA Studio pod. If your software is
@@ -97,26 +72,26 @@
 
     ![oc console](./images/ba-studio.png)
          
-    [Go to top of section](#faq-140) | [Go to top of page](#overview)
+    [Go to top of section](#faq-40) | [Go to top of page](#faq-overview)
 
-## 7. Resource Registry : automation service not found - republish
+## 50. Resource Registry : automation service not found - republish
 <a name="faq-150"></a>
 ??? note summary "Expand to view"
     If you have published an automation service but the client apps that try to use it reports an error then try
     unpublishing the automtion service and republish it.
          
-    [Go to top of section](#faq-150) | [Go to top of page](#overview)
+    [Go to top of section](#faq-50) | [Go to top of page](#faq-overview)
 
-## 8. Slack groups for help (IBM Only)
+## 60. Slack groups for help (IBM Only)
 <a name="faq-170"></a>
 ??? note summary "Expand to view"
     For issues with the SWAT COB assets : #dba-swat-asset-qna
     
     For Daffy: #daffy-user-group
      
-    [Go to top of section](#faq-170) | [Go to top of page](#overview)
+    [Go to top of section](#faq-60) | [Go to top of page](#faq-overview)
 
-## 9. Logs : where do the different components log
+## 70. Logs : where do the different components log
 <a name="faq-190"></a>
 ??? note summary "Expand to view"
     To access logs from your pods click on the pod name then select the log tab :   
@@ -125,9 +100,9 @@
 
     It
 
-    [Go to top of section](#faq-190) | [Go to top of page](#overview)
+    [Go to top of section](#faq-70) | [Go to top of page](#faq-overview)
 
-## 11. Better logging : Using an external log service
+## 71. Better logging : Using an external log service
 <a name="faq-100"></a>
 ??? note summary "Expand to view"
     If you are using ROKS on IBM Cloud you can attach a log aggregation service running on IBM Cloud to your CP4BA
@@ -163,20 +138,54 @@
     It is also useful to note the timestamp for the event then use "Jump To Timeframe" to find other events from
     other pods at the same timestamp for faultfinding. Log Analysis has many other features such as saved searches
     
-    [Go to top of section](#faq-200) | [Go to top of page](#overview)
+    [Go to top of section](#faq-71) | [Go to top of page](#faq-overview)
 
-## 12. Common faults & fixes : eg restart bastudio (edited)
+## 80. Common faults & fixes : eg restart bastudio (edited)
 <a name="faq-100"></a>
 ??? note summary "Expand to view"
     ![WIP](../src/images/wip2.jpg){width="800"}     
      
-    [Go to top of section](#faq-200) | [Go to top of page](#overview)
+    [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
-## 13. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
+    ## 1. I can't find BAWTOS or cp4bausers
+    <a name="faq-200"></a>
+    ??? note summary "Expand to view"
+        Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
+        <br>
+        Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
+        
+        **General**  
+        For the Starter pattern, use **cp4admin** instead of **cp4bausers** which is used in the Production pattern.   
+            
+        **Content**  
+        Target object store: **TARGET** in Starter vs **BAWTOS** in Production
+
+        **Decisions**  
+        Published automation service: The decisions project name contains the admin username which is different in Starter vs Production. The project name is included in the resource registry which would be different.
+
+        **Navigator**  
+        The desktop uses the target object store and because of the difference in target object store names, we have to create different desktops for Starter vs Production. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+
+        **App Designer**  
+        The Client Onboarding app points to the target object store and this cannot be done with environment variables so we have to create different applications for Starter vs Production.  This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+        Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
+
+        **Workflow**  
+        Environment variable needs an update to point to the right target object store. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+        Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
+        
+        [Go to top of section](#faq-200) | [Go to top of page](#faq-overview)
+
+    [^1]:
+        The Client Onboarding assets have been adapted from the
+        <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+        materials as developed by the IBM SWAT Team  
+
+## 90. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
 ??? note summary "Expand to view"
     <a href="https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB" target="_blank">Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks</a>   
      
-    [Go to top of section](#faq-210) | [Go to top of page](#overview)
+    [Go to top of section](#faq-90) | [Go to top of page](#faq-overview)
 
 ## 100. Solution Exports and Labs
 ??? note summary "Expand to view"
@@ -185,4 +194,4 @@
     [**Labs**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs){target="_blank"}  
 
      
-    [Go to top of section](#faq-220) | [Go to top of page](#overview)
+    [Go to top of section](#faq-100) | [Go to top of page](#faq-overview)
