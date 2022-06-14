@@ -1,5 +1,20 @@
 <a name="faq-overview"></a>
 
+## 1. I can't access my team cluster
+<a name="faq-01"></a>
+??? note summary "Expand to view"
+    If your OpenShift Web Console link does not appear to work, please obtain the link from your IBM Cloud account by doing the following:  
+    <br>
+    1. Log into your [IBM Cloud](https://cloud.ibm.com/){target="_blank"} account  
+    2. Select the enterprise account: **2326304 - itztsglenablement01**  
+    3. From the left navigation area, select: **Resource list** and then **Clusters**  
+    4. From the Excel file provided in slack for team assignments, obtain your team's **Bastion Cluster Name** (ie. tech-academy-labXX)  
+    5. Using the value from above, filter the Resource list using the **Name** column  
+    6. Locate your cluster and double-check you have the correct team cluster. Upon confirmation, click on the cluster to display the cluster  
+    7. From the cluster, select the **OpenShift web console** blue button in top-right area of the screen.  
+
+    [Go to top of section](#faq-01) | [Go to top of page](#faq-overview)
+
 ## 10. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-10"></a>
 ??? note summary "Expand to view"
@@ -7,8 +22,7 @@
     Pay-As-You-Go account. This is option can be found under account settings. If you have an IBM provided account
     your manage will need to approve this upgrade.
 
-    Go to top of section](#faq-10) | [Go to top of page](#faq-overview)
-
+    [Go to top of section](#faq-10) | [Go to top of page](#faq-overview)
 
 ## 11. Daffy cluster permission error
 <a name="faq-11"></a>
@@ -17,6 +31,14 @@
     If you have errors with permissions, you may have selected the wrong account. In this situation, please access your [**IBM Cloud**](https://cloud.ibm.com/){target="_blank"} account and then log out of your account. Next, run your Daffy command again to have it prompt you again for your account selection.
     
     [Go to top of section](#faq-11) | [Go to top of page](#faq-overview)
+
+## 12. Error with environment file edited using Microsoft Notepad
+<a name="faq-12"></a>
+??? note summary "Expand to view"
+            
+    If you edit your environment file using a Microsoft Windows machine and/or Microsoft Notepad, you may see extra characters at the end of each line (ie. \r\r\r\r\).
+    
+    [Go to top of section](#faq-12) | [Go to top of page](#faq-overview)
 
 ## 20. Getting Help : sharing an oc login command
 <a name="faq-20"></a>
