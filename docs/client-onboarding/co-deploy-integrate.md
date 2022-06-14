@@ -111,7 +111,7 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 
     15\. Use the contents of the [runModel.json](Solution%20Exports/Automation%20Decision%20Services/ML/runModel.json) file as the request body  
     <br>
-    Note: from your browser, please ensure to select **Raw Data** to view the body:
+    Note: from your browser, please ensure to select **Raw Data** to view/copy the request body:  
     ![image-2021Binary](images/sko-ads-ml-run-model-raw.png){width="300"}  
 
     16\. Update the `$PREDICTION-ID$` in the json to the `ID` copied before, typically this is `1`.
