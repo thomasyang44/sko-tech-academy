@@ -3,15 +3,15 @@
 ## 1. I can't find BAWTOS or cp4bausers
 <a name="faq-200"></a>
 ??? note summary "Expand to view"
-    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Production pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
+    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
     <br>
     Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
     
     **General**  
-    For the Starter pattern, use cp4admin instead of cp4bausers which is used in the Production pattern.   
+    For the Starter pattern, use **cp4admin** instead of **cp4bausers** which is used in the Production pattern.   
         
     **Content**  
-    Target object store: TARGET in Starter vs BAWTOS in Production
+    Target object store: **TARGET** in Starter vs **BAWTOS** in Production
 
     **Decisions**  
     Published automation service: The decisions project name contains the admin username which is different in Starter vs Production. The project name is included in the resource registry which would be different.
@@ -34,7 +34,7 @@
     <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
     materials as developed by the IBM SWAT Team  
 
-## 3. What you need on IBM Cloud : infrastructure permissions
+## 2. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-100"></a>
 ??? note summary "Expand to view"
     Before you can order virtual machines and create clusters you need to convert your IBM Cloud account to a
@@ -89,7 +89,7 @@
 ## 6. Pods : what to look for and how to restart
 <a name="faq-140"></a>
 ??? note summary "Expand to view"
-    In the CP4BA starter pattern many of the functional components run within the BA Studio pod. If your software is
+    In the CP4BA Starter pattern many of the functional components run within the BA Studio pod. If your software is
     not behaving as expected (infinite blue spinning wheels, cases not starting) try restarting the BA Studio pod.
     Expand workloads and select pods, filter using studio and find the running BA Studio pod, click on the three dots
     and delete the pod. This will cause a new pod to be created, in several minutes login to CP4BA again and see if your
@@ -123,7 +123,7 @@
 
     ![oc console](./images/pod-logs.png)
 
-    It 
+    It
 
     [Go to top of section](#faq-190) | [Go to top of page](#overview)
 
@@ -133,7 +133,7 @@
     If you are using ROKS on IBM Cloud you can attach a log aggregation service running on IBM Cloud to your CP4BA
     cluster.
 
-    Find the Log Analysis service in the IBM Cloud catalogue and create an instance. The lite service doesn't have
+    Find the Log Analysis service in the IBM Cloud catalog and create an instance. The lite service doesn't have
     any log retention so choose the 7 Day search option.
     ![oc console](./images/create-logging1.png)
      
@@ -146,7 +146,7 @@
     Find your cluster and click on its name to open the cluster details page.
     ![oc console](./images/create-logging4.png)
     
-    Scroll down to the integrations area and connect to the logging service. Once conected the connect button will be
+    Scroll down to the integrations area and connect to the logging service. Once connected the connect button will be
     replaced with a launch button.
     ![oc console](./images/create-logging5.png)
     
@@ -155,7 +155,7 @@
     ![oc console](./images/create-logging6.png)
 
     The log analysis service is now receiving all logs from the cluster. Y can now filter by source, here we are
-    filtering for the bastudio pod but this isn't necessary, a global text search is still very effective.
+    filtering for the **bastudio** pod but this isn't necessary, a global text search is still very effective.
     ![oc console](./images/create-logging7.png)
 
     At the bottom of the screen you can enter your search term to find the specific log output.

@@ -14,7 +14,7 @@ Below is a high-level overview of how your team will build the Client Onboarding
   - Active participation will be critical to the success of this course. Specifically, there will be tremendous value learning  from your peers not only on the capabilities but by discussing experiences executing a client PoC.
 
 !!! warning
-    Content in this area including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
+    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
     <br>
     Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
     - BAWTOS => TARGET  
