@@ -19,12 +19,25 @@
 
 ## Sales Kits
 ??? note summary "Expand to view"
-    ### <a href="https://ibm.seismic.com/Link/Content/DCC7FMWGhTpR8G2Fh77BQhmBq3H3" target="_blank">IBM Cloud Pak for Business #Automation Sales Kit (Seismic)</a>
-
+    ### [IBM Cloud Pak for Business Automation Sales Kit (Seismic)](https://ibm.seismic.com/Link/Content/DCC7FMWGhTpR8G2Fh77BQhmBq3H3){target="_blank"}
+    ### [Grow My Deal Request Form (IBM Only)](https://ibm.biz/grow-my-deal){target="_blank"}
+    
 ## Additional Labs
 ??? note summary "Expand to view"
     ### <a href="https://techzone.ibm.com/collection/cloud-pak-for-automation-activation-kit" target="_blank">Technology Zone - Business Automation Activation Kit</a>
     ### <a href="https://github.com/IBM/cp4ba-labs" target="_blank">IBM SWAT Labs</a>
+
+
+## Trial Software
+??? note summary "Expand to view"
+    ### [Cloud Pak for Business Automation (60 Day Trial)](https://www.ibm.com/account/reg/us-en/signup?formid=urx-44505){target="_blank"}  
+    ### [CP4BAaaS (14 Day Trial)](https://www.ibm.com/cloud/cloud-pak-for-business-automation){target="_blank"}  
+    ### [RPA (30 Day Trial)](https://www.ibm.com/account/reg/us-en/signup?formid=urx-46597){target="_blank"}  
+    ### [BAWoC (30 Day Trial)](https://www.ibm.com/account/reg/us-en/signup?formid=urx-32021&target=https%3A%2F%2Fwww.bpm.ibmcloud.com%2Fauth%2Fbpm%2Ftrial.html%23registered){target="_blank"}  
+    ### [Process Mining (30 Day Trial)](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51356){target="_blank"}  
+    ### [Blueworks Live (30 Day Trial)](https://www.ibm.com/products/blueworkslive){target="_blank"}  
+    ### [Red Hat - CP4BA (30 Day Trial)](https://marketplace.redhat.com/en-us/products/ibm-cloudpak-for-automation){target="_blank"}      
+    ### [Distributed Software Evaluation Program (IBM Only)](https://ibm.seismic.com/Link/Content/DC82Wc9PpPqf68MHHTjBpVC84RBB){target="_blank"}  
 
 ## Additional Labs (IBM Only)
 ??? note summary "Expand to view"

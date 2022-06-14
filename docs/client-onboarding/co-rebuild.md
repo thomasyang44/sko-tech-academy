@@ -19,7 +19,7 @@ This lab is considered an individual activity as each team member should work on
     Please note that you may need to redeploy your application depending on the rebuild lab update.
 
 !!! warning
-    Content in this area including the labs are based on the IBM SWAT Client Onboarding[^1] materials which is executed on the Production pattern.  Our environment uses the Starter pattern and based on that, you may encounter some differences at certain steps.  
+    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
     <br>
     Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
     - BAWTOS => TARGET  
@@ -105,37 +105,53 @@ This lab is considered an individual activity as each team member should work on
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **CLOS** object store needs to be first configured prior to performing the labs below. Expand the section below to create the object store.  
         
         ??? note summary "Expand to view"
-            1. Login to ACCE as cp4admin, and create an Object Store named **CLOS**.
+            1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin**, and create a new object store named **CLOS**.  
+               Note: the entry in the access-info file will be named: **Content Platform Engine administration**  
 
-            2. After creating the object store, right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.
+            2. After creating the object store, right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.  
+            ![SecuritySetupWizard](../images/co-clos-020.png){width="700"}  
 
-            3. Provide provide the names of the unpacked file on the two entry boxes as shown below, then click "Next"
+            3. Provide provide the names of the unpacked file on the two entry boxes as shown below, then click "Next"  
+            ![SecuritySetupWizard](../images/co-clos-030.png){width="700"}  
 
             4. On the next page, select "Object Store Administrators", then click "Add User/Group permission".
+            ![SecuritySetupWizard](../images/co-clos-040.png){width="700"}  
 
             5. In the "Add User/Group permission" popup window, find the "cp4bausers" group and add it to the right side for adding it. Then click OK.
+            ![SecuritySetupWizard](../images/co-clos-050.png){width="700"}  
 
             6. Press Next to let the Wizard run, and dismiss the warning message. Close the "Execute Script" window after it completed.
+            ![SecuritySetupWizard](../images/co-clos-060.png){width="500"}  
 
             7. Update Object Store security for the CLOS Object store and remove the "set owner of every object" right for the cp4bausers group from the Object store.
+            ![SecuritySetupWizard](../images/co-clos-070.png){width="500"}  
 
             8. Navigate to Administrative -> Storage -> Storage Policies. Create a new Storage Policy with the name "Default Advanced Storage Area". On 2nd page keep selection to "Select the storage area from a list". On 3rd page select the "CLOS_asa" storage area.
+            ![SecuritySetupWizard](../images/co-clos-080.png){width="500"}  
 
-            9. Navigate to Data Design -> Property Templates. Create two property templates with following:
+            9. Navigate to Data Design -> Property Templates. Create two property templates with following:  
 
-            10. Navigate to Data Design -> Classes. Create a new subclass of the "Folder" class with the name "SWAT Jam Case Folder" (Symbolic ID SWAT_JAM_Case_Folder).
+                | Name                  | Symbolic Name      |  Type     |
+                | :-------------------- | :----------------- | :-------- |
+                | **Case Reference ID** | Case_Reference_ID  | String    |
+                | **Client Name**       |	Client_Name        | String    |
 
-            11. Open the Folder class and add the two new property templates from above. Save the modified folder class.
+            10. Navigate to Data Design -> Classes. Create a new subclass of the "Folder" class with the name "SWAT Jam Case Folder" (Symbolic ID SWAT_JAM_Case_Folder).  
 
-            12. Create the indicated folder structure under the Root folder. The "Case Folders" folder is a regular folder, the "Sample Test Folder TESTx" (1 <= x <=2) is of class "SWAT JAM Case Folder". On the latter folders, the values for the Case Reference ID and the Client Name properties are both "TESTx" (i.e. "TEST1" on the "Sample Test Folder TEST1" and "TEST2" on "Sample Test Folder TESTx").
+            11. Open the Folder class and add the two new property templates from above. Save the modified folder class.  
 
-            13. Open Content Navigator. In the Hamburger menu on the top left, chose "Administration", on the "Desktops" tab. Search which of the desktops had been created by the Operator for the CLOS Object Store / Repository. Usually it will be "desktop1". Make a copy of it
+            12. Create the indicated folder structure under the Root folder. The "Case Folders" folder is a regular folder, the "Sample Test Folder TESTx" (1 <= x <=2) is of class "SWAT JAM Case Folder". On the latter folders, the values for the Case Reference ID and the Client Name properties are both "TESTx" (i.e. "TEST1" on the "Sample Test Folder TEST1" and "TEST2" on "Sample Test Folder TESTx").  
+            ![SecuritySetupWizard](../images/co-clos-120.png){width="400"}  
+
+            13. Open Content Navigator. In the Hamburger menu on the top left, chose "Administration", on the "Desktops" tab. Search which of the desktops had been created by the Operator for the CLOS Object Store / Repository. Usually it will be "desktop1". Make a copy of it  
+            ![SecuritySetupWizard](../images/co-clos-130.png){width="700"}  
 
             14. Give the new desktop the name and the id CLOS
+            ![SecuritySetupWizard](../images/co-clos-140.png){width="700"}  
 
             15. Go to the Layout tab and additionally enable the "Simple Search" feature, if it is not already enabled. Save the new desktop
         
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Confirm the symbolic names for Reference ID and Client Name.  Replace these with **usrxxxReferenceID** and **usrxxxClientName**
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  
 
 
     ### **Labs**
