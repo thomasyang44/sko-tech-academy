@@ -543,7 +543,7 @@ previously, as these are from a production deployment of CP4BA and there are sub
     <a name="deploy-integrate-72"></a>
     ??? note summary "Expand to view"
 
-        1. Download the contents of the following directory - [Business Automation Insights](Solution%20Exports/Business%20Automation%20Insights).
+        1. Download the contents of the following directory - [Business Automation Insights](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports/Business%20Automation%20Insights/){target="_blank"}.
 
         2. Replace the index names in the downloaded files:
 
