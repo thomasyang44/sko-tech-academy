@@ -20,16 +20,20 @@ environment we are using.
     materials as developed by the IBM SWAT Team
 
 
-When working as a team, some of these steps can be performed in parallel as identified below.
+When working as a team, some of these sections can be performed in parallel as identified below.
 You must use the artifacts downloaded from this page, do **NOT** use any original SWAT artifacts you may have downloaded
 previously, as these are from a production deployment of CP4BA and there are subtle differences.
 
-| Step(s) | Description                                         |
-| --------| --------------------------------------------------- |
-| 1<br>2  | Import the ADS ML Model <br> Import the ADS Project |
-| 3<br>9  | Setup the RPA Server (optional) <br> Validate the RPA Integration (optional)  |
-| 4<br>5  | Import the Workflow Solution <br> Import objects into FileNet Content Manager |
-| 6<br>7  | Import the Business Automation Application app <br> Import the Business Automation Insights data |
+Below are the recommended tracks that different members of the team can complete in parallel:  
+
+| Track   | Section(s) | Description                                                                                      |
+| --------| -----------| -------------------------------------------------------------------------------------------------|
+| A       | 1<br>2     | Import the ADS ML Model <br> Import the ADS Project                                              |
+| B       | 4<br>5     | Import the Workflow Solution <br> Import objects into FileNet Content Manager                    |
+| C       | 6<br>7     | Import the Business Automation Application app <br> Import the Business Automation Insights data |
+| D       | 3<br>9     | Setup the RPA Server (optional) <br> Validate the RPA Integration (optional)                     |
+
+Section 8 - **Validate Client Onboarding solution** should be completed as a team when all the section have been completed.
 
 !!! warning
     1 - The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.  
