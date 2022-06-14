@@ -11,7 +11,7 @@
 <br>
 The labs below can be used to learn how various capabilities were configured in the Client Onboarding solution. As you may already have expertise in one or more of these capabilities, you are encouraged to perform lab using a capability that you have **LEAST** experience with and/or is the most needed skill in your market.  Every member of the team should select a different rebuild lab.  
 <br>
-As you start and perform the lab, think and coordinate with your team members about how you might be able to customize the capability to fit your client PoC requirements.
+As you start and perform the lab, think and coordinate with your team members about how you might be able to customize the capability to fit your client PoC requirements.  
 <br>
 This lab is considered an individual activity as each team member should work on a separate rebuild lab.  However, all work should be done on the shared team cluster and collaboration is highly recommended as you build components into your customized Client Onboarding PoC demonstration.  
 

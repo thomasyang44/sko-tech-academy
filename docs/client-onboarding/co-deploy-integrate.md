@@ -6,13 +6,13 @@
     The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
 
 !!! warning
-    You must use the artifacts downloaded from this page, do **NOT** use the original SWAT artifacts you may have downloaded
-    previously.
+    You must use the artifacts downloaded from this page.  
+    <br>
+    Do **NOT** use the original SWAT artifacts you may have downloaded previously as these are from a Production deployment of CP4BA and there are subtle differences.
 
 ## Instructions
 
-Below are the steps that you will need to import and build the Client Onboarding[^1] solution into the CP4BA starter
-environment we are using.  
+There are 7 sections that you will need to import and build the **Client Onboarding**[^1] solution into your team cluster.  
 
 [^1]:
     The Client Onboarding assets have been adapted from the
@@ -20,11 +20,7 @@ environment we are using.
     materials as developed by the IBM SWAT Team
 
 
-When working as a team, some of these sections can be performed in parallel as identified below.
-You must use the artifacts downloaded from this page, do **NOT** use any original SWAT artifacts you may have downloaded
-previously, as these are from a production deployment of CP4BA and there are subtle differences.
-
-Below are the recommended tracks that different members of the team can complete in parallel:  
+Below are the recommended tracks so that different members of the team can complete in parallel:  
 
 | Track   | Section(s) | Description                                                                                      |
 | --------| -----------| -------------------------------------------------------------------------------------------------|
@@ -35,10 +31,6 @@ Below are the recommended tracks that different members of the team can complete
 
 Section 8 - **Validate Client Onboarding solution** should be completed as a team when all the section have been completed.
 
-!!! warning
-    1 - The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.  
-    <br>
-    2 - There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.
 
 ## Installation Links
 <a name="installation links"></a>
@@ -69,10 +61,16 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
     It is suggested that you copy these details somewhere you can access them quickly or leave this page open.  
     <br>
 
+!!! NOTE
+    A deeper understanding of each of the sections below will be covered in the labs in the [**Rebuild**](co-rebuild.md){target="_blank"} section.
+    
+
 ## 1. Import the ADS ML Model
 <a name="deploy-integrate-1"></a>
 ??? note summary "Expand to view"
-    1\. Open the ADS ML Service (Open Prediction Service) in your browser. This component has been added to the standard
+
+    1\. Open the ADS ML Service (Open Prediction Service) in your browser.  
+    This component has been added to the standard
     CP4BA build to support the COB scenario. To find the URL for this component open the OpenShift web console and
     select Networking then Routes. These are all the public URL's exposed by the OpenShift cluster. To easily find
     the ADS ML Service public URL select "ads-ml-service" from the project dropdown near the top of the screen as shown.
@@ -130,6 +128,10 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 ## 2. Import the ADS Project
 <a name="deploy-integrate-2"></a>
 ??? note summary "Expand to view"
+
+    !!! warning
+        The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.  
+
     1. Download [ClientOnboardingDecisions.zip](Solution%20Exports/Automation%20Decision%20Services/ClientOnboardingDecisions.zip)
 
     2. Create an empty GIT repo and get its URL and API Key
@@ -543,6 +545,9 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 <a name="deploy-integrate-7"></a>
 ??? note summary "Expand to view"
 
+    !!! warning
+        There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.
+
     ### 7.2 Create and configure goals
     <a name="deploy-integrate-72"></a>
     ??? note summary "Expand to view"
@@ -651,6 +656,10 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 ??? note summary "Expand to view"
     <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> This is a quick test to validate the main parts of the solution.
     This test does not include RPA integration
+    
+    !!! warning
+        There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.
+
 
     1. Open the Client Onboarding desktop. The URL will begin with the URL from the config map called
     `Business Automation Navigator for CP4BA`. Add `?desktop=ClientOnboarding` to the end of this URL, for example:
