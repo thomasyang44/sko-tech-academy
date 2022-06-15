@@ -117,7 +117,7 @@
 
     [Go to top of section](#faq-31) | [Go to top of page](#faq-overview)
 
-## 32. Obscure Links : BAW Process Admin
+## 32. Obscure Links : BAW Process Admin and Rest UI
 <a name="faq-130"></a>
 ??? note summary "Expand to view"
     The link for Process Admin is not recorded in the access configmap. To get to Process Admin create the URL using the
@@ -125,7 +125,13 @@
     ```
     <Cloud Pak Dashboard>/bas/ProcessAdmin
     ```
-         
+    
+    To get to BPM Rest UI create the URL using the
+    template below. Find the URL labeled Cloud Pak Dashboard and use it as the basis for the Rest UI URL: 
+    ```
+    <Cloud Pak Dashboard>/bas/bpmrest-ui
+    ```
+
     [Go to top of section](#faq-32) | [Go to top of page](#faq-overview)
 
 ## 40. Pods : what to look for and how to restart
