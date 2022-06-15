@@ -25,6 +25,11 @@
         - [**Solution Exports**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports){target="_blank"}  
         - [**Labs**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs){target="_blank"}  
 
+    Please note: within each **Rebuild** capability lab, there may be a reference to a **Lab Data** folder. This **Lab Data** folder is located within the capability folder in the [**Labs**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs){target="_blank"} folder.  
+    <br>
+    For example, below is the **Lab Data** folder for ADS (in the **Decisions** capability folder):  
+    [**ADS - Lab Data**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/labs/Decisions/Lab%20Data){target="_blank"}  
+    
     !!! NOTE
         Recommendation is to [**clone**](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop){target="_blank"} this [**GitHub**](https://github.com/thomasyang44/sko-tech-academy){target="_blanks"} repository so that you have all the artifacts and labs on your local machine.  
 
