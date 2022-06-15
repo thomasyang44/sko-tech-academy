@@ -23,6 +23,7 @@ This lab is considered an individual activity as each team member should work on
     <br>
     Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
     - BAWTOS => TARGET  
+    - CLOS => CONTENT  
     - cp4bausers => cp4admin  
 
     [^1]:
@@ -102,13 +103,15 @@ This lab is considered an individual activity as each team member should work on
     IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine and Content Services GraphQL which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation.
 
     !!! warning
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store.  
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  
+        
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store. Expand the section below to add the folder subclasses.  
 
         ??? note summary "Expand to view"
             1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin** and select the object store named **CONTENT**.  
                Note: the entry in the access-info file will be named: **Content Platform Engine administration**  
 
-            2. Navigate to Data Design -> Property Templates. Create two property templates with following:  
+            2. Navigate to Data Design -> Property Templates. Create the two property templates:
 
                 | Name                  | Symbolic Name      |  Type     |
                 | :-------------------- | :----------------- | :-------- |
@@ -119,14 +122,14 @@ This lab is considered an individual activity as each team member should work on
 
             4. Open the Folder class and add the two new property templates from above. Make sure you **Save** the modified folder subclass.  
 
-            5. Create the indicated folder structure under the Root folder. The **Case Folders** folder is a regular folder using the **Folder** object class.
+            5. Create the indicated folder structure under the Root folder. The **Case Folders** folder is a regular folder using the **Folder** object class.  
             <br> The **Sample Test Folder TEST1** should be created using the **SWAT Jam Case Folder** class and have the **Case Reference ID** and **Client Name** properties set to **TEST1**.  
-            <br> The **Sample Test Folder TEST2** should be created using the **SWAT Jam Case Folder** class and have the **Case Reference ID** and **Client Name** properties set to **TEST2**.
+            <br> The **Sample Test Folder TEST2** should be created using the **SWAT Jam Case Folder** class and have the **Case Reference ID** and **Client Name** properties set to **TEST2**.  
+            <br>
             ![SecuritySetupWizard](../images/co-clos-120.png){width="400"}  
 
             6. Open Content Navigator, select the existing content desktop and update the **Layout** tab and enable the **Simple Search** feature (if it is not already enabled).
             
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  
 
 
     ### **Labs**
