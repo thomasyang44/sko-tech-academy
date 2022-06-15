@@ -106,7 +106,7 @@ This lab is considered an individual activity as each team member should work on
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **TechJam** labs were designed for many users on one cluster and hence used prefixed names using **usrxxx** (ex: **usrxxxClientName**) for content objects. For our event, please ignore any references to **usrxxx** (for names, symbolic links, etc.).  <br>
         For example, if you see **usrxxxClientName**, please use **ClientName**
         
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store. Expand the section below to add the folder subclasses.  
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store. Expand the section below to further extend the object store to support the labs below.   
 
         ??? note summary "Expand to view"
             1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin** and select the object store named **CONTENT**.  
