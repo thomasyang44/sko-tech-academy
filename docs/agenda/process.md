@@ -31,7 +31,7 @@ The process diagram below represents the activities for this event.
         | 12:30 - 1:30  | Lunch                                                                                                          |
         | 1:30 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
 
-    === "Day 3- Wednesday 6/15"
+    === "Day 3 - Wednesday 6/15"
         1. Review Stand and Deliver Guidelines
         1. Team members will work together on the team cluster and rebuild portions of the Client Onboarding solution, selecting a capability that is not their deepest expertise and/or is the most needed skill in their market.  Every member of the team should select a different rebuild lab.
         1. Customization use case scenarios will be provided prior to lunch.
@@ -42,7 +42,9 @@ The process diagram below represents the activities for this event.
         | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Team/Individual] |
         | 12:00 - 12:30 | Prior to lunch, customization use case scenarios will be posted to the slack channel |
         | 12:30 - 1:30  | Lunch                                                        |
-        | 1:30 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual] |
+        | 1:30 - 3:30   | Continue Rebuild & Complete Customizations [Team/Individual] |
+        | 3:30 - 3:45 | Break
+        | 3:45 - 5:00   | Prepare Day 4 demo script [Team] |
 
     === "Day 4 - Thursday 6/16"
         1. Team members will prepare and deliver the customized Client Onboarding demo (Round 1 and 2)
