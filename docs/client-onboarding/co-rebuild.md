@@ -102,10 +102,10 @@ This lab is considered an individual activity as each team member should work on
     IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine and Content Services GraphQL which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation.
 
     !!! warning
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **CLOS** object store needs to be first configured prior to performing the labs below. Expand the section below to create the object store.  
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store.  
 
         ??? note summary "Expand to view"
-            1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin**, and create a new object store named **CLOS**.  
+            1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin**, create a new object store named **CLOS**.  
                Note: the entry in the access-info file will be named: **Content Platform Engine administration**  
 
             2. After creating the object store, right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.  
