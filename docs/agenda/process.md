@@ -31,7 +31,7 @@ The process diagram below represents the activities for this event.
         | 12:30 - 1:30  | Lunch                                                                                                          |
         | 1:30 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
 
-    === "Day 3- Wednesday 6/15"
+    === "Day 3 - Wednesday 6/15"
         1. Review Stand and Deliver Guidelines
         1. Team members will work together on the team cluster and rebuild portions of the Client Onboarding solution, selecting a capability that is not their deepest expertise and/or is the most needed skill in their market.  Every member of the team should select a different rebuild lab.
         1. Customization use case scenarios will be provided prior to lunch.
