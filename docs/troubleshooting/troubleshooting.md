@@ -214,9 +214,9 @@
     [Go to top of section](#faq-71) | [Go to top of page](#faq-overview)
 
 ## 80. Common faults & fixes : eg restart bastudio (edited)
-<a name="faq-100"></a>
+<a name="faq-80"></a>
 ??? note summary "Expand to view"
-    ![WIP](../src/images/wip2.jpg){width="800"}     
+    
      
     [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
@@ -262,12 +262,49 @@
     [Go to top of section](#faq-90) | [Go to top of page](#faq-overview)
 
 
-## 95. Adding Certificate for RPA Server
+## 95. Adding Certificate for RPA Server (CP4BA Starter)
 <a name="faq-95"></a>
 ??? note summary "Expand to view"
 
-    There be dragons here  !!
+    These are the steps required to enable connectivity between BAW and a remote RPA node. The example below will
+    connect BAW (in this case running within BA Studio as part of CP4BA Starter) to a TechZone VM running RPA 
+    studio using a simple synchronous Rest API call. You should be able to adapt these instrutions to enable BAW to 
+    call other untrusted servers.
     
+    These steps should be performed after Daffy steps 1 & 2, and before step 3. 
+
+    1. Obtain the pem file (certificate) for the remote server. Log into the RPA VM and open Firefox. Click on the
+    bookmark for IBM RPA Server, click the icon next to the address then click the button labeled 'Connection not secure'  
+    ![Certificate Info](./images/cert-1.png){width="500"}  
+    On the next dialogue box click 'More information'.  
+    ![More Info](./images/cert-2.png){width="500"}  
+    When the information panel opens click on the view button.  
+    ![Info Panel](./images/cert-3.png){width="500"}  
+    Now scroll down until you find the link to download the PEM cert.  
+    ![certificate download](./images/cert-4.png){width="500"}
+    2. Create the pem file to your bastion. You can open the pem file in an editor and copy the contents of the file
+    into a new file on your bastion.
+    3. Log into your OpenShift cluster using the CLI (you may need a login token from the OpenShift Web Console) 
+    and create an OpenShift secret in the cp4ba-starter project using the command below. You may have to adapt the
+    command if you created the pem file in a different location.  
+    ```
+    oc create secret generic rpa-secret --from-file=tls.crt=/data/daffy/env/rpa.pem -n cp4ba-starter
+    ```
+    4. Update the CR to add the secret containing the pem file. As the formatting in YAML is critical it is not 
+    safe to provide the code here. Use the image below to help you find the updated code in this [sample YAML](rpa-updated.yaml), update
+    your YAML file accordingly:  
+    ![RPA Secret](./images/rpa-secret.png){width="600"}
+    Pay extra attention to indentation using spaces. It is recommended that you use an editor that understands the 
+    syntax of yaml.
+
+    5. The final change is to deactivate the SSL validation in the Liberty server used to host BAW. Again this change
+    is present in the [sample YAML](rpa-updated.yaml). Use the image below to help you find the changes in the sample yaml
+    file and apply this to your CR.  
+    ![Custome XML](./images/custom-xml.png){width="600"}
+
+    6. You can now proceed with step 3 of the Daffy build and create the CP4BA services. It is possible to modify the CR and reapply it to a running
+    CP4BA cluster but this is beyond the scope of this guide.
+
     [Go to top of section](#faq-95) | [Go to top of page](#faq-overview)
 
 ## 100. Solution Exports and Labs
