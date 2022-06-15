@@ -105,10 +105,10 @@ This lab is considered an individual activity as each team member should work on
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store.  
 
         ??? note summary "Expand to view"
-            1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin**, create a new object store named **CLOS**.  
+            1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin** and select the object store named **CONTENT**.  
                Note: the entry in the access-info file will be named: **Content Platform Engine administration**  
 
-            2. After creating the object store, right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.  
+            2. Right-click on the object store name and invoke the Security Script Wizard. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.  
             ![SecuritySetupWizard](../images/co-clos-020.png){width="700"}  
 
             3. Provide provide the names of the unpacked file on the two entry boxes as shown below, then click "Next"  
