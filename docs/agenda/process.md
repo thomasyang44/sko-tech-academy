@@ -31,7 +31,7 @@ The process diagram below represents the activities for this event.
         | 12:30 - 1:30  | Lunch                                                                                                          |
         | 1:30 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
 
-    === "Day 3- Wednesday 6/15"
+    === "Day 3 - Wednesday 6/15"
         1. Review Stand and Deliver Guidelines
         1. Team members will work together on the team cluster and rebuild portions of the Client Onboarding solution, selecting a capability that is not their deepest expertise and/or is the most needed skill in their market.  Every member of the team should select a different rebuild lab.
         1. Customization use case scenarios will be provided prior to lunch.
@@ -42,7 +42,9 @@ The process diagram below represents the activities for this event.
         | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Team/Individual] |
         | 12:00 - 12:30 | Prior to lunch, customization use case scenarios will be posted to the slack channel |
         | 12:30 - 1:30  | Lunch                                                        |
-        | 1:30 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual] |
+        | 1:30 - 3:30   | Continue Rebuild & Complete Customizations [Team/Individual] |
+        | 3:30 - 3:45 | Break
+        | 3:45 - 5:00   | Prepare Day 4 demo script [Team] |
 
     === "Day 4 - Thursday 6/16"
         1. Team members will prepare and deliver the customized Client Onboarding demo (Round 1 and 2)
@@ -50,7 +52,6 @@ The process diagram below represents the activities for this event.
 
         | Time          | Session / Activity                                                                                             |
         | :------------ | :------------------------------------------------------------------------------------------------------------- |
-<<<<<<< HEAD
         | 8:00 - 8:30   | Briefing on activities for the day                                                                          |
         | 8:30 - 9:45   | Deliver Customized Client Onboarding Demo - Round 1 <br> Groups of 3 teams, demo 15 mins, feedback 5 mins, break between teams 5 mins [Team] |
         | 9:45 - 10:00  | BREAK                                                                                                       |
@@ -62,16 +63,3 @@ The process diagram below represents the activities for this event.
         | 3:00 - 3:30   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein                      |
         | 3:30 - 4:00   | Competitive (Pega) - Greg Violette                                                                          |
         | 4:00 PM       | Attendees required to stay until 4:00 PM                                                                    |
-
-  
-=======
-        | 8:00 - 8:30   | Briefing on activities for the day                           |
-        | 8:30 - 9:45   | Deliver Customized Client Onboarding Demo - Round 1 <br> Groups of 3 teams, demo 15 mins, feedback 5 mins, break between teams 5 mins [Team]                              |     
-        | 9:45 - 10:00  | Break                                                        |
-        | 10:00 - 12:30 | Deliver Customized Client Onboarding Demo - Round 2 <br> Top 5 teams, demo 15 mins to room, feedback 5 min, break between teams 6 min [Team]                                      |
-        | 2:15 - 2:30   | Break                                                        |
-        | 2:30 - 3:00   | Process Discovery with Automation Compass - Jared Michalec (Salient Process) |
-        | 3:00 - 3:30   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein  |
-        | 3:30 - 4:00   | Competitive (Pega) - Greg Violette                           |
-        | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
->>>>>>> 6b95cf17d7dc84ee4645e3cf9dd9e6762a6d6d45

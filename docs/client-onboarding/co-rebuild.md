@@ -103,9 +103,10 @@ This lab is considered an individual activity as each team member should work on
     IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine and Content Services GraphQL which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation.
 
     !!! warning
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  In general, ignore any references of **usrxxx** for the properties as your team are the only users for your environment.   
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **TechJam** labs were designed for many users on one cluster and hence used prefixed names using **usrxxx** (ex: **usrxxxClientName**) for content objects. For our event, please ignore any references to **usrxxx** (for names, symbolic links, etc.).  <br>
+        For example, if you see **usrxxxClientName**, please use **ClientName**
         
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store. Expand the section below to add the folder subclasses.  
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store. Expand the section below to further extend the object store to support the labs below.   
 
         ??? note summary "Expand to view"
             1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin** and select the object store named **CONTENT**.  
