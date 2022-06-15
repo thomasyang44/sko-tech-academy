@@ -50,7 +50,6 @@ The process diagram below represents the activities for this event.
 
         | Time          | Session / Activity                                                                                             |
         | :------------ | :------------------------------------------------------------------------------------------------------------- |
-<<<<<<< HEAD
         | 8:00 - 8:30   | Briefing on activities for the day                                                                          |
         | 8:30 - 9:45   | Deliver Customized Client Onboarding Demo - Round 1 <br> Groups of 3 teams, demo 15 mins, feedback 5 mins, break between teams 5 mins [Team] |
         | 9:45 - 10:00  | BREAK                                                                                                       |
@@ -62,16 +61,3 @@ The process diagram below represents the activities for this event.
         | 3:00 - 3:30   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein                      |
         | 3:30 - 4:00   | Competitive (Pega) - Greg Violette                                                                          |
         | 4:00 PM       | Attendees required to stay until 4:00 PM                                                                    |
-
-  
-=======
-        | 8:00 - 8:30   | Briefing on activities for the day                           |
-        | 8:30 - 9:45   | Deliver Customized Client Onboarding Demo - Round 1 <br> Groups of 3 teams, demo 15 mins, feedback 5 mins, break between teams 5 mins [Team]                              |     
-        | 9:45 - 10:00  | Break                                                        |
-        | 10:00 - 12:30 | Deliver Customized Client Onboarding Demo - Round 2 <br> Top 5 teams, demo 15 mins to room, feedback 5 min, break between teams 6 min [Team]                                      |
-        | 2:15 - 2:30   | Break                                                        |
-        | 2:30 - 3:00   | Process Discovery with Automation Compass - Jared Michalec (Salient Process) |
-        | 3:00 - 3:30   | Robotic Process Automation (RPA) & Workflow Process Services (WfPS) - Zach Silverstein  |
-        | 3:30 - 4:00   | Competitive (Pega) - Greg Violette                           |
-        | 4:00 PM       | Attendees required to stay until 4:00 PM                     |
->>>>>>> 6b95cf17d7dc84ee4645e3cf9dd9e6762a6d6d45
