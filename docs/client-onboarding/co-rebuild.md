@@ -103,7 +103,7 @@ This lab is considered an individual activity as each team member should work on
     IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine and Content Services GraphQL which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation.
 
     !!! warning
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **TechJam** labs were designed for many users on one cluster and hence used prefixed names using **usrxxx** (for example, **usrxxxClientName**) for content objects. For our event, please ignore any references to **usrxxx** (for names, symbolic links, etc.).  <br>
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **TechJam** labs were designed for many users on one cluster and hence used prefixed names using **usrxxx** (ex: **usrxxxClientName**) for content objects. For our event, please ignore any references to **usrxxx** (for names, symbolic links, etc.).  <br>
         For example, if you see **usrxxxClientName**, please use **ClientName**
         
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store. Expand the section below to add the folder subclasses.  
