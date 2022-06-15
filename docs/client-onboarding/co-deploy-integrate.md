@@ -140,7 +140,7 @@ pre-built solutions and lab assets.
     !!! warning
         The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.  
         <br>
-        Use **Personal Access Token** under **Developer Settings**
+        Create a **Personal Access Token** under **Developer Settings**
 
     1. Download [ClientOnboardingDecisions.zip](Solution%20Exports/Automation%20Decision%20Services/ClientOnboardingDecisions.zip)
 
