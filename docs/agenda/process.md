@@ -42,7 +42,9 @@ The process diagram below represents the activities for this event.
         | 8:30 - 12:30  | Client Onboarding - Rebuild portion of solution [Team/Individual] |
         | 12:00 - 12:30 | Prior to lunch, customization use case scenarios will be posted to the slack channel |
         | 12:30 - 1:30  | Lunch                                                        |
-        | 1:30 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual] |
+        | 1:30 - 3:30   | Continue Rebuild & Complete Customizations [Team/Individual] |
+        | 3:30 - 3:45 | Break
+        | 3:45 - 5:00   | Prepare Day 4 demo script [Team] |
 
     === "Day 4 - Thursday 6/16"
         1. Team members will prepare and deliver the customized Client Onboarding demo (Round 1 and 2)
