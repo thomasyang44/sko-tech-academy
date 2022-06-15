@@ -127,7 +127,7 @@
     ```
     
     To get to BPM Rest UI create the URL using the
-    template below. Find the URL labeled Cloud Pak Dashboard and use it as the basis for the Rest UI URL: 
+    template below. Find the URL labeled Cloud Pak Dashboard and use it as the basis for the Rest UI URL:
     ```
     <Cloud Pak Dashboard>/bas/bpmrest-ui
     ```
@@ -232,6 +232,7 @@
             
         **Content**  
         Target object store: **TARGET** in Starter vs **BAWTOS** in Production
+        Anywhere you see **CLOS** object store, use the **CONTENT** object store. 
 
         **Decisions**  
         Published automation service: The decisions project name contains the admin username which is different in Starter vs Production. The project name is included in the resource registry which would be different.
