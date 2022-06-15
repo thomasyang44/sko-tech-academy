@@ -103,7 +103,7 @@ This lab is considered an individual activity as each team member should work on
     IBM FileNet Content Manager is a flexible, full-featured content management solution that provides the foundation for IBM Cloud Pak® for Business Automation. In labs you will get introduced to important core concepts of FileNet Content Platform Engine and Content Services GraphQL which will enable you to use FileNet Content Platform Engine to build the information architecture for automation projects realized with Cloud Pak for Business Automation.
 
     !!! warning
-        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  In general, ignore any references of **usrxxx** for the properties as your team are the only users for your environment.   
         
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> We will NOT use the **CLOS** object store and instead use the existing **CONTENT** object store. Expand the section below to add the folder subclasses.  
 
@@ -128,7 +128,7 @@ This lab is considered an individual activity as each team member should work on
             <br>
             ![SecuritySetupWizard](../images/co-clos-120.png){width="400"}  
 
-            6. Open Content Navigator, select the existing content desktop and update the **Layout** tab and enable the **Simple Search** feature (if it is not already enabled).
+            6. Open Content Navigator, select the existing **content** desktop and update the **Layout** tab and enable the **Simple Search** feature (if it is not already enabled).
             
 
 
