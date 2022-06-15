@@ -108,23 +108,40 @@ This lab is considered an individual activity as each team member should work on
             1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin** and select the object store named **CONTENT**.  
                Note: the entry in the access-info file will be named: **Content Platform Engine administration**  
 
-            2. Navigate to Data Design -> Property Templates. Create two property templates with following:  
+            2. Right-click on the object store name and invoke the **Security Script Wizard**. In the dialog which opens click the link "SecurityScriptWizard.zip", download the ZIP file, and unpack it.  
+            ![SecuritySetupWizard](../images/co-clos-020.png){width="700"}  
+
+            3. Provide provide the names of the unpacked file on the two entry boxes as shown below, then click "Next"  
+            ![SecuritySetupWizard](../images/co-clos-030.png){width="700"}  
+
+            4. On the next page, select "Object Store Administrators", then click "Add User/Group permission".
+            ![SecuritySetupWizard](../images/co-clos-040.png){width="700"}  
+
+            5. Confirm that the **cp4admin** is in this group.  If not, add **cp4admin** user to the right side for adding it. Then click OK.
+            ![SecuritySetupWizard](../images/co-clos-050.png){width="700"}  
+
+            6. Press Next to let the Wizard run, and dismiss the warning message. Close the "Execute Script" window after it completed.
+            ![SecuritySetupWizard](../images/co-clos-060.png){width="500"}  
+
+            7. Navigate to Administrative -> Storage -> Storage Policies. Select "Select the storage area from a list" and specify **content_operations**
+            
+            8. Navigate to Data Design -> Property Templates. Create two property templates with following:  
 
                 | Name                  | Symbolic Name      |  Type     |
                 | :-------------------- | :----------------- | :-------- |
                 | **Case Reference ID** | Case_Reference_ID  | String    |
                 | **Client Name**       |	Client_Name        | String    |
 
-            3. Navigate to Data Design -> Classes. Create a new subclass of the **Folder** class with the name **SWAT Jam Case Folder** (Symbolic ID SWAT_JAM_Case_Folder).  
+            9. Navigate to Data Design -> Classes. Create a new subclass of the "Folder" class with the name "SWAT Jam Case Folder" (Symbolic ID SWAT_JAM_Case_Folder).  
 
-            4. Open the Folder class and add the two new property templates from above. Make sure you **Save** the modified folder subclass.  
+            10. Open the Folder class and add the two new property templates from above. Save the modified folder subclass.  
 
-            5. Create the indicated folder structure under the Root folder. The **Case Folders** folder is a regular folder using the **Folder** object class.
+            11. Create the indicated folder structure under the Root folder. The **Case Folders** folder is a regular folder using the **Folder** object class.
             <br> The **Sample Test Folder TEST1** should be created using the **SWAT Jam Case Folder** class and have the **Case Reference ID** and **Client Name** properties set to **TEST1**.  
             <br> The **Sample Test Folder TEST2** should be created using the **SWAT Jam Case Folder** class and have the **Case Reference ID** and **Client Name** properties set to **TEST2**.
             ![SecuritySetupWizard](../images/co-clos-120.png){width="400"}  
 
-            6. Open Content Navigator, select the existing content desktop and update the **Layout** tab and enable the **Simple Search** feature (if it is not already enabled).
+            12. Open Content Navigator, select the existing content desktop and update the **Layout** tab and enable the **Simple Search** feature (if it is not already enabled).
             
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  
 
