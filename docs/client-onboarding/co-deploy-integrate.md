@@ -31,6 +31,10 @@ Below are the recommended tracks so that different members of the team can compl
 
 Section 8 - **Validate Client Onboarding solution** should be completed as a team when all the section have been completed.
 
+You can access the github repo for this event using the link in the top-right corner. This will provide access to PDF's, 
+pre-built solutions and lab assets.
+![git link](./images/git-link.png)
+
 
 ## Installation Links
 <a name="installation-links"></a>
@@ -554,7 +558,7 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
     !!! warning
         There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.
 
-    ### 7.2 Create and configure goals
+    ### 7.1 Prepare Data and Import Dashboard
     <a name="deploy-integrate-72"></a>
     ??? note summary "Expand to view"
 
@@ -562,13 +566,19 @@ Section 8 - **Validate Client Onboarding solution** should be completed as a tea
 
         2. Replace the index names in the downloaded files:
 
-            In the `process-data.json` and `case-data.json` files, the index name parameter must match the index names of your environment. The index names are dependent on the date of the install. For example, one of the index names in the provided data files is `icp4ba-bai-process-summaries-completed-idx-ibm-bai-2021.11.11-000001`. The date `2021.11.11-000001` must be replaced by the date in your environment's index.
+            In the `process-data.json` and `case-data.json` files, the index name parameter must match the index names 
+            of your environment. The index names are dependent on the date of the install. For example, one of the 
+            index names in the provided data files is `icp4ba-bai-process-summaries-completed-idx-ibm-bai-2021.11.11-000001`. 
+            The date element `2021.11.11` must be replaced by the date in your new clusters index name. The image 
+            below shows an example of the data we need to update. You must use the tool of your choice to perform a
+            global find & replace to update all the dates so they reflect the index names in your cluster.
+            ![data replacement](images/data_replace.png)
 
             You can get the index names for your environment using the following command (Replace `{esadmin}` with the elasticsearch admin user ID, replace `{espassword}` with the elastichsearch admin user password & replace `{eshost}` with the elasticsearch URL):
 
                 curl -k -XGET -u {esadmin}:{espassword} '{eshost}/_aliases'
 
-        3. From the folder where you've downloaded the files and replaced the index names, run the following script to import the data (replace `{esadmin}` with the elasticsearch admin user ID, replace `{espassword}` with the elastichsearch admin user password & replace `{eshost}` with the elasticsearch URL):
+        3. Once you have updated the sample data files, from the folder where you've downloaded the files and replaced the index names, run the following script to import the data (replace `{esadmin}` with the elasticsearch admin user ID, replace `{espassword}` with the elastichsearch admin user password & replace `{eshost}` with the elasticsearch URL):
 
                 ES_ADMIN={esadmin}
                 ES_PASSWORD={espassword}
