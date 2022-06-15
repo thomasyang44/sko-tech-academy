@@ -261,6 +261,15 @@
      
     [Go to top of section](#faq-90) | [Go to top of page](#faq-overview)
 
+
+## 95. Adding Certificate for RPA Server
+<a name="faq-95"></a>
+??? note summary "Expand to view"
+
+    There be dragons here  !!
+    
+    [Go to top of section](#faq-95) | [Go to top of page](#faq-overview)
+
 ## 100. Solution Exports and Labs
 ??? note summary "Expand to view"
 
