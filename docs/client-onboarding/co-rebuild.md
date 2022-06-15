@@ -9,11 +9,11 @@
     materials as developed by the IBM SWAT Team  
 
 <br>
-The labs below can be used to learn how various capabilities were configured in the Client Onboarding solution. As you may already have expertise in one or more of these capabilities, you are encouraged to perform lab using a capability that you have **LEAST** experience with and/or is the most needed skill in your market.  Every member of the team should select a different rebuild lab.  
+The labs below can be used to learn how various capabilities were configured in the Client Onboarding solution. As you already have expertise in one or more capability, **you are encouraged to select a lab for a capability that you have the LEAST experience with and/or is the most needed skill in your market.  Further, every member of the team should select a different rebuild lab for their first.**  Once the first Rebuild lab is completed, you may select additional rebuild labs or proceed to [Customization](co-customization.md).  
 <br>
-As you start and perform the lab, think and coordinate with your team members about how you might be able to customize the capability to fit your client PoC requirements.  
+As you perform the lab, think and coordinate with your team members how you might be able to customize the capability to fit client PoC requirements.  
 <br>
-This lab is considered an individual activity as each team member should work on a separate rebuild lab.  However, all work should be done on the shared team cluster and collaboration is highly recommended as you build components into your customized Client Onboarding PoC demonstration.  
+This lab is considered an individual activity as each team member should work on a separate rebuild lab.  However, all work should be done on the shared team cluster and **collaboration is highly recommended** as you build components into your customized Client Onboarding PoC demonstration (Day 4).  
 
 !!! warning
     Please note that you may need to redeploy your application depending on the rebuild lab update.
@@ -29,7 +29,7 @@ This lab is considered an individual activity as each team member should work on
         The Client Onboarding assets have been adapted from the
         <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
         materials as developed by the IBM SWAT Team  
-        
+
 ## Overview
 <a name="rebuild-0"></a>
 ??? note summary "Expand to view"
@@ -66,7 +66,7 @@ This lab is considered an individual activity as each team member should work on
     <br>
     **Approximate Duration:** 2 Hours  
     <br>
-    
+
     [Go to top of section](#rebuild-1) | [Go to top of page](#rebuild)
 
 ## 2. IBM Business Automation Insights
@@ -74,7 +74,7 @@ This lab is considered an individual activity as each team member should work on
 ??? note summary "Expand to view"
 
     ### **Overview**  
-    
+
     IBM Business Automation Insights (BAI) is a cloud capability to capture end to end business data (events) from Cloud Pak for Automation (CP4A) platform components to operational data store and long-term store (data lake).
     BAI provides real-time operational visibility to Business Managers via custom or pre-built set of dashboards. Custom dashboards can be built by IT (using Kibana) or business users (using Business Performance Center).
     The data collected by BAI and stored in the data lake can be used to inject AI into CP4A platform, for example it can be used to make recommendations to business managers and knowledge workers.
@@ -90,7 +90,7 @@ This lab is considered an individual activity as each team member should work on
     <br>
     **Approximate Duration:** 1 Hour  
     <br>
-    
+
     [Go to top of section](#rebuild-1) | [Go to top of page](#rebuild)
 
 ## 3. IBM FileNet Content Manager
@@ -103,7 +103,7 @@ This lab is considered an individual activity as each team member should work on
 
     !!! warning
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **CLOS** object store needs to be first configured prior to performing the labs below. Expand the section below to create the object store.  
-        
+
         ??? note summary "Expand to view"
             1. Log into the FileNet **Administrative Console for Content Engine** (ACCE) as **cp4admin**, and create a new object store named **CLOS**.  
                Note: the entry in the access-info file will be named: **Content Platform Engine administration**  
@@ -150,7 +150,7 @@ This lab is considered an individual activity as each team member should work on
             ![SecuritySetupWizard](../images/co-clos-140.png){width="700"}  
 
             15. Go to the Layout tab and additionally enable the "Simple Search" feature, if it is not already enabled. Save the new desktop
-        
+
         <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Use the symbolic names for **Case Reference ID (Case_Reference_ID)** and **Client Name (Client_Name)** properties.  Replace these with where you see **usrxxxReferenceID** and **usrxxxClientName** in the lab document.  
 
 
@@ -180,7 +180,7 @@ This lab is considered an individual activity as each team member should work on
     <br>
     **Approximate Duration**: 1.5 - 2 hours  
     <br>
-    
+
     [Go to top of section](#rebuild-1) | [Go to top of page](#rebuild)
 
 ## 4. IBM Automation Decision Services
@@ -199,7 +199,7 @@ This lab is considered an individual activity as each team member should work on
     <br>
     **Approximate Duration**: 3 hours  
     <br>
-    
+
     [Go to top of section](#rebuild-1) | [Go to top of page](#rebuild)
 
 ## 5. IBM Robotic Process Automation
@@ -216,7 +216,7 @@ This lab is considered an individual activity as each team member should work on
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20Application%20Automation%20using%20IBM%20RPA.pdf" target="_blank"> (View)</a>  
     In this lab you will learn how to use IBM RPA Studio to develop a bot to automate a Java swing application and a web application.
     <br>
-    
+
     - [**IBM RPA and Workflow Integration**](labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20IBM%20RPA%20and%20Workflow%20Integration.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Robotic%20Process%20Automation/Lab%20Guide%20-%20IBM%20RPA%20and%20Workflow%20Integration.pdf" target="_blank"> (View)</a>  
     In this lab you will learn how the bot designed in RPA Studio can easily be integrated into a business process developed with the Workflow capability in IBM Cloud Pak for Business Automation.
@@ -230,7 +230,7 @@ This lab is considered an individual activity as each team member should work on
     target="_blank">**here**.</a>
     Once you have reserved an environment, you will receive a link to the environment via email. Start the environment by selecting the start button in the upper right corner of the page. Please use your license ID/password to activate RPA client as described in the lab instructions.
     <br>
-    
+
     [Go to top of section](#rebuild-1) | [Go to top of page](#rebuild)
 
 ## 6. Business Automation Workflow
@@ -241,7 +241,7 @@ This lab is considered an individual activity as each team member should work on
     IBM Business Automation Workflow is software that combines business process management and case management  capabilities in a single integrated workflow solution. It unites information process, and users to provide a 360-degree view of work to help drive more successful business outcomes.
 
     ### **Labs**
-  
+
     - [**Introduction to IBM Business Automation Workflow**](labs/Workflow/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Workflow.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Workflow/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Workflow.pdf" target="_blank"> (View)</a>  
     This lab showcases how you can create a sample Workflow project using Case features. It covers Case & Process integration and building UIs using Coaches.
@@ -254,6 +254,5 @@ This lab is considered an individual activity as each team member should work on
     <br>
     **Approximate Duration**: 2 hours  
     <br>
-       
+
     [Go to top of section](#rebuild-1) | [Go to top of page](#rebuild)
-  
