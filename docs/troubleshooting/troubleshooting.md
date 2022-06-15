@@ -118,7 +118,7 @@
     [Go to top of section](#faq-31) | [Go to top of page](#faq-overview)
 
 ## 32. Obscure Links : BAW Process Admin and Rest UI
-<a name="faq-130"></a>
+<a name="faq-32"></a>
 ??? note summary "Expand to view"
     The link for Process Admin is not recorded in the access configmap. To get to Process Admin create the URL using the
     template below. Find the URL labeled Cloud Pak Dashboard and use it as the basis for the Process Admin URL:  
@@ -135,7 +135,7 @@
     [Go to top of section](#faq-32) | [Go to top of page](#faq-overview)
 
 ## 40. Pods : what to look for and how to restart
-<a name="faq-140"></a>
+<a name="faq-40"></a>
 ??? note summary "Expand to view"
     In the CP4BA Starter pattern many of the functional components run within the BA Studio pod. If your software is
     not behaving as expected (infinite blue spinning wheels, cases not starting) try restarting the BA Studio pod.
@@ -148,7 +148,7 @@
     [Go to top of section](#faq-40) | [Go to top of page](#faq-overview)
 
 ## 50. Resource Registry : automation service not found - republish
-<a name="faq-150"></a>
+<a name="faq-50"></a>
 ??? note summary "Expand to view"
     If you have published an automation service but the client apps that try to use it reports an error then try
     unpublishing the automtion service and republish it.
@@ -156,7 +156,7 @@
     [Go to top of section](#faq-50) | [Go to top of page](#faq-overview)
 
 ## 60. Slack groups for help (IBM Only)
-<a name="faq-170"></a>
+<a name="faq-60"></a>
 ??? note summary "Expand to view"
     For issues with the SWAT COB assets : #dba-swat-asset-qna
     
@@ -165,7 +165,7 @@
     [Go to top of section](#faq-60) | [Go to top of page](#faq-overview)
 
 ## 70. Logs : where do the different components log
-<a name="faq-190"></a>
+<a name="faq-70"></a>
 ??? note summary "Expand to view"
     To access logs from your pods click on the pod name then select the log tab :   
 
@@ -176,7 +176,7 @@
     [Go to top of section](#faq-70) | [Go to top of page](#faq-overview)
 
 ## 71. Better logging : Using an external log service
-<a name="faq-100"></a>
+<a name="faq-71"></a>
 ??? note summary "Expand to view"
     If you are using ROKS on IBM Cloud you can attach a log aggregation service running on IBM Cloud to your CP4BA
     cluster.
@@ -214,14 +214,14 @@
     [Go to top of section](#faq-71) | [Go to top of page](#faq-overview)
 
 ## 80. Common faults & fixes : eg restart bastudio (edited)
-<a name="faq-100"></a>
+<a name="faq-80"></a>
 ??? note summary "Expand to view"
     ![WIP](../src/images/wip2.jpg){width="800"}     
      
     [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
 ## 81. I can't find BAWTOS, CLOS or cp4bausers
-<a name="faq-200"></a>
+<a name="faq-81"></a>
 ??? note summary "Expand to view"
     Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
     <br>
@@ -256,6 +256,7 @@
     materials as developed by the IBM SWAT Team  
 
 ## 90. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
+<a name="faq-90"></a>
 ??? note summary "Expand to view"
     <a href="https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB" target="_blank">Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks</a>   
      
@@ -271,6 +272,7 @@
     [Go to top of section](#faq-95) | [Go to top of page](#faq-overview)
 
 ## 100. Solution Exports and Labs
+<a name="faq-100"></a>
 ??? note summary "Expand to view"
 
     [**Solution Exports**](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports){target="_blank"}  
