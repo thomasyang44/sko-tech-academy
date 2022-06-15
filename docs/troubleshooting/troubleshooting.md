@@ -220,40 +220,40 @@
      
     [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
-    ## 1. I can't find BAWTOS or cp4bausers
-    <a name="faq-200"></a>
-    ??? note summary "Expand to view"
-        Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
-        <br>
-        Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
+## 81. I can't find BAWTOS, CLOS or cp4bausers
+<a name="faq-200"></a>
+??? note summary "Expand to view"
+    Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
+    <br>
+    Below are some differences you should be aware of, please post to the slack channel if you encounter additional differences.  
+    
+    **General**  
+    For the Starter pattern, use **cp4admin** instead of **cp4bausers** which is used in the Production pattern.   
         
-        **General**  
-        For the Starter pattern, use **cp4admin** instead of **cp4bausers** which is used in the Production pattern.   
-            
-        **Content**  
-        Target object store: **TARGET** in Starter vs **BAWTOS** in Production
-        Anywhere you see **CLOS** object store, use the **CONTENT** object store. 
+    **Content**  
+    Target object store: **TARGET** in Starter vs **BAWTOS** in Production
+    Anywhere you see **CLOS** object store, use the **CONTENT** object store.
 
-        **Decisions**  
-        Published automation service: The decisions project name contains the admin username which is different in Starter vs Production. The project name is included in the resource registry which would be different.
+    **Decisions**  
+    Published automation service: The decisions project name contains the admin username which is different in Starter vs Production. The project name is included in the resource registry which would be different.
 
-        **Navigator**  
-        The desktop uses the target object store and because of the difference in target object store names, we have to create different desktops for Starter vs Production. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+    **Navigator**  
+    The desktop uses the target object store and because of the difference in target object store names, we have to create different desktops for Starter vs Production. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
 
-        **App Designer**  
-        The Client Onboarding app points to the target object store and this cannot be done with environment variables so we have to create different applications for Starter vs Production.  This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
-        Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
+    **App Designer**  
+    The Client Onboarding app points to the target object store and this cannot be done with environment variables so we have to create different applications for Starter vs Production.  This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+    Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
 
-        **Workflow**  
-        Environment variable needs an update to point to the right target object store. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
-        Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
-        
-        [Go to top of section](#faq-200) | [Go to top of page](#faq-overview)
+    **Workflow**  
+    Environment variable needs an update to point to the right target object store. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
+    Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
+    
+    [Go to top of section](#faq-81) | [Go to top of page](#faq-overview)
 
-    [^1]:
-        The Client Onboarding assets have been adapted from the
-        <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
-        materials as developed by the IBM SWAT Team  
+[^1]:
+    The Client Onboarding assets have been adapted from the
+    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+    materials as developed by the IBM SWAT Team  
 
 ## 90. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
 ??? note summary "Expand to view"
