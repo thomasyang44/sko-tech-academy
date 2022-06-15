@@ -16,7 +16,7 @@
 
     [Go to top of section](#faq-01) | [Go to top of page](#faq-overview)
     
-## 2. I get an error when trying to access a lab or artifact
+## 2. I can't find or get an error when trying to access a lab or artifact
 <a name="faq-02"></a>
 ??? note summary "Expand to view"
     Please report the issue to an instructor or in the slack channel.  
@@ -32,6 +32,8 @@
     
     !!! NOTE
         Recommendation is to [**clone**](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop){target="_blank"} this [**GitHub**](https://github.com/thomasyang44/sko-tech-academy){target="_blanks"} repository so that you have all the artifacts and labs on your local machine.  
+
+    Reference: the source SWAT TechJam materials are located here: [**IBM TechJam 21.0.3**](https://github.com/IBM/cp4ba-labs/tree/main/21.0.3){target="_blank"}  
 
     [Go to top of section](#faq-02) | [Go to top of page](#faq-overview)
 
