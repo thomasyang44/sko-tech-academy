@@ -32,7 +32,7 @@ plugins:
       lang: en
 #  - minify:
 #      minify_html: true
-      
+
 markdown_extensions:
   - attr_list
   - admonition
@@ -91,7 +91,7 @@ nav:
     - Deploy and Integrate: client-onboarding/co-deploy-integrate.md
     - Rebuild: client-onboarding/co-rebuild.md
     - Customization: client-onboarding/co-customization.md
-    - Presentation: client-onboarding/co-team-presentation.md
+    - Demonstration: client-onboarding/co-team-demonstration.md
   - Troubleshooting:
     - Overview: troubleshooting/troubleshooting.md
   - Additional Use Cases:

@@ -1,5 +1,6 @@
+# Customization (Individual)
 
-**Customization use case scenarios will be posted to the event slack channel prior to lunch on Day 3.**  
+**Customization use case scenarios will be posted to the event slack channel prior to lunch on Day 3.  You may also ask your instructor if you cannot locate them.**  
 
 <br>
 As reminder, please ensure you review the stand and deliver guidelines:  
