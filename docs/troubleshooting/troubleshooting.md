@@ -231,7 +231,7 @@
     For the Starter pattern, use **cp4admin** instead of **cp4bausers** which is used in the Production pattern.   
         
     **Content**  
-    Target object store: **TARGET** in Starter vs **BAWTOS** in Production
+    Target object store: **TARGET** in Starter vs **BAWTOS** in Production  
     Anywhere you see **CLOS** object store, use the **CONTENT** object store.
 
     **Decisions**  
