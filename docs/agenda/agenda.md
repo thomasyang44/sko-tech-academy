@@ -12,7 +12,7 @@ This event will be 4 days long with the following agenda:
 |      | 2:15 – 2:30   | Support and Feedback process                                                                                |
 |      | 2:30 – 2:45   | Break                                                                                                       |
 |      | 2:45 – 3:45   | BA Strategy - Matt Warta <br>Other Segments: Rakesh Ranjan, Eileen Lowry, John Greene                       |
-|      | 4:00 –5:15    | Team Building                                                                                               |
+|      | 4:00 – 5:15   | Team Building                                                                                               |
 |      | Evening       | Team Dinner                                                                                                 |
 |Day 2 | 8:00 - 8:30   | Introduction                                                                                                |
 |      | 8:30 - 10:30  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                    |
@@ -47,20 +47,16 @@ For more info on SKO Tech Academy, please refer to the links below:
 <a name="2022EMEA"></a>
 ??? note summary "Expand to view"
 
-    !!! warning
-        The schedule below in still under construction and will be updated shortly.  
-        Day 2,3,4 will start at 9:00 AM local time  
-
     This event will be 4 days long with the following agenda:
 
     |Day   | Time          | Session / Activity                                                                                          |
     | :--- | :------------ | :---------------------------------------------------------------------------------------------------------  |
-    |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Carlos Camilion                                                           |
+    |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Carmen Raileanu                                                           |
     |      | 1:30 – 2:15   | Automation Roadmap and Strategy - Bill Lobig                                                                |
     |      | 2:15 – 2:30   | Support and Feedback process                                                                                |
     |      | 2:30 – 2:45   | Break                                                                                                       |
     |      | 2:45 – 3:45   | BA Strategy - Matt Warta <br>Other Segments: Rakesh Ranjan, Eileen Lowry, John Greene                       |
-    |      | 4:00 –5:15    | Team Building                                                                                               |
+    |      | 4:00 – 5:15   | Team Building                                                                                               |
     |      | 7:30 -        | Networking Dinner                                                                                           |
     |Day 2 | 9:00 - 9:30   | Introduction                                                                                                |
     |      | 9:30 - 11:30  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                    |
@@ -72,7 +68,7 @@ For more info on SKO Tech Academy, please refer to the links below:
     |      | 11:30 - 12:00 | Prior to lunch, customization use case scenarios will be posted to the slack channel                        |
     |      | 12:00 - 1:00  | Lunch                                                                                                       |
     |      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                |
-    |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                       |
+    |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                        |
     |      | 9:30 - 10:45  | Deliver Customized Client Onboarding Demo - Round 1 <br> Groups of 3 teams, demo 15 mins, feedback 5 mins, break between teams 5 mins [Team] |
     |      | 10:45 - 11:00 | Break                                                                                                       |
     |      | 11:00 - 1:30  | Deliver Customized Client Onboarding Demo - Round 2 <br> Top 5 teams, demo 15 mins to room, feedback 5 min, break between teams 6 min [Team]  |
