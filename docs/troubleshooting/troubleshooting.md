@@ -220,10 +220,14 @@
     
     [Go to top of section](#faq-71) | [Go to top of page](#faq-overview)
 
-## 80. Common faults & fixes : eg restart bastudio (edited)
+## 80. Common faults & fixes
 <a name="faq-80"></a>
 ??? note summary "Expand to view"
     
+    Fix the CPE Classloader problem (aka race condition)
+    1. Restart the CPE Pod
+    2. Load the CPE Admin Console, this will load the Java classes.
+    3. Restart the BA Studio Pod
      
     [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
@@ -314,6 +318,14 @@
     CP4BA cluster but this is beyond the scope of this guide.
 
     [Go to top of section](#faq-95) | [Go to top of page](#faq-overview)
+
+## 96. Adding Certificate for RPA Server (CP4BA Production)
+<a name="faq-95"></a>
+??? note summary "Expand to view"
+
+    Waiting for CP4BA 22.0.1 and Daffy Production Template (Q3 2022)
+
+    [Go to top of section](#faq-96) | [Go to top of page](#faq-overview)
 
 ## 100. Solution Exports and Labs
 <a name="faq-100"></a>
