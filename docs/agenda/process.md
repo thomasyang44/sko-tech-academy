@@ -1,10 +1,10 @@
 The process diagram below represents the activities for this event.
 
 <!---
-Original link https://ibm.biz/SKOTechAcademyProcess but this is linked to the wrong BWL URL until Thomas updates it
+Sample comment
 -->
+<a href="https://ibm.biz/SKOTechAcademyProcess" target="_blank">![See it in Blueworks Live!](../src/images/demo-overview-bwl.png){width="1944"}</a>
 
-<a href="https://ibm.blueworkslive.com/scr/processes/3edb109b6#bpmn" target="_blank">![See it in Blueworks Live!](../src/images/demo-overview-bwl.png){width="1944"}</a>
 
 !!! note "Course Breakdown"
 
