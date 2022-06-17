@@ -220,21 +220,29 @@
     
     [Go to top of section](#faq-71) | [Go to top of page](#faq-overview)
 
-## 80. Common faults & fixes
+## 80. Cases or a not starting up - ClassLoader issue
 <a name="faq-80"></a>
 ??? note summary "Expand to view"
     
-    If you encounter issues with cases statuses not being updated, please try the following:  
+    When a user submits a client onboarding request (either from the end-to-end, or from the Workflow lab), the process to launch the Case is triggered and the case is triggered too but the case does not trigger any activities. This can be verified using Process Inspector and the Case Client. This is due to a ClassLoader known issue/bug. The way to resolve this is to re-create the cpe-deploy pod, load up ACCE and then re-create the bastudio pod.  
     
-    Fix the CPE Classloader problem (aka race condition)  
+    Instructions to fix CPE Classloader problem (aka race condition)  
     1. Restart the CPE Pod  
     2. Load the CPE Admin Console (ACCE), this will load the Java classes.  
     3. Restart the BA Studio Pod  
      
     [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
-## 81. I can't find BAWTOS, CLOS or cp4bausers
+## 81. Error when launch a case
 <a name="faq-81"></a>
+??? note summary "Expand to view"
+    
+    If you encounter an error when you run the Process to launch the Case, this is most likely due to the fact that the properties in script does NOT match the properties defined in the Case  
+
+    [Go to top of section](#faq-81) | [Go to top of page](#faq-overview)
+
+## 82. I can't find BAWTOS, CLOS or cp4bausers
+<a name="faq-82"></a>
 ??? note summary "Expand to view"
     Content including the labs are based on the IBM SWAT Client Onboarding[^1] materials which are configured for the **Production** pattern.  Our environment uses the **Starter** pattern and based on that, you may encounter some differences at certain steps.  
     <br>
@@ -261,12 +269,8 @@
     Environment variable needs an update to point to the right target object store. This GitHub has been updated with the correct artifacts to use the correct object store for the Starter pattern.
     Otherwise, you need to republish the Decisions automation service to match the correct resource registry name
     
-    [Go to top of section](#faq-81) | [Go to top of page](#faq-overview)
+    [Go to top of section](#faq-82) | [Go to top of page](#faq-overview)
 
-[^1]:
-    The Client Onboarding assets have been adapted from the
-    <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
-    materials as developed by the IBM SWAT Team  
 
 ## 90. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
 <a name="faq-90"></a>
@@ -340,3 +344,12 @@
         Recommendation is to [**clone**](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop){target="_blank"} this [**GitHub**](https://github.com/thomasyang44/sko-tech-academy){target="_blanks"} repository so that you have all the artifacts and labs on your local machine.  
      
     [Go to top of section](#faq-100) | [Go to top of page](#faq-overview)
+
+
+
+
+
+    [^1]:
+        The Client Onboarding assets have been adapted from the
+        <a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+        materials as developed by the IBM SWAT Team  
