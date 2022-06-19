@@ -40,7 +40,7 @@ Below is a high-level overview of how your team will build the Client Onboarding
 
     You and your team are required to demonstrate the Client Onboarding use case you’ve been working on during the technical academy. You are expected to present a business scenario (not only a technical feature demo) and customize your demo narration and/or content to make it specific to a client’s story and customization request(s) you’ve incorporated.  
     
-    **Instructions:**  
+    **Instructions - AMERICAS ONLY**  
     1. Teams will assemble in groups of three teams to present to each other for feedback  
     2. Each team will have 15 minutes to present.  
     3. Non-presenting teams use the
