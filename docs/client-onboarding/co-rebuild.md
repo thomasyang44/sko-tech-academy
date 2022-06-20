@@ -134,8 +134,10 @@ This lab is considered an individual activity as each team member should work on
 
 
     ### **Labs**
+    
     - [**Setting up FileNet Content Manager for Automation Projects on Cloud Pak for Business Automation**](labs/Content/CONTENT%20Lab%201%20-%20CPE.pdf){target="_blank"}
     <a href="https://github.com/thomasyang44/sko-tech-academy/blob/main/docs/client-onboarding/labs/Content/CONTENT%20Lab%201%20-%20CPE.pdf" target="_blank"> (View)</a>  
+        - <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> Please skip **Exercise 4 - Storage** and ensure you read the info in the **Overview** section above.  
     In this lab, you will create a small hierarchy of Document classes to
     capture different kinds of documents together with custom metadata,
     and will learn about the most important security concepts. You will
