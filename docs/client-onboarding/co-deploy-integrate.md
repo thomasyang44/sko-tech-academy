@@ -138,15 +138,16 @@ pre-built solutions and lab assets.
 ??? note summary "Expand to view"
 
     !!! warning
-        The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.  
+        The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor. 
+        Public github seems to be the most reliable.
         <br>
-        Create a **Personal Access Token** under **Developer Settings**
+        Create a **Personal Access Token** under **Developer Settings**. There is more information on github in the troubleshooting guide.
 
     1. Download [ClientOnboardingDecisions.zip](Solution%20Exports/Automation%20Decision%20Services/ClientOnboardingDecisions.zip)
 
     2. Create an empty GIT repo and get its URL and API Key
 
-    3. Open IBM Business Automation Studio
+    3. Log into your CP4BA cluster and Open IBM Business Automation Studio, select LDAP authentication at the login screen.
 
     4. Click to the menu in the upper-left corner and go to `Design` --> `Business Automations`
 
