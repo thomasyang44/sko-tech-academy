@@ -285,26 +285,26 @@
     
     From your git home page click on the button to create a new repository and give it a meaningful name and click the
     green create button.
-    ![git new repo](./images/git-0.png)
+    ![git new repo](./images/git-0.png){width="300"}
 
     For ADS to connect to this repo you need to copy the URL which includes .git at the end.
     ![git url](./images/git-url.png)
 
     ADS also requires a personal access token that it uses for authenticating with git. To create this token go
     to settings. You get this by clicking on you icon in the top right corner.
-    ![git settings](./images/git-1.png)
+    ![git settings](./images/git-1.png){width="300"}
 
-    Within settings, now click on developer settings, this is in the left hand section at the bottom.
-    ![git develoepr settings](./images/git-2.png)
+    Within settings, now click on developer settings, this is in the left hand section at the bottom.  
+    ![git develoepr settings](./images/git-2.png){width="300"}
 
     In developer settings select personal access tokens, then click `Generate new token`
     ![git develoepr settings](./images/git-3.png)
 
     Give your token a name, this name isn't important it just so you can remember what the token is used for.
-    ![token name](./images/git-4.png)
+    ![token name](./images/git-4.png){width="500"}
 
-    ADS requires repo priveledges, these are at the top. No other priveleges are needed by ADS.
-    ![rep settings](./images/git-5.png)
+    ADS requires repo priveledges, these are at the top. No other priveleges are needed by ADS.  
+    ![rep settings](./images/git-5.png){width="500"}
 
     When the token is created copy it and paste it into the ADS github connection details along with the URL. You
     will not be able to retrieve this token again so make sure you copy it down now.
