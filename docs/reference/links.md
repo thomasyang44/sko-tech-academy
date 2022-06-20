@@ -33,7 +33,7 @@
     ### [Grow My Deal Request Form (IBM Only)](https://ibm.biz/grow-my-deal){target="_blank"}
 
     
-## Additional Labs
+## Additional Labs and Accelerators
 ??? note summary "Expand to view"
     ### [Technology Zone - Business Automation Activation Kit](https://techzone.ibm.com/collection/cloud-pak-for-automation-activation-kit){target="_blank"}
     ### [IBM SWAT Labs](https://github.com/IBM/cp4ba-labs){target="_blank"}
@@ -42,6 +42,9 @@
     ### [DBA Labs (IBM Only)](https://ibm.box.com/v/DBATutorials){target="_blank"}
     ### [PxT Presentations (IBM Only)](https://ibm.box.com/v/ECMPXTPresentations){target="_blank"}
     ### [OCP Gymnasium](https://techzone.ibm.com/collection/ocp-gymnasium){target="_blank"}
+    ### [CP4BA deployment One-shot](https://github.com/apollo-business-automation/ibm-cp4ba-enterprise-deployment){target="_blank"}
+    ### [Datacap toolkit](https://github.com/apollo-business-automation/datacap-utils-toolkit){target="_blank"}
+    ### [BAW localization](https://github.com/apollo-business-automation/baw-localization-resource-generator){target="_blank"}
 
 ## Trial Software
 ??? note summary "Expand to view"
