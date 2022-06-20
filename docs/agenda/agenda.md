@@ -4,7 +4,7 @@
 ## EMEA - Hursely (June 20-24)
 <a name="2022EMEA"></a>
 
-Location: IBM Briefing Center - Auditorium Room
+Location: IBM Briefing Center - Auditorium Room, H002-Heathcode
 
 This event will be 4 days long with the following agenda:
 
@@ -12,13 +12,14 @@ This event will be 4 days long with the following agenda:
 | :--- | :------------ | :---------------------------------------------------------------------------------------------------------  |
 |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Carmen Raileanu                                                           |
 |      | 1:30 – 2:15   | Automation Roadmap and Strategy - Harley Davis                                                              |
-|      | 2:15 – 2:30   | Support and Feedback process                                                                                |
-|      | 2:30 – 2:45   | Break                                                                                                       |
-|      | 2:45 – 3:45   | BA Strategy - Harley Davis                                                                                  |
-|      | 4:00 – 5:15   | Team Building                                                                                               |
-|      | 7:30 -        | Networking Dinner                                                                                           |
-|Day 2 | 9:00 - 9:30   | Introduction                                                                                                |
-|      | 9:30 - 11:30  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                    |
+|      | 2:15 – 3:00   | Hybrid Cloud and Automation - Dennis Lauwers                                                                |
+|      | 3:00 – 3:15   | Break                                                                                                       |
+|      | 3:15 – 4:15   | BA Strategy - Harley Davis (H002-Heathcode)                                                                 |
+|      | 4:15 – 5:30   | Team Building                                                                                               |
+|      | 5:30 – 6:00   | Break                                                                                                       |
+|      | 6:00 -        | Welcome Dinner                                                                                              |
+|Day 2 | 9:30 - 10:00  | Introduction                                                                                                |
+|      | 10:00 - 11:30 | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                    |
 |      | 11:30 - 12:30 | [Client Onboarding Demonstration - Art of the Possible](../../client-onboarding/co-overview) - Olaf Hahnl   |
 |      | 12:30 - 1:30  | Lunch                                                                                                       |
 |      | 1:30 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]              |
@@ -27,15 +28,19 @@ This event will be 4 days long with the following agenda:
 |      | 11:30 - 12:00 | Prior to lunch, customization use case scenarios will be posted to the slack channel                        |
 |      | 12:00 - 1:00  | Lunch                                                                                                       |
 |      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                |
-|Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                        |
-|      | 9:30 - 10:45  | Deliver Customized Client Onboarding Demo - Round 1 <br> Groups of 3 teams, demo 15 mins, feedback 5 mins, break between teams 5 mins [Team] |
-|      | 10:45 - 11:00 | Break                                                                                                       |
-|      | 11:00 - 1:30  | Deliver Customized Client Onboarding Demo - Round 2 <br> Top 5 teams, demo 15 mins to room, feedback 5 min, break between teams 6 min [Team]  |
-|      | 1:30 - 2:30   | Lunch                                                                                                        |
-|      | 2:30 - 3:15   | Managing Users and Access Rights in CP4BA (Fadi Sandakly)                                                   |
-|      | 3:15 - 4:00   | IBM Process Mining: The Evolution, Success and Lessons Learned since the myInvenio Acquisition (Lee Bonham) |
-|      | 4:00 - 4:45   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                           |
-|Day 4 | 4:45 PM       | Attendees required to stay until all sessions are complete                                                  |
+|Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                       |
+|      | 9:30 - 10:30  | Deliver Customized Client Onboarding Demo - Round 1                                                         |
+|      | 10:30 - 10:45 | Break                                                                                                       |
+|      | 10:45 - 11:45 | Deliver Customized Client Onboarding Demo - Round 2                                                         |
+|      | 11:45 - 12:30 | Managing Users and Access Rights in CP4BA - Fadi Sandakly                                                   |
+|      | 12:30 - 1:30  | Lunch                                                                                                       |
+|      | 1:30 - 2:15   | IBM Process Mining: The Evolution, Success and Lessons Learned since the myInvenio Acquisition (Lee Bonham) |
+|      | 2:15 - 3:00   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                           |
+|      | 3:00 - 3:15   | Break                                                                                                       |
+|      | 3:15 - 4:00   | Best Practices and Experiences from PoCs - Dan Crow                                                         |
+|      | 4:00 - 4:45   | Competing with Pega - Greg Violette                                                                         |
+|      | 4:45 - 5:00   | Closing                                                                                                     |
+|Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                  |
 
 For more info on SKO Tech Academy, please refer to the links below:  
     - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
