@@ -14,7 +14,7 @@ This event will be 4 days long with the following agenda:
 |      | 1:30 – 2:15   | Automation Roadmap and Strategy - Harley Davis                                                              |
 |      | 2:15 – 2:30   | Support and Feedback process                                                                                |
 |      | 2:30 – 2:45   | Break                                                                                                       |
-|      | 2:45 – 3:45   | BA Strategy - Matt Warta <br>Other Segments: Rakesh Ranjan, Eileen Lowry, John Greene                       |
+|      | 2:45 – 3:45   | BA Strategy - Harley Davis                                                                                  |
 |      | 4:00 – 5:15   | Team Building                                                                                               |
 |      | 7:30 -        | Networking Dinner                                                                                           |
 |Day 2 | 9:00 - 9:30   | Introduction                                                                                                |
