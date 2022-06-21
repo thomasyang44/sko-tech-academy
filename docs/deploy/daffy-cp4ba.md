@@ -63,13 +63,13 @@ placeholders < > for email, cluster and datacenter.
 
 | Americas | EMEA | APAC |
 |:--:|:----:|:----:|
-| dal13 | lon02 | tbc |
-| wdc04 | lon06 | tbc |
+| dal13 | dal13 | tbc |
+| wdc04 | sjc03 | tbc |
 | sjc03 | ams03 | tbc |
 | sjc04 | fra02 | tbc |
 | lon02 | fra04 | tbc |
 | lon06 | ams03 | tbc |
-| fra02 | sjc03 | tbc |
+| fra02 | fra05 | tbc |
 | fra04 | sjc04 | tbc |
 | ams03 | wdc04 | tbc |
 
@@ -92,5 +92,9 @@ The CP4BA environment created from this CR will contain the major components of 
 exactly what is installed. The CR we'll be using later in the Tech Academy is very similar to this sample, the only
 difference is made to enable communication to the Tech Zone RPA environment (these changes will be described in the FAQ for
 those interested).
+
+!!! note
+    If you have previously run a Daffy deployment from your bastion, please run the cleanup script `/data/daffy/cleanup.sh` before proceeding.
+
 
 Once you have updated your environment file, save it and exit the editor. Proceed to the next step [Cluster Build](cluster.md)
