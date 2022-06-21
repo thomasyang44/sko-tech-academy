@@ -1,6 +1,6 @@
 
 
-Workspace: [**IBM CloudPak Ecosystem**](http://ibm-cloudpak-partners.slack.com){target="_blank")  
+Workspace: [**IBM CloudPak Ecosystem**](http://ibm-cloudpak-partners.slack.com){target="_blank"}  
 
 Lobby: [**private-cp4ba-2022-sko-tech-academy-emea-lobby**](https://ibm-cloudpak-partners.slack.com/archives/C03HNKMQG2J){target="_blank"}  
 General questions about the event, logistics, where to access info  
