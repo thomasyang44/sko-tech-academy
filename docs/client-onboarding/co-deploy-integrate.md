@@ -6,7 +6,7 @@
     The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
 
 !!! warning
-    You must use the artifacts downloaded from this page.  
+    You must use the artifacts downloaded from this site.  
     <br>
     Do **NOT** use the original SWAT artifacts you may have downloaded previously as these are from a Production deployment of CP4BA and there are subtle differences.
 
