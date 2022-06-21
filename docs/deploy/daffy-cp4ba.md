@@ -94,7 +94,7 @@ difference is made to enable communication to the Tech Zone RPA environment (the
 those interested).
 
 !!! note
-    If you have previously run a Daffy deployment from your bastion, please run the cleanup script `/data/daffy.cleanup.sh` before proceeding.
+    If you have previously run a Daffy deployment from your bastion, please run the cleanup script `/data/daffy/cleanup.sh` before proceeding.
 
 
 Once you have updated your environment file, save it and exit the editor. Proceed to the next step [Cluster Build](cluster.md)
