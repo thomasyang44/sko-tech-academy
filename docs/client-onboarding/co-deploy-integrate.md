@@ -1,7 +1,7 @@
 # Deploy and Integrate (Team)
 
 !!! note
-    These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with **Open Prediction Service (OPS)**.
+    These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with **Open Prediction Service (OPS)**.  
     <br>
     The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
 
