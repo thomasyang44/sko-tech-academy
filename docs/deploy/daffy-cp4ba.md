@@ -7,10 +7,15 @@ wget http://get.daffy-installer.com/download-scripts/daffy-init.sh; chmod 777 da
 ```
 This environment file needs to be updated before Daffy can deploy the CP4BA cluster. Login to your bastion server and update the environment file you created using the sample below as a template.
 
+The values that you will update are:  
+    - **DAFFY_UNIQUE_ID**  
+    - **CLUSTER_NAME**  
+    - **ROKS_ZONE**  
+
 Here is a sample environment file:
 ```
 #No spaces and only AlphaNumeric and  @ or . or -
-DAFFY_UNIQUE_ID="<your email>"
+DAFFY_UNIQUE_ID="PLEASE-SET-TO-EMAIL-ADDRESS"
 
 #OpenShift Cluster info
 #####################################
@@ -38,9 +43,9 @@ CP4BA_ENABLE_SERVICE_OPS=true
 
 #Overrides
 #ROKS Platform
-#    Zone that ROKS will be installed
-#     https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones
-ROKS_ZONE=<datacenter zone>
+# Zone that ROKS will be installed
+# https://cloud.ibm.com/docs/containers?topic=containers-regions-and-zones
+ROKS_ZONE="PLEASE-SET-TO-DATA-CENTER"
 
 #Storage
 #####################################
@@ -54,7 +59,7 @@ ROKS_ZONE=<datacenter zone>
 ```
 
 Copy the contents of this file into the Daffy environment file on your bastion server and update the three
-placeholders < > for email, cluster and datacenter.
+placeholders for **DAFFY_UNIQUE_ID**, **CLUSTER_NAME**, **ROKS_ZONE**.  
 
 !!! warning
     Please select a data center (DC) from either the **Americas** or **EMEA** column.  
@@ -75,13 +80,14 @@ placeholders < > for email, cluster and datacenter.
 
 !!! note
     If you have your own **IBM Cloud** account with infrastructure please use this account when Daffy asks you to log in.  
-    Each account has an upper limit to the number of storage volumes it can create in each DC so we must spread the load.
+    <br>
+    Please note that if you use your own account, you may see a **FAIL** message regarding resource group (ie. Default or TechAcademyBA), you can ignore this message.  
 
 
 Please name your clusters `daffy-yourfirstname-yourlastname` eg. `daffy-tom-cruise`. This is so we can find them easily.
 
 Daffy will deploy CP4BA and other CloudPaks using a CR yaml file (also known as a Custom Resource file) that
-specifies exactly what to install. These yaml CR are not part of Daffy itself, they can be customised and will evolve.
+specifies exactly what to install. These yaml CR are not part of Daffy itself, they can be customized and will evolve.
 The CR that installs the CP4BA in this exercise is located here :
 
 ```commandline
