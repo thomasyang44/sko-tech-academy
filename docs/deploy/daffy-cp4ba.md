@@ -63,8 +63,9 @@ placeholders for **DAFFY_UNIQUE_ID**, **CLUSTER_NAME**, **ROKS_ZONE**.
 
 !!! warning
     Please select a data center (DC) from either the **Americas** or **EMEA** column.  
-    There is an upper limit for the number of storage volumes we can create in each DC.  
-    For this event, please contact your instructor for the selection of the DC as we will try to evenly distribute usage.  
+    There is an upper limit for the number of storage volumes we can create in each DC so we must try to distribute 
+    cluster creation across several DC's. You won't be using these clusters for the labs so their location isn't 
+    important.
 
 | Americas | EMEA | APAC |
 |:--:|:----:|:----:|
