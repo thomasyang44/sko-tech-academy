@@ -1,12 +1,12 @@
 # Deploy and Integrate (Team)
 
 !!! note
-    These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with **Open Prediction Service (OPS)**.
+    These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with **Open Prediction Service (OPS)**.  
     <br>
     The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.
 
 !!! warning
-    You must use the artifacts downloaded from this page.  
+    You must use the artifacts downloaded from this site.  
     <br>
     Do **NOT** use the original SWAT artifacts you may have downloaded previously as these are from a Production deployment of CP4BA and there are subtle differences.
 
@@ -20,7 +20,7 @@ There are 7 sections that you will need to import and build the **Client Onboard
     materials as developed by the IBM SWAT Team
 
 
-Below are the recommended tracks so that different members of the team can complete in parallel:  
+Below are the recommended tracks so that different members of the team can be the primary driver of the lab. Please designate the primary driver using a team member that may not be the most experienced in each capability. As a recommendation, use the Slack huddle feature so members of the team can clearly see the steps that are being performed.  
 
 | Track   | Section(s) | Description                                                                                      |
 | --------| -----------| -------------------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ Below are the recommended tracks so that different members of the team can compl
 
 Section 8 - **Validate Client Onboarding solution** should be completed as a team when all the section have been completed.
 
-You can access the github repo for this event using the link in the top-right corner. This will provide access to PDF's, 
+You can access the github repo for this event using the link in the top-right corner. This will provide access to PDF's,
 pre-built solutions and lab assets.
 ![git link](./images/git-link.png)
 
@@ -138,7 +138,7 @@ pre-built solutions and lab assets.
 ??? note summary "Expand to view"
 
     !!! warning
-        The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor. 
+        The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.
         Public github seems to be the most reliable.
         <br>
         Create a **Personal Access Token** under **Developer Settings**. There is described in the troubleshooting guide, item 91.
@@ -567,10 +567,10 @@ pre-built solutions and lab assets.
 
         2. Replace the index names in the downloaded files:
 
-            In the `process-data.json` and `case-data.json` files, the index name parameter must match the index names 
-            of your environment. The index names are dependent on the date of the install. For example, one of the 
-            index names in the provided data files is `icp4ba-bai-process-summaries-completed-idx-ibm-bai-2021.11.11-000001`. 
-            The date element `2021.11.11` must be replaced by the date in your new clusters index name. The image 
+            In the `process-data.json` and `case-data.json` files, the index name parameter must match the index names
+            of your environment. The index names are dependent on the date of the install. For example, one of the
+            index names in the provided data files is `icp4ba-bai-process-summaries-completed-idx-ibm-bai-2021.11.11-000001`.
+            The date element `2021.11.11` must be replaced by the date in your new clusters index name. The image
             below shows an example of the data we need to update. You must use the tool of your choice to perform a
             global find & replace to update all the dates so they reflect the index names in your cluster.
             ![data replacement](images/data_replace.png)

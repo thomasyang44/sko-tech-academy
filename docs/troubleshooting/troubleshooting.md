@@ -171,14 +171,14 @@
      
     [Go to top of section](#faq-60) | [Go to top of page](#faq-overview)
 
-## 70. Logs : where do the different components log
+## 70. General Troubleshooting and Logs
 <a name="faq-70"></a>
 ??? note summary "Expand to view"
-    To access logs from your pods click on the pod name then select the log tab :   
+    If you encounter an issue, try to determine the associated pod and then review the log file for that pod to further troubleshoot your issue.  
+
+    To access the log file, locate and click on the pod name then select the **Logs** tab. Start reviewing the log file from the end of the file.  
 
     ![oc console](./images/pod-logs.png)
-
-    It
 
     [Go to top of section](#faq-70) | [Go to top of page](#faq-overview)
 
