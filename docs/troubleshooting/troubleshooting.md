@@ -238,9 +238,9 @@
     When a user submits a client onboarding request (either from the end-to-end, or from the Workflow lab), the process to launch the Case is triggered and the case is triggered too but the case does not trigger any activities. This can be verified using Process Inspector and the Case Client. This is due to a ClassLoader known issue/bug. The way to resolve this is to re-create the cpe-deploy pod, load up ACCE and then re-create the bastudio pod.  
     
     Instructions to fix CPE Classloader problem (aka race condition)  
-    1. Restart the CPE Pod  
+    1. Restart the CPE (cpe-deploy) Pod  
     2. Load the CPE Admin Console (ACCE), this will load the Java classes.  
-    3. Restart the BA Studio Pod  
+    3. Restart the BA Studio (bastudio-deploy) Pod  
      
     [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
