@@ -293,8 +293,10 @@
 
     The process to change an app is illustrated below. Here we have a very simple app that calls ADS through an
     Automation Service. This is the app, we take age, gender and cover amount required and calculate the monthly
-    premium :
-    ![App using ADS](./images/app-ads-1.png){width="600"}
+    premium :  
+    TODO - redo this section
+
+
 
 
     [Go to top of section](#faq-83) | [Go to top of page](#faq-overview)
