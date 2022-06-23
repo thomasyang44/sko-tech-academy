@@ -44,7 +44,18 @@
     Please refer to the [**Client Onboarding - Deploy and Integrate - Installation Links**](../../client-onboarding/co-deploy-integrate/#installation-links){target="_blank"} section that identifies how to locate and download the **icp4adeploy-cp4ba-access-info** config map from the **OpenShift Web Console**.
 
     [Go to top of section](#faq-03) | [Go to top of page](#faq-overview)
+    
+## 4. Accessing business applications from the internet
+<a name="faq-04"></a>
+??? note summary "Expand to view"
 
+    If your business application is accessible from the internet, consider the following security configurations for your application data.
+
+    [**Securing business application data**](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.x?topic=reference-securing-business-application-data){target="_blank"}
+    
+    [Go to top of section](#faq-04) | [Go to top of page](#faq-overview)
+    
+  
 ## 10. What you need on IBM Cloud : infrastructure permissions
 <a name="faq-10"></a>
 ??? note summary "Expand to view"
@@ -227,9 +238,9 @@
     When a user submits a client onboarding request (either from the end-to-end, or from the Workflow lab), the process to launch the Case is triggered and the case is triggered too but the case does not trigger any activities. This can be verified using Process Inspector and the Case Client. This is due to a ClassLoader known issue/bug. The way to resolve this is to re-create the cpe-deploy pod, load up ACCE and then re-create the bastudio pod.  
     
     Instructions to fix CPE Classloader problem (aka race condition)  
-    1. Restart the CPE Pod  
+    1. Restart the CPE (cpe-deploy) Pod  
     2. Load the CPE Admin Console (ACCE), this will load the Java classes.  
-    3. Restart the BA Studio Pod  
+    3. Restart the BA Studio (bastudio-deploy) Pod  
      
     [Go to top of section](#faq-80) | [Go to top of page](#faq-overview)
 
@@ -295,7 +306,7 @@
      
     [Go to top of section](#faq-90) | [Go to top of page](#faq-overview)
 
-## 91. Creating a git repo  for ADS
+## 91. Creating a git repo for ADS
 <a name="faq-91"></a>
 ??? note summary "Expand to view"
     
@@ -326,14 +337,7 @@
     will not be able to retrieve this token again so make sure you copy it down now.
     ![rep settings](./images/git-6.png)
 
-
-
-
-    
-
-
-
-[Go to top of section](#faq-91) | [Go to top of page](#faq-overview)
+    [Go to top of section](#faq-91) | [Go to top of page](#faq-overview)
 
 ## 95. Adding Certificate for RPA Server (CP4BA Starter)
 <a name="faq-95"></a>
