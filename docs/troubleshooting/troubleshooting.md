@@ -271,6 +271,22 @@
     
     [Go to top of section](#faq-82) | [Go to top of page](#faq-overview)
 
+## 83. Rules changed in ADS but same result in Business App
+<a name="faq-83"></a>
+??? note summary "Expand to view"
+
+    When rules are changed in a published ADS Automation Service you must publish a new version and update the app to 
+    use the newly published automation service. (This is a bit odd after using ODM and not requiring apps to change
+    as ODM and ADS both have the concept of `latest`, however this isn't supported in Automaiton Services until the
+    next release).
+
+    The process to change an app is illustrated below. Here we have a very simple app that calls ADS through an
+    Automation Service. This is the app, we take age, gender and cover amount required and calculate the monthly
+    premium :
+    ![App using ADS](./images/app-ads-1.png){width="600"}
+
+
+    [Go to top of section](#faq-83) | [Go to top of page](#faq-overview)
 
 ## 90. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
 <a name="faq-90"></a>
