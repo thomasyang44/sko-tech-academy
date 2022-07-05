@@ -301,6 +301,76 @@
 
     [Go to top of section](#faq-83) | [Go to top of page](#faq-overview)
 
+## 84. Preparing BAI Data
+<a name="faq-84"></a>
+??? note summary "Expand to view"
+
+    It is strongly recommended that you prepare the BAI data on a Mac as Windows can easily corrupt the JSON. The 
+    instructions below assume you are using a Mac.
+
+    Download or clone the github repository for the event to your Mac. Within this repo go to the location below: <br>
+    `docs/client-onboarding/Solution Exports/Business Automation Insights`
+
+    Within this directory you'll find the sample files : <br>
+
+        Client Onboarding Completed.json
+        ads-data.json
+        case-data.json
+        finalDashboardLayout.json
+        process-data.json
+
+    Two of these files have to be updated to reflect the index names in your CP4BA deployment.
+    Using a text editor create a new file to called `commands.txt` , the name of the file doesn't matter, we'll
+    just be using it to build and edit the commands. Copy the text below into your `commands.txt` file.
+
+        ES_ADMIN=
+        ES_PASSWORD=
+        ES_HOST=
+        curl -k -XGET -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_aliases
+
+    Use the BAI values from the config map on your OpenShift cluster to update the `command.txt` file. Here is an 
+    example with some of the password & URL obscured as an example:
+
+        ES_ADMIN=icp4ba
+        ES_PASSWORD=1Z*****Rj
+        ES_HOST=https://iaf-system-es-cp4ba-starter.some-url.eu-gb.containers.appdomain.cloud
+        curl -k -XGET -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_aliases
+
+    Copy the commands from your file and paste them into a terminal window on your Mac. This will set the user, password
+    and URL and execute a curl command that will fetch the index names in your cluster. Take a note of the date used 
+    within the index names, in the example below it is `2022.06.28` which is the date on which CP4BA was installed.
+
+    ![bai index names](./images/bai-data-1.png){width="600"}
+
+    To update `process-data.json` paste the following command into your `command.txt` file.
+        
+        sed -i.bak 's/2021.11.11/2022.06.28/g' process-data.json
+
+    The sed command is a stream editor and in the example above it will perform a global find and replace, wherever
+    it finds `2021.11.11` it will replace it with `2022.06.28`. Update this command to replace `2021.11.11` with the
+    date from the curl command, (it won't be `2022.06.28` you must use the value for your system).
+
+    When you execute the command the sample data in `process-data.json` should be updated, the command will also 
+    create a backup file called `process-data.json.bak`
+
+    To update `case-data.json` paste the following command into your `command.txt` file.
+        
+        sed -i.bak 's/2021.11.11/2022.06.28/g' case-data.json
+
+    Again, make sure you update this command before you execute it. If you've made an error you can restore the original
+    files from the backup.
+
+    You can now upload the three sample data files (we only had to update two of them) by executing the following
+    command in your terminal: 
+
+        curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @case-data.json
+        curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @process-data.json
+        curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @ads-data.json
+
+    The BAI sample data has now been uploaded. You can now return to the deployment instructions and continue 
+
+    [Go to top of section](#faq-83) | [Go to top of page](#faq-overview)
+
 ## 90. Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks
 <a name="faq-90"></a>
 ??? note summary "Expand to view"

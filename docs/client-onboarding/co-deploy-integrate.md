@@ -562,6 +562,12 @@ pre-built solutions and lab assets.
     ### 7.1 Prepare Data and Import Dashboard
     <a name="deploy-integrate-72"></a>
     ??? note summary "Expand to view"
+        !!! note
+        If you need more guidance to update the BAI data please look in the troubleshooting guide (Section 84).
+        There you will find a more prescriptive set of instructions to achieve the steps 1,2 and 3, below. It is 
+        adviseable to read the outline instructions below to understand the goal of this exercise, butthen use the 
+        steps in the troublshooting guide if you are uncertain how to proceed.
+        <br>
 
         1. Download the contents of the following directory - [Business Automation Insights](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports/Business%20Automation%20Insights/){target="_blank"}.
 
