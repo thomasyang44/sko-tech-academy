@@ -291,12 +291,20 @@
     as ODM and ADS both have the concept of `latest`, however this isn't supported in Automaiton Services until the
     next release).
 
-    The process to change an app is illustrated below. Here we have a very simple app that calls ADS through an
-    Automation Service. This is the app, we take age, gender and cover amount required and calculate the monthly
-    premium :  
-    TODO - redo this section
+    Updating the version of an Automation Service in a Business App requires us to add the new version of the 
+    Automation Service. DO NOT try to edit the existing version of the Automation Service in App Designer.  In the 
+    example below the app currently uses v4.0 of an Automation Service called `life_ds` published from ADS. 
+    A new version of the business logic has been published as `life_ds` v4.1. To upgrade from v4.0 to v4.1 the 
+    user would click on the Add buttnon.
 
+    ![Update Automation Service](./images/83-1.png)
+    
+    Then select the new version of the Automation Service as shown, then click the Add button.
+    ![Update Automation Service](./images/83-2.png)
 
+    As there are no breaking changes (such as changes to the interface) the update will be integrated into the app
+    automatically. When an automatic update isn't possible it is often easier to remove any previsouly generated code
+    before adding the new version of the Automation Service.
 
 
     [Go to top of section](#faq-83) | [Go to top of page](#faq-overview)
