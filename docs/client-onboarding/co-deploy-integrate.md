@@ -558,17 +558,22 @@ pre-built solutions and lab assets.
 
     !!! warning
         There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.
-
+    
     ### 7.1 Prepare Data and Import Dashboard
     <a name="deploy-integrate-72"></a>
     ??? note summary "Expand to view"
-        !!! note
-        If you need more guidance to update the BAI data please look in the troubleshooting guide (Section 84)
-        , you will find a more prescriptive set of instructions to achieve the steps 1,2 and 3, below. It is 
-        adviseable to read the outline instructions below to understand the goal of this exercise, but then use the 
-        steps in the troublshooting guide if you are not confident.
-        <br>
 
+        !!! note        
+            These instructions describe how to update the BAI sample data so that it can be uploaded to your CP4BA cluster.
+            If you need more guidance to update the BAI data please look in the troubleshooting guide (Section 84)
+            , where you will find a more prescriptive set of instructions to achieve the steps 1,2 and 3, below. It is 
+            adviseable to read the outline instructions below to understand the goal of this exercise, but then use the 
+            steps in the troublshooting guide if you are not confident. If you use the alternative instructions in the 
+            troubleshooting guide for steps 1-3, please return here to complete steps 4-6.
+            <br>
+        
+        High level instructions :    
+    
         1. Download the contents of the following directory - [Business Automation Insights](https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports/Business%20Automation%20Insights/){target="_blank"}.
 
         2. Replace the index names in the downloaded files:
