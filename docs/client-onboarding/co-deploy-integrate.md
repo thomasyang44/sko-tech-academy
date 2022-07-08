@@ -446,7 +446,7 @@ pre-built solutions and lab assets.
         d\. On the next page, provide the property values, according to the table above. No further changes are required, so press "Next" until the final page, then "Finish" and then "Close".  
         
         !!! success
-            ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, [import the Business Automation Application into IBM Business Automation Navigator](#deploy-integrate-6).
+            ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, proceed to [Import the Business Automation Application into IBM Business Automation Navigator](#deploy-integrate-6).
 
         
     ### Prepare a shared environment for labs (*OPTIONAL*)
@@ -470,7 +470,7 @@ pre-built solutions and lab assets.
         2. Expand the `Client Document` class on the left and repeat the previous step for the `Banking Information` and `Utility Bill` document classes.
 
         !!! success
-            ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, [import the Business Automation Application into IBM Business Automation Navigator](#deploy-integrate-6).
+            ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, proceed to [Import the Business Automation Application into IBM Business Automation Navigator](#deploy-integrate-6).
   
     <br>
   
@@ -565,11 +565,13 @@ pre-built solutions and lab assets.
 
         !!! note        
             These instructions describe how to update the BAI sample data so that it can be uploaded to your CP4BA cluster.
-            If you need more guidance to update the BAI data please look in the troubleshooting guide (Section 84)
-            , where you will find a more prescriptive set of instructions to achieve the steps 1,2 and 3, below. It is 
-            adviseable to read the outline instructions below to understand the goal of this exercise, but then use the 
-            steps in the troublshooting guide if you are not confident. If you use the alternative instructions in the 
-            troubleshooting guide for steps 1-3, please return here to complete steps 4-6.
+            If you need more guidance to update the BAI data please refer to
+            [Item 84 - Preparing BAI Data](../../troubleshooting/troubleshooting/#faq-84) in the [Troubleshooting](../../troubleshooting/troubleshooting) section,
+            where you will find a more prescriptive set of instructions to complete steps 1, 2 and 3 below.  
+            
+            It is recommended to read the outline instructions below to understand the goal of this exercise, but then use the
+            steps in the troubleshooting section if you are not confident. If you use the alternative instructions in the
+            troubleshooting section for steps 1-3, please return here to complete steps 4-6.
             <br>
         
         High level instructions :    
@@ -583,8 +585,8 @@ pre-built solutions and lab assets.
             index names in the provided data files is `icp4ba-bai-process-summaries-completed-idx-ibm-bai-2021.11.11-000001`.
             The date element `2021.11.11` must be replaced by the date in your new clusters index name. The image
             below shows an example of the data we need to update. You can use the tool of your choice to perform a
-            global find & replace to update all the dates so they reflect the index names in your cluster. The 
-            VSCode editor works well, but any code editor should work. Section 84 of the troubleshooting guide 
+            global find & replace to update all the dates so they reflect the index names in your cluster. The
+            VSCode editor works well, but any code editor should work. Section 84 of the troubleshooting guide
             describes this process and uses the sed command line tool to perform the substitution.  
 
             ![data replacement](images/data_replace.png)
