@@ -4,47 +4,50 @@
 
 ## APAC - Tokyo (7/25 - 7/28)
 <a name="2022Tokyo"></a>
+
+<!---
 ??? note summary "Expand to view"
+--->
 
-    This event will be 4 days long with the following agenda:
+This event will be 4 days long with the following agenda:
 
-    |Day   | Time          | Session / Activity                                                                                             |
-    | :--- | :------------ | :------------------------------------------------------------------------------------------------------------- |
-    |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Shintaroh Yokotani                                                           |
-    |      | 1:30 – 2:15   | Automation Roadmap and Strategy                                                                                |
-    |      | 2:15 – 3:00   | Hybrid Cloud and Automation                                                                                    |
-    |      | 3:00 – 3:15   | Break                                                                                                          |
-    |      | 3:15 – 4:15   | BA Strategy                                                                                                    |
-    |      | 4:15 – 5:30   | Team Building                                                                                                  |
-    |      | 5:30 – 6:00   | Break                                                                                                          |
-    |      | 6:00 -        | Welcome Dinner                                                                                                 |
-    |Day 2 | 9:00 - 9:30   | Introduction                                                                                                   |
-    |      | 9:30 - 11:00  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                       |
-    |      | 11:00 - 12:00 | [Client Onboarding Demonstration - Art of the Possible](../../client-onboarding/co-overview) - Swapnil Agrawal |
-    |      | 12:00 - 1:00  | Lunch                                                                                                          |
-    |      | 1:00 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
-    |Day 3 | 9:00 - 9:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines                                    |
-    |      | 9:30 - 12:00  | Client Onboarding - Rebuild portion of solution [Team/Individual]                                              |
-    |      | 11:30 - 12:00 | Prior to lunch, customization use case scenarios will be posted to the slack channel                           |
-    |      | 12:00 - 1:00  | Lunch                                                                                                          |
-    |      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                   |
-    |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
-    |      | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - 5 Team Demos                                                       |
-    |      | 12:00 - 1:00  | Lunch                                                                                                          |
-    |      | 1:00 - 1:45   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
-    |      | 1:45 - 2:30   | Advanced Topics - Session 2                                                                                    |
-    |      | 2:30 - 2:45   | Break                                                                                                          |
-    |      | 2:45 - 3:30   | Advanced Topics - Session 3                                                                                    |
-    |      | 3:30 - 4:15   | Competing with Pega - Greg Violette                                                                            |
-    |      | 4:15 - 5:00   | Closing                                                                                                        |
-    |Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
-    
-    For more info on SKO Tech Academy, please refer to the links below:  
-        - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
-        - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
-        - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
+|Day   | Time          | Session / Activity                                                                                             |
+| :--- | :------------ | :------------------------------------------------------------------------------------------------------------- |
+|Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Shintaroh Yokotani                                                           |
+|      | 1:30 – 2:15   | Automation Roadmap and Strategy                                                                                |
+|      | 2:15 – 3:00   | Hybrid Cloud and Automation                                                                                    |
+|      | 3:00 – 3:15   | Break                                                                                                          |
+|      | 3:15 – 4:15   | BA Strategy                                                                                                    |
+|      | 4:15 – 5:30   | Team Building                                                                                                  |
+|      | 5:30 – 6:00   | Break                                                                                                          |
+|      | 6:00 -        | Welcome Dinner                                                                                                 |
+|Day 2 | 9:00 - 9:30   | Introduction                                                                                                   |
+|      | 9:30 - 11:00  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                       |
+|      | 11:00 - 12:00 | [Client Onboarding Demonstration - Art of the Possible](../../client-onboarding/co-overview) - Swapnil Agrawal |
+|      | 12:00 - 1:00  | Lunch                                                                                                          |
+|      | 1:00 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
+|Day 3 | 9:00 - 9:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines                                    |
+|      | 9:30 - 12:00  | Client Onboarding - Rebuild portion of solution [Team/Individual]                                              |
+|      | 11:30 - 12:00 | Prior to lunch, customization use case scenarios will be posted to the slack channel                           |
+|      | 12:00 - 1:00  | Lunch                                                                                                          |
+|      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                   |
+|Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
+|      | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - 5 Team Demos                                                       |
+|      | 12:00 - 1:00  | Lunch                                                                                                          |
+|      | 1:00 - 1:45   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
+|      | 1:45 - 2:30   | Advanced Topics - Session 2                                                                                    |
+|      | 2:30 - 2:45   | Break                                                                                                          |
+|      | 2:45 - 3:30   | Advanced Topics - Session 3                                                                                    |
+|      | 3:30 - 4:15   | Competing with Pega - Greg Violette                                                                            |
+|      | 4:15 - 5:00   | Closing                                                                                                        |
+|Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
 
-    [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
+For more info on SKO Tech Academy, please refer to the links below:  
+    - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
+    - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
+    - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
+
+[Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
 
 ## APAC - Korea (8/1 - 8/4)
 <a name="2022Korea"></a>
