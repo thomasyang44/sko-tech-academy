@@ -29,17 +29,14 @@
     |      | 12:00 - 1:00  | Lunch                                                                                                          |
     |      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                   |
     |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
-    |      | 9:30 - 10:30  | Deliver Customized Client Onboarding Demo - Round 1                                                            |
-    |      | 10:30 - 10:45 | Break                                                                                                          |
-    |      | 10:45 - 11:45 | Deliver Customized Client Onboarding Demo - Round 2                                                            |
-    |      | 11:45 - 12:30 | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
-    |      | 12:30 - 1:30  | Lunch                                                                                                          |
-    |      | 1:30 - 2:15   | Advanced Topics - Session 2                                                                                    |
-    |      | 2:15 - 3:00   | Advanced Topics - Session 3                                                                                    |
-    |      | 3:00 - 3:15   | Break                                                                                                          |
-    |      | 3:15 - 4:00   | Advanced Topics - Session 4                                                                                    |
-    |      | 4:00 - 4:45   | Competing with Pega - Greg Violette                                                                            |
-    |      | 4:45 - 5:00   | Closing                                                                                                        |
+    |      | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - 5 Team Demos                                                       |
+    |      | 12:00 - 1:00  | Lunch                                                                                                          |
+    |      | 1:00 - 1:45   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
+    |      | 1:45 - 2:30   | Advanced Topics - Session 2                                                                                    |
+    |      | 2:30 - 2:45   | Break                                                                                                          |
+    |      | 2:45 - 3:30   | Advanced Topics - Session 3                                                                                    |
+    |      | 3:30 - 4:15   | Competing with Pega - Greg Violette                                                                            |
+    |      | 4:15 - 5:00   | Closing                                                                                                        |
     |Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
     
     For more info on SKO Tech Academy, please refer to the links below:  
@@ -52,8 +49,6 @@
 ## APAC - Korea (8/1 - 8/4)
 <a name="2022Korea"></a>
 ??? note summary "Expand to view"
-
-    This event will be 4 days long with the following agenda:
 
     This event will be 4 days long with the following agenda:
 
@@ -81,12 +76,12 @@
     |      | 9:30 - 10:30  | Deliver Customized Client Onboarding Demo - Round 1                                                            |
     |      | 10:30 - 10:45 | Break                                                                                                          |
     |      | 10:45 - 11:45 | Deliver Customized Client Onboarding Demo - Round 2                                                            |
-    |      | 11:45 - 12:30 | Advanced Topics - Session 1                                                                                    |
+    |      | 11:45 - 12:30 | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
     |      | 12:30 - 1:30  | Lunch                                                                                                          |
     |      | 1:30 - 2:15   | Advanced Topics - Session 2                                                                                    |
-    |      | 2:15 - 3:00   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
+    |      | 2:15 - 3:00   | Advanced Topics - Session 3                                                                                    |
     |      | 3:00 - 3:15   | Break                                                                                                          |
-    |      | 3:15 - 4:00   | Best Practices and Experiences from PoCs - Dan Crow                                                            |
+    |      | 3:15 - 4:00   | Advanced Topics - Session 4                                                                                    |
     |      | 4:00 - 4:45   | Competing with Pega - Greg Violette                                                                            |
     |      | 4:45 - 5:00   | Closing                                                                                                        |
     |Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
