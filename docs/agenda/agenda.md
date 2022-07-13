@@ -32,12 +32,12 @@
     |      | 9:30 - 10:30  | Deliver Customized Client Onboarding Demo - Round 1                                                            |
     |      | 10:30 - 10:45 | Break                                                                                                          |
     |      | 10:45 - 11:45 | Deliver Customized Client Onboarding Demo - Round 2                                                            |
-    |      | 11:45 - 12:30 | Advanced Topics - Session 1                                                                                    |
+    |      | 11:45 - 12:30 | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
     |      | 12:30 - 1:30  | Lunch                                                                                                          |
     |      | 1:30 - 2:15   | Advanced Topics - Session 2                                                                                    |
-    |      | 2:15 - 3:00   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
+    |      | 2:15 - 3:00   | Advanced Topics - Session 3                                                                                    |
     |      | 3:00 - 3:15   | Break                                                                                                          |
-    |      | 3:15 - 4:00   | Best Practices and Experiences from PoCs - Dan Crow                                                            |
+    |      | 3:15 - 4:00   | Advanced Topics - Session 4                                                                                    |
     |      | 4:00 - 4:45   | Competing with Pega - Greg Violette                                                                            |
     |      | 4:45 - 5:00   | Closing                                                                                                        |
     |Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
