@@ -9,6 +9,7 @@ Start by reviewing the stand and deliver guidelines:
 
 ### Demo Rounds
 
+<!---
 Teams will prepare and deliver a customized Client Onboarding demo in two rounds:
 
   1. **Round 1**
@@ -20,6 +21,13 @@ Teams will prepare and deliver a customized Client Onboarding demo in two rounds
   1. **Round 2**
     1. Five top scoring teams each demo to entire room
     1. Deliver a business demo for 15 mins
+--->
+
+1. Five teams, each with three members
+1. Deliver a business demo for 15 mins
+1. Receive feedback and score for 5 mins
+1. Short 10 min break between teams and repeat
+
 
 ### Top 3 Teams Win BLUEPOINTS!
 
