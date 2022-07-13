@@ -8,9 +8,9 @@
 
 !!! note ""
     === "Location"
-        | Address                    | Map                                  | Directions from Airport (LHR) |
+        | Address                    | Map                                  | Directions from Airport (HND) |
         | -------------------------  | ------------------------------------ | ----------------------------|
-        | IBM Hursley <br> Hursley Park Rd, Hursley <br> Winchester SO21 2JN, United Kingdom <br> +441962815000  <br><br> IBM Briefing Center - Auditorium Room <br> H002 - Heathcote <br> Please be sure to first check-in on <br> Monday, June 20th, at the Main Reception, no later then 12:45 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2509.4632053573805!2d-1.399379448908604!3d51.02606505350224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM!5e0!3m2!1sen!2sus!4v1654549604095!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> | <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d319652.4722772479!2d-1.206609109194424!3d51.25066282816136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x48767234cdc56de9%3A0x8fe7535543f64167!2sHeathrow%20Airport%2C%20Longford%20TW6%2C%20United%20Kingdom!3m2!1d51.4700223!2d-0.45429549999999996!4m5!1s0x48740ca1f9eeebf1%3A0x1d30d7d806fff5d7!2sIBM%2C%20Hursley%20Park%20Rd%2C%20Hursley%2C%20Winchester%20SO21%202JN%2C%20United%20Kingdom!3m2!1d51.0260617!2d-1.3971854!5e0!3m2!1sen!2sus!4v1654549352579!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
+        | IBM Japan Headquarters <br> 19-21 Nihonbashihakozakicho <br> Chuo City, Tokyo 103-8510, Japan <br> +81366671111 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25929.965889346513!2d139.75568609239937!3d35.670950790242635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889439bb79c1b%3A0x12dc0bcd65c5bec0!2sIBM%20Japan%20Headquarters!5e0!3m2!1sen!2sus!4v1657681307531!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>| <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d103792.4759169447!2d139.68557941824577!3d35.61503164075302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x6018640ba43192e3%3A0xd32c3a9d146f8df!2sHND%2C%20Hanedakuko%2C%20Ota%20City%2C%20Tokyo%2C%20Japan!3m2!1d35.5493932!2d139.7798386!4m5!1s0x601889439bb79c1b%3A0x12dc0bcd65c5bec0!2sIBM%20Japan%20Headquarters%2C%2019-21%20Nihonbashihakozakicho%2C%20Chuo%20City%2C%20Tokyo%20103-8510%2C%20Japan!3m2!1d35.6785417!2d139.7871238!5e0!3m2!1sen!2sus!4v1657681815358!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
 
     === "Slack Channels"
 
@@ -22,10 +22,8 @@
     === "Site Info"
     
         [**Site Map**](../sites/hursley/hursley-site-map.png){target="_blank"}  
-        [**TBD - Nearby Restaurants**](../sites/coppell/NearbyRestaurants.pdf){target="_blank"}  
-        [**TBD - Welcome to Hursley*](../sites/coppell/WelcomeToDallasPamphlet.pdf){target="_blank"}  
 
-        <iframe src="https://w3.ibm.com/workplaces/location.html?campusid=HURMAIN" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+        <iframe src="https://w3-03.ibm.com/workplaces/location.html?campusid=JPHAKOZA" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
                 
     [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
 
