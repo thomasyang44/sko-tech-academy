@@ -12,7 +12,7 @@
 <br>
 
 **Steps to Cloud Pak Deployment**  
-The Daffy automation process is a three step process resulting in the deployment of a Cloud Pak.  You can start at step 1 or step 2 or even step 3. For example, if you do not have a cluster, start at step 1.  If you have OpenShift Cluster already, start at step 2. If you have a OpenShift cluster and already have base cloud pak installed, but just need to deploy a cloud pak service, start at step 3.
+The Daffy (Deployment Automation Framework For You) automation process is a three step process resulting in the deployment of a Cloud Pak.  You can start at step 1 or step 2 or even step 3. For example, if you do not have a cluster, start at step 1.  If you have OpenShift Cluster already, start at step 2. If you have a OpenShift cluster and already have base cloud pak installed, but just need to deploy a cloud pak service, start at step 3.
 
 <a name="daffy1"></a>
 !!! note ""

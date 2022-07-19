@@ -1,6 +1,6 @@
 # Deployment Overview
 
-Daffy makes it easy to create pre-configured CP4BA clusters. Daffy takes care of creating the OpenShift cluster and installing the CP4BA software. Once the installation is complete you'll have a new CP4BA cluster with the following components installed:
+Daffy (Deployment Automation Framework For You) makes it easy to create pre-configured CP4BA clusters. Daffy takes care of creating the OpenShift cluster and installing the CP4BA software. Once the installation is complete you'll have a new CP4BA cluster with the following components installed:
 
 | Component                                                      |
 | :------------------------------------------------------------- |
