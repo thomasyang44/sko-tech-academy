@@ -36,7 +36,7 @@ This event will be 4 days long with the following agenda:
 |      | 12:00 - 1:00  | Lunch                                                                                                          |
 |      | 1:00 - 1:45   | Competing with Pega - Greg Violette                                                                            |
 |      | 1:45 - 2:00   | Break                                                                                                          |
-|      | 2:00 - 4:00   | Advanced Top                                                                                                   |
+|      | 2:00 - 4:00   | Advanced Topics                                                                                                |
 |Day 4 | 4:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
 
 For more info on SKO Tech Academy, please refer to the links below:  
