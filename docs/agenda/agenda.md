@@ -34,13 +34,10 @@ This event will be 4 days long with the following agenda:
 |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
 |      | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - 5 Team Demos                                                       |
 |      | 12:00 - 1:00  | Lunch                                                                                                          |
-|      | 1:00 - 1:45   | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
-|      | 1:45 - 2:30   | Advanced Topics - Session 2                                                                                    |
-|      | 2:30 - 2:45   | Break                                                                                                          |
-|      | 2:45 - 3:30   | Advanced Topics - Session 3                                                                                    |
-|      | 3:30 - 4:15   | Competing with Pega - Greg Violette                                                                            |
-|      | 4:15 - 5:00   | Closing                                                                                                        |
-|Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
+|      | 1:00 - 1:45   | Competing with Pega - Greg Violette                                                                            |
+|      | 1:45 - 2:00   | Break                                                                                                          |
+|      | 2:00 - 4:00   | Advanced Top                                                                                                   |
+|Day 4 | 4:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
 
 For more info on SKO Tech Academy, please refer to the links below:  
     - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
@@ -57,7 +54,7 @@ For more info on SKO Tech Academy, please refer to the links below:
 
     |Day   | Time          | Session / Activity                                                                                             |
     | :--- | :------------ | :------------------------------------------------------------------------------------------------------------- |
-    |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew,                                                                              |
+    |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew,                                                                               |
     |      | 1:30 – 2:15   | Automation Roadmap and Strategy                                                                                |
     |      | 2:15 – 3:00   | Hybrid Cloud and Automation                                                                                    |
     |      | 3:00 – 3:15   | Break                                                                                                          |
