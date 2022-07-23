@@ -69,15 +69,15 @@ placeholders for **DAFFY_UNIQUE_ID**, **CLUSTER_NAME**, **ROKS_ZONE**.
 
 | Americas | EMEA | APAC |
 |:--:|:----:|:----:|
-| dal13 | dal13 | tbc |
-| wdc04 | sjc03 | tbc |
-| sjc03 | ams03 | tbc |
-| sjc04 | fra02 | tbc |
-| lon02 | fra04 | tbc |
-| lon06 | ams03 | tbc |
-| fra02 | fra05 | tbc |
-| fra04 | sjc04 | tbc |
-| ams03 | wdc04 | tbc |
+| dal13 | dal13 | sjc03 |
+| wdc04 | sjc03 | ams03 |
+| sjc03 | ams03 | fra02 |
+| sjc04 | fra02 | fra04 |
+| lon02 | fra04 | wdc04 |
+| lon06 | ams03 | lon02 |
+| fra02 | fra05 | lon06 |
+| fra04 | sjc04 | dal13 |
+| ams03 | wdc04 | sjc04 |
 
 !!! note
     If you have your own **IBM Cloud** account with infrastructure please use this account when Daffy asks you to log in.  
