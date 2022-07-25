@@ -27,7 +27,7 @@ DAFFY_DEPLOYMENT_TYPE=Enablement
 IBMCLOUD_RESOURCE_GROUP=TechAcademyBA
 
 # Version must match support version of ROKS only
-OCP_RELEASE=4.8.39
+OCP_RELEASE=4.8.42
 
 # Supported VM_TSHIRT_SIZE values: Large, Min
 #    Large - 6 Worker Nodes
