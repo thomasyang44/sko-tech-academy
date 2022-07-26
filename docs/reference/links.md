@@ -30,6 +30,7 @@
     ### [Content Collector (ICC)](https://ibm.seismic.com/Link/Content/DC8XT7pQb2Qcb82GX4Mfpjm6qBDG){target="_blank"}
     ### [Automation Workstream Services (IAWS)](https://ibm.seismic.com/Link/Content/DCJ2JMG2mPhHd8cXT6Fd42MgDPR3){target="_blank"}
     ### [Process Mining (PM)](https://ibm.seismic.com/Link/Content/DCc8XMPc7ch3W8WX6f8MT4JXXCJV){target="_blank"}
+    ### [Process Automation Manager and Decision Manager (formerly Red Hat)](https://ibm.seismic.com/Link/Content/DCj37HHQb4J4G8FVCBmB34WqBV68){target="_blank"}
     ### [Grow My Deal Request Form (IBM Only)](https://ibm.biz/grow-my-deal){target="_blank"}
 
     
@@ -38,13 +39,14 @@
     ### [Technology Zone - Business Automation Activation Kit](https://techzone.ibm.com/collection/cloud-pak-for-automation-activation-kit){target="_blank"}
     ### [IBM SWAT Labs](https://github.com/IBM/cp4ba-labs){target="_blank"}
     ### [CP4BA Technical Accelerators (IBM Only)](https://ibm.box.com/v/DBATechnicalSalesAccelerators){target="_blank"}
-    ### [Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks (IBM Only)](https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB){target="_blank"}
+    ### [Center of Competency (CoC) Managed Clusters (IBM Only)](https://cmc.coc-ibm.com/home){target="_blank"}
     ### [DBA Labs (IBM Only)](https://ibm.box.com/v/DBATutorials){target="_blank"}
     ### [PxT Presentations (IBM Only)](https://ibm.box.com/v/ECMPXTPresentations){target="_blank"}
     ### [OCP Gymnasium](https://techzone.ibm.com/collection/ocp-gymnasium){target="_blank"}
     ### [CP4BA deployment One-shot](https://github.com/apollo-business-automation/ibm-cp4ba-enterprise-deployment){target="_blank"}
     ### [Datacap toolkit](https://github.com/apollo-business-automation/datacap-utils-toolkit){target="_blank"}
     ### [BAW localization](https://github.com/apollo-business-automation/baw-localization-resource-generator){target="_blank"}
+    ### [Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks (IBM Only)](https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB){target="_blank"}
 
 ## Trial Software
 ??? note summary "Expand to view"
