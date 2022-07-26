@@ -10,7 +10,7 @@
     === "Location"
         | Address                    | Map                                  | Directions from Airport (HND) |
         | -------------------------  | ------------------------------------ | ----------------------------|
-        | IBM Japan Headquarters <br> 19-7 Nihonbashihakozakicho <br> Chuo City, Tokyo 103-8510, Japan <br> +81366671111 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25929.965889346513!2d139.75568609239937!3d35.670950790242635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889439bb79c1b%3A0x12dc0bcd65c5bec0!2sIBM%20Japan%20Headquarters!5e0!3m2!1sen!2sus!4v1657681307531!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>| <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d103792.4759169447!2d139.68557941824577!3d35.61503164075302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x6018640ba43192e3%3A0xd32c3a9d146f8df!2sHND%2C%20Hanedakuko%2C%20Ota%20City%2C%20Tokyo%2C%20Japan!3m2!1d35.5493932!2d139.7798386!4m5!1s0x601889439bb79c1b%3A0x12dc0bcd65c5bec0!2sIBM%20Japan%20Headquarters%2C%2019-21%20Nihonbashihakozakicho%2C%20Chuo%20City%2C%20Tokyo%20103-8510%2C%20Japan!3m2!1d35.6785417!2d139.7871238!5e0!3m2!1sen!2sus!4v1657681815358!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
+        | IBM Japan Headquarters <br> 19-21 Nihonbashihakozakicho <br> Chuo City, Tokyo 103-8510, Japan <br> +81366671111 | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25929.965889346513!2d139.75568609239937!3d35.670950790242635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889439bb79c1b%3A0x12dc0bcd65c5bec0!2sIBM%20Japan%20Headquarters!5e0!3m2!1sen!2sus!4v1657681307531!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>| <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d103792.4759169447!2d139.68557941824577!3d35.61503164075302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x6018640ba43192e3%3A0xd32c3a9d146f8df!2sHND%2C%20Hanedakuko%2C%20Ota%20City%2C%20Tokyo%2C%20Japan!3m2!1d35.5493932!2d139.7798386!4m5!1s0x601889439bb79c1b%3A0x12dc0bcd65c5bec0!2sIBM%20Japan%20Headquarters%2C%2019-21%20Nihonbashihakozakicho%2C%20Chuo%20City%2C%20Tokyo%20103-8510%2C%20Japan!3m2!1d35.6785417!2d139.7871238!5e0!3m2!1sen!2sus!4v1657681815358!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  |
 
     === "Slack Channels"
 
@@ -20,9 +20,6 @@
             Main channel: <a href="https://ibm-cloudpak-partners.slack.com/archives/C03NHLAHPD0" target="_blank">**private-cp4ba-2022-sko-tech-academy-japan**</a>  
 
     === "Site Info"
-    
-        [**Site Map**](../sites/hursley/hursley-site-map.png){target="_blank"}  
-
         <iframe src="https://w3-03.ibm.com/workplaces/location.html?campusid=JPHAKOZA" width="1024" height="768" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
                 
     [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
