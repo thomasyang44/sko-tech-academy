@@ -40,15 +40,6 @@ Below is a high-level overview of how your team will build the Client Onboarding
 
     You and your team are required to demonstrate the Client Onboarding use case you’ve been working on during the technical academy. You are expected to present a business scenario (not only a technical feature demo) and customize your demo narration and/or content to make it specific to a client’s story and customization request(s) you’ve incorporated.  
     
-    **Instructions - AMERICAS ONLY**  
-    1. Teams will assemble in groups of three teams to present to each other for feedback  
-    2. Each team will have 15 minutes to present.  
-    3. Non-presenting teams use the
-    <a href="https://ibm.seismic.com/Link/Content/DC8DGXXpd3pXdGfW93MTXWhRPGqj" target="_blank">**Evaluation Criteria**</a> to provide 5 minutes of feedback and a score between 1-5 with 5 being the highest  
-    4. Rotate until all teams present and receive feedback  
-    5. One team is nominated from each group of teams to present to the entire business automation track with instructors scoring  
-    6. BluePoints will be awarded to the overall top three teams  
-
     <br>
     Click the link below to review the evaluation criteria for your team presentation:  
     <a href="https://ibm.seismic.com/Link/Content/DC8DGXXpd3pXdGfW93MTXWhRPGqj" target="_blank">**Stand & Deliver Guidelines**</a>  
