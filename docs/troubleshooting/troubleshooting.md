@@ -286,15 +286,15 @@
 <a name="faq-83"></a>
 ??? note summary "Expand to view"
 
-    When rules are changed in a published ADS Automation Service you must publish a new version and update the app to 
+    When rules are changed in a published ADS Automation Service you must publish a new version and update the app to
     use the newly published automation service. (This is a bit odd after using ODM and not requiring apps to change
     as ODM and ADS both have the concept of `latest`, however this isn't supported in Automaiton Services until the
     next release).
 
-    Updating the version of an Automation Service in a Business App requires us to add the new version of the 
-    Automation Service. DO NOT try to edit the existing version of the Automation Service in App Designer.  In the 
-    example below the app currently uses v4.0 of an Automation Service called `life_ds` published from ADS. 
-    A new version of the business logic has been published as `life_ds` v4.1. To upgrade from v4.0 to v4.1 the 
+    Updating the version of an Automation Service in a Business App requires us to add the new version of the
+    Automation Service. DO NOT try to edit the existing version of the Automation Service in App Designer.  In the
+    example below the app currently uses v4.0 of an Automation Service called `life_ds` published from ADS.
+    A new version of the business logic has been published as `life_ds` v4.1. To upgrade from v4.0 to v4.1 the
     user would click on the Add buttnon.
 
     ![Update Automation Service](./images/83-1.png)
@@ -313,7 +313,7 @@
 <a name="faq-84"></a>
 ??? note summary "Expand to view"
 
-    It is strongly recommended that you prepare the BAI data on a Mac as Windows can easily corrupt the JSON. The 
+    It is strongly recommended that you prepare the BAI data on a Mac as Windows can easily corrupt the JSON. The
     instructions below assume you are using a Mac.
 
     Download or clone the github repository for the event to your Mac. Within this repo go to the location below: <br>
@@ -336,7 +336,7 @@
         ES_HOST=
         curl -k -XGET -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_aliases
 
-    Use the BAI values from the config map on your OpenShift cluster to update the `command.txt` file. Here is an 
+    Use the BAI values from the config map on your OpenShift cluster to update the `command.txt` file. Here is an
     example with some of the password & URL obscured as an example:
 
         ES_ADMIN=icp4ba
@@ -345,7 +345,7 @@
         curl -k -XGET -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_aliases
 
     Copy the commands from your file and paste them into a terminal window on your Mac. This will set the user, password
-    and URL and execute a curl command that will fetch the index names in your cluster. Take a note of the date used 
+    and URL and execute a curl command that will fetch the index names in your cluster. Take a note of the date used
     within the index names, in the example below it is `2022.06.28` which is the date on which CP4BA was installed.
 
     ![bai index names](./images/bai-data-1.png){width="600"}
@@ -358,7 +358,7 @@
     it finds `2021.11.11` it will replace it with `2022.06.28`. Update this command to replace `2021.11.11` with the
     date from the curl command, (it won't be `2022.06.28` you must use the value for your system).
 
-    When you execute the command the sample data in `process-data.json` should be updated, the command will also 
+    When you execute the command the sample data in `process-data.json` should be updated, the command will also
     create a backup file called `process-data.json.bak`
 
     To update `case-data.json` paste the following command into your `command.txt` file.
@@ -369,13 +369,13 @@
     files from the backup.
 
     You can now upload the three sample data files (we only had to update two of them) by executing the following
-    command in your terminal: 
+    command in your terminal:
 
         curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @case-data.json
         curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @process-data.json
         curl -k -XPOST -H 'Content-Type: application/json' -u ${ES_ADMIN}:${ES_PASSWORD} ${ES_HOST}/_bulk --data-binary @ads-data.json
 
-    The BAI sample data has now been uploaded. You can now return to the deployment instructions and continue 
+    The BAI sample data has now been uploaded. You can now return to the deployment instructions and continue
 
     [Go to top of section](#faq-83) | [Go to top of page](#faq-overview)
 
@@ -391,30 +391,30 @@
 ??? note summary "Expand to view"
     
     From your git home page click on the button to create a new repository and give it a meaningful name and click the
-    green create button.
+    green create button.  
     ![git new repo](./images/git-0.png){width="300"}
 
-    For ADS to connect to this repo you need to copy the URL which includes .git at the end.
+    For ADS to connect to this repo you need to copy the URL which includes .git at the end.  
     ![git url](./images/git-url.png)
 
     ADS also requires a personal access token that it uses for authenticating with git. To create this token go
-    to settings. You get this by clicking on you icon in the top right corner.
+    to settings. You get this by clicking on you icon in the top right corner.  
     ![git settings](./images/git-1.png){width="300"}
 
     Within settings, now click on developer settings, this is in the left hand section at the bottom.  
     ![git develoepr settings](./images/git-2.png){width="300"}
 
-    In developer settings select personal access tokens, then click `Generate new token`
+    In developer settings select personal access tokens, then click `Generate new token`  
     ![git develoepr settings](./images/git-3.png)
 
-    Give your token a name, this name isn't important it just so you can remember what the token is used for.
+    Give your token a name, this name isn't important it just so you can remember what the token is used for.  
     ![token name](./images/git-4.png){width="500"}
 
     ADS requires repo priveledges, these are at the top. No other priveleges are needed by ADS.  
     ![rep settings](./images/git-5.png){width="500"}
 
     When the token is created copy it and paste it into the ADS github connection details along with the URL. You
-    will not be able to retrieve this token again so make sure you copy it down now.
+    will not be able to retrieve this token again so make sure you copy it down now.  
     ![rep settings](./images/git-6.png)
 
     [Go to top of section](#faq-91) | [Go to top of page](#faq-overview)

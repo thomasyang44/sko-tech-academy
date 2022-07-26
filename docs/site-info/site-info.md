@@ -26,7 +26,7 @@
 
 
 
-## APAC - Korea (8/1 - 8/4)
+## APAC - Korea (8/1 - 8/4 - CANCELLED)
 <a name="2022Korea"></a>
 ??? note summary "Expand to view"
 

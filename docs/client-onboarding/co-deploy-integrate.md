@@ -139,10 +139,12 @@ pre-built solutions and lab assets.
 
     !!! warning
         The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.
-        Public github seems to be the most reliable.
+        Public github seems to be the most reliable.  
         <br>
-        Create a **Personal Access Token** under **Developer Settings**. There is described in the troubleshooting guide, item 91.
-
+        Create a **Personal Access Token** under **Developer Settings**.  
+        If you need additional guidance, please refer to section
+        [Item 91 - Creating a git repo for ADS](../../troubleshooting/troubleshooting/#faq-91) in the [Troubleshooting](../../troubleshooting/troubleshooting) section.  
+        
     1. Download [ClientOnboardingDecisions.zip](Solution%20Exports/Automation%20Decision%20Services/ClientOnboardingDecisions.zip)
 
     2. Create an empty GIT repo and get its URL and API Key
