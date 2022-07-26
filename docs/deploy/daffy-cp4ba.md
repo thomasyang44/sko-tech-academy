@@ -62,7 +62,7 @@ Copy the contents of this file into the Daffy environment file on your bastion s
 placeholders for **DAFFY_UNIQUE_ID**, **CLUSTER_NAME**, **ROKS_ZONE**.  
 
 !!! warning
-    Based on your geograhic preference, please select a data center (DC) from either the **Americas**, **EMEA**, **APAC** column.  
+    Based on your geograhic preference, please select a data center (DC) from either the **Americas**, **EMEA**, or **APAC** column.  
     There is an upper limit for the number of storage volumes we can create in each DC so we must try to distribute
     cluster creation across several DC's. You won't be using these clusters for the labs so their location isn't
     important.
