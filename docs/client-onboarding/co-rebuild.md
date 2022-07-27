@@ -221,6 +221,11 @@ This lab is considered an individual activity as each team member should work on
 
     IBM Business Automation Workflow is software that combines business process management and case management  capabilities in a single integrated workflow solution. It unites information process, and users to provide a 360-degree view of work to help drive more successful business outcomes.
 
+    !!! warning
+        <span style="color:Red">ℹ️ **[SKO UPDATE]**</span> The **TechJam** labs were designed for many users on one cluster and hence used prefixed names using **UsrNNN** (ex: **UsrNNN Client Onboarding**) for naming case types.  For our event, please ignore any references to **UsrNNN** (for names, symbolic links, etc.).  
+        <br>
+        For example, if you see **UsrNNN Client Onboarding**, please use **Client Onboarding**
+
     ### **Labs**
 
     - [**Introduction to IBM Business Automation Workflow**](labs/Workflow/Lab%20Guide%20-%20Introduction%20to%20IBM%20Business%20Automation%20Workflow.pdf){target="_blank"}
