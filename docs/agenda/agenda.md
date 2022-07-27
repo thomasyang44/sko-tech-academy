@@ -32,12 +32,17 @@ This event will be 4 days long with the following agenda:
 |      | 12:00 - 1:00  | Lunch                                                                                                          |
 |      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                   |
 |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
-|      | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - 5 Team Demos                                                       |
+|      | 9:30 - 11:00  | Deliver Customized Client Onboarding Demo - Team Demos (4)                                                     |
+|      | 11:00 - 11:15 | Break                                                                                                          |
+|      | 11:15 - 12:00 | Competing with Pega - Greg Violette                                                                            |
 |      | 12:00 - 1:00  | Lunch                                                                                                          |
-|      | 1:00 - 1:45   | Competing with Pega - Greg Violette                                                                            |
-|      | 1:45 - 2:00   | Break                                                                                                          |
-|      | 2:00 - 4:00   | Advanced Topics                                                                                                |
-|Day 4 | 4:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
+|      | 1:00 - 1:20   | Demo 1 - Inheritance of Expert - Koichi Nakamura                                                               |
+|      | 1:20 - 1:40   | Demo 2 - Branch Office Innovation - Hirofumi Nishimura                                                         |
+|      | 1:40 - 2:00   | Demo 3 - Legacy Modernization - Nobuo Hamasaki                                                                 |
+|      | 2:00 - 2:20   | Demo 4 - RPA - Shintaro Hase                                                                                   |
+|      | 2:20 - 2:40   | Demo 5 - Insurance Claims Analysis - Hideo Saito                                                               |
+|      | 2:40 - 3:00   | Closing                                                                                                        |
+|Day 4 | 3:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
 
 For more info on SKO Tech Academy, please refer to the links below:  
     - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  

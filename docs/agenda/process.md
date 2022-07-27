@@ -55,7 +55,7 @@ Sample comment
         | Time          | Session / Activity                                                                                             |
         | :------------ | :------------------------------------------------------------------------------------------------------------- |
         | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
-        | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - 5 Team Demos                                                       |
+        | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - Team Demos (4)                                                     |
         | 12:00 - 1:00  | Lunch                                                                                                          |
         | 1:00 - 1:45   | Competing with Pega - Greg Violette                                                                            |
         | 1:45 - 2:00   | Break                                                                                                          |
