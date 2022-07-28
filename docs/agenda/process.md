@@ -50,14 +50,21 @@ Sample comment
 
     === "Day 4 - Thursday 6/23"
         1. Team members will prepare and deliver the customized Client Onboarding demo (Round 1 and 2)
-        1. Advanced Topics: Managing Users, Process Mining, ADP, PoC Best Practices, Pega
+        1. Advanced Topics: Competing with Pega,
         
         | Time          | Session / Activity                                                                                             |
         | :------------ | :------------------------------------------------------------------------------------------------------------- |
         | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
-        | 9:30 - 12:00  | Deliver Customized Client Onboarding Demo - Team Demos (4)                                                     |
-        | 12:00 - 1:00  | Lunch                                                                                                          |
-        | 1:00 - 1:45   | Competing with Pega - Greg Violette                                                                            |
-        | 1:45 - 2:00   | Break                                                                                                          |
-        | 2:00 - 4:00   | Advanced Topics                                                                                                |
-        | 4:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
+        | 9:30 - 11:00  | Deliver Customized Client Onboarding Demo - Team Demos (4) [15 min demo, 5 min review]                         |
+        | 11:00 - 11:10 | Break                                                                                                          |
+        | 11:10 - 11:55 | Competing with Pega - Greg Violette                                                                            |
+        | 11:55 - 12:55 | Lunch                                                                                                          |
+        | 12:55 - 1:00  | SKO Tech Academy - Business Automation - Pictures                                                              |
+        | 1:00 - 1:15   | SKO Tech Academy - Automation - Pictures                                                                       |
+        | 1:15 - 1:35   | Demo 1 - Inheritance of Expert - Koichi Nakamura [15 min demo, 5 min review]                                   |
+        | 1:35 - 1:55   | Demo 2 - Branch Office Innovation - Hirofumi Nishimura [15 min demo, 5 min review]                             |
+        | 1:55 - 2:15   | Demo 3 - Legacy Modernization - Nobuo Hamasaki [15 min demo, 5 min review]                                     |
+        | 2:15 - 2:35   | Demo 4 - RPA - Shintaro Hase [15 min demo, 5 min review]                                                       |
+        | 2:35 - 2:55   | Demo 5 - Insurance Claims Analysis - Hideo Saito [15 min demo, 5 min review]                                   |
+        | 2:55 - 3:00   | Closing                                                                                                        |
+        | 3:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
