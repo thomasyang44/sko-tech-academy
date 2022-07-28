@@ -39,6 +39,7 @@ This event will be 4 days long with the following agenda:
 |      | 12:55 - 1:00  | SKO Tech Academy - Business Automation - Pictures                                                              |
 |      | 1:00 - 1:15   | SKO Tech Academy - Automation - Pictures                                                                       |
 |      | 1:15 - 1:35   | Demo 1 - Inheritance of Expert - Koichi Nakamura [15 min demo, 5 min review]                                   |
+|      | 1:35 - 1:55   | Demo 2 - Branch Office Innovation - Hirofumi Nishimura [15 min demo, 5 min review]                             |
 |      | 1:55 - 2:15   | Demo 3 - Legacy Modernization - Nobuo Hamasaki [15 min demo, 5 min review]                                     |
 |      | 2:15 - 2:35   | Demo 4 - RPA - Shintaro Hase [15 min demo, 5 min review]                                                       |
 |      | 2:35 - 2:55   | Demo 5 - Insurance Claims Analysis - Hideo Saito [15 min demo, 5 min review]                                   |
