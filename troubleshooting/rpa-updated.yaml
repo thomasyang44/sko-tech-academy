@@ -1,0 +1,282 @@
+############################################################
+#Author           : Kyle Dawson
+#Author email     : krishkrish@ibm.com
+#Original Date    : 2022-05-20
+#Initial Version  : v2022-05-23
+############################################################
+apiVersion: icp4a.ibm.com/v1
+kind: ICP4ACluster
+metadata:
+  name: icp4adeploy
+  labels:
+    app.kubernetes.io/instance: ibm-dba
+    app.kubernetes.io/managed-by: ibm-dba
+    app.kubernetes.io/name: ibm-dba
+    release: 21.0.3
+spec:
+  appVersion: 21.0.3
+  ibm_license: accept
+  shared_configuration:
+    images:
+      keytool_job_container:
+        repository: cp.icr.io/cp/cp4a/ums/dba-keytool-jobcontainer
+        tag: 21.0.3-IF008
+      dbcompatibility_init_container:
+        repository: cp.icr.io/cp/cp4a/aae/dba-dbcompatibility-initcontainer
+        tag: 21.0.3-IF008
+      keytool_init_container:
+        repository: cp.icr.io/cp/cp4a/ums/dba-keytool-initcontainer
+        tag: 21.0.3-IF008
+      umsregistration_initjob:
+        repository: cp.icr.io/cp/cp4a/aae/dba-umsregistration-initjob
+        tag: 21.0.3-IF008
+      openldap:
+        repository: cp.icr.io/cp/cp4a/demo/openldap
+        tag: 1.5.0
+      gitea:
+        repository: cp.icr.io/cp/cp4a/demo/gitea
+        tag: 1.15.8
+    sc_deployment_fncm_license: non-production
+    sc_deployment_baw_license: non-production
+    sc_deployment_license: non-production
+    sc_deployment_patterns: "foundation,application,content,decisions,decisions_ads,document_processing,workflow-workstreams"
+    sc_optional_components: "ads_designer,ads_runtime,bai,baml,ban,baw_authoring,case,cmis,content_integration,css,decisionCenter,decisionRunner,decisionServerRuntime,document_processing_designer,pfs"
+    sc_deployment_type: "Starter"
+    sc_deployment_platform: "ROKS"
+    sc_image_repository: cp.icr.io
+    sc_ingress_enable: false
+    trusted_certificate_list:
+      - rpa-secret
+    storage_configuration:
+      sc_dynamic_storage_classname: ibmc-file-gold-gid
+      sc_block_storage_classname: ibmc-block-gold
+      sc_slow_file_storage_classname: ibmc-file-gold-gid
+      sc_medium_file_storage_classname: ibmc-file-gold-gid
+      sc_fast_file_storage_classname: ibmc-file-gold-gid
+    root_ca_secret: "{{ meta.name }}-root-ca"
+    sc_run_as_user:
+    sc_content_initialization: true
+    sc_cpe_limited_storage: false
+    image_pull_secrets:
+      - admin.registrykey
+  ########################################################################
+  ########   IBM Business Automation Navigator configuration      ########
+  ########################################################################
+  navigator_configuration:
+    image:
+      repository: cp.icr.io/cp/cp4a/ban/navigator
+      tag: ga-3011-icn-la301
+  ########################################################################
+  ########      IBM Resource Registry configuration               ########
+  ########################################################################
+  resource_registry_configuration:
+    images:
+      resource_registry:
+        repository: cp.icr.io/cp/cp4a/aae/dba-etcd
+        tag: 21.0.3-IF008
+  ########################################################################
+  ########      IBM Business Automation Studio configuration      ########
+  ########################################################################
+  bastudio_configuration:
+    images:
+      bastudio:
+        repository: cp.icr.io/cp/cp4a/bas/bastudio
+        tag: 21.0.3-IF008
+    playback_server:
+      images:
+        db_job:
+          repository: cp.icr.io/cp/cp4a/bas/solution-server-helmjob-db
+          tag: 21.0.3-IF008
+        solution_server:
+          repository: cp.icr.io/cp/cp4a/bas/solution-server
+          tag: 21.0.3-IF008
+    jms_server:
+      image:
+        repository: cp.icr.io/cp/cp4a/bas/jms
+        tag: 21.0.3-IF008
+    custom_xml: |+
+      <server>
+        <webTarget URI="https://services-emea.skytap.com*" disableCNCheck="true"/>
+        <webTarget URI="https://services-uscentral.skytap.com*" disableCNCheck="true"/>
+        <webTarget URI="https://services-apac2.skytap.com*" disableCNCheck="true"/>
+      </server>
+  ########################################################################
+  ########      IBM Business Automation Insights configuration    ########
+  ########################################################################
+  bai_configuration:
+    image_credentials:
+      registry: cp.icr.io/cp/cp4a
+    business_performance_center:
+      all_users_access: true
+  ########################################################################
+  ########      IBM FileNet Content Manager configuration         ########
+  ########################################################################
+  ecm_configuration:
+    cpe:
+      image:
+        repository: cp.icr.io/cp/cp4a/fncm/cpe
+        tag: ga-558-p8cpe-la101
+    css:
+      image:
+        repository: cp.icr.io/cp/cp4a/fncm/css
+        tag: ga-558-p8css-la101
+    graphql:
+      image:
+        repository: cp.icr.io/cp/cp4a/fncm/graphql
+        tag: ga-558-p8cgql-la101
+    cmis:
+      image:
+        repository: cp.icr.io/cp/cp4a/fncm/cmis
+        tag: ga-306-cmis-la106
+    ########################################################################
+    ###########   IBM Automation Document Processing configuration  ########
+    ########################################################################
+    document_processing:
+      cds:
+        image:
+          repository: cp.icr.io/cp/cp4a/iadp/cds
+          tag: 21.0.3-IF008
+      cdra:
+        image:
+          repository: cp.icr.io/cp/cp4a/iadp/cdra
+          tag: 21.0.3-IF008
+      cpds:
+        image:
+          repository: cp.icr.io/cp/cp4a/iadp/cpds
+          tag: 21.0.3-IF008
+      viewone:
+        image:
+          repository: cp.icr.io/cp/cp4a/iadp/viewone
+          tag: 21.0.3-IF008
+      gitgateway:
+        image:
+          repository: cp.icr.io/cp/cp4a/iadp/gitgateway
+          tag: 21.0.3-IF008
+      mongo:
+        image:
+          repository: cp.icr.io/cp/cp4a/iadp/mongo
+          tag: 4.2.17
+  ########################################################################
+  ########      IBM Operational Decision Manager configuration    ########
+  ########################################################################
+  odm_configuration:
+    image:
+      repository: "cp.icr.io/cp/cp4a/odm"
+      pullSecrets: "admin.registrykey"
+    decisionCenter:
+      enabled: true
+    decisionServerRuntime:
+      enabled: true
+    decisionRunner:
+      enabled: true
+  ########################################################################
+  ########   IBM Business Automation Decision Services            ########
+  ########################################################################
+  ads_configuration:
+    decision_designer:
+      enabled: true
+    decision_runtime:
+      enabled: true
+    rr_integration:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-rrintegration
+        tag: 21.0.3-IF008
+    front:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-front
+        tag: 21.0.3-IF008
+    download_service:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-download
+        tag: 21.0.3-IF008
+    rest_api:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-restapi
+        tag: 21.0.3-IF008
+    credentials_service:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-credentials
+        tag: 21.0.3-IF008
+    git_service:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-gitservice
+        tag: 21.0.3-IF008
+    parsing_service:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-parsing
+        tag: 21.0.3-IF008
+    run_service:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-run
+        tag: 21.0.3-IF008
+    embedded_build_service:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-build
+        tag: 21.0.3-IF008
+    decision_runtime_service:
+      image:
+        repository: cp.icr.io/cp/cp4a/ads/ads-runtime
+        tag: 21.0.3-IF008
+  ############################################################################
+  ########   IBM Business Automation Content Analyzer configuration   ########
+  ############################################################################
+  ca_configuration:
+    global:
+      image:
+        repository: cp.icr.io/cp/cp4a/iadp
+        tag: 21.0.3-IF008
+    deeplearning:
+      gpu_enabled: false
+      nodelabel_key:
+      nodelabel_value:
+  ########################################################################
+  ########   IBM BAW Designer Server configuration  ########
+  ########################################################################
+  workflow_authoring_configuration:
+    image:
+      repository: cp.icr.io/cp/cp4a/bas/workflow-authoring
+      tag: 21.0.3-IF008
+    pfs_bpd_database_init_job:
+      repository: cp.icr.io/cp/cp4a/baw/pfs-bpd-database-init-prod
+      tag: 21.0.3-IF008
+    upgrade_job:
+      repository: cp.icr.io/cp/cp4a/baw/workflow-server-dbhandling
+      tag: 21.0.3-IF008
+    ibm_workplace_job:
+      repository: cp.icr.io/cp/cp4a/baw/iaws-ibm-workplace
+      tag: 21.0.3-IF008
+    bas_auto_import_job:
+      repository: cp.icr.io/cp/cp4a/baw/toolkit-installer
+      tag: 21.0.3-IF008
+    content_integration:
+      init_job_image:
+        repository: cp.icr.io/cp/cp4a/baw/iaws-ps-content-integration
+        tag: 21.0.3-IF008
+    case:
+      init_job_image:
+        repository: cp.icr.io/cp/cp4a/baw/workflow-server-case-initialization
+        tag: 21.0.3-IF008
+    jms:
+      image:
+        repository: cp.icr.io/cp/cp4a/baw/jms
+        tag: 21.0.3-IF008
+  ##################################################################################
+  ########   IBM Business Automation Machine Learning Server configuration  ########
+  ##################################################################################
+  baml_configuration:
+    intelligent_task_prioritization:
+      image:
+        repository: cp.icr.io/cp/cp4a/baw/bui-task-prioritization
+        tag: 21.0.3-IF008
+    workforce_insights:
+      image:
+        repository: cp.icr.io/cp/cp4a/baw/workforce-insights
+        tag: 21.0.3-IF008
+  ########################################################################
+  ########   IBM Process Federation Server configuration  ########
+  ########################################################################
+  pfs_configuration:
+    image:
+      repository: cp.icr.io/cp/cp4a/baw/pfs-prod
+      tag: 21.0.3-IF008
+
