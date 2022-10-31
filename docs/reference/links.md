@@ -26,6 +26,7 @@
 
 ## Sales Kits
 ??? note summary "Expand to view"
+    ### [Business Automation Sales Kits (Seismic)](https://ibm.biz/BASalesKits){target="_blank"}
     ### [IBM Cloud Pak for Business Automation Sales Kit (Seismic)](https://ibm.seismic.com/Link/Content/DCC7FMWGhTpR8G2Fh77BQhmBq3H3){target="_blank"}
     ### [Business Automation Workflow](https://ibm.seismic.com/Link/Content/DCRFm2Cjhb3gHGcWJcjcFD7QD84P){target="_blank"}
     ### [Operational Decision Manager (ODM)](https://ibm.seismic.com/Link/Content/DCGB6TDDdpT6qGqCFGmXqCTQ3MF3){target="_blank"}
