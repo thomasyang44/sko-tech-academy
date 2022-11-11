@@ -1,112 +1,18 @@
+<!--=========================================================================================================================================-->
+<!--=========================================================================================================================================-->
 
 <a name="SiteInfoTop"></a>
 
-
-## APAC - Tokyo (7/25 - 7/28)
-<a name="2022Tokyo"></a>
-
-<!---
-??? note summary "Expand to view"
---->
-
-This event will be 4 days long with the following agenda:
-
-|Day   | Time          | Session / Activity                                                                                             |
-| :--- | :------------ | :------------------------------------------------------------------------------------------------------------- |
-|Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Shintaroh Yokotani                                                           |
-|      | 1:30 – 2:15   | Automation Roadmap and Strategy                                                                                |
-|      | 2:15 – 3:00   | Hybrid Cloud and Automation                                                                                    |
-|      | 3:00 – 3:15   | Break                                                                                                          |
-|      | 3:15 – 4:15   | BA Strategy                                                                                                    |
-|      | 4:15 – 5:30   | Team Building                                                                                                  |
-|      | 5:30 – 6:00   | Break                                                                                                          |
-|      | 6:00 -        | Welcome Dinner                                                                                                 |
-|Day 2 | 9:00 - 9:30   | Introduction                                                                                                   |
-|      | 9:30 - 11:00  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                       |
-|      | 11:00 - 12:00 | [Client Onboarding Demonstration - Art of the Possible](../../client-onboarding/co-overview) - Swapnil Agrawal |
-|      | 12:00 - 1:00  | Lunch                                                                                                          |
-|      | 1:00 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
-|Day 3 | 9:00 - 9:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines                                    |
-|      | 9:30 - 12:00  | Client Onboarding - Rebuild portion of solution [Team/Individual]                                              |
-|      | 11:30 - 12:00 | Prior to lunch, customization use case scenarios will be posted to the slack channel                           |
-|      | 12:00 - 1:00  | Lunch                                                                                                          |
-|      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                   |
-|Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
-|      | 9:30 - 11:00  | Deliver Customized Client Onboarding Demo - Team Demos (4) [15 min demo, 5 min review]                         |
-|      | 11:00 - 11:10 | Break                                                                                                          |
-|      | 11:10 - 11:55 | Competing with Pega - Greg Violette                                                                            |
-|      | 11:55 - 12:55 | Lunch                                                                                                          |
-|      | 12:55 - 1:00  | SKO Tech Academy - Business Automation - Pictures                                                              |
-|      | 1:00 - 1:15   | SKO Tech Academy - Automation - Pictures                                                                       |
-|      | 1:15 - 1:35   | Demo 1 - Inheritance of Expert - Koichi Nakamura [15 min demo, 5 min review]                                   |
-|      | 1:35 - 1:55   | Demo 2 - Branch Office Innovation - Hirofumi Nishimura [15 min demo, 5 min review]                             |
-|      | 1:55 - 2:15   | Demo 3 - Legacy Modernization - Nobuo Hamasaki [15 min demo, 5 min review]                                     |
-|      | 2:15 - 2:35   | Demo 4 - RPA - Shintaro Hase [15 min demo, 5 min review]                                                       |
-|      | 2:35 - 2:55   | Demo 5 - Insurance Claims Analysis - Hideo Saito [15 min demo, 5 min review]                                   |
-|      | 2:55 - 3:00   | Closing                                                                                                        |
-|Day 4 | 3:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
-
-For more info on SKO Tech Academy, please refer to the links below:  
-    - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
-    - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
-    - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
-
-[Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
-
-## APAC - Korea (8/1 - 8/4)
-<a name="2022Korea"></a>
+<!-- ## 2022 -->
+## 2022
+<a name="2022"></a>
 ??? note summary "Expand to view"
 
-    This event will be 4 days long with the following agenda:
-
-    |Day   | Time          | Session / Activity                                                                                             |
-    | :--- | :------------ | :------------------------------------------------------------------------------------------------------------- |
-    |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew,                                                                               |
-    |      | 1:30 – 2:15   | Automation Roadmap and Strategy                                                                                |
-    |      | 2:15 – 3:00   | Hybrid Cloud and Automation                                                                                    |
-    |      | 3:00 – 3:15   | Break                                                                                                          |
-    |      | 3:15 – 4:15   | BA Strategy                                                                                                    |
-    |      | 4:15 – 5:30   | Team Building                                                                                                  |
-    |      | 5:30 – 6:00   | Break                                                                                                          |
-    |      | 6:00 -        | Welcome Dinner                                                                                                 |
-    |Day 2 | 9:00 - 9:30   | Introduction                                                                                                   |
-    |      | 9:30 - 11:00  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                       |
-    |      | 11:00 - 12:00 | [Client Onboarding Demonstration - Art of the Possible](../../client-onboarding/co-overview) - Swapnil Agrawal |
-    |      | 12:00 - 1:00  | Lunch                                                                                                          |
-    |      | 1:00 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
-    |Day 3 | 9:00 - 9:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines                                    |
-    |      | 9:30 - 12:00  | Client Onboarding - Rebuild portion of solution [Team/Individual]                                              |
-    |      | 11:30 - 12:00 | Prior to lunch, customization use case scenarios will be posted to the slack channel                           |
-    |      | 12:00 - 1:00  | Lunch                                                                                                          |
-    |      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                   |
-    |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
-    |      | 9:30 - 10:30  | Deliver Customized Client Onboarding Demo - Round 1                                                            |
-    |      | 10:30 - 10:45 | Break                                                                                                          |
-    |      | 10:45 - 11:45 | Deliver Customized Client Onboarding Demo - Round 2                                                            |
-    |      | 11:45 - 12:30 | Automation Document Processing (ADP) Update - Dan Ouimet (remote)                                              |
-    |      | 12:30 - 1:30  | Lunch                                                                                                          |
-    |      | 1:30 - 2:15   | Advanced Topics - Session 2                                                                                    |
-    |      | 2:15 - 3:00   | Advanced Topics - Session 3                                                                                    |
-    |      | 3:00 - 3:15   | Break                                                                                                          |
-    |      | 3:15 - 4:00   | Advanced Topics - Session 4                                                                                    |
-    |      | 4:00 - 4:45   | Competing with Pega - Greg Violette                                                                            |
-    |      | 4:45 - 5:00   | Closing                                                                                                        |
-    |Day 4 | 5:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
-
-    For more info on SKO Tech Academy, please refer to the links below:  
-        - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
-        - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
-        - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
-
-    [Top of page](#SiteInfoTop) | [Top of section](#2022Korea)
-
-
-## PAST EVENTS
-<a name="PAST-EVENTS"></a>
-??? note summary "Expand to view"
-
+    <!--===================================================================================================================================-->
+    <!--===================================================================================================================================-->
+    ##Americas
     <a name="2022Americas"></a>
-    ??? note summary "Americas 2022"
+    ??? note summary "Expand to view"
 
         This event will be 4 days long with the following agenda:
 
@@ -150,9 +56,11 @@ For more info on SKO Tech Academy, please refer to the links below:
 
         [Top of page](#SiteInfoTop) | [Top of section](#2022Americas)
         
-        
+    <!--===================================================================================================================================-->
+    <!--===================================================================================================================================-->
+    ##EMEA
     <a name="2022EMEA"></a>
-    ??? note summary "EMEA 2022"
+    ??? note summary "Expand to view"
 
         Location: IBM Briefing Center - Auditorium Room, H002-Heathcode
 
@@ -199,4 +107,67 @@ For more info on SKO Tech Academy, please refer to the links below:
             - <a href="https://ibm.ent.box.com/folder/165342383413?v=2022TABizAutoSupplements" target="_blank">Hursley Box Share (IBM Only)</a>  
 
         [Top of page](#SiteInfoTop) | [Top of section](#2022EMEA)
+        
+    <!--===================================================================================================================================-->
+    <!--===================================================================================================================================-->
+    ##APAC - Tokyo
+    <a name="2022Tokyo"></a>
+    ??? note summary "Expand to view"
+
+        This event will be 4 days long with the following agenda:
+
+        |Day   | Time          | Session / Activity                                                                                             |
+        | :--- | :------------ | :------------------------------------------------------------------------------------------------------------- |
+        |Day 1 | 1:00 – 1:30   | Opening Remarks – Sarah McAndrew, Shintaroh Yokotani                                                           |
+        |      | 1:30 – 2:15   | Automation Roadmap and Strategy                                                                                |
+        |      | 2:15 – 3:00   | Hybrid Cloud and Automation                                                                                    |
+        |      | 3:00 – 3:15   | Break                                                                                                          |
+        |      | 3:15 – 4:15   | BA Strategy                                                                                                    |
+        |      | 4:15 – 5:30   | Team Building                                                                                                  |
+        |      | 5:30 – 6:00   | Break                                                                                                          |
+        |      | 6:00 -        | Welcome Dinner                                                                                                 |
+        |Day 2 | 9:00 - 9:30   | Introduction                                                                                                   |
+        |      | 9:30 - 11:00  | [Deployment - Daffy & Cluster Build](../../deploy/overview) [Individual]                                       |
+        |      | 11:00 - 12:00 | [Client Onboarding Demonstration - Art of the Possible](../../client-onboarding/co-overview) - Swapnil Agrawal |
+        |      | 12:00 - 1:00  | Lunch                                                                                                          |
+        |      | 1:00 - 5:00   | [Client Onboarding - Deploy and Integrate](../../client-onboarding/co-deploy-integrate) [Team]                 |
+        |Day 3 | 9:00 - 9:30   | Briefing on activities for the day <br> Review Stand and Deliver Guidelines                                    |
+        |      | 9:30 - 12:00  | Client Onboarding - Rebuild portion of solution [Team/Individual]                                              |
+        |      | 11:30 - 12:00 | Prior to lunch, customization use case scenarios will be posted to the slack channel                           |
+        |      | 12:00 - 1:00  | Lunch                                                                                                          |
+        |      | 1:00 - 5:00   | Continue Rebuild & Complete Customizations [Team/Individual]                                                   |
+        |Day 4 | 9:00 - 9:30   | Briefing on activities for the day <br> Prepare for Stand and Deliver                                          |
+        |      | 9:30 - 11:00  | Deliver Customized Client Onboarding Demo - Team Demos (4) [15 min demo, 5 min review]                         |
+        |      | 11:00 - 11:10 | Break                                                                                                          |
+        |      | 11:10 - 11:55 | Competing with Pega - Greg Violette                                                                            |
+        |      | 11:55 - 12:55 | Lunch                                                                                                          |
+        |      | 12:55 - 1:00  | SKO Tech Academy - Business Automation - Pictures                                                              |
+        |      | 1:00 - 1:15   | SKO Tech Academy - Automation - Pictures                                                                       |
+        |      | 1:15 - 1:35   | Demo 1 - Inheritance of Expert - Koichi Nakamura [15 min demo, 5 min review]                                   |
+        |      | 1:35 - 1:55   | Demo 2 - Branch Office Innovation - Hirofumi Nishimura [15 min demo, 5 min review]                             |
+        |      | 1:55 - 2:15   | Demo 3 - Legacy Modernization - Nobuo Hamasaki [15 min demo, 5 min review]                                     |
+        |      | 2:15 - 2:35   | Demo 4 - RPA - Shintaro Hase [15 min demo, 5 min review]                                                       |
+        |      | 2:35 - 2:55   | Demo 5 - Insurance Claims Analysis - Hideo Saito [15 min demo, 5 min review]                                   |
+        |      | 2:55 - 3:00   | Closing                                                                                                        |
+        |Day 4 | 3:00 PM       | Attendees required to stay until all sessions are complete                                                     |  
+
+        For more info on SKO Tech Academy, please refer to the links below:  
+            - <a href="https://ibm.seismic.com/Link/Content/DCgPMD3JGBVfW8FFRXTg3XfbWJmd" target="_blank">SKO Tech Academy (Seismic)</a>  
+            - <a href="https://ibm.seismic.com/Link/Content/DCJ2TTmqH6bDfG7PFTB33BGV7J63" target="_blank">SKO Tech Academy - Automation (Seismic)</a>  
+            - <a href="https://ibm.box.com/s/howwsn976p66t7eac31nvf05z8ocbrsd" target="_blank">SKO Tech Academy - Automation - Detailed Agenda</a>  
+
+        [Top of page](#SiteInfoTop) | [Top of section](#2022Tokyo)
+
+    <!--===================================================================================================================================-->
+    <!--===================================================================================================================================-->
+
+    <!--===================================================================================================================================-->
+    <!--===================================================================================================================================-->
+
+    <!--===================================================================================================================================-->
+    <!--===================================================================================================================================-->
+
+
+    <!--===================================================================================================================================-->
+    <!--===================================================================================================================================-->
   
