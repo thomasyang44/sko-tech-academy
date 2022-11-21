@@ -69,7 +69,8 @@
     ### [Using Workflow to Orchestrate Asynchronous Long-Running RPA Tasks (IBM Only)](https://ibm.box.com/v/ASYNC-RPA-INVOKE-LAB){target="_blank"}
     ### [Datacap Accelerator - Tech Zone](https://techzone.ibm.com/collection/DCA2.5_DC9.1.8){target="_blank"}
     ### [Datacap Accelerator Assets (IBM Only)](https://ibm.ent.box.com/v/IBMDatacapAccelerator){target="_blank"}
-
+    ### [Automation Innovation Workshop (AIW)](https://pages.github.ibm.com/skol/ce-int-guild/accelerators/aiw/#aiw-materials){target="_blank"}
+    
 <!--=========================================================================================================================================-->
 ## Trial Software
 ??? note summary "Expand to view"
