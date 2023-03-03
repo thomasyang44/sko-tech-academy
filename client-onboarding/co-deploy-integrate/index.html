@@ -1,0 +1,2518 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Gerry Baird, Thomas Yang">
+      
+      
+      
+        <link rel="prev" href="../co-instructions/">
+      
+      
+        <link rel="next" href="../co-rebuild/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.0">
+    
+    
+      
+        <title>Deploy and Integrate - SKO Tech Academy - Business Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.402914a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+  <!-- Determine title -->
+  
+  
+    
+  
+
+  <!-- The image needs to have an absolute URL -->
+  
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SKO Tech Academy - Business Automation - Deploy and Integrate" />
+  <meta property="og:description" content="None" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="Noneassets/images/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="568" />
+
+
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#deploy-and-integrate-team" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SKO Tech Academy - Business Automation" class="md-header__button md-logo" aria-label="SKO Tech Academy - Business Automation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SKO Tech Academy - Business Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Deploy and Integrate
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/thomasyang44/sko-tech-academy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../daffy/daffy/" class="md-tabs__link">
+        Daffy Setup
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../deploy/overview/" class="md-tabs__link">
+        Deployment
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../co-overview/" class="md-tabs__link md-tabs__link--active">
+        Client Onboarding
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../troubleshooting/troubleshooting/" class="md-tabs__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../use-cases/accounts-pay/" class="md-tabs__link">
+        Additional Use Cases
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../reference/architecture/" class="md-tabs__link">
+        Reference
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../site-info/site-info/" class="md-tabs__link">
+      Site Info
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../site-info/slack/" class="md-tabs__link">
+      Slack
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<!-- Determine class according to configuration -->
+
+
+  
+
+
+
+<!-- Main navigation -->
+<nav
+  class="md-nav md-nav--primary md-nav--lifted"
+  aria-label=""
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <!--
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../.."
+      title="SKO Tech Academy - Business Automation"
+      class="md-nav__button md-logo"
+      aria-label="SKO Tech Academy - Business Automation"
+      data-md-component="logo"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    SKO Tech Academy - Business Automation
+  </label>
+-->
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/thomasyang44/sko-tech-academy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Render item list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Goals, Statement of Approach, Learning Objectives
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-plan/learning-plan/" class="md-nav__link">
+        Learning Plan including prework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/agenda/" class="md-nav__link">
+        Event Schedule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/process/" class="md-nav__link">
+        Course Breakdown
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/survey/" class="md-nav__link">
+        Survey
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Daffy Setup
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Daffy Setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/daffy/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/requirements/" class="md-nav__link">
+        Pre-Requirements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          Core Steps
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Core Steps
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/step1/" class="md-nav__link">
+        Access your Bastion Server
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/step2/" class="md-nav__link">
+        Install Daffy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/step3/" class="md-nav__link">
+        Create -env.sh
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Deployment
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/daffy-cp4ba/" class="md-nav__link">
+        Daffy Env
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/cluster/" class="md-nav__link">
+        Cluster Build
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/operators/" class="md-nav__link">
+        Operators
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/services/" class="md-nav__link">
+        Services
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/monitor/" class="md-nav__link">
+        Monitor / Credentials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Client Onboarding
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Client Onboarding
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../co-overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../co-instructions/" class="md-nav__link">
+        Instructions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Deploy and Integrate
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Deploy and Integrate
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-links" class="md-nav__link">
+    Installation Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-import-the-ads-ml-model" class="md-nav__link">
+    1. Import the ADS ML Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-import-the-ads-project" class="md-nav__link">
+    2. Import the ADS Project
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-setup-the-rpa-server-optional" class="md-nav__link">
+    3. Setup the RPA Server (optional)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-import-the-workflow-solution" class="md-nav__link">
+    4. Import the Workflow Solution
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-import-objects-into-filenet-content-manager" class="md-nav__link">
+    5. Import objects into FileNet Content Manager
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Import objects into FileNet Content Manager">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perform-the-steps-below-for-each-document-in-the-table-above" class="md-nav__link">
+    Perform the steps below for each document in the table above
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prepare-a-shared-environment-for-labs-optional" class="md-nav__link">
+    Prepare a shared environment for labs (OPTIONAL)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-import-the-business-automation-application-app" class="md-nav__link">
+    6. Import the Business Automation Application app
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-import-the-business-automation-insights-data" class="md-nav__link">
+    7. Import the Business Automation Insights data
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Import the Business Automation Insights data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-prepare-data-and-import-dashboard" class="md-nav__link">
+    7.1 Prepare Data and Import Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-create-and-configure-goals" class="md-nav__link">
+    7.2 Create and configure goals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-prepare-shared-environment" class="md-nav__link">
+    7.3 Prepare shared environment
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-validate-client-onboarding-solution" class="md-nav__link">
+    8. Validate Client Onboarding solution
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-validate-rpa-integration-optional" class="md-nav__link">
+    9. Validate RPA Integration (optional)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../co-rebuild/" class="md-nav__link">
+        Rebuild
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../co-customization/" class="md-nav__link">
+        Customization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../co-team-demonstration/" class="md-nav__link">
+        Demonstration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/troubleshooting/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Additional Use Cases
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Additional Use Cases
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/accounts-pay/" class="md-nav__link">
+        Accounts Payable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/hr-onboard-app/" class="md-nav__link">
+        HR Onboarding App
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/refund-req/" class="md-nav__link">
+        Refund Request
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/onboarding-automation/" class="md-nav__link">
+        Onboarding Automation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/shared-ser/" class="md-nav__link">
+        Shared Services
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/architecture/" class="md-nav__link">
+        Architecture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/links/" class="md-nav__link">
+        Links
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../site-info/site-info/" class="md-nav__link">
+        Site Info
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../site-info/slack/" class="md-nav__link">
+        Slack
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-links" class="md-nav__link">
+    Installation Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-import-the-ads-ml-model" class="md-nav__link">
+    1. Import the ADS ML Model
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-import-the-ads-project" class="md-nav__link">
+    2. Import the ADS Project
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-setup-the-rpa-server-optional" class="md-nav__link">
+    3. Setup the RPA Server (optional)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-import-the-workflow-solution" class="md-nav__link">
+    4. Import the Workflow Solution
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-import-objects-into-filenet-content-manager" class="md-nav__link">
+    5. Import objects into FileNet Content Manager
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Import objects into FileNet Content Manager">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perform-the-steps-below-for-each-document-in-the-table-above" class="md-nav__link">
+    Perform the steps below for each document in the table above
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prepare-a-shared-environment-for-labs-optional" class="md-nav__link">
+    Prepare a shared environment for labs (OPTIONAL)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-import-the-business-automation-application-app" class="md-nav__link">
+    6. Import the Business Automation Application app
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-import-the-business-automation-insights-data" class="md-nav__link">
+    7. Import the Business Automation Insights data
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Import the Business Automation Insights data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-prepare-data-and-import-dashboard" class="md-nav__link">
+    7.1 Prepare Data and Import Dashboard
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-create-and-configure-goals" class="md-nav__link">
+    7.2 Create and configure goals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-prepare-shared-environment" class="md-nav__link">
+    7.3 Prepare shared environment
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-validate-client-onboarding-solution" class="md-nav__link">
+    8. Validate Client Onboarding solution
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-validate-rpa-integration-optional" class="md-nav__link">
+    9. Validate RPA Integration (optional)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="deploy-and-integrate-team">Deploy and Integrate (Team)<a class="headerlink" href="#deploy-and-integrate-team" title="Permanent link">&para;</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>These instructions assume that you have Cloud Pak for Business Automation 21.0.3 installed along with <strong>Open Prediction Service (OPS)</strong>.<br />
+<br>
+The CP4BA cluster that has been provisioned for you for Tech Academy meets these requirements.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You must use the artifacts downloaded from this site.<br />
+<br>
+Do <strong>NOT</strong> use the original SWAT artifacts you may have downloaded previously as these are from a Production deployment of CP4BA and there are subtle differences.</p>
+</div>
+<h2 id="instructions">Instructions<a class="headerlink" href="#instructions" title="Permanent link">&para;</a></h2>
+<p>There are 7 sections that you will need to import and build the <strong>Client Onboarding</strong><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> solution into your team cluster.  </p>
+<p>Below are the recommended tracks so that different members of the team can be the primary driver of the lab. Please designate the primary driver using a team member that may not be the most experienced in each capability. As a recommendation, use the Slack huddle feature so members of the team can clearly see the steps that are being performed.  </p>
+<table>
+<thead>
+<tr>
+<th>Track</th>
+<th>Section(s)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>1<br>2</td>
+<td>Import the ADS ML Model <br> Import the ADS Project</td>
+</tr>
+<tr>
+<td>B</td>
+<td>4<br>5</td>
+<td>Import the Workflow Solution <br> Import objects into FileNet Content Manager</td>
+</tr>
+<tr>
+<td>C</td>
+<td>6<br>7</td>
+<td>Import the Business Automation Application app <br> Import the Business Automation Insights data</td>
+</tr>
+<tr>
+<td>D</td>
+<td>3<br>9</td>
+<td>Setup the RPA Server (optional) <br> Validate the RPA Integration (optional)</td>
+</tr>
+</tbody>
+</table>
+<p>Section 8 - <strong>Validate Client Onboarding solution</strong> should be completed as a team when all the section have been completed.</p>
+<p>You can access the github repo for this event using the link in the top-right corner. This will provide access to PDF's,
+pre-built solutions and lab assets.
+<img alt="git link" src="../images/git-link.png" /></p>
+<h2 id="installation-links">Installation Links<a class="headerlink" href="#installation-links" title="Permanent link">&para;</a></h2>
+<p><a name="installation-links"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>Each team will be allocated a pre-configured CP4BA cluster, hosted using an enterprise account on <a href="https://cloud.ibm.com/" target="_blank"><strong>IBM Cloud</strong></a> to which you have been invited.<br />
+<br>
+Log into <a href="https://cloud.ibm.com/" target="_blank"><strong>IBM Cloud</strong></a> and switch to the enterprise account <strong>2326304 - itztsglenablement01</strong> as shown below:<br />
+<br>
+<img alt="enterprise account" src="../images/account.png" /></p>
+<p>Select the burger icon in the top-left corner and select <strong>OpenShift</strong>, then <strong>Clusters</strong><br />
+<br>
+<img alt="clusters" src="../images/clusters.png" /></p>
+<p>To find your cluster enter your allocated lab name in the search box, (here I'm using <strong>lab01</strong>).<br />
+<br>
+Click on the three dots on the right hand side of the screen adjacent to your cluster and select <strong>OpenShift Web Console</strong>.<br />
+<br>
+<img alt="clusters" src="../images/open_cluster.png" /></p>
+<p>Login to the <strong>OpenShift Web Console</strong> and locate the config map called <strong>icp4adeploy-cp4ba-access-info</strong>.<br />
+<br>
+<img alt="access config map" src="../images/access-config-map.png" /></p>
+<p>Select the <strong>icp4adeploy-cp4ba-access-info</strong> config map then select <strong>YAML</strong> and then <strong>Download</strong><br />
+<br>
+<img alt="access config map yaml" src="../images/access-config-map-yaml.png" /></p>
+<p>You will find all the links and credentials for your deployment. Specify <strong>Enterprise LDAP</strong> when you log into an application.  </p>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A deeper understanding of each of the sections below will be covered in the labs in the <a href="../co-rebuild/" target="_blank"><strong>Rebuild</strong></a> section.</p>
+</div>
+<h2 id="1-import-the-ads-ml-model">1. Import the ADS ML Model<a class="headerlink" href="#1-import-the-ads-ml-model" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-1"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>1. Open the ADS ML Service (Open Prediction Service) in your browser.<br />
+<br>
+To find the link for this component, open the OpenShift web console and select <strong>Networking</strong> then <strong>Routes</strong>. These are all the public links exposed by the OpenShift cluster. To easily find the <strong>ADS ML Service</strong> public link, select <strong>ads-ml-service</strong> from the project dropdown near the top of the screen as shown in the diagram below.<br />
+<br>
+From the <strong>Location</strong> column, click on the link to open the <strong>Swagger UI</strong> for the <strong>ADS ML Service</strong>.<br />
+<br>
+<img alt="ADS ML Route" src="../images/ads-route.png" /></p>
+<p>2. Under <code>manage</code>, expand the <code>POST /models Add Model</code> section<br />
+<img alt="adl-ml-services-all-model" src="../images/sko-ads-ml-service-add-model.png" /></p>
+<p>3. Click on <code>Try it out</code></p>
+<p>4. Use the contents of the <a href="../Solution%20Exports/Automation%20Decision%20Services/ML/addModel.json">addModel.json</a> file as the request body. It's easier if you right click on the link and open it in a new tab.</p>
+<p>5. Click on <code>Execute</code> and scroll down to the actual server repsonse (scroll past the example)</p>
+<p>6. Copy the ID of the created model from the response body. It is typically <code>1</code> as this ADS ML Service is currently empty.<br />
+<img alt="image-2021ID" src="../images/sko-ads-ml-model-id.png" width="600" />  </p>
+<p>7. We've added the meta-data of the model, now we must add the model binary. Under <code>manage</code>, expand the <code>POST /models/{model_id} Add Binary</code> section<br />
+<img alt="image-20210601221731687" src="../images/sko-ads-ml-service-add-model-binary.png" /></p>
+<p>8. Click on <code>Try it out</code></p>
+<p>9. Use the ID copied from the last API call, typically <code>1</code>.</p>
+<p>10. In the request body, keep <code>pickle</code> selected as the <code>format</code></p>
+<p>11. Download this <a href="../Solution%20Exports/Automation%20Decision%20Services/ML/service-payment-default-risk-v0-archive.pkl">pickle file</a> onto your computer and use it as as the selected file<br />
+<img alt="image-2021Binary" src="../images/sko-ads-ml-add-binary.png" width="600" />  </p>
+<p>12. Click on <code>Execute</code>. The response code is 201. The model named <code>service-payment-default-risk</code> is succesfully deployed.
+The following instructions validate that this deployment can be safely executed.</p>
+<p>13. Under <code>run</code>, expand the <code>/predictions</code> section</p>
+<p>14. Click on <code>Try it out</code></p>
+<p>15. Use the contents of the <a href="../Solution%20Exports/Automation%20Decision%20Services/ML/runModel.json">runModel.json</a> file as the request body<br />
+<br>
+Note: from your browser, please ensure to select <strong>Raw Data</strong> to view/copy the request body:<br />
+<img alt="image-2021Binary" src="../images/sko-ads-ml-run-model-raw.png" width="300" />  </p>
+<p>16. Update the <code>$PREDICTION-ID$</code> in the json to the <code>ID</code> copied before, typically this is <code>1</code>.</p>
+<p>17. Click on <code>Execute</code>. The result should be as follows:</p>
+<div class="codehilite"><pre><span></span><code>`{ &quot;result&quot;: {  &quot;predictions&quot;: 0,  &quot;scores&quot;: [   0.9068544064724676,   0.0931455935275324  ]}}`
+</code></pre></div>
+
+<p><img alt="image-2021Check" src="../images/sko-ads-ml-check.png" /></p>
+<p><strong><em>Tip</em></strong> Keep this browser window open, you'll need the URL in the next step.  </p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+</div>
+<p>ℹ️ &nbsp; You have successfully imported the ADS ML Service, please proceed to the next section</p>
+<p><a href="#deploy-integrate-1">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h2 id="2-import-the-ads-project">2. Import the ADS Project<a class="headerlink" href="#2-import-the-ads-project" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-2"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The ADS Project requires an empty github repo and a git API token, if your team doesn't have git knowledge please contact an instructor.
+Public github seems to be the most reliable.<br />
+<br>
+Create a <strong>Personal Access Token</strong> under <strong>Developer Settings</strong>.<br />
+If you need additional guidance, please refer to section
+<a href="../../troubleshooting/troubleshooting/#faq-91">Item 91 - Creating a git repo for ADS</a> in the <a href="../../troubleshooting/troubleshooting">Troubleshooting</a> section.  </p>
+</div>
+<ol>
+<li>
+<p>Download <a href="../Solution%20Exports/Automation%20Decision%20Services/ClientOnboardingDecisions.zip">ClientOnboardingDecisions.zip</a></p>
+</li>
+<li>
+<p>Create an empty GIT repo and get its URL and API Key</p>
+</li>
+<li>
+<p>Log into your CP4BA cluster and Open IBM Business Automation Studio, select LDAP authentication at the login screen.</p>
+</li>
+<li>
+<p>Click to the menu in the upper-left corner and go to <code>Design</code> &rarr; <code>Business Automations</code></p>
+</li>
+<li>
+<p>Click on <code>Create</code> &rarr; <code>Decision Automations</code></p>
+</li>
+<li>
+<p>Provide <code>Client Onboarding</code> as the project name and click <code>Create</code></p>
+</li>
+<li>
+<p>Once the editor loads, click on <code>Import</code> and import the previously downloaded file ClientOnboardingDecisions.zip into the project<br />
+<br>
+<img alt="ads-import" src="../images/sko-ads-import.png" width="400" /></p>
+</li>
+<li>
+<p>Click on <code>Connect to Github</code> icon<br />
+<br>
+<img alt="image-2021gitconnect" src="../images/sko-ads-git-connect.png" width="400" /></p>
+</li>
+<li>
+<p>Enter the URL and API key of the GIT repo created previously</p>
+</li>
+<li>
+<p>Click on <code>Connect</code> in the top-right corner</p>
+</li>
+<li>
+<p>Go to the <code>Machine learning providers</code> tab</p>
+</li>
+<li>
+<p>Click on <code>New</code> in the top-right corner</p>
+</li>
+<li>
+<p>In the dialog, select <code>Open Prediction Service</code> as the <code>Type</code></p>
+</li>
+<li>
+<p>Enter <code>OPS</code> as the name</p>
+</li>
+<li>
+<p>Use the ADS ML Service (Open Prediction Service) URL in the <code>URL</code> field
+    <strong>Note:</strong> This is the same URL you used for importing the predictive model without the <code>/docs</code> suffix at the end.</p>
+</li>
+<li>
+<p>Click on <code>Test Connection</code><br />
+<br>
+<img alt="image-2021provider" src="../images/sko-ads-add-provider.png" width="400" /></p>
+</li>
+<li>
+<p>Click on <code>Save</code></p>
+</li>
+<li>
+<p>Go back to the <code>Client Onboarding</code> project<br />
+<br>
+<img alt="image-2021connect" src="../images/sko-ads-co-project.png" width="400" /></p>
+</li>
+<li>
+<p>Open <code>Client Onboarding Decisions</code></p>
+</li>
+<li>
+<p>Click on <code>Machine learning scoreboard</code></p>
+</li>
+<li>
+<p>Click on <code>Connect</code> and select <code>OPS</code> as the machine learning provider</p>
+</li>
+<li>
+<p>Expand the <code>service-payment-default-risk</code> ML model and select the <code>service-payment-default-risk</code> deployment<br />
+<br>
+<img alt="image-2021connect" src="../images/sko-ads-connect-ml.png" width="800" /></p>
+</li>
+<li>
+<p>Click <code>Next</code> twice to <code>Test invocation</code></p>
+</li>
+<li>
+<p>Test the decision by entering the following values:</p>
+<ul>
+<li>clientAnnualRevenue: 15708854</li>
+<li>clientExistenceDuration: 12</li>
+<li>clientEmployeeNumber: 3</li>
+<li>clientIndustry: 0</li>
+</ul>
+</li>
+<li>
+<p>Click on <code>Run</code></p>
+</li>
+<li>
+<p>Verify that the output matches the following:<br />
+<br>
+<code>{
+    "result": {
+        "predictions": 1,
+        "scores": [
+            0.014675209287711932,
+            0.9853247907122881
+        ]
+    }
+}</code>
+<br>
+<br>
+<img alt="image-2021execute" src="../images/sko-ads-ml-execute.png" width="800" />  </p>
+</li>
+<li>
+<p>Click on <code>Next</code></p>
+</li>
+<li>
+<p>Click on <code>Generate from test output</code> then click <code>OK</code>. Verify that <code>predictions</code> and <code>scores</code> are added to the output schema.</p>
+</li>
+<li>
+<p>Click on <code>Apply</code> in the upper-right corner</p>
+</li>
+<li>
+<p>Under <code>Share changes</code> at the top, click on the number of changes<br />
+<br>
+<img alt="image-2021deploy" src="../images/sko-ads-share-changes.png" /></p>
+</li>
+<li>
+<p>Click on <code>Share</code> and then <code>Share</code> again in the popup</p>
+</li>
+<li>
+<p>In the <code>View history</code> tab, click on <code>Version +</code> and create a new version named <code>v21</code></p>
+</li>
+<li>
+<p>In the <code>Deploy</code> tab, expand <code>v21</code>, click on <code>Deploy</code> and wait for deployment to complete<br />
+<img alt="image-2021deploy" src="../images/sko-ads-deploy.png" width="800" /></p>
+</li>
+<li>
+<p>Back in the studio, go to <code>Design</code> &rarr; <code>Business Automations</code> &rarr;<code>Decisions</code> and click on the <code>Client Onboarding</code> Decision project   </p>
+</li>
+<li>
+<p>Select the three-dot menu for <code>v21</code> and click on <code>Publish</code> and then click on <code>Publish</code> again to make the automation service available without restricting access.  </p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully imported the ADS project.</p>
+</div>
+<p><a href="#deploy-integrate-2">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h2 id="3-setup-the-rpa-server-optional">3. Setup the RPA Server (optional)<a class="headerlink" href="#3-setup-the-rpa-server-optional" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-3"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Note:</strong> You only need to perform these steps if you want to demo the RPA execution. You can choose to skip the execution of the RPA bot when you import the Workflow solution.</p>
+<ol>
+<li>Request auto-onboarding onto the SWAT RPA Tenant using this <a href="http://159.122.122.170:8080/RPA4SKO/">form</a></li>
+<li>Reserve an environment from <a href="https://techzone.ibm.com/collection/cloud-pak-for-business-automation-cp-4-ba-onboarding-rpa">here</a> using your IBMID.
+   <img alt="image-2021gitconnect" src="../images/sko-RPA-LandingPage.png" /></li>
+<li>Click <strong>Environments</strong> on the left panel, and then click <strong>computer icon</strong>.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-Environments.png" /></li>
+<li>Click <strong>Reserve for now</strong>, then click <strong>Submit</strong>.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-ReserveNow.png" /></li>
+<li>On the reservation page, make the appropriate selections as below. Once done, click <strong>Submit</strong>.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-ReservationDetails.png" /></li>
+<li>Once you have reserved an environment, you will receive an email with a link to access the management console for the environment including a password (<strong>Desktop Access Information</strong>). It also contains a <strong>URL to access the IBM RPA Rest Service remotely (Application Service Information)</strong>, please copy the Application Service Information URL and change <strong>HTTP</strong> to <strong>HTTPS</strong>. This will be used in the Workflow solution.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-ReservationEmail.png" /></li>
+<li>Click the <strong>Desktop Access link</strong> above to open your environment. When you are prompted to enter environment password, enter the desktop password above. Wait a few minutes, your environment will be started as below.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-EnvironmentConsole.png" /></li>
+<li>Click <strong>VM 5 – RPA</strong> to open the RPA client environment.  </li>
+<li>Start Firefox, click <strong>IBM RPA license</strong> from the bookmark toolbar to open IBM RPA license manager.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-StartLicenseManager.png" /></li>
+<li>You will see the message <strong>Not Licensed</strong>. Click <strong>Activate</strong> button to open the License Activation window.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-InActiveLicense.png" /></li>
+<li>Enter your RPA <strong>license ID</strong> and <strong>Password</strong>, (ask the instructors for this) then click the <strong>Activate</strong> button. Once after the license is activated, you should be able to see the number of licenses available for each component.<br />
+<img alt="image-2021gitconnect" src="../images/sko-RPA-ActivateLicense.png" /></li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully set up the RPA server, please proceed to the next section</p>
+</div>
+<p>Once you have setup the RPA server, <a href="#deploy-integrate-4">import the Workflow solution</a>.</p>
+<p><a href="#deploy-integrate-3">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h2 id="4-import-the-workflow-solution">4. Import the Workflow Solution<a class="headerlink" href="#4-import-the-workflow-solution" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-4"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<ol>
+<li>
+<p><span style="color:Red">ℹ️ <strong>[SKO UPDATE]</strong></span> Download the workflow app. (This version contains minor
+changes to account for environmental differences).
+<a href="../Solution%20Exports/Business%20Automation%20Workflow/Client_Onboarding%20-%20v4.3.twx">Workflow twx file</a>.</p>
+</li>
+<li>
+<p>Login to <strong>IBM Business Automation Studio</strong></p>
+</li>
+<li>
+<p>In the top-left corner, click on the menu icon and go to <strong>Business automations</strong>.<br />
+<img alt="wf-studio-automations" src="../images/sko-wf-studio-automations.png" /></p>
+</li>
+<li>
+<p>Click on <strong>Workflow</strong>.<br />
+<img alt="wf-workflow-option" src="../images/sko-wf-workflow-option.png" /></p>
+</li>
+<li>
+<p>Click on the <strong>Import</strong> button.</p>
+</li>
+<li>
+<p>Click on <strong>Browse</strong> and select the twx file downloaded in Step 1.</p>
+</li>
+<li>
+<p>Click on OK.</p>
+</li>
+<li>
+<p>Once the import completes, click on tile for the <strong>Client Onboarding</strong> Workflow project (Don't click on the open button but just the tile).</p>
+</li>
+<li>
+<p>Click on the 3-dot menu next to the Open button on the right and select <strong>Open in Process Designer</strong>
+<img alt="wf-open-in-pd" src="../images/sko-wf-open-in-pd.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The version numbers and dates in the screenshots maybe different from what you see in your system</p>
+</div>
+</li>
+<li>
+<p>In Process Designer, click on the <strong>Environment Variables</strong> tab.</p>
+</li>
+<li>
+<p>Fill out credentials for a gmail account in the <strong>emailID</strong> and <strong>emailPassword</strong> fields under the <strong>Default</strong> column. Note that the password here must be an <a href="https://support.google.com/accounts/answer/185833?hl=en">App Password</a> and not your gmail password.
+This gmail account is used by the solution to send outbound emails. If you don't have a gmail account configured
+with an app password you should create one now or use the default one provided.<br />
+<img alt="wf-env-variables" src="../images/sko-wf-env-variables.png" /></p>
+</li>
+<li>
+<p>If you are showcasing ADP as a part of the scenario, enter the ADP host, username, password, and projectID in their respective fields. If you are not, set <strong>adpEnabled</strong> to false.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>ℹ️ &nbsp; For 2022 SKO Tech Academy, we will not be showcasing ADP in this scenario  </p>
+</div>
+</li>
+<li>
+<p>For the <strong>documentUploadPage</strong> environment variable, use the URL for Business Automation Navigator for CP4BA and add "?desktop=CODocumentUpload". You will add this desktop to the navigator in a later step.
+The default value is from another environment and illustrates a typical value but you must build yours using your navigator URL.</p>
+</li>
+<li>
+<p>The RPA bot is currently only executed if the user running the scenario matches the <strong>rpaBotExecutionUser</strong>. You can change this by updating the value of the <strong>rpaBotExecutionUser</strong> environment variable.
+In this environment the rpaBotExecution user will be called cp4admin, so only set this value to cp4admin once your option RPA server and configuration is complete otherwise the workflow will encounter errors.
+It is recommeded that you DO NOT set this value to be cp4admin until you have validated that the end to end COB scenario works without RPA first.</p>
+</li>
+<li>
+<p>If you are executing the RPA bot, update the value for the <strong>rpaServer</strong> environment variable from the environment you reserved using the previous step.</p>
+</li>
+<li>
+<p>The default target object store name is <strong>TARGET</strong>. If you have changed this, update the value for the <strong>tosName</strong> environment variable. Demo environments have the default target object store name of <strong>TARGET</strong>.</p>
+</li>
+<li>
+<p>In the top-right corner, click on the <strong>Finish Editing</strong> button.<br />
+<img alt="wf-finish-editing" src="../images/sko-wf-finish-editing.png" /></p>
+</li>
+<li>
+<p>In the top-left corner, click on <strong>Business automations</strong> to go back to the BA Studio.<br />
+<img alt="wf-back-to-studio" src="../images/sko-wf-back-to-studio.png" /></p>
+</li>
+<li>
+<p>Click on <strong>Open</strong> for the <strong>Client Onboarding</strong> Workflow automation project to open it in the Case Builder.<br />
+<img alt="wf-co-open" src="../images/sko-wf-co-open.png" /></p>
+</li>
+<li>
+<p>In the top-right corner, click on the <strong>Deploy</strong> button. The deployment will take a few seconds. Wait until there is a green checkmark next to the button.<br />
+<img alt="wf-deploy-solution" src="../images/sko-wf-deploy-solution.png" /></p>
+</li>
+<li>
+<p>In the top-left corner, click on <strong>Automations</strong> to go back to the BA Studio.<br />
+<img alt="wf-case-builder-automations" src="../images/sko-wf-case-builder-automations.png" /></p>
+</li>
+<li>
+<p>Click on the tile for the <strong>Client Onboarding</strong> Workflow automation project.</p>
+</li>
+<li>
+<p>Click on the 3-dot menu for latest version of the project and click on <strong>Publish</strong>.<br />
+<img alt="wf-publish" src="../images/sko-wf-publish.png" /></p>
+</li>
+<li>
+<p>Close the dialog that shows that the automation services were published successfully.</p>
+</li>
+<li>
+<p>In the top-left corner, click on the menu icon and go to <strong>Design</strong> &rarr; <strong>Business automations</strong>.</p>
+</li>
+<li>
+<p>Click on <strong>Create</strong> &rarr; <strong>External</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Business Automation Workflow</strong> under <strong>Select the connection type</strong>. Note: this is now done automatically.</p>
+</li>
+<li>
+<p>Click on <strong>Next</strong>. Note: this is now done automatically.</p>
+</li>
+<li>
+<p>In the <strong>Connection name</strong> field, enter <strong>External BAW System</strong>.</p>
+</li>
+<li>
+<p><span style="color:Red">ℹ️ <strong>[SKO UPDATE]</strong></span> In the <strong>System URL</strong> field, use the Cloudpak Dashboard URL you retrieved from the confing map add /bas to the end of this URL.</p>
+</li>
+<li>
+<p><span style="color:Red">ℹ️ <strong>[SKO UPDATE]</strong></span> Enter the cp4admin credentials you retrieved from the confing map and click <strong>Next</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Select a process application</strong> dropdown, select <strong>Client Onboarding</strong>.</p>
+</li>
+<li>
+<p>Select the checkbox for <strong>New Client Onboarding Request</strong>.<br />
+<img alt="studio-external-aut-service" src="../images/sko-studio-external-aut-service.png" /></p>
+</li>
+<li>
+<p>Click on <strong>Next</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Name</strong> field, enter <strong>Client_Onboarding_Workflows_External</strong>.</p>
+</li>
+<li>
+<p>Click on <strong>Publish</strong>.</p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully published the workflow solution.</p>
+</div>
+<p><a href="#deploy-integrate-41">Go to top of subsection</a> | <a href="#deploy-integrate-4">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h2 id="5-import-objects-into-filenet-content-manager">5. Import objects into FileNet Content Manager<a class="headerlink" href="#5-import-objects-into-filenet-content-manager" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-5"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You must complete the <strong><a href="#deploy-integrate-4">Import the Workflow Solution</a></strong> prior to this step as the document subclasses are created during the workflow import</p>
+</div>
+<ol>
+<li>
+<p>Login to ACCE using the URL for "Content Platform Engine administration" You can switch to english locale if needed by clicking on the persona icon in upper right corner, and select <code>Change Language and Locale Settings</code>.  </p>
+</li>
+<li>
+<p>Open the target object store (<code>TARGET</code> OR <code>BAWTOS</code>), by clicking on it. In the Tech Academy systems this is <code>TARGET</code> so don't be alarmed by the image below that shows <code>BAWTOS</code>. <br />
+<img alt="ContentOpenTOS" src="../images/sko-content-open-bawtos.png" />  </p>
+</li>
+<li>
+<p>Create a new folder named <code>Client Documents</code> under the root folder.  </p>
+<ol>
+<li>
+<p>On the navigation area on the left side, open <code>Browse</code> and click on <code>Root folder</code>.<br />
+<img alt="ContentOpenRootFolder" src="../images/sko-content-open-rootfolder.png" />  </p>
+</li>
+<li>
+<p>Click on the <code>Actions</code> pulldown menu and click on <code>New Folder</code>.<br />
+<img alt="ContentCreateFolder" src="../images/sko-content-create-folder.png" />  </p>
+</li>
+<li>
+<p>The <code>Define New Folders Dialog</code> opens on the right side. Set the Folder name to <code>Client Documents</code>. Then click on <code>Next &gt;</code> two times, then on <code>Finish</code>.<br />
+<img alt="ContentCreateDocuments" src="../images/sko-content-create-client-documents.png" />  </p>
+</li>
+</ol>
+</li>
+<li>
+<p>In the <code>Client Documents</code> folder, create the documents from the table below (see instructions below the table on how to add a document).
+It is recommended that you open each PDF and image in a new browser tab and save the PDF or image from that tab :  </p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Document</th>
+<th>Document Title</th>
+<th>Document Class</th>
+<th>Document Properties</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Banking%20Information%20-%20Automation%20Elite%20Inc.pdf">Banking Information - Automation Elite Inc.pdf</a></td>
+<td>Banking Information - Automation Elite Inc</td>
+<td>Banking Information</td>
+<td>Client Name: Automation Elite Inc.<br />Account Number: 1179476345</td>
+</tr>
+<tr>
+<td><a href="../Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Certificate%20of%20Incorporation%20-%20Automation%20Elite%20Inc.pdf">Certificate of Incorporation - Automation Elite Inc.pdf</a></td>
+<td>Certificate of Incorporation - Automation Elite Inc</td>
+<td>Client Document</td>
+<td>Client Name: Automation Elite Inc.</td>
+</tr>
+<tr>
+<td><a href="../Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Utility%20Bill%20-%20Automation%20Elite%20Inc.pdf">Utility Bill - Automation Elite Inc.pdf</a></td>
+<td>Utility Bill - Automation Elite Inc</td>
+<td>Utility Bill</td>
+<td>Client Name: Automation Elite Inc.<br />Service Address: 3974 Carson St, Lansing, MI 48911</td>
+</tr>
+<tr>
+<td><a href="../Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/June%20Marie%20-%20Driver%27s%20License.png">June Marie - Driver's License.png</a></td>
+<td>June Marie - Driver's License</td>
+<td>Client Document</td>
+<td>Client Name: Automation Elite Inc.<br /></td>
+</tr>
+<tr>
+<td><a href="../Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Banking%20Information.pdf">Legacy Consulting - Banking Information.pdf</a></td>
+<td>Legacy Consulting - Banking Information</td>
+<td>Banking Information</td>
+<td>Client Name: Legacy Consulting<br />Account Number: 7250512345</td>
+</tr>
+<tr>
+<td><a href="../Solution%20Exports/FileNet%20Content%20Manager/Client%20Documents/Legacy%20Consulting%20-%20Certificate%20of%20Incorporation.pdf">Legacy Consulting - Certificate of Incorporation.pdf</a></td>
+<td>Legacy Consulting - Certificate of Incorporation</td>
+<td>Client Document</td>
+<td>Client Name: Legacy Consulting</td>
+</tr>
+</tbody>
+</table>
+<h3 id="perform-the-steps-below-for-each-document-in-the-table-above">Perform the steps below for each document in the table above<a class="headerlink" href="#perform-the-steps-below-for-each-document-in-the-table-above" title="Permanent link">&para;</a></h3>
+<p><a name="deploy-integrate-51"></a></p>
+<details class="note summary">
+<summary>Expand to view (<em>REQUIRED</em>)</summary>
+<p>a. In the navigation area, navigate to "Browse", and "Root Folder". Click on "Client Documents" to bring up the contents of the folder. From the opened "Client Documents" folder, invoke "New Document" from the Actions pulldown menu.  </p>
+<p><img alt="ContentCreateDoc1" src="../images/sko-content-createdocs1.png" />  </p>
+<p>b. In the New Document wizard, on the first page provide the document title, and select the Document Class from the table. Then click "Next".  </p>
+<p><img alt="ContentCreateDoc2" src="../images/sko-content-createdocs2.png" />  </p>
+<p>c. On the "Document Content Source" page, click on "Add" in the "Content Element" section. Use the popup window to upload the document. Click "Browse" and locate the document on your harddisk, then click on "Add Content" to close the dialog. Then click "Next" on the "New Document" wizard.  </p>
+<p><img alt="ContentCreateDoc3" src="../images/sko-content-createdocs3.png" />  </p>
+<p>d. On the next page, provide the property values, according to the table above. No further changes are required, so press "Next" until the final page, then "Finish" and then "Close".  </p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, proceed to <a href="#deploy-integrate-6">Import the Business Automation Application into IBM Business Automation Navigator</a>.</p>
+</div>
+</details>
+<h3 id="prepare-a-shared-environment-for-labs-optional">Prepare a shared environment for labs (<em>OPTIONAL</em>)<a class="headerlink" href="#prepare-a-shared-environment-for-labs-optional" title="Permanent link">&para;</a></h3>
+<p><a name="deploy-integrate-51"></a></p>
+<details class="note summary">
+<summary>Expand to view (<em>NOT REQUIRED FOR SKO TECH ACADEMY</em>)</summary>
+<div class="admonition warning">
+<p>⚠️ &nbsp; These steps are not required for SKO Tech Academy.  If you are using an environment that will be shared by multiple <strong>teams</strong>, it is important to disable certain permissions so that the objects defined for the Client Onboarding scenario are immutable.</p>
+</div>
+<ol>
+<li>
+<p>For the <code>Client Document</code> document class, update the security settings: remove the shared group (eg: cp4bausers) from the <strong>Default Instance Security</strong>. Update the <strong>Security</strong> and lower the access level for the cp4bausers group to <code>Modify properties</code>.</p>
+<ol>
+<li>
+<p>On the Navigation area on the left side, open <code>Data Design</code>, <code>Classes</code>, <code>Document</code> and click on the <code>Client Document</code> class to bring up its properties on the right side.<br />
+<img alt="ContentSecurityID1" src="../images/sko-content-security-id1.png" /></p>
+</li>
+<li>
+<p>Select the <code>Default Instance Security</code> tab. Select the checkbox in front of the line with the shared user group (eg: cp4bausers) group and click on <code>Remove</code>. Then click on <code>Save</code>.<br />
+<img alt="ContentSecurityID2" src="../images/sko-content-security-id2.png" /></p>
+</li>
+<li>
+<p>Select the <code>Security</code> tab. Select the checkbox in front of the line with the shared user group (eg: cp4bausers) and click on <code>Edit...</code>. In the dialog, set the permission group to <code>Modify properties</code>, then click on <code>Ok</code>. Click on <code>Save</code> again on the <code>Client Document</code> class properties.<br />
+<img alt="ContentSecurityID3" src="../images/sko-content-security-id3.png" /></p>
+</li>
+</ol>
+</li>
+<li>
+<p>Expand the <code>Client Document</code> class on the left and repeat the previous step for the <code>Banking Information</code> and <code>Utility Bill</code> document classes.</p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully imported the objects required for the solution into FileNet Content Manager. Next, proceed to <a href="#deploy-integrate-6">Import the Business Automation Application into IBM Business Automation Navigator</a>.</p>
+</div>
+</details>
+<p><br></p>
+<p><a href="#deploy-integrate-5">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h2 id="6-import-the-business-automation-application-app">6. Import the Business Automation Application app<a class="headerlink" href="#6-import-the-business-automation-application-app" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-6"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><span style="color:Red">ℹ️ <strong>[SKO UPDATE]</strong></span> Regenerate the applications from their twx source files before importing them as apps into Navigator.  </p>
+<ol>
+<li>
+<p>Download the the two twx files shown below :</p>
+<ul>
+<li><a href="../Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Request%20-%206.twx">Client_Onboarding_Request - 6.twx</a>  </li>
+<li><a href="../Solution%20Exports/Business%20Automation%20Application/Client_Onboarding_Document_Upload%20-%20v1.3.twx">Client_Onboarding_Document_Upload - v1.3.twx</a></li>
+</ul>
+<p>In the top-left corner, click on the menu icon and go to <strong>Business applications</strong>.<br />
+<img alt="business applications" src="../images/business-applications.png" width="300" />  </p>
+<p>Click on import and import both applications, one at at a time.</p>
+<p>Once both applications have been imported go into each application and export a zip file.<br />
+<img alt="business app export" src="../images/business-app-export.png" /><br />
+Save these exported zip files somewhere you can find them, you'll need them for the next step.</p>
+</li>
+<li>
+<p>Login to the <strong>Navigator admin desktop</strong> (URL should end with <code>desktop=admin</code>). Use the URL for Business
+Automation Navigator for CP4BA and add <code>?desktop=admin</code></p>
+</li>
+<li>
+<p>Click on <strong>Connections</strong> in the menu on the left.</p>
+<p><img alt="nav-connections" src="../images/sko-nav-connections.png" /></p>
+</li>
+<li>
+<p>Select the the <strong>APPENGO</strong> connection and click on the <strong>Edit</strong> button.</p>
+<p><img alt="nav-edit-appengo" src="../images/sko-nav-edit-appengo.png" /></p>
+</li>
+<li>
+<p>Click on the the <strong>Connect...</strong> button.</p>
+</li>
+<li>
+<p>Click on the <strong>Applications</strong> tab.</p>
+</li>
+<li>
+<p>Click on the <strong>Import</strong> button.</p>
+<p><img alt="nav-import-app" src="../images/sko-nav-import-app.png" /></p>
+</li>
+<li>
+<p>Choose the the previously downloaded file <strong>ClientOnboardingRequest.zip</strong> and click on the <strong>Import</strong> button. If an information dialog pops up after import, you can close it.</p>
+<p><strong>NOTE: </strong>The target object store name specified in the Application is <strong>TARGET</strong>. If you are using a production environment, the target store name could be different (eg: <strong>BAWTOS</strong>). In that case, the 2<sup>nd</sup> page of the application won't show any documents as it looks for the documents in the TARGET object store. To fix this, you can import the application template in Studio from the main SWAT COB Repo and rebuild the app.</p>
+</li>
+<li>
+<p>Click on the 3-dot menu for the <strong>Client Onboarding</strong> application and select <strong>Details</strong>,</p>
+</li>
+<li>
+<p>Click on the <strong>Permissions</strong> tab.</p>
+</li>
+<li>
+<p>Click on the <strong>Add Teams</strong> button.</p>
+</li>
+<li>
+<p>In the popup, enter <strong>#</strong> in the <strong>Filter by Teams</strong> field and hit <strong>Enter</strong>.</p>
+<p><img alt="nav-app-permissions" src="../images/sko-nav-app-permissions.png" /></p>
+</li>
+<li>
+<p>Select the <strong>#AUTHENTICATED-USERS</strong> team and click on the right-facing arrow to move the team to the <strong>Selected</strong> column.</p>
+</li>
+<li>
+<p>Click on the <strong>Add</strong> button.</p>
+</li>
+<li>
+<p>Click on the <strong>Close</strong> button.</p>
+</li>
+<li>
+<p>Similarly, import the application <strong>ClientOnboardingDocumentUpload.zip</strong> and add the <strong>#AUTHENTICATED-USERS</strong> team to it.</p>
+</li>
+<li>
+<p>Close the <strong>APPENGO</strong> and <strong>Connections</strong> tabs at the top.</p>
+</li>
+<li>
+<p>In the <strong>Desktops</strong> tab, click on the <strong>Import</strong> button.</p>
+</li>
+<li>
+<p>Download the two desktop properties files   </p>
+<ul>
+<li><a href="../Solution%20Exports/Business%20Automation%20Navigator/ClientOnboardingRequestDesktop.properties">Client Onboarding Request Desktop</a>  </li>
+<li><a href="../Solution%20Exports/Business%20Automation%20Navigator/CODocumentUploadDesktop.properties">CO Document Upload Desktop</a>  </li>
+</ul>
+</li>
+<li>
+<p>Click the import button to import each desktop. Select each file in turn and click import, you can ignore any warnings.</p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully imported the Business Automation Application app</p>
+</div>
+<p><a href="#deploy-integrate-6">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h2 id="7-import-the-business-automation-insights-data">7. Import the Business Automation Insights data<a class="headerlink" href="#7-import-the-business-automation-insights-data" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-7"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.</p>
+</div>
+<h3 id="71-prepare-data-and-import-dashboard">7.1 Prepare Data and Import Dashboard<a class="headerlink" href="#71-prepare-data-and-import-dashboard" title="Permanent link">&para;</a></h3>
+<p><a name="deploy-integrate-72"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>These instructions describe how to update the BAI sample data so that it can be uploaded to your CP4BA cluster.
+If you need more guidance to update the BAI data please refer to
+<a href="../../troubleshooting/troubleshooting/#faq-84">Item 84 - Preparing BAI Data</a> in the <a href="../../troubleshooting/troubleshooting">Troubleshooting</a> section,
+where you will find a more prescriptive set of instructions to complete steps 1, 2 and 3 below.  </p>
+<p>It is recommended to read the outline instructions below to understand the goal of this exercise, but then use the
+steps in the troubleshooting section if you are not confident. If you use the alternative instructions in the
+troubleshooting section for steps 1-3, please return here to complete steps 4-6.
+<br></p>
+</div>
+<p>High level instructions :    </p>
+<ol>
+<li>
+<p>Download the contents of the following directory - <a href="https://github.com/thomasyang44/sko-tech-academy/tree/main/docs/client-onboarding/Solution%20Exports/Business%20Automation%20Insights/" target="_blank">Business Automation Insights</a>.</p>
+</li>
+<li>
+<p>Replace the index names in the downloaded files:</p>
+<p>In the <code>process-data.json</code> and <code>case-data.json</code> files, the index name parameter must match the index names
+of your environment. The index names are dependent on the date of the install. For example, one of the
+index names in the provided data files is <code>icp4ba-bai-process-summaries-completed-idx-ibm-bai-2021.11.11-000001</code>.
+The date element <code>2021.11.11</code> must be replaced by the date in your new clusters index name. The image
+below shows an example of the data we need to update. You can use the tool of your choice to perform a
+global find &amp; replace to update all the dates so they reflect the index names in your cluster. The
+VSCode editor works well, but any code editor should work. Section 84 of the troubleshooting guide
+describes this process and uses the sed command line tool to perform the substitution.  </p>
+<p><img alt="data replacement" src="../images/data_replace.png" /></p>
+<p>You can get the index names for your environment using the following command (Replace <code>{esadmin}</code> with the elasticsearch admin user ID, replace <code>{espassword}</code> with the elastichsearch admin user password &amp; replace <code>{eshost}</code> with the elasticsearch URL):</p>
+<div class="codehilite"><pre><span></span><code>curl <span class="err">-</span>k <span class="err">-</span>XGET <span class="err">-</span>u <span class="p">{</span>esadmin<span class="p">}:{</span>espassword<span class="p">}</span> <span class="err">&#39;</span><span class="p">{</span>eshost<span class="p">}</span><span class="l">/_aliases</span><span class="err">&#39;</span>
+</code></pre></div>
+
+</li>
+<li>
+<p>Once you have updated the sample data files, from the folder where you've downloaded the files and replaced the index names, run the following script to import the data (replace <code>{esadmin}</code> with the elasticsearch admin user ID, replace <code>{espassword}</code> with the elastichsearch admin user password &amp; replace <code>{eshost}</code> with the elasticsearch URL):</p>
+<div class="codehilite"><pre><span></span><code>ES_ADMIN={esadmin}
+ES_PASSWORD={espassword}
+ES_HOST={eshost}
+
+curl<span class="w"> </span>-k<span class="w"> </span>-XPOST<span class="w"> </span>-H<span class="w"> </span>&#39;Content-Type:<span class="w"> </span>application/json&#39;<span class="w"> </span>-u<span class="w"> </span><span class="cp">${</span><span class="n">ES_ADMIN</span><span class="cp">}</span>:<span class="cp">${</span><span class="n">ES_PASSWORD</span><span class="cp">}</span><span class="w"> </span><span class="cp">${</span><span class="n">ES_HOST</span><span class="cp">}</span>/_bulk<span class="w"> </span>--data-binary<span class="w"> </span>@case-data.json
+curl<span class="w"> </span>-k<span class="w"> </span>-XPOST<span class="w"> </span>-H<span class="w"> </span>&#39;Content-Type:<span class="w"> </span>application/json&#39;<span class="w"> </span>-u<span class="w"> </span><span class="cp">${</span><span class="n">ES_ADMIN</span><span class="cp">}</span>:<span class="cp">${</span><span class="n">ES_PASSWORD</span><span class="cp">}</span><span class="w"> </span><span class="cp">${</span><span class="n">ES_HOST</span><span class="cp">}</span>/_bulk<span class="w"> </span>--data-binary<span class="w"> </span>@process-data.json
+curl<span class="w"> </span>-k<span class="w"> </span>-XPOST<span class="w"> </span>-H<span class="w"> </span>&#39;Content-Type:<span class="w"> </span>application/json&#39;<span class="w"> </span>-u<span class="w"> </span><span class="cp">${</span><span class="n">ES_ADMIN</span><span class="cp">}</span>:<span class="cp">${</span><span class="n">ES_PASSWORD</span><span class="cp">}</span><span class="w"> </span><span class="cp">${</span><span class="n">ES_HOST</span><span class="cp">}</span>/_bulk<span class="w"> </span>--data-binary<span class="w"> </span>@ads-data.json
+</code></pre></div>
+
+</li>
+<li>
+<p>Open <strong>Business Performance Center</strong> and click <strong>Import.</strong>  </p>
+<p><img alt="BAI-1" src="../images/sko-BAI-1.png" /></p>
+</li>
+<li>
+<p>Click <strong>Browse.</strong></p>
+</li>
+<li>
+<p>Select <strong>Client Onboarding Completed.json</strong> (downloaded earlier) and click <strong>Import</strong>.  </p>
+<p><img alt="BAI-2" src="../images/sko-BAI-2.png" /></p>
+</li>
+</ol>
+<p><a href="#deploy-integrate-71">Go to top of subsection</a> | <a href="#deploy-integrate-7">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h3 id="72-create-and-configure-goals">7.2 Create and configure goals<a class="headerlink" href="#72-create-and-configure-goals" title="Permanent link">&para;</a></h3>
+<p><a name="deploy-integrate-72"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<ol>
+<li>
+<p>Open <strong>Business Perfomance Center</strong></p>
+</li>
+<li>
+<p>Click on the <strong>Goals</strong> tab  </p>
+<p><img alt="BAIGoals" src="../images/sko-BAI-goals.png" /></p>
+</li>
+<li>
+<p>Click <strong>Create</strong>  </p>
+<p><img alt="BAICreateGoal" src="../images/sko-BAI-create-goal.png" /></p>
+</li>
+<li>
+<p>For Name enter <strong>Focus Corp's top Client Onboarding KPI Completed</strong></p>
+</li>
+<li>
+<p>For Description enter <strong>Focus on the three top KPI identified by senior management team</strong></p>
+</li>
+<li>
+<p>For Priority select <strong>High</strong></p>
+</li>
+<li>
+<p>Click Goal color to <strong>Purple</strong></p>
+</li>
+<li>
+<p>Your Goal definition should look exactly like this:  </p>
+<p><img alt="BAIGoalDefinition" src="../images/sko-BAI-goal-definition.png" /></p>
+</li>
+<li>
+<p>Click <strong>Save</strong></p>
+</li>
+<li>
+<p>Click on the <strong>Dashboards</strong> tab</p>
+</li>
+<li>
+<p>Open the <strong>Client Onboarding Completed</strong> dashboard</p>
+</li>
+<li>
+<p>For the <strong>Average Revenue from Services Fees for Approved Clients</strong> visualization, click on the <strong>Edit</strong> icon.  </p>
+<p><img alt="BAIAddGoal" src="../images/sko-BAI-add-goal-to-viz.png" /></p>
+</li>
+<li>
+<p>For the <strong>Business goal</strong> field, select <strong>Focus Corp's top Client Onboarding KPI</strong> from the drop-down list  </p>
+<p><img alt="BAISelectGoal" src="../images/sko-BAI-select-goal.png" /></p>
+</li>
+<li>
+<p>Click <strong>Done</strong></p>
+</li>
+<li>
+<p>Repeat steps 11-14 to add the same goal to the <strong>Highest Service Fee by Industry Sector</strong> visualization  </p>
+</li>
+</ol>
+<p><img alt="BAIGoalCompleted" src="../images/sko-BAI-goal-completed.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully imported the Business Automation Insights Data  </p>
+</div>
+<p><a href="#deploy-integrate-72">Go to top of subsection</a> | <a href="#deploy-integrate-7">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h3 id="73-prepare-shared-environment">7.3 Prepare shared environment<a class="headerlink" href="#73-prepare-shared-environment" title="Permanent link">&para;</a></h3>
+<p><a name="deploy-integrate-73"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<ol>
+<li>
+<p>Open <strong>Business Performance Center</strong></p>
+</li>
+<li>
+<p>On <strong>Client Onboarding Completed</strong> dashboard select the <strong>3-dot menu</strong> and click <strong>Share with everyone</strong>.</p>
+<p><img alt="BAI-3" src="../images/sko-BAI-3.png" /></p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>ℹ️ &nbsp; You have successfully shared the environment</p>
+</div>
+<p><a href="#deploy-integrate-73">Go to top of subsection</a> | <a href="#deploy-integrate-7">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<p><a href="#deploy-integrate-7">Go to top of section</a> | <a href="#instructions">Go to top of page</a></p>
+</details>
+<h2 id="8-validate-client-onboarding-solution">8. Validate Client Onboarding solution<a class="headerlink" href="#8-validate-client-onboarding-solution" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-7"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><span style="color:Red">ℹ️ <strong>[SKO UPDATE]</strong></span> This is a quick test to validate the main parts of the solution.
+This test does not include RPA integration</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>There is a defect in CP4BA 21.0.3 IF008 affecting Case/BAI, events from Case are not emitted. If you are building dashboards make sure these work with preloaded data and don't depend on something you've added to the Case solution. Process events are unaffected.</p>
+</div>
+<ol>
+<li>
+<p>Open the Client Onboarding desktop. The URL will begin with the URL from the config map called
+<code>Business Automation Navigator for CP4BA</code>. Add <code>?desktop=ClientOnboarding</code> to the end of this URL, for example:
+<code>https://cpd-cp4ba-starter.cp4ba-tech-academy-400310-64b8809ea4bdf3ac103ec2bdb80f1d21-0000.us-south.containers.appdomain.cloud/icn/navigator/?desktop=ClientOnboarding</code></p>
+</li>
+<li>
+<p>Enter <code>el</code> in the client name, a type-ahead search should find Automation Elite Inc. Select Automation Elite Inc then click search. The values for the client should be populated.
+ <img alt="client-search" src="../images/validation_1.png" /></p>
+</li>
+<li>
+<p>Scroll down to Service Onboarding and select Finance the Corporate Credit Card. Click Calculate Services Fee to trigger a calculation in ADS.
+<img alt="Service Fees" src="../images/validation_2.png" /></p>
+</li>
+<li>
+<p>Click Review Documents and the screen below will appear. It may take a few moments for the screen to appear and the documents to load.
+<img alt="Review Documents" src="../images/validation_3.png" /></p>
+</li>
+<li>
+<p>Click on Submit Onboarding Request and a confirmation screen will be displayed with a unique reference.<br />
+<img alt="Confirmation" src="../images/validation_4.png" /></p>
+</li>
+<li>
+<p>Load the BAW Process Inspector, Load Process Admin and select Process Inspector from the top menu bar. As this is
+a new cluster the only activity will be from from the Onboarding Request just sibmitted.  Click the refresh button
+and you should see a similar list of tasks as those below.  TODO - help t
+<img alt="Process Admin" src="../images/validation_5.png" /></p>
+</li>
+<li>
+<p>TODO<br />
+<img alt="Process Inspector" src="../images/validation_6.png" /></p>
+</li>
+<li>
+<p>TODO<br />
+<img alt="Email" src="../images/validation_7.png" /></p>
+</li>
+</ol>
+</details>
+<h2 id="9-validate-rpa-integration-optional">9. Validate RPA Integration (optional)<a class="headerlink" href="#9-validate-rpa-integration-optional" title="Permanent link">&para;</a></h2>
+<p><a name="deploy-integrate-7"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>If you have provisioned an RPA server and you'd like to test the integration follow these steps. Please make
+sure you have requested a userID on the SWAT tenant using this <a href="http://159.122.122.170:8080/RPA4SKO/">link</a></p>
+<ol>
+<li>
+<p>Refer to your TechZone reservation email and identify the URL for your RPA node<br />
+<img alt="Email" src="../images/rpa_val_1.png" /></p>
+</li>
+<li>
+<p>Login to your RPA node and open Firefox and click on the IBM RPA License bookmark. Click Activate.
+<img alt="Email" src="../images/rpa_val_2.png" /></p>
+</li>
+<li>
+<p>Enter the details of the RPA license (ask an instructor, this should be in Slack). <br />
+<img alt="Email" src="../images/rpa_val_3.png" /></p>
+</li>
+<li>
+<p>Open RPA Studio and enter your email address and password to the SWAT RPA tenant, refer to the note above.<br />
+<img alt="Email" src="../images/rpa_val_4.png" /></p>
+</li>
+<li>
+<p>Open the Client Onboarding Workflow in Process Designer and update the environment variables with your RPA reservation.
+Make sure the user is cp4admin, also make sure you use https. Save these settings.
+<img alt="Email" src="../images/rpa_val_5.png" /></p>
+</li>
+<li>
+<p>Run the onboarding scenario described in section 8 with these updated settings with your RPA VM running. If the RPA VM restarts you'll need
+to repeat the activation in step 2. If correctly configured you should see bot activity in the RPA VM.
+<img alt="Email" src="../images/rpa_val_8.png" /></p>
+</li>
+</ol>
+</details>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>The Client Onboarding assets have been adapted from the
+<a href="https://github.com/IBM/cp4ba-labs/tree/main/21.0.3" target="_blank">IBM TechJam 21.0.3</a>
+materials as developed by the IBM SWAT Team&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+
+
+<!-- Footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <nav class="md-footer__inner md-grid" aria-label="">
+
+        <!-- Link to previous page -->
+        
+        <a href="../co-instructions/" class="md-footer__link md-footer__link--prev" rel="prev">
+            <div class="md-footer__button md-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+                <div class="md-ellipsis">
+                    <span class="md-footer__direction">
+                        Previous
+                    </span>
+                    Instructions
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- Link to next page -->
+        
+        <a href="../co-rebuild/" class="md-footer__link md-footer__link--next" rel="next">
+            <div class="md-footer__title">
+                <div class="md-ellipsis">
+                    <span class="md-footer__direction">
+                        Next
+                    </span>
+                    Rebuild
+                </div>
+            </div>
+            <div class="md-footer__button md-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+        </a>
+        
+    </nav>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            <div class="md-footer-column">
+                <div class="md-footer-text">Site licensed under <a
+                        href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div>
+            </div>
+            <div class="md-footer-column">
+                <!-- Copyright and theme information -->
+                
+                <div class="md-footer-text">
+                    Copyright © 2022 IBM
+                </div>
+                
+            </div>
+            <div class="md-footer-social">
+                <a href="https://github.com/ibm-cloud-architecture/refarch-dba" target="_blank" rel="noopener"
+                    title="Digital Business Automation" class="md-footer-social__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                        </path>
+                    </svg>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.top", "navigation.sections", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+  
+      <script src="../../assets/javascripts/bundle.ce72ebac.min.js"></script>
+      
+    
+
+
+  </body>
+</html>

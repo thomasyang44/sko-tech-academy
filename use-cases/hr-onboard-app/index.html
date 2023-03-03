@@ -1,0 +1,1840 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Gerry Baird, Thomas Yang">
+      
+      
+      
+        <link rel="prev" href="../accounts-pay/">
+      
+      
+        <link rel="next" href="../refund-req/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.0">
+    
+    
+      
+        <title>HR Onboarding App - SKO Tech Academy - Business Automation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.402914a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+
+  <!-- Determine title -->
+  
+  
+    
+  
+
+  <!-- The image needs to have an absolute URL -->
+  
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SKO Tech Academy - Business Automation - HR Onboarding App" />
+  <meta property="og:description" content="None" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="Noneassets/images/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="568" />
+
+
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hr-onboarding-application" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SKO Tech Academy - Business Automation" class="md-header__button md-logo" aria-label="SKO Tech Academy - Business Automation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SKO Tech Academy - Business Automation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              HR Onboarding App
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/thomasyang44/sko-tech-academy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../daffy/daffy/" class="md-tabs__link">
+        Daffy Setup
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../deploy/overview/" class="md-tabs__link">
+        Deployment
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../client-onboarding/co-overview/" class="md-tabs__link">
+        Client Onboarding
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../troubleshooting/troubleshooting/" class="md-tabs__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../accounts-pay/" class="md-tabs__link md-tabs__link--active">
+        Additional Use Cases
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../reference/architecture/" class="md-tabs__link">
+        Reference
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../site-info/site-info/" class="md-tabs__link">
+      Site Info
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../site-info/slack/" class="md-tabs__link">
+      Slack
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<!-- Determine class according to configuration -->
+
+
+  
+
+
+
+<!-- Main navigation -->
+<nav
+  class="md-nav md-nav--primary md-nav--lifted"
+  aria-label=""
+  data-md-level="0"
+>
+
+  <!-- Site title -->
+  <!--
+  <label class="md-nav__title" for="__drawer">
+    <a
+      href="../.."
+      title="SKO Tech Academy - Business Automation"
+      class="md-nav__button md-logo"
+      aria-label="SKO Tech Academy - Business Automation"
+      data-md-component="logo"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    SKO Tech Academy - Business Automation
+  </label>
+-->
+
+  <!-- Repository information -->
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/thomasyang44/sko-tech-academy" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sko-tech-academy
+  </div>
+</a>
+    </div>
+  
+
+  <!-- Render item list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Goals, Statement of Approach, Learning Objectives
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-plan/learning-plan/" class="md-nav__link">
+        Learning Plan including prework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/agenda/" class="md-nav__link">
+        Event Schedule
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/process/" class="md-nav__link">
+        Course Breakdown
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../agenda/survey/" class="md-nav__link">
+        Survey
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Daffy Setup
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Daffy Setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/daffy/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/requirements/" class="md-nav__link">
+        Pre-Requirements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          Core Steps
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Core Steps
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/step1/" class="md-nav__link">
+        Access your Bastion Server
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/step2/" class="md-nav__link">
+        Install Daffy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daffy/step3/" class="md-nav__link">
+        Create -env.sh
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Deployment
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Deployment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/daffy-cp4ba/" class="md-nav__link">
+        Daffy Env
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/cluster/" class="md-nav__link">
+        Cluster Build
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/operators/" class="md-nav__link">
+        Operators
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/services/" class="md-nav__link">
+        Services
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deploy/monitor/" class="md-nav__link">
+        Monitor / Credentials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Client Onboarding
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Client Onboarding
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client-onboarding/co-overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client-onboarding/co-instructions/" class="md-nav__link">
+        Instructions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client-onboarding/co-deploy-integrate/" class="md-nav__link">
+        Deploy and Integrate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client-onboarding/co-rebuild/" class="md-nav__link">
+        Rebuild
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client-onboarding/co-customization/" class="md-nav__link">
+        Customization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client-onboarding/co-team-demonstration/" class="md-nav__link">
+        Demonstration
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshooting/troubleshooting/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Additional Use Cases
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Additional Use Cases
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../accounts-pay/" class="md-nav__link">
+        Accounts Payable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          HR Onboarding App
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        HR Onboarding App
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hr-onboarding-application" class="md-nav__link">
+    HR Onboarding Application
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started-lab" class="md-nav__link">
+    Getting Started Lab
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started Lab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-scenario-introduction-hr-onboarding-application" class="md-nav__link">
+    1. Scenario Introduction - HR Onboarding Application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-login-and-setup-your-environment" class="md-nav__link">
+    2. Login and Setup Your Environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-tour-business-automation-studio" class="md-nav__link">
+    3. Tour Business Automation Studio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-create-an-automation-service" class="md-nav__link">
+    4. Create an automation service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-preview-onboarding-application-template" class="md-nav__link">
+    5. Preview onboarding application template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-add-automation-services-to-your-application" class="md-nav__link">
+    6. Add automation services to your application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-preview-the-completed-application" class="md-nav__link">
+    7. Preview the completed application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-summary" class="md-nav__link">
+    8. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#full-demo-narration" class="md-nav__link">
+    Full Demo Narration
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../refund-req/" class="md-nav__link">
+        Refund Request
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../onboarding-automation/" class="md-nav__link">
+        Onboarding Automation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shared-ser/" class="md-nav__link">
+        Shared Services
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/architecture/" class="md-nav__link">
+        Architecture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/links/" class="md-nav__link">
+        Links
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../site-info/site-info/" class="md-nav__link">
+        Site Info
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../site-info/slack/" class="md-nav__link">
+        Slack
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hr-onboarding-application" class="md-nav__link">
+    HR Onboarding Application
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started-lab" class="md-nav__link">
+    Getting Started Lab
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started Lab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-scenario-introduction-hr-onboarding-application" class="md-nav__link">
+    1. Scenario Introduction - HR Onboarding Application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-login-and-setup-your-environment" class="md-nav__link">
+    2. Login and Setup Your Environment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-tour-business-automation-studio" class="md-nav__link">
+    3. Tour Business Automation Studio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-create-an-automation-service" class="md-nav__link">
+    4. Create an automation service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-preview-onboarding-application-template" class="md-nav__link">
+    5. Preview onboarding application template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-add-automation-services-to-your-application" class="md-nav__link">
+    6. Add automation services to your application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-preview-the-completed-application" class="md-nav__link">
+    7. Preview the completed application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-summary" class="md-nav__link">
+    8. Summary
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#full-demo-narration" class="md-nav__link">
+    Full Demo Narration
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h2 id="hr-onboarding-application">HR Onboarding Application<a class="headerlink" href="#hr-onboarding-application" title="Permanent link">&para;</a></h2>
+<p><strong>an IBM Cloud Pak for Business Automation use case</strong></p>
+<hr />
+<h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+<p><strong>Use Case Overview:</strong> Existing HR applications are not easily modified and often require the IT team to work with the vendor and make code changes.  There are often higher priority development projects that deliver customer value than HR.  The result: adhoc spreadsheets, emails and local file shares and a disorganized process inhibits the flow of applicants and HR teams are frustrated with slow results.  It's time for an easy to use low-code build environment where HR can create dynamic applications that connect to existing systems and deliver value quickly.</p>
+<p><strong>Choose an option:</strong></p>
+<ul>
+<li><strong>Cloud Pak for Business Automation as a Service demo environment (predeployed for IBMers only):</strong> continue to the <a href="#getting-started-lab">Getting Started Lab</a> section below.</li>
+<li><strong>Install Yourself:</strong> To deploy HR Onboarding Application on your own environment, and technical architecture information, see the <a href="https://github.com/ibm-cloud-architecture/dba-hr-onboarding-app.git" target="_blank">dba-hr-onboarding-app</a> git repository which includes the required deployment artifacts.</li>
+</ul>
+<p><img alt="10" src="images/Slide2.png" /></p>
+<hr />
+<h1 id="getting-started-lab">Getting Started Lab<a class="headerlink" href="#getting-started-lab" title="Permanent link">&para;</a></h1>
+<p><strong>Are you ready to build low-code business applications?</strong></p>
+<h2 id="1-scenario-introduction-hr-onboarding-application">1. Scenario Introduction - HR Onboarding Application<a class="headerlink" href="#1-scenario-introduction-hr-onboarding-application" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-1"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Demo Video</strong></p>
+<p>In this demo, you will build a low-code business application that connect to existing systems for workflow and decisions</p>
+<p><a href="http://ibm.biz/cp4ba-hr-onboarding-video" target="_blank"><img src="./images/hrOnboardingAppThumbnail.png"/></a></p>
+<details class="note summary">
+<summary>Demo Outline</summary>
+<p><strong>Demo Outline</strong></p>
+<p><a href="#full-demo-narration">Full Demo Narration</a></p>
+<ol>
+<li>Use Case Overview</li>
+<li>Focus Corp Demo Dashboard review</li>
+<li>Application Assembler persona<ol>
+<li>Automation service creation</li>
+<li>Preview onboarding application template</li>
+<li>Create application from template</li>
+<li>Add automation services to application</li>
+<li>Preview application</li>
+</ol>
+</li>
+<li>HR Specialist persona<ol>
+<li>Run the application</li>
+</ol>
+</li>
+<li>Use case review and value of low-code applications</li>
+</ol>
+</details>
+<details class="note summary">
+<summary>Discovery Map</summary>
+<p><img alt="HR Onboarding App - Discovery Map" src="images/hrOnboardingApp-discoveryMap.png" /></p>
+</details>
+<details class="note summary">
+<summary>Process Diagram</summary>
+<p><img alt="HR Onboarding App - Process Diagram" src="images/hrOnboardingApp-diagram.png" /></p>
+</details>
+<p><a href="#lab-section-1">Go to top</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<h2 id="2-login-and-setup-your-environment">2. Login and Setup Your Environment<a class="headerlink" href="#2-login-and-setup-your-environment" title="Permanent link">&para;</a></h2>
+<p><a name="lab-section-2"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Select an option for your environment</strong></p>
+<details class="note summary">
+<summary>Option 2A - Using a Cloud Pak for Business Automation as a Service environment (predeployed for IBMers only) ?</summary>
+<p><a name="lab-section-2a"></a></p>
+<p>IBM maintains multiple internal SaaS tenants for IBMers only.</p>
+<p>Please login to IBM Technology Zone and navigate to <a href="https://techzone.ibm.com/collection/5fdfcf8b99cf35001ee4954d" target="_blank">here</a> to learn about these <strong>demo environments</strong> via the <strong>User Guide</strong>.</p>
+<p>1. Once you have access to an environment, please continue here:<br />
+&nbsp; &nbsp; &nbsp; • &nbsp; Enablement Users, this demo is not available on enablement tenants at this time.<br />
+&nbsp; &nbsp; &nbsp; • &nbsp; Demo Users, once your account administrator completes the below setup and provides you access, please continue.<br />
+&nbsp; &nbsp; &nbsp; • &nbsp; Administrator Users, please reference the <a href="https://techzone.ibm.com/collection/business-automation-saas#tab-2" target="_blank">Administration Guide</a> (IBM only) for any additional setup information including onboarding users.<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &gt; Note: Navigate to the <strong>Demo tenants</strong> tab after login.</p>
+<p>2. Login to your Cloud Pak for Business Automation as a Service demo environment <a href="http://automationcloud.ibm.com" target="_blank">here</a> to access your portal.</p>
+<p>3. Open the menu in the upper left.</p>
+<p>4. Select <strong>Production</strong> and then <strong>Run</strong>.</p>
+<p>5. Click the <strong>Process Portal</strong> tile</p>
+<p>6. Wait for the portal to load in a new browser window/tab</p>
+<p><img alt="11" src="images/Slide4.png" /></p>
+<p>7. On the left menu, under the <strong>Dashboards</strong>, click <strong>Show more/less…</strong></p>
+<p>8. Click <strong>Focus Corp Demos Dashboard</strong></p>
+<p>9. Wait for the dashboard to load on the right</p>
+<p><img alt="12" src="images/Slide5.png" /></p>
+<p>10. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.</p>
+<p><img alt="13" src="images/Slide6.png" /></p>
+<p>11. When ready, click the green <strong>HR Onboarding App</strong> button to launch the use case.</p>
+<p><a href="#lab-section-2a">Go to top (Option 2a)</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<details class="note summary">
+<summary>Option 2B - Are You Using Your Own Environment (not a SaaS demo) ?</summary>
+<p><a name="lab-section-2b"></a></p>
+<p>1. Standard Users, once your account administrator completes the below setup and provides you access, please continue.</p>
+<p>2. Administrator Users, expand the following section to access additional information to setup access for yourself and others in your environment:</p>
+<details class="note summary">
+<summary>Additional Administrator Setup For Your Own Environment</summary>
+<p>See the <a href="https://github.com/ibm-cloud-architecture/dba-hr-onboarding-app.git" target="_blank">dba-hr-onboarding-app</a> git repository to deploy on your own platform.</p>
+</details>
+<blockquote>
+<p>Standard Users, continue here...</p>
+</blockquote>
+<p>3. Ask your administrator for the Process Portal URL and your login credentials</p>
+<p>4. Wait for the desktop to load in a new browser window/tab (it can take some time) and log in</p>
+<p><img alt="13" src="images/Slide4.png" /></p>
+<p>5. Start by reviewing the available demos, they all represent a business automation use case so you can easily get started.</p>
+<p>6. When ready, click the <strong>HR Onboarding App</strong> tile to launch the demo and continue to <a href="#lab-section-3">the next section</a>.</p>
+<p><a href="#lab-section-2b">Go to top (Option 2b)</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<p><a href="#lab-section-2">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a></p>
+</details>
+<h2 id="3-tour-business-automation-studio">3. Tour Business Automation Studio<a class="headerlink" href="#3-tour-business-automation-studio" title="Permanent link">&para;</a></h2>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Create your own business app and drive automation</strong></p>
+<p><br/>
+You are now a member of the HR team that has some interest and experience building simple apps such as office scripts or web sites and would like to help your HR Specialist colleagues and make their jobs easier.
+As an Application Assembler, you decide to create a low-code business appllication that connects to existing systems for workflow and decisions in a unified experience.</p>
+<p><img alt="13" src="images/Slide8.png" /></p>
+<ol>
+<li>Check the tabs to learn more about the demo<ol>
+<li><strong>Storyboard Outline</strong></li>
+<li><strong>Demo Discovery Map</strong></li>
+<li><strong>Demo Diagram</strong></li>
+</ol>
+</li>
+</ol>
+<p><img alt="13" src="images/Slide9.png" /></p>
+<p>2. Navigate to the <strong>Launch the Demo</strong> tab and then click on the picture of the <strong>Application Assembler</strong></p>
+<p><img alt="13" src="images/Slide10.png" /></p>
+<p>3. Allow Studio to load and then take a look around.</p>
+<p><img alt="13" src="images/Slide11.png" /></p>
+<p><a href="#introduction">Go to top</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<h2 id="4-create-an-automation-service">4. Create an automation service<a class="headerlink" href="#4-create-an-automation-service" title="Permanent link">&para;</a></h2>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>Before you build your application, let's find and connect to some existing workflow and decision services to use within the application.  Studio can connect to external business automation services you already have today and unify them in a single application user experience with the low-code Application Designer.</p>
+<ol>
+<li>In the middle, click <strong>Automations</strong> to load the business automations section</li>
+</ol>
+<p><img alt="13" src="images/Slide12.png" /></p>
+<p>2. Click <strong>Create</strong> -&gt; <strong>External</strong> and wait for the dialog to appear (this can take multiple seconds the first time you use the interface).</p>
+<p><img alt="13" src="images/Slide13.png" /></p>
+<p>3. Select to create your automation service <strong>From a new connection</strong> unless another person using the environment already created a connection to the Business Automation Workflow instance that contains the HR Onboarding Application Services process application.</p>
+<p><img alt="13" src="images/Slide14.png" /></p>
+<p>4. Enter your connection information as below and please be exact as the format is important.  Note, depending on your version of CP4BA, the form below may be different and not have all the fields such as Scheme or Port.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Field</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Connection Name</td>
+<td align="left">any name you will recognize</td>
+</tr>
+<tr>
+<td align="left">Scheme</td>
+<td align="left"><code>https</code></td>
+</tr>
+<tr>
+<td align="left">Host</td>
+<td align="left">the URL for your BAW environment, this is currently the following format <code>https://&lt;hostname&gt;/dba/dev</code> so for example <code>https://cp4ba-trial01.automationcloud.ibm.com/dba/dev</code></td>
+</tr>
+<tr>
+<td align="left">Port</td>
+<td align="left"><code>443</code></td>
+</tr>
+<tr>
+<td align="left">Username</td>
+<td align="left">the username of a non-SSO service credential created by the administrator of your BAW environment</td>
+</tr>
+<tr>
+<td align="left">Password</td>
+<td align="left">the password of a non-SSO service credential created by the administrator of your BAW environment</td>
+</tr>
+</tbody>
+</table>
+<p>5. When done, click <strong>Next</strong></p>
+<p><img alt="13" src="images/Slide15.png" /></p>
+<p>6. Select the <strong>HR Onboarding Application Services</strong> process application in the drop down.</p>
+<p>7. Select all operation checkboxes and click <strong>Next</strong>.</p>
+<p><img alt="13" src="images/Slide16.png" /></p>
+<p>8. Update the name and description as desired and click <strong>Publish</strong></p>
+<p><img alt="13" src="images/Slide17.png" /></p>
+<blockquote>
+<p>NOTE: be sure to remember the name as you will use this in a future section.</p>
+</blockquote>
+<p>9. Wait to receive an <strong>External service published</strong> notification in the upper right before proceeding.</p>
+<p><img alt="13" src="images/Slide18.png" /></p>
+<p><a href="#introduction">Go to top</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<h2 id="5-preview-onboarding-application-template">5. Preview onboarding application template<a class="headerlink" href="#5-preview-onboarding-application-template" title="Permanent link">&para;</a></h2>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>Now that you published the external automation services, you are ready to create your busienss application.  You decide to look for a template to accelerate application assembly.</p>
+<ol>
+<li>Click the upper left menu and select <strong>Applications</strong></li>
+</ol>
+<p><img alt="13" src="images/Slide19.png" /></p>
+<p>2. Click <strong>Templates</strong> to show all the templates in the Studio environment.</p>
+<p>3. Locate or search for the <strong>Onboarding Application template</strong> and click <strong>Preview</strong> on the tile.</p>
+<blockquote>
+<p>NOTE: it may take some time for the template to be deployed and run, more than 10 or 20 seconds in some cases.</p>
+<p>NOTE: the application will launch in a new browser window/tab so be sure to look for the browser notification and allow it to launch.</p>
+</blockquote>
+<p><img alt="13" src="images/Slide20.png" /></p>
+<p>Explore the application, including:</p>
+<p>4a. Try using the filters or search on the left side to find a candidate.</p>
+<p>4b. Once you select a Candidate it will load a details page (that can take a moment).</p>
+<p>4c. Try out some of the drop downs for status on the right side.</p>
+<p><img alt="13" src="images/Slide21.png" /></p>
+<p>5. Once you are done, close that browser window/tab and come back to the Studio page.</p>
+<p>6. Click <strong>Create</strong> -&gt; <strong>Application</strong> (this can take multiple seconds the first time you use the interface).</p>
+<p><img alt="13" src="images/Slide22.png" /></p>
+<p>7. Select the <strong>Onboarding Application template</strong> and give it a name and optional purpose.</p>
+<p><img alt="13" src="images/Slide23.png" /></p>
+<p><strong>Congratulations, you created your business application!</strong></p>
+<p><br/></p>
+<p><a href="#introduction">Go to top</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<h2 id="6-add-automation-services-to-your-application">6. Add automation services to your application<a class="headerlink" href="#6-add-automation-services-to-your-application" title="Permanent link">&para;</a></h2>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>Now that you have an application, you can add the automation services you published so you can use them in the low-code build environment.</p>
+<ol>
+<li>On the right, locate the <strong>All views</strong> drop down under <strong>Drag a component to your page</strong> header, click and select <strong>Automation service</strong> at the bottom.</li>
+</ol>
+<p><img alt="13" src="images/Slide24.png" /></p>
+<p>2. Click the <strong>Add +</strong> button</p>
+<p><img alt="13" src="images/Slide25.png" /></p>
+<p>3. Click to select the name of the automation service you published earlier and then select all the operations and click <strong>Next</strong>.</p>
+<p><img alt="13" src="images/Slide26.png" /></p>
+<p>4. Now that you the automation service is in the palette on the right, click and drag it into the application as pictured below (or you can choose another location if you prefer).</p>
+<p><img alt="13" src="images/Slide27.png" /></p>
+<p>5. First, select the operation at the top as <strong>HR_Send_Offer_Letter</strong>.</p>
+<p><img alt="13" src="images/Slide28.png" /></p>
+<p>6. Now, we need to map data stored in the application (provided by the template) to the automation service so it will be sent to the HR Send Offer Letter process.  Make the following changes for the first variable row in the <strong>Inputs</strong> section:</p>
+<p>6a. under <strong>Variable options</strong>, click the drop down and select <strong>Use existing variable</strong></p>
+<p>6b. under <strong>Variable names</strong>, click <strong>Select</strong> and expand <strong>selectedCandidateDetails</strong> and select <strong>fullname</strong>.</p>
+<p>6c. under <strong>Create field</strong>, uncheck the box as we do not need to see the candidates name since it is already in the upper left corner.</p>
+<p>7. Repeat the same three steps above, selecting <strong>selectedCandidateDetails -&gt; personalEmail</strong> for the second step.</p>
+<p><img alt="13" src="images/Slide29.png" /></p>
+<p>8. Click <strong>Done</strong>.</p>
+<p><strong> A new button is added to the application that will launch the process and send the two variables automatically! </strong></p>
+<p>9. Feel free to click the button and edit it using the palette that appears directly below.  I would recommend using the pencil to change the name and you can also use the paint bucket to change the color.</p>
+<p><img alt="13" src="images/Slide30.png" /></p>
+<blockquote>
+<p>Next, we will add the second automation service to the application, a decision service to calculate a suggested salary based on information from the candidate and position.</p>
+</blockquote>
+<p>10. Use the right palette to click and drag the same automation service on to the application, this time below the blue header (or in a location you prefer).</p>
+<p><img alt="13" src="images/Slide31.png" /></p>
+<p>11. Select the operation at the top as <strong>Calculate_Candidate_Salary_Range</strong>.</p>
+<p>12. Map the data stored in the application to the automation service as before so the business rules can use it to make the decision.  Make the following changes for the first variable row in the <strong>Inputs</strong> section:</p>
+<p>12a. under <strong>Variable options</strong>, click the drop down and select <strong>Use existing variable</strong></p>
+<p>12b. under <strong>Variable names</strong>, click <strong>Select</strong> and expand <strong>selectedCandidateDetails -&gt; jobDetails -&gt; jobStatus</strong>.</p>
+<p>12c. under <strong>Create field</strong>, uncheck the box.</p>
+<p>13. Repeat the same three steps above for the remaining three variables using the following values for the second step:</p>
+<p>13a. <strong>selectedCandidateDetails -&gt; country</strong></p>
+<p>13b. <strong>selectedCandidateDetails -&gt; jobDetails -&gt; jobLevel</strong></p>
+<p>14c. <strong>selectedCandidateDetails -&gt; employmentType</strong></p>
+<p>14. For the output variable at the bottom, you may retain the defaults to <strong>Create a new variable</strong> and <strong>Create field on page</strong>.</p>
+<p>15. Click <strong>Done</strong>.</p>
+<p><img alt="13" src="images/Slide32.png" /></p>
+<blockquote>
+<p>The result is that three elements are added to the page: a button to launch the service and two decimal/numeric fields for the output of minimum and maximum.</p>
+</blockquote>
+<p>16. If you wish, you can perform some layout to move them around.  For example, right click on the button just added and create a horizontal layout or panel before it, then drag the three elements into it.</p>
+<p>17. You may also try clicking on one of the numeric fields such as <strong>Minimum</strong> and clicking the gear to configure it, try to locate <strong>Format</strong> and set it to <strong>Currency</strong> to automatically show a currency symbol for your country.</p>
+<p><strong>Congratulations, you added a workflow and decision service to your application, all without writing any code!</strong></p>
+<p><img alt="13" src="images/Slide33.png" /></p>
+<p><a href="#introduction">Go to top</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<h2 id="7-preview-the-completed-application">7. Preview the completed application<a class="headerlink" href="#7-preview-the-completed-application" title="Permanent link">&para;</a></h2>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>Let's preview the application again and try out the automation services you added.</p>
+<ol>
+<li>In the upper right, click <strong>Preview</strong>.</li>
+</ol>
+<blockquote>
+<p>NOTE: as before, it may take some time for the template to be deployed and the application will launch in a new browser window/tab which may be blocked by your browser.</p>
+</blockquote>
+<p>2. Search or select a requisition and then a candidate to open the candidate details page to see the automation services you added.</p>
+<p><img alt="13" src="images/Slide34.png" /></p>
+<p>3. Click the second button you added for the Calculate Candidate Salary Range decision service, the values should be updated in the UI within a few seconds.</p>
+<p><img alt="13" src="images/Slide35.png" /></p>
+<p>4. Click the first button you added for the HR Send Offer Letter process, this will launch a process in the background.</p>
+<p><img alt="13" src="images/Slide36.png" /></p>
+<p>5. To see the process task you will need to open the workflow server's task list which is visible in a few locations:</p>
+<details class="note summary">
+<summary>Option 1 - a Cloud Pak for Business Automation as a Service (predeployed for IBMers only)</summary>
+<ul>
+<li>go back to the SaaS portal that you first logged into and use the menu at the upper left to select <strong>Development</strong> (only select Production if that is the envionment you used for tour automation service connection) and then <strong>Run</strong> and finally the <strong>Navigator</strong> tile.</li>
+<li>Use the upper left menu in Navigator and look for the <strong>Work Dashboard</strong> feature to load the task list.</li>
+<li>If the above feature is not available in Navigator, you may also load the <strong>Process Portal</strong> tile from the Development -&gt; Run page.
+    <img alt="13" src="images/Slide37.png" /></li>
+</ul>
+</details>
+<details class="note summary">
+<summary>Option 2 - your own environment</summary>
+<p>open the Process Portal or Navigator -&gt; Work Dashboard for the Business Automation Workflow server you used in the external automation service connection above.</p>
+</details>
+<p>6. Once you locate the <strong>Send Offer Letter</strong> task you can click to open it and see the data passed from your application to the process.</p>
+<p><img alt="13" src="images/Slide38.png" /></p>
+<p><a href="#introduction">Go to top</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<h2 id="8-summary">8. Summary<a class="headerlink" href="#8-summary" title="Permanent link">&para;</a></h2>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p>In just a few minutes, you created, tested and published a new, low-code business application from a template and connected it to existing workflow and decision automation services.  This low-code experience enables greater control and simplicity in application authoring while accelerating time to value for the business teams that use the applications.</p>
+<p><a href="#introduction">Go to top</a> | <a href="#getting-started-lab">Go to Getting Start Lab</a></p>
+</details>
+<hr />
+<h1 id="full-demo-narration">Full Demo Narration<a class="headerlink" href="#full-demo-narration" title="Permanent link">&para;</a></h1>
+<p><a name="video-narration"></a></p>
+<details class="note summary">
+<summary>Expand to view</summary>
+<p><strong>Demo Narration and Flow</strong></p>
+<p><strong>Intro</strong></p>
+<p>HR teams manage adhoc processes outside their systems of record, gathering data, performing reviews, sending offers, looping around to do rework unfortunately before finally obtaining the goal to onboard an employee.  Additionally, HR Specialists use multiple, disparate systems to complete their work and can easily lose track of the process.</p>
+<p>It's time for an easy to use low-code build environment where HR can create dynamic, unified business applications that connect to existing systems and deliver value quickly.</p>
+<p><strong>Demo Start Page</strong></p>
+<p>Reviewing the demo launch page we see a text summary describing the demo along with a discovery map and diagram for our reference.  OK, let's launch the demo.</p>
+<p><strong>Studio Intro</strong></p>
+<p>Welcome to the Studio low-code build environment.  As an Application Assembler you can use Studio to create Applications and connect to Business Automations.</p>
+<p><strong>Automation service creation</strong></p>
+<p>Before we build our application, let's find and connect to some existing workflow and decision services that we want to use.  Studio can connect to external business automation services you already have today and unify them in a single application user experience with the low-code Application Designer.</p>
+<p>After we connect to Business Automation Workflow HR environment, Studio prompts us to select our the application and operations to automatically import.  We'll select send offer letter and calculate salary range.  The Studio imports and automatically publishes a service and we can confirm the operations and relevant inputs and outputs.  Now we are ready to create our application!</p>
+<p><strong>Preview onboarding application template</strong></p>
+<p>Studio includes multiple templates to start from, let's preview and try out the Onboarding Application template.  The app pulls in our sample requisition and candidate data and provides an easy to use search and filter on the left.  After selecting a candidate, we see their details and status; let's mark Alicia as Prepare to onboard, and then change some document status values.</p>
+<p><strong>Create application from template</strong></p>
+<p>This template looks good, let's use it to create our own application.</p>
+<p><strong>Add automation service</strong></p>
+<p>We start in the low-code Application Designer and it's time to import our automation services from before so we can add them to the app.  It's as simple as drag and drop.  Let's add a button for send offer letter at the upper right, we select the operation, map the data since it already exists in our app from the template, and my button is automatically added.  Don't like grey buttons?  Change it to yellow, rename it, add an icon and make it a little smaller.  All with no code, we just integrated to an existing external workflow from inside our app!</p>
+<p>We also need to add that calculation service that uses business rules to decide a recommended salary range.  Let's drag it just below the right header and map the data in very much the same way as the other service.  This service returns an output so we let Application Designer create a new variable to hold it and add it to the page automatically, so simple.  With multiple elements on the screen, let's do some simple layout by adding a panel and dragging the fields into it.  We can also do advanced formatting such as setting the field to currency for the symbols and decimal places or moving to advanced mode to set a read only status and much more.  After doing the same to the second field, and formatting the button, we are ready to preview our app!</p>
+<p><strong>Preview and use automation services</strong></p>
+<p>Now in the running app, after selecting one of the candidates we immediately see our edits live.  First, let's calculate the salary range and see the values that the decision service brings back based on the candidate data.  Now, before we launch the send offer letter process, let's bring up the current work list.  On the right we see one task from an older process.  Now when we click to send a new offer letter, another task appears on the right for the assignee to complete.  For testing, we can even open the task and see the application passed along the required data.  Looks good to me.</p>
+<p><strong>Run in Navigator</strong></p>
+<p>After deploying to the production runtime, called Navigator, we can see the app appear on our home screen, run it and use it as before during the preview but now in a unified Navigator environment with multiple applications and tabs all in one experience and interface!</p>
+<p><strong>Use Case Summary</strong></p>
+<p>We just used the low-code Studio environment and its Application Designer to create a dynamic business application from a pre-built template to accelerate time to value.  Then we connected to external automation services including existing workflows and decision services, to help automate the onboarding process.  It's time to remove frustration and slow business results and replace them with productive and happy employees and customers.</p>
+<p><a href="#video-narration">Go to top</a> | <a href="#getting-started-lab">Go to Getting Started Lab</a> | <a href="#introduction">Go to Introduction</a></p>
+</details>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+
+
+<!-- Footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <nav class="md-footer__inner md-grid" aria-label="">
+
+        <!-- Link to previous page -->
+        
+        <a href="../accounts-pay/" class="md-footer__link md-footer__link--prev" rel="prev">
+            <div class="md-footer__button md-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+                <div class="md-ellipsis">
+                    <span class="md-footer__direction">
+                        Previous
+                    </span>
+                    Accounts Payable
+                </div>
+            </div>
+        </a>
+        
+
+        <!-- Link to next page -->
+        
+        <a href="../refund-req/" class="md-footer__link md-footer__link--next" rel="next">
+            <div class="md-footer__title">
+                <div class="md-ellipsis">
+                    <span class="md-footer__direction">
+                        Next
+                    </span>
+                    Refund Request
+                </div>
+            </div>
+            <div class="md-footer__button md-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+        </a>
+        
+    </nav>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            <div class="md-footer-column">
+                <div class="md-footer-text">Site licensed under <a
+                        href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div>
+            </div>
+            <div class="md-footer-column">
+                <!-- Copyright and theme information -->
+                
+                <div class="md-footer-text">
+                    Copyright © 2022 IBM
+                </div>
+                
+            </div>
+            <div class="md-footer-social">
+                <a href="https://github.com/ibm-cloud-architecture/refarch-dba" target="_blank" rel="noopener"
+                    title="Digital Business Automation" class="md-footer-social__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path
+                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                        </path>
+                    </svg>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.tracking", "navigation.tabs.sticky", "navigation.top", "navigation.sections", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+  
+      <script src="../../assets/javascripts/bundle.ce72ebac.min.js"></script>
+      
+    
+
+
+  </body>
+</html>
