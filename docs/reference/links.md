@@ -92,6 +92,8 @@
     ### [2022 One Technical Team Community Calls for BizAuto in EMEA - Events and Classes](https://ec.yourlearning.ibm.com/w3/series/10248265?layout=grid){target="_blank"}  
     ### [IBM Capture - Center of Competency - Box](https://ibm.ent.box.com/v/CaptureCenterOfCompetency){target="_blank"}  
     ### [Community Calls 2022 - RPA & Process Mining - Events and Classes](https://ec.yourlearning.ibm.com/w3/event/10241924){target="_blank"}  
+    ### [IBM Tech Sales Community Assets - Business Automatoin](https://ibm.biz/BATechSalesCommunityAssets){target="_blank"}  
+    
 
 <!--
     ### [d](u){target="_blank"}  
